@@ -1,0 +1,4 @@
+baseURL = 'https://mpklu.github.io/'
+languageCode = 'en-us'
+title = 'AI Coding Blog'
+theme = 'ananke'
