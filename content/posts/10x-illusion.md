@@ -2,6 +2,8 @@
 date = '2026-03-20T18:43:42-04:00'
 draft = false
 title = '10x Illusion'
+tags = ['ai-productivity', 'developer-tools', 'software-engineering', 'amdahls-law']
+categories = ['Analysis']
 +++
 # The 10x Illusion: If AI Codes 10x Faster, How Much Faster Do Projects Actually Ship?
 

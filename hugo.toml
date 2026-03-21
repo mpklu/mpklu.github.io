@@ -2,3 +2,24 @@ baseURL = 'https://mpklu.github.io/'
 languageCode = 'en-us'
 title = 'AI Coding Blog'
 theme = 'ananke'
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = 'tags'
+    weight = 100
+  [[related.indices]]
+    name = 'categories'
+    weight = 80
+  [[related.indices]]
+    name = 'date'
+    weight = 10
+
+[params]
+  show_reading_time = true
