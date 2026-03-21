@@ -21,6 +21,21 @@ theme = 'ananke'
     name = 'date'
     weight = 10
 
+[[menus.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 10
+
+[[menus.main]]
+  name = 'News Digests'
+  url = '/newsdigests/'
+  weight = 20
+
+[[menus.main]]
+  name = 'RSS'
+  url = '/newsdigests/index.xml'
+  weight = 30
+
 [params]
   show_reading_time = true
   mainSections = ['posts']
