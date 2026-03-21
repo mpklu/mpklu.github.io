@@ -1,1 +1,1 @@
-https://mpklu.github.io/
+[My AI Coding Blog](https://mpklu.github.io/)
