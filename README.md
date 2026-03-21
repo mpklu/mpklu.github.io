@@ -1,1 +1,2 @@
-[My AI Coding Blog](https://mpklu.github.io/)
+[My AI Coding Blog](https://mpklu.github.io/posts/)
+[News Digest](https://mpklu.github.io/newsdigests/)
