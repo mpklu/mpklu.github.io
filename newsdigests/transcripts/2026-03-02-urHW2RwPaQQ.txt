@@ -1,0 +1,5639 @@
+---
+title: "A University and Corporate Perspective with Yann LeCun"
+url: "https://www.youtube.com/watch?v=urHW2RwPaQQ"
+channel: "Stanford Digital Economy Lab"
+date: "2026-03-02"
+duration: "1:20:39"
+source_type: "interview"
+person: "Yann LeCun"
+---
+
+Welcome to machine learning. How did we
+ 
+Welcome to machine learning. How did we
+get here? I'm your podcast host Tom
+ 
+get here? I'm your podcast host Tom
+Mitchell. Today's episode is an
+ 
+Mitchell. Today's episode is an
+interview with Yan Lun, one of the
+ 
+interview with Yan Lun, one of the
+pioneers in the field of neural nets.
+ 
+pioneers in the field of neural nets.
+Jan was born in France. Um became first,
+ 
+Jan was born in France. Um became first,
+I think, widely known for his work
+ 
+I think, widely known for his work
+applying neural networks to image data.
+ 
+applying neural networks to image data.
+Um and has done many many things since
+ 
+Um and has done many many things since
+then. Um he is a member of the US
+ 
+then. Um he is a member of the US
+National Academy of Sciences and the
+ 
+National Academy of Sciences and the
+National Academy of Engineering and in
+ 
+National Academy of Engineering and in
+France he has been appointed a knight
+ 
+France he has been appointed a knight
+that is a shioalier of the French Legion
+ 
+that is a shioalier of the French Legion
+of Honor. I hope you enjoy the episode.
+ 
+Today I'm happy to say I have with me
+ 
+Today I'm happy to say I have with me
+Yan Lun, one of the pioneers in the
+ 
+Yan Lun, one of the pioneers in the
+field of machine learning. Yan, great to
+ 
+field of machine learning. Yan, great to
+have you here.
+ 
+have you here.
+>> Thanks for having me.
+ 
+>> Thanks for having me.
+>> So what I'd like to get out of our
+ 
+>> So what I'd like to get out of our
+conversation today is basically two
+ 
+conversation today is basically two
+things. One is your picture of the
+ 
+things. One is your picture of the
+history of machine learning, how this
+ 
+history of machine learning, how this
+field has evolved, but also equally
+ 
+field has evolved, but also equally
+important, your own personal history.
+ 
+important, your own personal history.
+What got you into this? How do you
+ 
+What got you into this? How do you
+perceive it? What do you think were the
+ 
+perceive it? What do you think were the
+uh important events in your own career?
+ 
+uh important events in your own career?
+And uh so let me start there just by
+ 
+And uh so let me start there just by
+asking how on earth did you get into
+ 
+asking how on earth did you get into
+this field? What motivated you? What how
+ 
+this field? What motivated you? What how
+did you end up even looking this
+ 
+did you end up even looking this
+direction?
+ 
+direction?
+>> Well, so I was always fascinated by the
+ 
+>> Well, so I was always fascinated by the
+the question of intelligence, you know,
+ 
+the question of intelligence, you know,
+whether it's artificial or natural. Um I
+ 
+whether it's artificial or natural. Um I
+thought uh you know when I was a you
+ 
+thought uh you know when I was a you
+know a high school student or
+ 
+know a high school student or
+engineering student I studied electrical
+ 
+engineering student I studied electrical
+engineering and then one day um I I
+ 
+engineering and then one day um I I
+stumbled on a on a book u which was the
+ 
+stumbled on a on a book u which was the
+transcription of a debate between Nam
+ 
+transcription of a debate between Nam
+Chsky and Jean P the developmental
+ 
+Chsky and Jean P the developmental
+psychologist and it was basically a
+ 
+psychologist and it was basically a
+nature nurture debate right about
+ 
+nature nurture debate right about
+language whether language is learned or
+ 
+language whether language is learned or
+innate.
+ 
+innate.
+And um you know Chunksky and P brought
+ 
+And um you know Chunksky and P brought
+their their teams of supporters if you
+ 
+their their teams of supporters if you
+want to kind of argue for their side. Um
+ 
+want to kind of argue for their side. Um
+so Chsky of course was arguing for
+ 
+so Chsky of course was arguing for
+innateness of language. Um MPJ said well
+ 
+innateness of language. Um MPJ said well
+you know there is some structure but you
+ 
+you know there is some structure but you
+know it's mostly learned and he he
+ 
+know it's mostly learned and he he
+brought with him
+ 
+brought with him
+um uh
+ 
+Seymour Peppert from MIT was from his
+ 
+Seymour Peppert from MIT was from his
+team. Timmer Pepper had done some sort
+ 
+team. Timmer Pepper had done some sort
+of postoc or had worked with PJ because
+ 
+of postoc or had worked with PJ because
+he was also fascinated by the question
+ 
+he was also fascinated by the question
+of of learning and then moved on to MIT
+ 
+of of learning and then moved on to MIT
+and kind of you know worked with Minsky
+ 
+and kind of you know worked with Minsky
+and everything and yeah he had this
+ 
+and everything and yeah he had this
+whole u uh talk transcribed talk about
+ 
+whole u uh talk transcribed talk about
+the perceptron
+ 
+the perceptron
+uh you know the the model from the 1950s
+ 
+uh you know the the model from the 1950s
+that uh you know was kind of one of the
+ 
+that uh you know was kind of one of the
+first uh models capable of of learning
+ 
+first uh models capable of of learning
+really and uh and I read this and I was
+ 
+really and uh and I read this and I was
+fascinated by the idea that people had
+ 
+fascinated by the idea that people had
+worked on learning machines. I thought
+ 
+worked on learning machines. I thought
+that was that was a fascinating idea. Um
+ 
+that was that was a fascinating idea. Um
+so I started I was an undergrad and I
+ 
+so I started I was an undergrad and I
+started um you know digging the
+ 
+started um you know digging the
+literature on this and this was before
+ 
+literature on this and this was before
+the internet right we're talking 1980
+ 
+the internet right we're talking 1980
+1980 essentially. So um I would spend my
+ 
+1980 essentially. So um I would spend my
+uh Wednesday afternoon we didn't have
+ 
+uh Wednesday afternoon we didn't have
+class so I would spend them at the uh at
+ 
+class so I would spend them at the uh at
+the library of INRA where where they had
+ 
+the library of INRA where where they had
+like you know all kinds of uh um uh
+ 
+like you know all kinds of uh um uh
+publications and and and dug the
+ 
+publications and and and dug the
+literature and realized nobody was
+ 
+literature and realized nobody was
+working on this anymore um you know in
+ 
+working on this anymore um you know in
+in the in the early 1980s uh the the the
+ 
+in the in the early 1980s uh the the the
+whole field was killed in the late 60s
+ 
+whole field was killed in the late 60s
+and it was killed by a book that Simor
+ 
+and it was killed by a book that Simor
+Papard co-authored but there he 10 years
+ 
+Papard co-authored but there he 10 years
+later, you know, basically praising the
+ 
+later, you know, basically praising the
+perceptron as capable of, you know,
+ 
+perceptron as capable of, you know,
+surprisingly complex
+ 
+surprisingly complex
+learning abilities. Um, so, so I I I
+ 
+learning abilities. Um, so, so I I I
+found that kind of kind of odd. The only
+ 
+found that kind of kind of odd. The only
+thing I could find that was more or less
+ 
+thing I could find that was more or less
+contemporary at the time were uh, you
+ 
+contemporary at the time were uh, you
+know, obscure Japanese publications on
+ 
+know, obscure Japanese publications on
+neural nets. Basically Japan Japan had a
+ 
+neural nets. Basically Japan Japan had a
+kind of a separate ecosystem of research
+ 
+kind of a separate ecosystem of research
+and you know a bunch of people kept
+ 
+and you know a bunch of people kept
+working on on neural nets and machine
+ 
+working on on neural nets and machine
+learning in Japan whereas everybody in
+ 
+learning in Japan whereas everybody in
+the west had kind of basically stopped.
+ 
+the west had kind of basically stopped.
+Um so so that that's how I got
+ 
+Um so so that that's how I got
+interested in this and I started doing a
+ 
+interested in this and I started doing a
+couple like you know independent study
+ 
+couple like you know independent study
+projects with you know some professors
+ 
+projects with you know some professors
+at my engineering school on on on neural
+ 
+at my engineering school on on on neural
+nets and perceptron machine learning and
+ 
+nets and perceptron machine learning and
+uh you know what we would now call
+ 
+uh you know what we would now call
+computational neuroscience and um things
+ 
+computational neuroscience and um things
+like that and then decided that this was
+ 
+like that and then decided that this was
+too fascinating for me to uh not pursue
+ 
+too fascinating for me to uh not pursue
+and I decided to do graduate school but
+ 
+and I decided to do graduate school but
+my uh on this but my problem was nobody
+ 
+my uh on this but my problem was nobody
+was working on machine learning in
+ 
+was working on machine learning in
+France. In fact, there were a few people
+ 
+France. In fact, there were a few people
+but they were working on symbolic
+ 
+but they were working on symbolic
+machine learning and you probably know
+ 
+machine learning and you probably know
+them uh from from back then. There was
+ 
+them uh from from back then. There was
+Eve Kod in O and right um and there were
+ 
+Eve Kod in O and right um and there were
+like you know a few other people who are
+ 
+like you know a few other people who are
+doing sort of mostly you know kind of
+ 
+doing sort of mostly you know kind of
+symbolic machine learning and but I was
+ 
+symbolic machine learning and but I was
+I was more interested in the the sort of
+ 
+I was more interested in the the sort of
+more neural net type type approach. So
+ 
+more neural net type type approach. So
+um
+ 
+um
+so I had uh some sort of fellowship from
+ 
+so I had uh some sort of fellowship from
+my engineering school. The engineering
+ 
+my engineering school. The engineering
+school had computers. um they were
+ 
+school had computers. um they were
+giving me an office so I didn't need any
+ 
+giving me an office so I didn't need any
+money but I needed someone to basically
+ 
+money but I needed someone to basically
+you know be my official adviser and sign
+ 
+you know be my official adviser and sign
+the papers and I found someone who was
+ 
+the papers and I found someone who was
+kind of not working on neural net or
+ 
+kind of not working on neural net or
+machine learning at all but said like
+ 
+machine learning at all but said like
+you look smart enough I'll sign the
+ 
+you look smart enough I'll sign the
+papers for you
+ 
+papers for you
+um so that was my PhD advisor he was he
+ 
+um so that was my PhD advisor he was he
+actually started working on neural net
+ 
+actually started working on neural net
+after I graduated
+ 
+after I graduated
+you know four years later Maurice Migram
+ 
+you know four years later Maurice Migram
+very nice gentleman and and um so I I I
+ 
+very nice gentleman and and um so I I I
+managed to find a community of people in
+ 
+managed to find a community of people in
+France who were working on um what they
+ 
+France who were working on um what they
+call automata networks and they were
+ 
+call automata networks and they were
+interested in things like
+ 
+interested in things like
+self-organization stuff like that. They
+ 
+self-organization stuff like that. They
+they were not really connected with
+ 
+they were not really connected with
+neural nets but they sort of became
+ 
+neural nets but they sort of became
+connected to it and they they connected
+ 
+connected to it and they they connected
+me with the you know the the the very
+ 
+me with the you know the the the very
+small community around the world who
+ 
+small community around the world who
+were kind of restarting interest in in
+ 
+were kind of restarting interest in in
+neural net. So, we're talking 1983.
+ 
+neural net. So, we're talking 1983.
+And uh so that's where I discovered, you
+ 
+And uh so that's where I discovered, you
+know, John Hfield and and uh Terry
+ 
+know, John Hfield and and uh Terry
+Sowski, Jeff with the Boss Machines. And
+ 
+Sowski, Jeff with the Boss Machines. And
+Terry and Jeff were the two people in
+ 
+Terry and Jeff were the two people in
+the world I really wanted to meet. Um
+ 
+the world I really wanted to meet. Um
+and uh I I met Terry early 1985 and Jeff
+ 
+and uh I I met Terry early 1985 and Jeff
+late 1985. They they both they came to a
+ 
+late 1985. They they both they came to a
+conference workshop in France. And um
+ 
+conference workshop in France. And um
+and I realized uh when Jeff and I met um
+ 
+and I realized uh when Jeff and I met um
+you know we we were so in tune so
+ 
+you know we we were so in tune so
+aligned like we could finish each
+ 
+aligned like we could finish each
+other's sentences and uh so that's
+ 
+other's sentences and uh so that's
+that's when um I I became you know I
+ 
+that's when um I I became you know I
+felt like I became part of a kind of a
+ 
+felt like I became part of a kind of a
+bigger community here which you know
+ 
+bigger community here which you know
+still was extremely small at the time
+ 
+still was extremely small at the time
+and then 1986 uh Jeff invited me to the
+ 
+and then 1986 uh Jeff invited me to the
+first connection summer school at
+ 
+first connection summer school at
+Carnegie Milan. Uh this was my first
+ 
+Carnegie Milan. Uh this was my first
+experience in an American campus and um
+ 
+experience in an American campus and um
+actually I'd been to Stanford before a
+ 
+actually I'd been to Stanford before a
+couple years before but um um that was
+ 
+couple years before but um um that was
+really kind of the start of uh the the
+ 
+really kind of the start of uh the the
+so-called connectionist uh uh community
+ 
+so-called connectionist uh uh community
+and I met um Michael Jordan there and we
+ 
+and I met um Michael Jordan there and we
+became fast friends because my English
+ 
+became fast friends because my English
+was terrible and he could speak French.
+ 
+was terrible and he could speak French.
+was
+ 
+um so that that's how I got I got into
+ 
+um so that that's how I got I got into
+it and um and pretty early on I I
+ 
+it and um and pretty early on I I
+figured out you know by by reading all
+ 
+figured out you know by by reading all
+the literature from the 60s what people
+ 
+the literature from the 60s what people
+were after was uh essentially a learning
+ 
+were after was uh essentially a learning
+procedure that could train multi-layer
+ 
+procedure that could train multi-layer
+neuron nets right people were already
+ 
+neuron nets right people were already
+kind of looking for this but but nobody
+ 
+kind of looking for this but but nobody
+really find one that uh that worked
+ 
+really find one that uh that worked
+mostly because
+ 
+mostly because
+the the the type of neurons people were
+ 
+the the the type of neurons people were
+using at the time were binary and so if
+ 
+using at the time were binary and so if
+you have binary neurons you can't you
+ 
+you have binary neurons you can't you
+don't have the idea of like using graded
+ 
+don't have the idea of like using graded
+descent or anything like this right um
+ 
+descent or anything like this right um
+and it's uh but I I figured um know
+ 
+and it's uh but I I figured um know
+around 1982 I was not gradu I had not
+ 
+around 1982 I was not gradu I had not
+graduated yet from engineering that
+ 
+graduated yet from engineering that
+there had to be some sort of way of
+ 
+there had to be some sort of way of
+training those multural nets by kind of
+ 
+training those multural nets by kind of
+propagating some signal backwards and so
+ 
+propagating some signal backwards and so
+I came up with an algorithm it this very
+ 
+I came up with an algorithm it this very
+sort of intuitive thing that um I think
+ 
+sort of intuitive thing that um I think
+now we would call this target prop but
+ 
+now we would call this target prop but
+it was kind of a you could think of it
+ 
+it was kind of a you could think of it
+as an early version of that prop. Um and
+ 
+as an early version of that prop. Um and
+I wrote a paper about it when you know
+ 
+I wrote a paper about it when you know
+after the first year of my grad graduate
+ 
+after the first year of my grad graduate
+school and you know published it in the
+ 
+school and you know published it in the
+conference that Jeff saw and uh and and
+ 
+conference that Jeff saw and uh and and
+that's that's how kind of he figured you
+ 
+that's that's how kind of he figured you
+know my paper was written in French but
+ 
+know my paper was written in French but
+he could read the math and he figured it
+ 
+he could read the math and he figured it
+was kind of like backrop and he was
+ 
+was kind of like backrop and he was
+working on backdrop at the time. Yeah, I
+ 
+working on backdrop at the time. Yeah, I
+hadn't published anything yet, but uh um
+ 
+hadn't published anything yet, but uh um
+that's u that's a bit of the the history
+ 
+that's u that's a bit of the the history
+there.
+ 
+there.
+>> That's amazing. So then um around that
+ 
+>> That's amazing. So then um around that
+time, I guess the PDP book, the parallel
+ 
+time, I guess the PDP book, the parallel
+data processing book, which was a
+ 
+data processing book, which was a
+compendium of neural network papers that
+ 
+compendium of neural network papers that
+appeared around 1986 if I recall right.
+ 
+appeared around 1986 if I recall right.
+Um that was kind of the explosion of
+ 
+Um that was kind of the explosion of
+interest
+ 
+interest
+Right. So at this summer school in at
+ 
+Right. So at this summer school in at
+CMU um there were demart and and and
+ 
+CMU um there were demart and and and
+Jimmy Mlan was circulating uh you know
+ 
+Jimmy Mlan was circulating uh you know
+kind of photocopied chapters
+ 
+kind of photocopied chapters
+of that book but the book wasn't you
+ 
+of that book but the book wasn't you
+know hadn't appeared yet. Um but the
+ 
+know hadn't appeared yet. Um but the
+buzz was um so the you know nothing had
+ 
+buzz was um so the you know nothing had
+been published on back prop yet. Um but
+ 
+been published on back prop yet. Um but
+uh but that was kind of the the the
+ 
+uh but that was kind of the the the
+thing that people were talking about at
+ 
+thing that people were talking about at
+the server school essentially and I gave
+ 
+the server school essentially and I gave
+a talk on my version of that prop at the
+ 
+a talk on my version of that prop at the
+server school like I was a student but
+ 
+server school like I was a student but
+they you know Jeff gave me a a slot to
+ 
+they you know Jeff gave me a a slot to
+kind of talk about my my thing. So,
+ 
+kind of talk about my my thing. So,
+>> I was always sorry I missed that meeting
+ 
+>> I was always sorry I missed that meeting
+in retrospect because 1986 was actually
+ 
+in retrospect because 1986 was actually
+the year that I moved to CMU.
+ 
+the year that I moved to CMU.
+>> Oh, wow.
+ 
+>> Oh, wow.
+>> And Jeff and Ellen Newell and I team
+ 
+>> And Jeff and Ellen Newell and I team
+taught a course on architectures for
+ 
+taught a course on architectures for
+intelligence and uh somehow I was out of
+ 
+intelligence and uh somehow I was out of
+town or not smart enough to to get
+ 
+town or not smart enough to to get
+myself over there. But um it's but I but
+ 
+myself over there. But um it's but I but
+I love that story. So then at that
+ 
+I love that story. So then at that
+point, so there was other work in
+ 
+point, so there was other work in
+machine learning at that point too, uh
+ 
+machine learning at that point too, uh
+work on decision trees, various things.
+ 
+work on decision trees, various things.
+Um did that did you look at that? Was
+ 
+Um did that did you look at that? Was
+that of interest or was it pretty clear
+ 
+that of interest or was it pretty clear
+to you that neural networks were the
+ 
+to you that neural networks were the
+direction you wanted to take it?
+ 
+direction you wanted to take it?
+>> Yeah, it was pretty clear to me neural
+ 
+>> Yeah, it was pretty clear to me neural
+nets were were the way to go. But I I
+ 
+nets were were the way to go. But I I
+had you know my Bible when I was uh uh
+ 
+had you know my Bible when I was uh uh
+starting graduate studies was um you
+ 
+starting graduate studies was um you
+know the duda and heart um book at least
+ 
+know the duda and heart um book at least
+the first part of it which was all about
+ 
+the first part of it which was all about
+statistical pattern recognition which
+ 
+statistical pattern recognition which
+basically was the you know the the the
+ 
+basically was the you know the the the
+hair of the perceptron right when in the
+ 
+hair of the perceptron right when in the
+late 60s when when you know claiming
+ 
+late 60s when when you know claiming
+that perceptron were a path to to AI u
+ 
+that perceptron were a path to to AI u
+kind of died. Uh people who were working
+ 
+kind of died. Uh people who were working
+on this basically just changed the name
+ 
+on this basically just changed the name
+of what they were doing. Uh they kept
+ 
+of what they were doing. Uh they kept
+working on the same stuff. They just
+ 
+working on the same stuff. They just
+changed the name, right? So an entire
+ 
+changed the name, right? So an entire
+community like you know Bernie Widro at
+ 
+community like you know Bernie Widro at
+Stanford uh renamed this whole field
+ 
+Stanford uh renamed this whole field
+adaptive filter uh you know adaptive
+ 
+adaptive filter uh you know adaptive
+filters adaptive filters had a huge
+ 
+filters adaptive filters had a huge
+impact on you know modern technology
+ 
+impact on you know modern technology
+right we we wouldn't have you know
+ 
+right we we wouldn't have you know
+modems or the internet or anything or
+ 
+modems or the internet or anything or
+mobile you know mobile communication or
+ 
+mobile you know mobile communication or
+anything without without this u and it's
+ 
+anything without without this u and it's
+you know the underlying algorithms is
+ 
+you know the underlying algorithms is
+basically the same as you know not the
+ 
+basically the same as you know not the
+perceptual on the edine but But it's you
+ 
+perceptual on the edine but But it's you
+know so that became one one branch and
+ 
+know so that became one one branch and
+then the other branch was renamed
+ 
+then the other branch was renamed
+statistical pattern recognition which
+ 
+statistical pattern recognition which
+sounds much more serious right than um
+ 
+sounds much more serious right than um
+than perceptron or or or you know AI
+ 
+than perceptron or or or you know AI
+machine learning whatever machine
+ 
+machine learning whatever machine
+learning was not really kind of a field
+ 
+learning was not really kind of a field
+I mean it was but it was small right I
+ 
+I mean it was but it was small right I
+mean you were in it so you know that
+ 
+mean you were in it so you know that
+better than me um and then yeah there
+ 
+better than me um and then yeah there
+were you know methods like uh uh you
+ 
+were you know methods like uh uh you
+know what was not yet called
+ 
+know what was not yet called
+uh kernel methods right which you know
+ 
+uh kernel methods right which you know
+there is something in Darnart about this
+ 
+there is something in Darnart about this
+um there were you know linear
+ 
+um there were you know linear
+classifiers of course like a lot of work
+ 
+classifiers of course like a lot of work
+on this uh polomial classifiers um you
+ 
+on this uh polomial classifiers um you
+know things like that and um I' you know
+ 
+know things like that and um I' you know
+I found all that fascinating um and uh
+ 
+I found all that fascinating um and uh
+and then you know kind of relatively
+ 
+and then you know kind of relatively
+separate work on on things like
+ 
+separate work on on things like
+classification trees and and things like
+ 
+classification trees and and things like
+that which uh um I think was kind of a
+ 
+that which uh um I think was kind of a
+bit of a separate community at the time
+ 
+bit of a separate community at the time
+and what was fashionable at the time in
+ 
+and what was fashionable at the time in
+pattern recognition was was called
+ 
+pattern recognition was was called
+structural pattern recognition right so
+ 
+structural pattern recognition right so
+basically um encoding patterns into
+ 
+basically um encoding patterns into
+whether it's an image or something into
+ 
+whether it's an image or something into
+a sequence of symbols and then building
+ 
+a sequence of symbols and then building
+grammarss so that uh when you parse the
+ 
+grammarss so that uh when you parse the
+sequence of symbols if it if it's
+ 
+sequence of symbols if it if it's
+correctly parsed by a grammar you've
+ 
+correctly parsed by a grammar you've
+recognized a particular pattern
+ 
+recognized a particular pattern
+um that was you know to some extent a
+ 
+um that was you know to some extent a
+giant failure but it was fashionable at
+ 
+giant failure but it was fashionable at
+the time so that's where most of the uh
+ 
+the time so that's where most of the uh
+you know the papers at the time were on
+ 
+you know the papers at the time were on
+uh but but ultimately I thought you know
+ 
+uh but but ultimately I thought you know
+the the um
+ 
+the the um
+the the most interesting thing to work
+ 
+the the most interesting thing to work
+on was not just to you know train
+ 
+on was not just to you know train
+classifiers which is what machine
+ 
+classifiers which is what machine
+learning really was at the time or
+ 
+learning really was at the time or
+pattern recognition but to learn the
+ 
+pattern recognition but to learn the
+representation learn the features which
+ 
+representation learn the features which
+is what you know multi-layer neural nets
+ 
+is what you know multi-layer neural nets
+can do and so that's why I thought
+ 
+can do and so that's why I thought
+really we need to get this to work like
+ 
+really we need to get this to work like
+you know train multi-layer neural nets
+ 
+you know train multi-layer neural nets
+and uh you know back prop ended up being
+ 
+and uh you know back prop ended up being
+a better solution than we thought at the
+ 
+a better solution than we thought at the
+time actually
+ 
+time actually
+>> right so then uh going forward you're
+ 
+>> right so then uh going forward you're
+thinking about your own career and your
+ 
+thinking about your own career and your
+own uh contributions in that area take
+ 
+own uh contributions in that area take
+us forward from like that point in the
+ 
+us forward from like that point in the
+mid 80s
+ 
+mid 80s
+you did some very uh well- reggarded
+ 
+you did some very uh well- reggarded
+work in the late 80s early 90s. Uh tell
+ 
+work in the late 80s early 90s. Uh tell
+us about that.
+ 
+us about that.
+>> Right. So um I was really um you know
+ 
+>> Right. So um I was really um you know
+inspired by neuroscience and by some
+ 
+inspired by neuroscience and by some
+work I'd read uh you know classic
+ 
+work I'd read uh you know classic
+neuroscience uh like Hub and Whizzel
+ 
+neuroscience uh like Hub and Whizzel
+work on the visual cortex architecture
+ 
+work on the visual cortex architecture
+of visual cortex and there were models
+ 
+of visual cortex and there were models
+in Japan mostly that um had been
+ 
+in Japan mostly that um had been
+developed like you know Fukushima's neo
+ 
+developed like you know Fukushima's neo
+cognitron which basically tried to mimic
+ 
+cognitron which basically tried to mimic
+the architecture of the visual cortex
+ 
+the architecture of the visual cortex
+and and build a kind of a artificial
+ 
+and and build a kind of a artificial
+neural net to to to do this but Kushima
+ 
+neural net to to to do this but Kushima
+didn't have back prop right so he
+ 
+didn't have back prop right so he
+couldn't really train his system um end
+ 
+couldn't really train his system um end
+to end and so um uh when I uh you know
+ 
+to end and so um uh when I uh you know
+when when back prop became became a
+ 
+when when back prop became became a
+thing um I was um you know finishing my
+ 
+thing um I was um you know finishing my
+PhD basically and uh and I said like
+ 
+PhD basically and uh and I said like
+this is what I want to build and in fact
+ 
+this is what I want to build and in fact
+the the system that I I built during my
+ 
+the the system that I I built during my
+PhD had multiple layers local
+ 
+PhD had multiple layers local
+connections um and and you know they
+ 
+connections um and and you know they
+were not convolutional they were no
+ 
+were not convolutional they were no
+shared weights but they they had local
+ 
+shared weights but they they had local
+connections and I was kind of trying to
+ 
+connections and I was kind of trying to
+mimic a little bit the architecture the
+ 
+mimic a little bit the architecture the
+Google result type u architecture and
+ 
+Google result type u architecture and
+using my you know pseudo backrop that
+ 
+using my you know pseudo backrop that
+actually propagates virtual targets not
+ 
+actually propagates virtual targets not
+not gradients um to to train this so
+ 
+not gradients um to to train this so
+they you know sort of workish
+ 
+they you know sort of workish
+um okay then you know back prop you know
+ 
+um okay then you know back prop you know
+became the correct thing to do and so um
+ 
+became the correct thing to do and so um
+so I say okay what I need to build now
+ 
+so I say okay what I need to build now
+is basically a multi-layer neural net
+ 
+is basically a multi-layer neural net
+with local connections and with this
+ 
+with local connections and with this
+idea that you replicate the filters all
+ 
+idea that you replicate the filters all
+over because you know images are you
+ 
+over because you know images are you
+know shifting variant basically um but
+ 
+know shifting variant basically um but
+you know back in those days uh it's not
+ 
+you know back in those days uh it's not
+like you had you know Python and PyTorch
+ 
+like you had you know Python and PyTorch
+and stuff like that and and you know
+ 
+and stuff like that and and you know
+some matrix engine you had to basically
+ 
+some matrix engine you had to basically
+program everything from scratch um so I
+ 
+program everything from scratch um so I
+was about to to finish my PhD and I said
+ 
+was about to to finish my PhD and I said
+like I'm going to write a neural net
+ 
+like I'm going to write a neural net
+simulator that has enough flexibility so
+ 
+simulator that has enough flexibility so
+I can I can build this and I got
+ 
+I can I can build this and I got
+together with a young student who was
+ 
+together with a young student who was
+finishing his undergraduate studies
+ 
+finishing his undergraduate studies
+called Leon Bou, pretty famous guy now.
+ 
+called Leon Bou, pretty famous guy now.
+Um, and he came to me and he said like
+ 
+Um, and he came to me and he said like
+you know I need to do a project for my
+ 
+you know I need to do a project for my
+end of study and I want to work on
+ 
+end of study and I want to work on
+neuron nets and you are the only person
+ 
+neuron nets and you are the only person
+in France who was working on this so can
+ 
+in France who was working on this so can
+I work with you? Um, so I said sure. So
+ 
+I work with you? Um, so I said sure. So
+we worked together for about six months
+ 
+we worked together for about six months
+the the last my last semester of before
+ 
+the the last my last semester of before
+graduating and we rode an simulator that
+ 
+graduating and we rode an simulator that
+had all the nice bells and whistles. Um
+ 
+had all the nice bells and whistles. Um
+and then um mid 1987 I moved to Toronto
+ 
+and then um mid 1987 I moved to Toronto
+to do a postto with Jeff and I completed
+ 
+to do a postto with Jeff and I completed
+the this uh the simulator. Jeff thought
+ 
+the this uh the simulator. Jeff thought
+I was not doing anything because I was
+ 
+I was not doing anything because I was
+just basically hacking both you know all
+ 
+just basically hacking both you know all
+the time. Um and um uh and this this
+ 
+the time. Um and um uh and this this
+system was kind of uh interesting
+ 
+system was kind of uh interesting
+because we had to build a front-end
+ 
+because we had to build a front-end
+language to interact with it and that
+ 
+language to interact with it and that
+language was a lisp interpreter that Leo
+ 
+language was a lisp interpreter that Leo
+and I wrote and so we're using lisp even
+ 
+and I wrote and so we're using lisp even
+though as as a front end to kind of a
+ 
+though as as a front end to kind of a
+neuron net simulator um and I uh you
+ 
+neuron net simulator um and I uh you
+know implemented the weight sharing
+ 
+know implemented the weight sharing
+abilities and all that stuff and started
+ 
+abilities and all that stuff and started
+experimenting with what became nets you
+ 
+experimenting with what became nets you
+know when I was a postto in Toron O uh
+ 
+know when I was a postto in Toron O uh
+early 1988 roughly and started to get
+ 
+early 1988 roughly and started to get
+like really good results on you know
+ 
+like really good results on you know
+very simple shape recognition like you
+ 
+very simple shape recognition like you
+know handwritten characters that I had
+ 
+know handwritten characters that I had
+drawn with my mouse and something like
+ 
+drawn with my mouse and something like
+that right
+ 
+that right
+and then I was recruited by Bell Labs
+ 
+and then I was recruited by Bell Labs
+and so I I get to Bell Labs in New
+ 
+and so I I get to Bell Labs in New
+Jersey late 1988 in October and I
+ 
+Jersey late 1988 in October and I
+already have all the code for commercial
+ 
+already have all the code for commercial
+net and you know kind of simple
+ 
+net and you know kind of simple
+experiments with small data sets
+ 
+experiments with small data sets
+And the at Bell Labs the the the group I
+ 
+And the at Bell Labs the the the group I
+I came in was directed by Larry Jackal.
+ 
+I came in was directed by Larry Jackal.
+Um they had a a huge data set of um zip
+ 
+Um they had a a huge data set of um zip
+code digits that they got from
+ 
+code digits that they got from
+University of Buffalo or something and
+ 
+University of Buffalo or something and
+and it was huge in the sense that it had
+ 
+and it was huge in the sense that it had
+7,000 training sample I mean 7,000 uh
+ 
+7,000 training sample I mean 7,000 uh
+samples
+ 
+samples
+5,000 training samples that order
+ 
+5,000 training samples that order
+magnitude. So I say, "Wow." Uh, and also
+ 
+magnitude. So I say, "Wow." Uh, and also
+they gave me a big computer. So So I
+ 
+they gave me a big computer. So So I
+started turning the crank on on on
+ 
+started turning the crank on on on
+commercial nets and got like super good
+ 
+commercial nets and got like super good
+results that were beating whatever
+ 
+results that were beating whatever
+result you know other people had had
+ 
+result you know other people had had
+obtained on this data set within two
+ 
+obtained on this data set within two
+months. Um, and so
+ 
+months. Um, and so
+uh that was kind of quick success. We
+ 
+uh that was kind of quick success. We
+wrote a paper for neural computation um
+ 
+wrote a paper for neural computation um
+and sort of improved the architecture.
+ 
+and sort of improved the architecture.
+had a paper at Nurips. Uh I mean it was
+ 
+had a paper at Nurips. Uh I mean it was
+called NIPS at the time still uh in 1989
+ 
+called NIPS at the time still uh in 1989
+and um and I think that that work
+ 
+and um and I think that that work
+attracted quite a bit of of of attention
+ 
+attracted quite a bit of of of attention
+in particular from some development
+ 
+in particular from some development
+groups at Bell Labs who say like we can
+ 
+groups at Bell Labs who say like we can
+use this for products. So they started
+ 
+use this for products. So they started
+partnering with us uh with a research
+ 
+partnering with us uh with a research
+group and and kind of basically
+ 
+group and and kind of basically
+developed products that could could be
+ 
+developed products that could could be
+could be used for reading uh fax forms
+ 
+could be used for reading uh fax forms
+uh this was before the internet right
+ 
+uh this was before the internet right
+and uh for you know reading zip codes
+ 
+and uh for you know reading zip codes
+reading uh checks reading the amounts on
+ 
+reading uh checks reading the amounts on
+checks and that became commercial
+ 
+checks and that became commercial
+products eventually in the mid90s um so
+ 
+products eventually in the mid90s um so
+that that was uh kind of exciting
+ 
+that that was uh kind of exciting
+>> that's pretty cool So convolutional nets
+ 
+>> that's pretty cool So convolutional nets
+of course are the idea that among other
+ 
+of course are the idea that among other
+things that you can look at different
+ 
+things that you can look at different
+locations and different scale um for
+ 
+locations and different scale um for
+patterns in the image.
+ 
+patterns in the image.
+That was a breakthrough really because
+ 
+That was a breakthrough really because
+up to that point if you just treat the
+ 
+up to that point if you just treat the
+raw pixels of the image um of a
+ 
+raw pixels of the image um of a
+character for example uh and try to
+ 
+character for example uh and try to
+train a classifier then if somebody
+ 
+train a classifier then if somebody
+happens to draw the character at a small
+ 
+happens to draw the character at a small
+scale or a large scale or at a different
+ 
+scale or a large scale or at a different
+location on the screen um you have to
+ 
+location on the screen um you have to
+somehow compensate and convolutional
+ 
+somehow compensate and convolutional
+nets turned out to be the solution of
+ 
+nets turned out to be the solution of
+choice for for overcoming that problem.
+ 
+choice for for overcoming that problem.
+>> You did you did some other work at the
+ 
+>> You did you did some other work at the
+time that I still remember that I
+ 
+time that I still remember that I
+thought was really innovative around
+ 
+thought was really innovative around
+something you called tangent prop. Did
+ 
+something you called tangent prop. Did
+you um recall that or is that too
+ 
+you um recall that or is that too
+obscure for uh for this discussion?
+ 
+obscure for uh for this discussion?
+>> No, it's not a tangent prop. Yeah, this
+ 
+>> No, it's not a tangent prop. Yeah, this
+was actually uh a lot of the ideas there
+ 
+was actually uh a lot of the ideas there
+uh were not mine. they came from Patrice
+ 
+uh were not mine. they came from Patrice
+Simard. So Patrice Simard was a was a
+ 
+Simard. So Patrice Simard was a was a
+initially a postoc at Bell Labs and then
+ 
+initially a postoc at Bell Labs and then
+became a research scientist and um and
+ 
+became a research scientist and um and
+he had this idea that you could
+ 
+he had this idea that you could
+regularize uh neural nets by um by
+ 
+regularize uh neural nets by um by
+telling them okay not only do you need
+ 
+telling them okay not only do you need
+to produce this output for this
+ 
+to produce this output for this
+particular input but you also need this
+ 
+particular input but you also need this
+output to not change whenever I modify
+ 
+output to not change whenever I modify
+the input in a particular way. So, so if
+ 
+the input in a particular way. So, so if
+I take a let's say the image of a
+ 
+I take a let's say the image of a
+character, let's say a digit or
+ 
+character, let's say a digit or
+something, right? Uh and I distort it a
+ 
+something, right? Uh and I distort it a
+little bit, let's say I rotate it a
+ 
+little bit, let's say I rotate it a
+little bit or maybe I you know translate
+ 
+little bit or maybe I you know translate
+a little bit or distort it in some way.
+ 
+a little bit or distort it in some way.
+Um I want the output to basically remain
+ 
+Um I want the output to basically remain
+invariant. So basically I want the a der
+ 
+invariant. So basically I want the a der
+the derivative of the input output
+ 
+the derivative of the input output
+function of this network to be zero in
+ 
+function of this network to be zero in
+some direction which corresponds to uh
+ 
+some direction which corresponds to uh
+direction that you know that don't
+ 
+direction that you know that don't
+affect the nature of the of the system
+ 
+affect the nature of the of the system
+and so we uh uh implemented this and it
+ 
+and so we uh uh implemented this and it
+it it turned out to really improve
+ 
+it it turned out to really improve
+performance of uh
+ 
+performance of uh
+conver net a little bit but but even
+ 
+conver net a little bit but but even
+more if you didn't have a structured
+ 
+more if you didn't have a structured
+neural net if you had like a fully
+ 
+neural net if you had like a fully
+connected neural net that didn't have
+ 
+connected neural net that didn't have
+any a priori structure, it would improve
+ 
+any a priori structure, it would improve
+the performance of those quite quite a
+ 
+the performance of those quite quite a
+lot. Um, and then there was a kind of a
+ 
+lot. Um, and then there was a kind of a
+follow paper called tangent distance
+ 
+follow paper called tangent distance
+which was kind of a a way of comparing
+ 
+which was kind of a a way of comparing
+uh shapes by making this comparison
+ 
+uh shapes by making this comparison
+invariant to kind of small uh small
+ 
+invariant to kind of small uh small
+transformations. Um, it was a very cool
+ 
+transformations. Um, it was a very cool
+very cool idea but I can't claim credit
+ 
+very cool idea but I can't claim credit
+for it. This is really Petrist.
+ 
+for it. This is really Petrist.
+>> Very cool. Okay. So then um now we're up
+ 
+>> Very cool. Okay. So then um now we're up
+to maybe the early 1990s.
+ 
+to maybe the early 1990s.
+Um there were other things going on in
+ 
+Um there were other things going on in
+the field of machine learning. you
+ 
+the field of machine learning. you
+mentioned earlier Michael Jordan,
+ 
+mentioned earlier Michael Jordan,
+Michael and Judea Pearl, some other
+ 
+Michael and Judea Pearl, some other
+people had sort of turned their
+ 
+people had sort of turned their
+attention to uh what they were calling
+ 
+attention to uh what they were calling
+basets or yian graphical models,
+ 
+basets or yian graphical models,
+probabilistic approaches that um would
+ 
+probabilistic approaches that um would
+were kind of symbolic, but they would
+ 
+were kind of symbolic, but they would
+learn or represent and use probabilistic
+ 
+learn or represent and use probabilistic
+dependencies among different variables.
+ 
+dependencies among different variables.
+that became a very popular approach in
+ 
+that became a very popular approach in
+the field. Um and I recall that in in
+ 
+the field. Um and I recall that in in
+some of the talks people would be
+ 
+some of the talks people would be
+careful to say not that they were
+ 
+careful to say not that they were
+working on Beijian methods but they were
+ 
+working on Beijian methods but they were
+working on principled Beijian methods
+ 
+working on principled Beijian methods
+just to kind of underscore the
+ 
+just to kind of underscore the
+difference between um engineering
+ 
+difference between um engineering
+gradients and uh principled
+ 
+gradients and uh principled
+probabilistic approaches. What was your
+ 
+probabilistic approaches. What was your
+uh what what did that look like to you
+ 
+uh what what did that look like to you
+as that was happening?
+ 
+as that was happening?
+>> Well, it it looked to me like uh I mean
+ 
+>> Well, it it looked to me like uh I mean
+that those were interesting methods in
+ 
+that those were interesting methods in
+you know for their own sake. uh I I
+ 
+you know for their own sake. uh I I
+thought I mean the original form before
+ 
+thought I mean the original form before
+the machine learning people like M
+ 
+the machine learning people like M
+Jordan got interested in it there was no
+ 
+Jordan got interested in it there was no
+learning whatsoever right I mean there's
+ 
+learning whatsoever right I mean there's
+people like David Heckerman and and
+ 
+people like David Heckerman and and
+others who are kind of doing the the
+ 
+others who are kind of doing the the
+whole theory of inference for this but
+ 
+whole theory of inference for this but
+but basically those networks had to come
+ 
+but basically those networks had to come
+from somewhere you had to build them by
+ 
+from somewhere you had to build them by
+hand more or less right and so the idea
+ 
+hand more or less right and so the idea
+that you could essentially train them uh
+ 
+that you could essentially train them uh
+was due to the collision between the two
+ 
+was due to the collision between the two
+communities the the the sort of basian
+ 
+communities the the the sort of basian
+net community and the machine learning
+ 
+net community and the machine learning
+community and I remember exactly when
+ 
+community and I remember exactly when
+and where that happened. That happened
+ 
+and where that happened. That happened
+at the Snowbird workshop. Um so there
+ 
+at the Snowbird workshop. Um so there
+was this workshop uh that took place in
+ 
+was this workshop uh that took place in
+Snowbird every year since 1986 I think
+ 
+Snowbird every year since 1986 I think
+and I started going in 1987 and it was
+ 
+and I started going in 1987 and it was
+mostly run by my my department head from
+ 
+mostly run by my my department head from
+Bell Labs, Larry Jackal. Uh and uh and I
+ 
+Bell Labs, Larry Jackal. Uh and uh and I
+think Mike was Mike Jordan was like one
+ 
+think Mike was Mike Jordan was like one
+of the adviserss or committee members or
+ 
+of the adviserss or committee members or
+whatever and he recommended that um we
+ 
+whatever and he recommended that um we
+you know bring in uh
+ 
+you know bring in uh
+David Hecerman and and and
+ 
+David Hecerman and and and
+Lori Spiger Halter I mean all of those
+ 
+Lori Spiger Halter I mean all of those
+people working on on bonets uh to to to
+ 
+people working on on bonets uh to to to
+the workshop to educate the machine
+ 
+the workshop to educate the machine
+learning community about those methods
+ 
+learning community about those methods
+basically. uh and I I think that was
+ 
+basically. uh and I I think that was
+quite quite impactful. I mean I thought
+ 
+quite quite impactful. I mean I thought
+it was a little too simplistic in terms
+ 
+it was a little too simplistic in terms
+of learning. So the you know eventually
+ 
+of learning. So the you know eventually
+what became kind of trainable graphical
+ 
+what became kind of trainable graphical
+models were were still shallow networks
+ 
+models were were still shallow networks
+essentially there they were uh you know
+ 
+essentially there they were uh you know
+you would learn a few weights for some
+ 
+you would learn a few weights for some
+something like logistic regression and
+ 
+something like logistic regression and
+that was kind of uh all there all there
+ 
+that was kind of uh all there all there
+was to it. So in my opinion, you know,
+ 
+was to it. So in my opinion, you know,
+it it had
+ 
+it it had
+a usefulness
+ 
+a usefulness
+sort of, you know, a lot of theoretical
+ 
+sort of, you know, a lot of theoretical
+uh
+ 
+uh
+kind of insights, but in terms of what I
+ 
+kind of insights, but in terms of what I
+was interested in, which was, you know,
+ 
+was interested in, which was, you know,
+kind of learning representations of
+ 
+kind of learning representations of
+things and doing complex tasks with
+ 
+things and doing complex tasks with
+machine learning, I think it was kind of
+ 
+machine learning, I think it was kind of
+a tangent. So you, you know, my interest
+ 
+a tangent. So you, you know, my interest
+was limited. Um but but a lot of things
+ 
+was limited. Um but but a lot of things
+really interesting stuff was developed
+ 
+really interesting stuff was developed
+during this context like varational
+ 
+during this context like varational
+inference you know and and and things of
+ 
+inference you know and and and things of
+things of that type. The other thing
+ 
+things of that type. The other thing
+that was taking place u and that
+ 
+that was taking place u and that
+basically kind of pushed out neural nets
+ 
+basically kind of pushed out neural nets
+from the center of interest of the
+ 
+from the center of interest of the
+machine learning community was kernel
+ 
+machine learning community was kernel
+methods super vector machines and things
+ 
+methods super vector machines and things
+of that type. Um and that was taking
+ 
+of that type. Um and that was taking
+place in the same group where I was at
+ 
+place in the same group where I was at
+Bell Labs because one of my colleagues
+ 
+Bell Labs because one of my colleagues
+was Vladimir Vatnik and Corina Cortez
+ 
+was Vladimir Vatnik and Corina Cortez
+and Isabel Guon and Benzer. I mean they
+ 
+and Isabel Guon and Benzer. I mean they
+are the the people who wrote the first
+ 
+are the the people who wrote the first
+papers on on
+ 
+papers on on
+you know on super action machines and
+ 
+you know on super action machines and
+and commercial nets and I thought this
+ 
+and commercial nets and I thought this
+was a really cool idea. The theory was
+ 
+was a really cool idea. The theory was
+very cute. Um again I thought it was a
+ 
+very cute. Um again I thought it was a
+tangent because I don't think it was
+ 
+tangent because I don't think it was
+solving the problem I was interested in
+ 
+solving the problem I was interested in
+of you know learning representations and
+ 
+of you know learning representations and
+uh that all of us were interested in but
+ 
+uh that all of us were interested in but
+it you know those two things basian
+ 
+it you know those two things basian
+basian nets um and uh kernel methods
+ 
+basian nets um and uh kernel methods
+kind of took over the field of machine
+ 
+kind of took over the field of machine
+learning and basically pushed out neural
+ 
+learning and basically pushed out neural
+nets to uh being the topic of mockery
+ 
+nets to uh being the topic of mockery
+essentially um which is really not
+ 
+essentially um which is really not
+deserved because neural nets really
+ 
+deserved because neural nets really
+worked very well, right? I mean the the
+ 
+worked very well, right? I mean the the
+the performance was there. It's just
+ 
+the performance was there. It's just
+that there's this kind of curious
+ 
+that there's this kind of curious
+phenomenon that because the theory of
+ 
+phenomenon that because the theory of
+neural net uh was not satisfactory
+ 
+neural net uh was not satisfactory
+essentially u people kind of stopped
+ 
+essentially u people kind of stopped
+working on on those things favoring
+ 
+working on on those things favoring
+methods where the theory was easier and
+ 
+methods where the theory was easier and
+I think that's completely wrong
+ 
+I think that's completely wrong
+methodologically to simply work on a
+ 
+methodologically to simply work on a
+particular engineering artifact because
+ 
+particular engineering artifact because
+you can understand it theoretically and
+ 
+you can understand it theoretically and
+ignoring the fact that there is another
+ 
+ignoring the fact that there is another
+way to do it that works better but then
+ 
+way to do it that works better but then
+dismissing it because your theory
+ 
+dismissing it because your theory
+doesn't apply to it. I mean I think
+ 
+doesn't apply to it. I mean I think
+that's just misdirected but that's
+ 
+that's just misdirected but that's
+basically what happened.
+ 
+basically what happened.
+Take us through the the decades that
+ 
+Take us through the the decades that
+remain in terms of what you think what
+ 
+remain in terms of what you think what
+were the sort of main milestones in the
+ 
+were the sort of main milestones in the
+development then of neural networks
+ 
+development then of neural networks
+which came back uh in a big way of
+ 
+which came back uh in a big way of
+course in more recent years but um take
+ 
+course in more recent years but um take
+us through the developments there. Okay.
+ 
+us through the developments there. Okay.
+So what I was working on in the early
+ 
+So what I was working on in the early
+90s, you know, up to 1996 roughly was
+ 
+90s, you know, up to 1996 roughly was
+what we now call structured prediction.
+ 
+what we now call structured prediction.
+Um so which is basically uh you know
+ 
+Um so which is basically uh you know
+imagine the the input to your learning
+ 
+imagine the the input to your learning
+system is not like a s a s a single
+ 
+system is not like a s a s a single
+object but it could be like a compound
+ 
+object but it could be like a compound
+object like a word uh a handwritten word
+ 
+object like a word uh a handwritten word
+or a spoken word or something and you
+ 
+or a spoken word or something and you
+can use a neural net to turn it into
+ 
+can use a neural net to turn it into
+basically a maybe a sequence of feature
+ 
+basically a maybe a sequence of feature
+vectors representation vectors uh maybe
+ 
+vectors representation vectors uh maybe
+hypothesis about the the the categories
+ 
+hypothesis about the the the categories
+of each of the objects that are
+ 
+of each of the objects that are
+underneath. Right? So a speech
+ 
+underneath. Right? So a speech
+recognition system for example, you
+ 
+recognition system for example, you
+basically, you know, take a window of
+ 
+basically, you know, take a window of
+the signal that you shift over time and
+ 
+the signal that you shift over time and
+for each window you have uh a a a list
+ 
+for each window you have uh a a a list
+of scores for whether the the sound in
+ 
+of scores for whether the the sound in
+this window is a particular phone, what
+ 
+this window is a particular phone, what
+they call phone, right? Which is a basic
+ 
+they call phone, right? Which is a basic
+sound essentially, right? Um but then
+ 
+sound essentially, right? Um but then
+you have the the problem that uh and
+ 
+you have the the problem that uh and
+then for handwritten uh words is the
+ 
+then for handwritten uh words is the
+same thing right you you never know
+ 
+same thing right you you never know
+exactly where the characters are where
+ 
+exactly where the characters are where
+they begin where they end or how to
+ 
+they begin where they end or how to
+segment them right so you know you can
+ 
+segment them right so you know you can
+make hypothesis about where the
+ 
+make hypothesis about where the
+characters are and then you can run them
+ 
+characters are and then you can run them
+through your favorite neural net and
+ 
+through your favorite neural net and
+it's going to tell you well this could
+ 
+it's going to tell you well this could
+be a four or it could be a one or
+ 
+be a four or it could be a one or
+whatever but then you have to figure out
+ 
+whatever but then you have to figure out
+you know among this entire sequence of
+ 
+you know among this entire sequence of
+hypothesis which one is the most likely
+ 
+hypothesis which one is the most likely
+to be correct and for that you have to
+ 
+to be correct and for that you have to
+use a language model right so you have
+ 
+use a language model right so you have
+to use you have to say thing well okay
+ 
+to use you have to say thing well okay
+this letter is very likely to be a Q it
+ 
+this letter is very likely to be a Q it
+looks very much like a Q so probably the
+ 
+looks very much like a Q so probably the
+next one is a U because in English you
+ 
+next one is a U because in English you
+know most uh Q's are followed by U etc
+ 
+know most uh Q's are followed by U etc
+um and so um the the the classical way
+ 
+um and so um the the the classical way
+people were doing this in in speech
+ 
+people were doing this in in speech
+recognition was through dynamic
+ 
+recognition was through dynamic
+programming you search a short pass in a
+ 
+programming you search a short pass in a
+graph and the graph represents It's a
+ 
+graph and the graph represents It's a
+particular way of segmenting the
+ 
+particular way of segmenting the
+sequence where each uh transition in
+ 
+sequence where each uh transition in
+this graph basically has a score that
+ 
+this graph basically has a score that
+indicates you know whether it's a
+ 
+indicates you know whether it's a
+particular category or not. And so
+ 
+particular category or not. And so
+that's easy but how do you train a
+ 
+that's easy but how do you train a
+system like this end to end when you
+ 
+system like this end to end when you
+show it a word and then you tell it you
+ 
+show it a word and then you tell it you
+know here is the transcription of this
+ 
+know here is the transcription of this
+word the sequence of characters you need
+ 
+word the sequence of characters you need
+to put out but I can't tell you where
+ 
+to put out but I can't tell you where
+the characters are. Okay. So um so
+ 
+the characters are. Okay. So um so
+people have come to call this structured
+ 
+people have come to call this structured
+prediction. Um and we um Leo Matu and I
+ 
+prediction. Um and we um Leo Matu and I
+as well as Yosha Benju and Patrick
+ 
+as well as Yosha Benju and Patrick
+Heftner basically devised uh a set of
+ 
+Heftner basically devised uh a set of
+techniques to to to handle this uh which
+ 
+techniques to to to handle this uh which
+I think was you know quite general uh to
+ 
+I think was you know quite general uh to
+train a system like this and to end and
+ 
+train a system like this and to end and
+this ended up being what was deployed
+ 
+this ended up being what was deployed
+commercially to read uh checks by our
+ 
+commercially to read uh checks by our
+colleagues uh in the engineering
+ 
+colleagues uh in the engineering
+organization. Um so I was very very
+ 
+organization. Um so I was very very
+proud of that of that work. Um the
+ 
+proud of that of that work. Um the
+technical part was basically completed
+ 
+technical part was basically completed
+in 1996 and then it took us two years to
+ 
+in 1996 and then it took us two years to
+write the paper. So paper came out in
+ 
+write the paper. So paper came out in
+1998. Um but by that time everybody in
+ 
+1998. Um but by that time everybody in
+the community had lost interest in uh in
+ 
+the community had lost interest in uh in
+neural nets and uh and so and and this
+ 
+neural nets and uh and so and and this
+was the you know heyday of the internet
+ 
+was the you know heyday of the internet
+uh and I was promoted to department head
+ 
+uh and I was promoted to department head
+because Barry Jackal kind of interest
+ 
+because Barry Jackal kind of interest
+had shifted. Um so I took over his group
+ 
+had shifted. Um so I took over his group
+and um I had to decide what to do with
+ 
+and um I had to decide what to do with
+uh with my new research group and
+ 
+uh with my new research group and
+decided to not work on neural nets and
+ 
+decided to not work on neural nets and
+and machine learning anymore. We worked
+ 
+and machine learning anymore. We worked
+on a project with called DJ View DJ View
+ 
+on a project with called DJ View DJ View
+which was essentially a image
+ 
+which was essentially a image
+compression technique to bring printed
+ 
+compression technique to bring printed
+material to the internet. So we could
+ 
+material to the internet. So we could
+compress high high resolution scan
+ 
+compress high high resolution scan
+documents uh to kind of incredibly small
+ 
+documents uh to kind of incredibly small
+size uh and and low memory occupancy and
+ 
+size uh and and low memory occupancy and
+and to distribute documents over the
+ 
+and to distribute documents over the
+internet and that that had some success.
+ 
+internet and that that had some success.
+So I worked on this mostly for about
+ 
+So I worked on this mostly for about
+five years between 1995 and 2000 uh or
+ 
+five years between 1995 and 2000 uh or
+1996 2001. Um and this is when also AT&T
+ 
+1996 2001. Um and this is when also AT&T
+kind of split itself up and Bell Labs
+ 
+kind of split itself up and Bell Labs
+was split also and and so I I stayed
+ 
+was split also and and so I I stayed
+with AT&T the lab became re you know
+ 
+with AT&T the lab became re you know
+renamed AT&T Labs and the interests were
+ 
+renamed AT&T Labs and the interests were
+kind of different. So um the company
+ 
+kind of different. So um the company
+that the the the the part of the company
+ 
+that the the the the part of the company
+that was commercializing those check
+ 
+that was commercializing those check
+reading systems for banks was spun off
+ 
+reading systems for banks was spun off
+and so we were cut off from uh the the
+ 
+and so we were cut off from uh the the
+the product outlet if you want. um the
+ 
+the product outlet if you want. um the
+development group that had you know
+ 
+development group that had you know
+developed all those character
+ 
+developed all those character
+recognition um uh engines
+ 
+recognition um uh engines
+uh went with Lucen Technologies and
+ 
+uh went with Lucen Technologies and
+stayed with Bell Labs and we went with
+ 
+stayed with Bell Labs and we went with
+AT&T and so the entire project was
+ 
+AT&T and so the entire project was
+dissolved basically in 1996 and I was
+ 
+dissolved basically in 1996 and I was
+kind of depressed for a while because
+ 
+kind of depressed for a while because
+like you know what I thought I was super
+ 
+like you know what I thought I was super
+proud of like I could not work on this
+ 
+proud of like I could not work on this
+anymore um essentially um and what's
+ 
+anymore um essentially um and what's
+even funnier is that um uh in 1990
+ 
+even funnier is that um uh in 1990
+Um we we filed a patent on convolutional
+ 
+Um we we filed a patent on convolutional
+nets and uh so there's there is a patent
+ 
+nets and uh so there's there is a patent
+there's two patents actually on
+ 
+there's two patents actually on
+commercial nets u and that that patent
+ 
+commercial nets u and that that patent
+when AT&T split up was assigned to NCR
+ 
+when AT&T split up was assigned to NCR
+which was the subsidiary that was
+ 
+which was the subsidiary that was
+building those check reading machines.
+ 
+building those check reading machines.
+But the funny thing is nobody at NCR had
+ 
+But the funny thing is nobody at NCR had
+any idea what a commercial net was and
+ 
+any idea what a commercial net was and
+they owned a patent and you know
+ 
+they owned a patent and you know
+we were at AT&T and basically another
+ 
+we were at AT&T and basically another
+company was owning our a piece of our
+ 
+company was owning our a piece of our
+brain essentially right. Um that was
+ 
+brain essentially right. Um that was
+really depressing. So I I became kind of
+ 
+really depressing. So I I became kind of
+a bit of a sort of an anti-atter
+ 
+a bit of a sort of an anti-atter
+activist afterwards. Uh I I think it's
+ 
+activist afterwards. Uh I I think it's
+it's hurtful because it stops people
+ 
+it's hurtful because it stops people
+from you know kind of working
+ 
+from you know kind of working
+essentially uh on on their own ideas. So
+ 
+essentially uh on on their own ideas. So
+um so that was kind of uh you know
+ 
+um so that was kind of uh you know
+disappointing but those patents expired
+ 
+disappointing but those patents expired
+in 2007 because at the time the you know
+ 
+in 2007 because at the time the you know
+the validity for a pattern was 17 years.
+ 
+the validity for a pattern was 17 years.
+Um, I popped the champagne when that
+ 
+Um, I popped the champagne when that
+happened,
+ 
+happened,
+but by then I was at I was I was at NYU
+ 
+but by then I was at I was I was at NYU
+and I started I restarted working on on
+ 
+and I started I restarted working on on
+neural nets in uh in 2002 when I I left
+ 
+neural nets in uh in 2002 when I I left
+I left AT&T early early 2002
+ 
+I left AT&T early early 2002
+um with the idea of basically restarted
+ 
+um with the idea of basically restarted
+restarting a research program on on you
+ 
+restarting a research program on on you
+know on on neural nets uh mostly for the
+ 
+know on on neural nets uh mostly for the
+purpose of applying it to computer
+ 
+purpose of applying it to computer
+vision. I'd become connected with the
+ 
+vision. I'd become connected with the
+computer vision community and thought
+ 
+computer vision community and thought
+there was like a lot to be to be done
+ 
+there was like a lot to be to be done
+there to kind of bring machine learning
+ 
+there to kind of bring machine learning
+to computer vision. Um and uh and so
+ 
+to computer vision. Um and uh and so
+that's that's what I started. I joined
+ 
+that's that's what I started. I joined
+the NEC research institute in Princeton
+ 
+the NEC research institute in Princeton
+but only for 18 months because the place
+ 
+but only for 18 months because the place
+was kind of not going well and then
+ 
+was kind of not going well and then
+became a professor at NYU in 2003 and uh
+ 
+became a professor at NYU in 2003 and uh
+and that's when uh Jeff uh came back to
+ 
+and that's when uh Jeff uh came back to
+Canada he was in the UK for a few years
+ 
+Canada he was in the UK for a few years
+came back to Canada and had was you know
+ 
+came back to Canada and had was you know
+started a program funded by CFAR the
+ 
+started a program funded by CFAR the
+Canadian Institute for Advanced Research
+ 
+Canadian Institute for Advanced Research
+on the whole idea of you know neural
+ 
+on the whole idea of you know neural
+computation and perception um and neural
+ 
+computation and perception um and neural
+nets. So we we we we started kind of
+ 
+nets. So we we we we started kind of
+rebuilding a small community around
+ 
+rebuilding a small community around
+neural nets with the explicit purpose of
+ 
+neural nets with the explicit purpose of
+reviving the interest of the machine
+ 
+reviving the interest of the machine
+learning community in neural nets. Uh it
+ 
+learning community in neural nets. Uh it
+took about 10 years but it succeeded be
+ 
+took about 10 years but it succeeded be
+beyond the world's dreams.
+ 
+beyond the world's dreams.
+So yeah,
+ 
+So yeah,
+>> right. I guess the uh most visible
+ 
+>> right. I guess the uh most visible
+outcome some of that was around uh the
+ 
+outcome some of that was around uh the
+competition at the computer vision
+ 
+competition at the computer vision
+conference.
+ 
+conference.
+um
+ 
+um
+uh which was
+ 
+uh which was
+ 
+was that um
+ 
+was that um
+>> when when uh neural net approaches
+ 
+>> when when uh neural net approaches
+totally dominated the competition even
+ 
+totally dominated the competition even
+though most of the competitors were
+ 
+though most of the competitors were
+other kinds of approaches and within a
+ 
+other kinds of approaches and within a
+year or two the entire conference had
+ 
+year or two the entire conference had
+kind of flipped over to neural network
+ 
+kind of flipped over to neural network
+approaches to vision right
+ 
+approaches to vision right
+>> so that was uh beginning of the period
+ 
+>> so that was uh beginning of the period
+that some people refer to as the deep
+ 
+that some people refer to as the deep
+network period. But yeah, take take us
+ 
+network period. But yeah, take take us
+there.
+ 
+there.
+>> So it started a bit earlier. So, so
+ 
+>> So it started a bit earlier. So, so
+Jeff, uh, Yoshua, Benju, and I, uh, were
+ 
+Jeff, uh, Yoshua, Benju, and I, uh, were
+kind of running a a workshop, um, uh,
+ 
+kind of running a a workshop, um, uh,
+basically the followup of the
+ 
+basically the followup of the
+of of the snowboard workshop where Yosha
+ 
+of of the snowboard workshop where Yosha
+and I were running that and then with
+ 
+and I were running that and then with
+Jeff, we we usually had a workshop
+ 
+Jeff, we we usually had a workshop
+around around NIPS
+ 
+around around NIPS
+on what we had rebranded deep learning.
+ 
+on what we had rebranded deep learning.
+Um so why why did we rebrand the whole
+ 
+Um so why why did we rebrand the whole
+neural net approach to deep deep
+ 
+neural net approach to deep deep
+learning? The reason was neural net was
+ 
+learning? The reason was neural net was
+again a subject of mockery and so we we
+ 
+again a subject of mockery and so we we
+thought it was kind of um a good idea to
+ 
+thought it was kind of um a good idea to
+to basically broaden the scope of it a
+ 
+to basically broaden the scope of it a
+little bit and call it deep learning.
+ 
+little bit and call it deep learning.
+you know it's basically just the idea
+ 
+you know it's basically just the idea
+that you train a complex learning
+ 
+that you train a complex learning
+machine with multiple nonlinear steps
+ 
+machine with multiple nonlinear steps
+right I mean it's nothing more than that
+ 
+right I mean it's nothing more than that
+nothing more deep than that uh and uh we
+ 
+nothing more deep than that uh and uh we
+we don't remember who kind of came up
+ 
+we don't remember who kind of came up
+with the phrase but um but it it sort of
+ 
+with the phrase but um but it it sort of
+became a meme so so in 2007 we organized
+ 
+became a meme so so in 2007 we organized
+um a workshop at at NIPS um and we
+ 
+um a workshop at at NIPS um and we
+proposed the workshop as an official
+ 
+proposed the workshop as an official
+workshop for NIPS but NIPS denied it the
+ 
+workshop for NIPS but NIPS denied it the
+workshop organizers like
+ 
+workshop organizers like
+you know kind of refused to to to let us
+ 
+you know kind of refused to to to let us
+uh hold it. So we organized a pirate
+ 
+uh hold it. So we organized a pirate
+workshop um that was funded by CFR and
+ 
+workshop um that was funded by CFR and
+it was extremely successful. There were
+ 
+it was extremely successful. There were
+like you know hundreds of people uh
+ 
+like you know hundreds of people uh
+showed up and it was basically I think
+ 
+showed up and it was basically I think
+it marked the the real start of the the
+ 
+it marked the the real start of the the
+the or the rebirth of the deep learning
+ 
+the or the rebirth of the deep learning
+community if you want. Um and so it it
+ 
+community if you want. Um and so it it
+became the point where there were enough
+ 
+became the point where there were enough
+people interested in this question that
+ 
+people interested in this question that
+when we would submit a paper to NIPS or
+ 
+when we would submit a paper to NIPS or
+ICML or something it would be reviewed
+ 
+ICML or something it would be reviewed
+by other people you know who are also
+ 
+by other people you know who are also
+interested in it and knew something
+ 
+interested in it and knew something
+about it which wasn't the case before
+ 
+about it which wasn't the case before
+like all of our papers were all you know
+ 
+like all of our papers were all you know
+mostly rejected because like you know
+ 
+mostly rejected because like you know
+nobody wanted to hear about neural nets
+ 
+nobody wanted to hear about neural nets
+and that started changing around 20078
+ 
+and that started changing around 20078
+and so we started like really building a
+ 
+and so we started like really building a
+sort of you increasingly large community
+ 
+sort of you increasingly large community
+around this and and sort of new ideas
+ 
+around this and and sort of new ideas
+came up. Um and and what what happened
+ 
+came up. Um and and what what happened
+um is that what all of us were obsessed
+ 
+um is that what all of us were obsessed
+with uh so that included groups like
+ 
+with uh so that included groups like
+Andrewing and and things like that and
+ 
+Andrewing and and things like that and
+we were all obsessed with
+ 
+we were all obsessed with
+uh unsupervised learning essentially
+ 
+uh unsupervised learning essentially
+because we thought if we want to scale
+ 
+because we thought if we want to scale
+up those neural nets and and train very
+ 
+up those neural nets and and train very
+deep neural nets what we needed to do
+ 
+deep neural nets what we needed to do
+was to pre-train them so that um you
+ 
+was to pre-train them so that um you
+know each layer if you want would do
+ 
+know each layer if you want would do
+something useful before we can apply
+ 
+something useful before we can apply
+back prop backrop would kind of
+ 
+back prop backrop would kind of
+fine-tuning uh process if you want. Um
+ 
+fine-tuning uh process if you want. Um
+that was the hypothesis that uh Jeff
+ 
+that was the hypothesis that uh Jeff
+Yoshua and I worked on and and doing as
+ 
+Yoshua and I worked on and and doing as
+well. Um
+ 
+well. Um
+and it turns out that wasn't useful.
+ 
+and it turns out that wasn't useful.
+Turns out you could train a system end
+ 
+Turns out you could train a system end
+to end with deep learning if you use
+ 
+to end with deep learning if you use
+values instead of hyperboly tangents. If
+ 
+values instead of hyperboly tangents. If
+you do normalization properly, if you
+ 
+you do normalization properly, if you
+use a few tricks, um then you don't need
+ 
+use a few tricks, um then you don't need
+any of this. Um and and so that was a
+ 
+any of this. Um and and so that was a
+surprise
+ 
+surprise
+u and uh and there were like you know
+ 
+u and uh and there were like you know
+early results in in speech recognition.
+ 
+early results in in speech recognition.
+I mean I we had some results also in
+ 
+I mean I we had some results also in
+image recognition like for example on uh
+ 
+image recognition like for example on uh
+semantic segmentation of images where we
+ 
+semantic segmentation of images where we
+applied convolutional nets and and they
+ 
+applied convolutional nets and and they
+worked really well. Um we we actually
+ 
+worked really well. Um we we actually
+had a a paper that we submitted to CVPR
+ 
+had a a paper that we submitted to CVPR
+uh 2011 or 2012. I think it was 2012. It
+ 
+uh 2011 or 2012. I think it was 2012. It
+was submitted in 2011, but that was for
+ 
+was submitted in 2011, but that was for
+CDPR 2012. And uh and we were using a
+ 
+CDPR 2012. And uh and we were using a
+conventional net to basically label
+ 
+conventional net to basically label
+every pixel in an image with the
+ 
+every pixel in an image with the
+category of the object it belongs to.
+ 
+category of the object it belongs to.
+Okay, so that requires having a data set
+ 
+Okay, so that requires having a data set
+that has been basically labeled at the
+ 
+that has been basically labeled at the
+pixel level, the region level. And there
+ 
+pixel level, the region level. And there
+was a data set that Antonio Toalva had
+ 
+was a data set that Antonio Toalva had
+put together that had only a few like a
+ 
+put together that had only a few like a
+couple thousand images, which is not a
+ 
+couple thousand images, which is not a
+lot, but it was enough to kind of train
+ 
+lot, but it was enough to kind of train
+the neural net. So, we had really good
+ 
+the neural net. So, we had really good
+results, you know, state-of-the-art. Uh,
+ 
+results, you know, state-of-the-art. Uh,
+it was 50 times faster than the best
+ 
+it was 50 times faster than the best
+runner rep. So, I say, "Oh, great." So,
+ 
+runner rep. So, I say, "Oh, great." So,
+wrote a paper submitted to CBPR. The
+ 
+wrote a paper submitted to CBPR. The
+three reviews were like incredibly
+ 
+three reviews were like incredibly
+negative.
+ 
+negative.
+All three of them. Um, mostly because
+ 
+All three of them. Um, mostly because
+people had no idea what the commercial
+ 
+people had no idea what the commercial
+net was in computer vision. Like some
+ 
+net was in computer vision. Like some
+people knew, but you know, most people
+ 
+people knew, but you know, most people
+had no idea. And so, you know, in the in
+ 
+had no idea. And so, you know, in the in
+the comments on the review, there were
+ 
+the comments on the review, there were
+things like, "Oh, why don't you learn
+ 
+things like, "Oh, why don't you learn
+the features when you can hardwire
+ 
+the features when you can hardwire
+them?" I mean, you know, it's things
+ 
+them?" I mean, you know, it's things
+that seem crazy now, but u but that was
+ 
+that seem crazy now, but u but that was
+kind of the particular mindset, right,
+ 
+kind of the particular mindset, right,
+that that people had at the time. Uh but
+ 
+that that people had at the time. Uh but
+mostly it was like we don't believe that
+ 
+mostly it was like we don't believe that
+a method we never heard of could work so
+ 
+a method we never heard of could work so
+well. So, you know, there must be
+ 
+well. So, you know, there must be
+something wrong with it. Um so um so so
+ 
+something wrong with it. Um so um so so
+I actually wrote a letter to the program
+ 
+I actually wrote a letter to the program
+chair was Serge Bonji and I knew he
+ 
+chair was Serge Bonji and I knew he
+could do he could do nothing. I I had
+ 
+could do he could do nothing. I I had
+been program chair of CVPR before so I I
+ 
+been program chair of CVPR before so I I
+knew he could do nothing but I said like
+ 
+knew he could do nothing but I said like
+there's no point for people from machine
+ 
+there's no point for people from machine
+learning to submit papers to CVPR
+ 
+learning to submit papers to CVPR
+because there is nobody to understand
+ 
+because there is nobody to understand
+what they're doing. So I'm going to tell
+ 
+what they're doing. So I'm going to tell
+my student not to bother anymore. Um so
+ 
+my student not to bother anymore. Um so
+the paper was accepted at ICML so it was
+ 
+the paper was accepted at ICML so it was
+you know it still came out but uh and
+ 
+you know it still came out but uh and
+that was you know pre
+ 
+that was you know pre
+uh image net right but then the real uh
+ 
+uh image net right but then the real uh
+so there were signs that things were you
+ 
+so there were signs that things were you
+know really working well with with
+ 
+know really working well with with
+neural nets but but at the end of 2012
+ 
+neural nets but but at the end of 2012
+the the fact that the image competition
+ 
+the the fact that the image competition
+was was won by
+ 
+was was won by
+a commercial net built by Jeff and I
+ 
+a commercial net built by Jeff and I
+assets and Um and Alex Keski uh was
+ 
+assets and Um and Alex Keski uh was
+really a bombshell and that was uh
+ 
+really a bombshell and that was uh
+revealed in a workshop at the ECCV
+ 
+revealed in a workshop at the ECCV
+conference uh in uh Florence I think and
+ 
+conference uh in uh Florence I think and
+uh and it was really funny because Alex
+ 
+uh and it was really funny because Alex
+Keski is the one who presented the work
+ 
+Keski is the one who presented the work
+and uh and the room was packed because
+ 
+and uh and the room was packed because
+everybody had heard that he was getting
+ 
+everybody had heard that he was getting
+those amazing results and he didn't
+ 
+those amazing results and he didn't
+attempt to explain what a competition
+ 
+attempt to explain what a competition
+was. He just he just assumed everybody
+ 
+was. He just he just assumed everybody
+knew, right? And like there was only
+ 
+knew, right? And like there was only
+like a handful of people in the room who
+ 
+like a handful of people in the room who
+knew uh who had followed my work and you
+ 
+knew uh who had followed my work and you
+know had you know so people like Jana
+ 
+know had you know so people like Jana
+Malik of course knew exactly what it was
+ 
+Malik of course knew exactly what it was
+and uh and you know a few a few other
+ 
+and uh and you know a few a few other
+people force etc. But most of the people
+ 
+people force etc. But most of the people
+in the room it was a UFO for them right
+ 
+in the room it was a UFO for them right
+I mean they had no idea what this was
+ 
+I mean they had no idea what this was
+coming from. So, so that was a bit of a
+ 
+coming from. So, so that was a bit of a
+shock and uh you know, so in 2012 you
+ 
+shock and uh you know, so in 2012 you
+couldn't get a paper accepted at CVPR if
+ 
+couldn't get a paper accepted at CVPR if
+you if you use neural nets and then by
+ 
+you if you use neural nets and then by
+2014 you couldn't get a paper accepted
+ 
+2014 you couldn't get a paper accepted
+as CVPR if you did not use neural net.
+ 
+as CVPR if you did not use neural net.
+So
+ 
+So
+>> the social aspect of scientific
+ 
+>> the social aspect of scientific
+progress. Yeah,
+ 
+progress. Yeah,
+>> very much
+ 
+>> very much
+>> um very much waves of paradigms
+ 
+>> um very much waves of paradigms
+overlapping and taking over the mind
+ 
+overlapping and taking over the mind
+share of a community of people. Um so
+ 
+share of a community of people. Um so
+right it's it's an interesting
+ 
+right it's it's an interesting
+driven partly by technical developments
+ 
+driven partly by technical developments
+as
+ 
+as
+>> eventually but maybe in the short term
+ 
+>> eventually but maybe in the short term
+more by social
+ 
+more by social
+um social forces
+ 
+um social forces
+>> a lot of it is social yeah I mean it's
+ 
+>> a lot of it is social yeah I mean it's
+surprising uh I mean one lesson I
+ 
+surprising uh I mean one lesson I
+learned from this is it's surprisingly
+ 
+learned from this is it's surprisingly
+difficult to snap people out of a
+ 
+difficult to snap people out of a
+particular way of thinking
+ 
+particular way of thinking
+Um and you show them evidence and they
+ 
+Um and you show them evidence and they
+basically dismiss the evidence uh you
+ 
+basically dismiss the evidence uh you
+know until the evidence is you know
+ 
+know until the evidence is you know
+incontrovertible and and at that time
+ 
+incontrovertible and and at that time
+you know you get a face change basically
+ 
+you know you get a face change basically
+but um but you know it's it's it's very
+ 
+but um but you know it's it's it's very
+interesting what the dynamics of this uh
+ 
+interesting what the dynamics of this uh
+is and you know no one is to blame for
+ 
+is and you know no one is to blame for
+it or anything like you know this is
+ 
+it or anything like you know this is
+kind of a natural I mean you know the
+ 
+kind of a natural I mean you know the
+way science progresses is by basically
+ 
+way science progresses is by basically
+questioning everything right
+ 
+questioning everything right
+but questioning the common wisdom is
+ 
+but questioning the common wisdom is
+very difficult like you know communities
+ 
+very difficult like you know communities
+get into very deep local minima and they
+ 
+get into very deep local minima and they
+have a hard time getting out of it you
+ 
+have a hard time getting out of it you
+see this today with L&Ms L&Ms are
+ 
+see this today with L&Ms L&Ms are
+sucking the air out of the room wherever
+ 
+sucking the air out of the room wherever
+they are so
+ 
+they are so
+it's
+ 
+it's
+>> right it's hard to u
+ 
+>> right it's hard to u
+it's hard to go in the other direction
+ 
+it's hard to go in the other direction
+although um you'll have more to say
+ 
+although um you'll have more to say
+about that take us quickly through the
+ 
+about that take us quickly through the
+next decade which got us to where we are
+ 
+next decade which got us to where we are
+today. And then I really do want to hear
+ 
+today. And then I really do want to hear
+um I know that you've recently
+ 
+um I know that you've recently
+uh left Meta to to strike out in a new
+ 
+uh left Meta to to strike out in a new
+direction. I want to hear about that
+ 
+direction. I want to hear about that
+too.
+ 
+too.
+>> Okay. Uh right. So the next decade was
+ 
+>> Okay. Uh right. So the next decade was
+the decade of deep learning. Right. So
+ 
+the decade of deep learning. Right. So
+uh 2013 because of the results on
+ 
+uh 2013 because of the results on
+imageet and and others um industry
+ 
+imageet and and others um industry
+started to pay attention and um and and
+ 
+started to pay attention and um and and
+so you know Google um you know basically
+ 
+so you know Google um you know basically
+hired
+ 
+hired
+Jeff Alex and Ilia u BU got into a
+ 
+Jeff Alex and Ilia u BU got into a
+project on deep learning as well uh and
+ 
+project on deep learning as well uh and
+you know a few other companies IDM got
+ 
+you know a few other companies IDM got
+interested in this for speech
+ 
+interested in this for speech
+recognition And uh that actually started
+ 
+recognition And uh that actually started
+earlier around 2009 and 10. Same with
+ 
+earlier around 2009 and 10. Same with
+Microsoft but Microsoft was a bit less
+ 
+Microsoft but Microsoft was a bit less
+aggressive about it. Um and then you
+ 
+aggressive about it. Um and then you
+know by mid 2013 uh Facebook had built a
+ 
+know by mid 2013 uh Facebook had built a
+a small group to explore the
+ 
+a small group to explore the
+capabilities of this. uh by summer they
+ 
+capabilities of this. uh by summer they
+had hired one of my former students
+ 
+had hired one of my former students
+Maronato who was at Google Brain um to
+ 
+Maronato who was at Google Brain um to
+kind of uh you know increase the
+ 
+kind of uh you know increase the
+activity around around deep learning and
+ 
+activity around around deep learning and
+neural nets. uh and and then it became
+ 
+neural nets. uh and and then it became
+clear that Facebook really wanted to
+ 
+clear that Facebook really wanted to
+start a significant activity in uh what
+ 
+start a significant activity in uh what
+was not yet called AI um at least uh by
+ 
+was not yet called AI um at least uh by
+by everyone and um and they you know
+ 
+by everyone and um and they you know
+they tried multiple approaches maybe
+ 
+they tried multiple approaches maybe
+buying a startup or or something like
+ 
+buying a startup or or something like
+this or hire you know a bunch of junior
+ 
+this or hire you know a bunch of junior
+people and then they realized the best
+ 
+people and then they realized the best
+way to to do it was to hire someone more
+ 
+way to to do it was to hire someone more
+senior who would be able to attract more
+ 
+senior who would be able to attract more
+junior people. And so that's when they
+ 
+junior people. And so that's when they
+approached me. And the first time was uh
+ 
+approached me. And the first time was uh
+you know around summer 2013 and and I I
+ 
+you know around summer 2013 and and I I
+told Mark Zuckerberg I said well you
+ 
+told Mark Zuckerberg I said well you
+know I'm I can't I can't really
+ 
+know I'm I can't I can't really
+help you in a big way. I mean I can't
+ 
+help you in a big way. I mean I can't
+consult with you but I I can't I can't
+ 
+consult with you but I I can't I can't
+join Facebook because I can't I'm not
+ 
+join Facebook because I can't I'm not
+going to move to California and I don't
+ 
+going to move to California and I don't
+want to quit my job at NYU. I want to
+ 
+want to quit my job at NYU. I want to
+move from New York. So, you know, I'm uh
+ 
+move from New York. So, you know, I'm uh
+sorry. Um but then he reconted me at the
+ 
+sorry. Um but then he reconted me at the
+end of November 2013 and I had to go to
+ 
+end of November 2013 and I had to go to
+California for some some other reason.
+ 
+California for some some other reason.
+Um, and so he and I had a chat at his
+ 
+Um, and so he and I had a chat at his
+house and um, and he tried to explain to
+ 
+house and um, and he tried to explain to
+me what he was trying to do with uh, uh,
+ 
+me what he was trying to do with uh, uh,
+AI that he was putting a lot of uh, hope
+ 
+AI that he was putting a lot of uh, hope
+in, you know, where AI was going and it
+ 
+in, you know, where AI was going and it
+would it would it would be really really
+ 
+would it would it would be really really
+useful to to Facebook in the long run.
+ 
+useful to to Facebook in the long run.
+Um, he was not at all interested in the
+ 
+Um, he was not at all interested in the
+use of AI for things like, you know, ad
+ 
+use of AI for things like, you know, ad
+ranking or anything like that. He said,
+ 
+ranking or anything like that. He said,
+"That's kind of boring. Uh, you know, we
+ 
+"That's kind of boring. Uh, you know, we
+can probably do this with like logistic
+ 
+can probably do this with like logistic
+regression or whatever." Um but he said
+ 
+regression or whatever." Um but he said
+it's more like you know content
+ 
+it's more like you know content
+interpretation and and and all that
+ 
+interpretation and and and all that
+stuff and you know he had read my
+ 
+stuff and you know he had read my
+papers. Okay. So I was really impressed.
+ 
+papers. Okay. So I was really impressed.
+Um and uh and and I was kind of uh taken
+ 
+Um and uh and and I was kind of uh taken
+by the the sort of long-term vision that
+ 
+by the the sort of long-term vision that
+he and Mike Shrefer the the CTO at the
+ 
+he and Mike Shrefer the the CTO at the
+time had put together. And so I said
+ 
+time had put together. And so I said
+well I only have you know three three
+ 
+well I only have you know three three
+conditions basically. The first one is
+ 
+conditions basically. The first one is
+uh we practice open research. um because
+ 
+uh we practice open research. um because
+I don't know how to do it otherwise uh
+ 
+I don't know how to do it otherwise uh
+you know I don't know how to hire the
+ 
+you know I don't know how to hire the
+best. I don't know how to um you know
+ 
+best. I don't know how to um you know
+interact with you know universities and
+ 
+interact with you know universities and
+academic groups and things like this. So
+ 
+academic groups and things like this. So
+we have to basically publish what we do
+ 
+we have to basically publish what we do
+and things like that. Uh second one is
+ 
+and things like that. Uh second one is
+uh I don't move from New York. Uh and
+ 
+uh I don't move from New York. Uh and
+third one is I don't quit my job at NYU
+ 
+third one is I don't quit my job at NYU
+I can be part-time.
+ 
+I can be part-time.
+And he said yes. So I said, "Okay, where
+ 
+And he said yes. So I said, "Okay, where
+do I sign?" Um, because I was given the
+ 
+do I sign?" Um, because I was given the
+opportunity to create a a research lab
+ 
+opportunity to create a a research lab
+from scratch. There was no research
+ 
+from scratch. There was no research
+culture at Meta at the time. And so, uh,
+ 
+culture at Meta at the time. And so, uh,
+unlike Google that already had a
+ 
+unlike Google that already had a
+research organization, which was
+ 
+research organization, which was
+organized in ways that I actually didn't
+ 
+organized in ways that I actually didn't
+like. Um, and so, um, I thought that was
+ 
+like. Um, and so, um, I thought that was
+kind of a much more exciting opportunity
+ 
+kind of a much more exciting opportunity
+to basically just create a whole
+ 
+to basically just create a whole
+research, uh, culture from scratch and
+ 
+research, uh, culture from scratch and
+and a research organization.
+ 
+and a research organization.
+Uh so that became fair uh which
+ 
+Uh so that became fair uh which
+initially meant Facebook AI research and
+ 
+initially meant Facebook AI research and
+then eventually when fair when Facebook
+ 
+then eventually when fair when Facebook
+changed name to meta we changed the f to
+ 
+changed name to meta we changed the f to
+mean fundamental okay fundamental AI
+ 
+mean fundamental okay fundamental AI
+research. Um and um we had a really good
+ 
+research. Um and um we had a really good
+run for 12 years uh
+ 
+run for 12 years uh
+um in the sense that I think fair had an
+ 
+um in the sense that I think fair had an
+enormous impact on the on the company
+ 
+enormous impact on the on the company
+first of all uh internally you know
+ 
+first of all uh internally you know
+basically put the company on the map
+ 
+basically put the company on the map
+when it comes to AI research um
+ 
+when it comes to AI research um
+we had a big impact on the AI research
+ 
+we had a big impact on the AI research
+community
+ 
+community
+um with things like PyTorch and you
+ 
+um with things like PyTorch and you
+Fair seek and you know uh all the image
+ 
+Fair seek and you know uh all the image
+recognition and uh open source systems
+ 
+recognition and uh open source systems
+that we put out and uh Feice which is
+ 
+that we put out and uh Feice which is
+kind of a similarity search system and I
+ 
+kind of a similarity search system and I
+mean there's there's like a whole bunch
+ 
+mean there's there's like a whole bunch
+there's like a thousand open source
+ 
+there's like a thousand open source
+projects that fair produced which you
+ 
+projects that fair produced which you
+know all of which have had a very very
+ 
+know all of which have had a very very
+big impact on the on the research
+ 
+big impact on the on the research
+community but also on the industry and
+ 
+community but also on the industry and
+on the wider world because a lot of the
+ 
+on the wider world because a lot of the
+techniques that were developed at fair
+ 
+techniques that were developed at fair
+you know have been used by um by
+ 
+you know have been used by um by
+Facebook Meta and other companies for
+ 
+Facebook Meta and other companies for
+all kinds of stuff which you know people
+ 
+all kinds of stuff which you know people
+don't realize are there but are um
+ 
+don't realize are there but are um
+really powering a lot of uh a lot of uh
+ 
+really powering a lot of uh a lot of uh
+a lot of systems around the world. So,
+ 
+a lot of systems around the world. So,
+so really big impact. Uh, PyTorch is
+ 
+so really big impact. Uh, PyTorch is
+probably kind of the biggest of all
+ 
+probably kind of the biggest of all
+because um it's um you know the the
+ 
+because um it's um you know the the
+software platform for research in in
+ 
+software platform for research in in
+deep learning that is dominant. It's by
+ 
+deep learning that is dominant. It's by
+far the one that is the most used now
+ 
+far the one that is the most used now
+nowadays.
+ 
+nowadays.
+So, so
+ 
+So, so
+yeah, it was it was a amazing amazing
+ 
+yeah, it was it was a amazing amazing
+run uh at fair with big impact but it's
+ 
+run uh at fair with big impact but it's
+changing now.
+ 
+changing now.
+What would just um
+ 
+What would just um
+what would you say during that window of
+ 
+what would you say during that window of
+time were the one or two
+ 
+time were the one or two
+most important developments
+ 
+most important developments
+technically?
+ 
+technically?
+>> Okay. So I mean there was a bunch of
+ 
+>> Okay. So I mean there was a bunch of
+things right that are a little kind of
+ 
+things right that are a little kind of
+below the the radar but um so the idea
+ 
+below the the radar but um so the idea
+that uh you can basically write a
+ 
+that uh you can basically write a
+program in let's say Python or whatever
+ 
+program in let's say Python or whatever
+language and basically there is an
+ 
+language and basically there is an
+automated
+ 
+automated
+u thing behind the scene
+ 
+u thing behind the scene
+that can compute the the gradient of the
+ 
+that can compute the the gradient of the
+output of this program with respect to
+ 
+output of this program with respect to
+all the parameters uh inside the pro
+ 
+all the parameters uh inside the pro
+inside the program and it doesn't matter
+ 
+inside the program and it doesn't matter
+what the program does. You could have
+ 
+what the program does. You could have
+loops, you could have tests, you know,
+ 
+loops, you could have tests, you know,
+you know, all kinds of stuff, right? Um,
+ 
+you know, all kinds of stuff, right? Um,
+you basically have completely automatic
+ 
+you basically have completely automatic
+differentiation. The concept had been
+ 
+differentiation. The concept had been
+around for a while, but the the fact
+ 
+around for a while, but the the fact
+that it becomes kind of, you know, a
+ 
+that it becomes kind of, you know, a
+universal tool uh that was really kind
+ 
+universal tool uh that was really kind
+of generalized by by PyTorch in a in a
+ 
+of generalized by by PyTorch in a in a
+way. Uh, and so I think that, you know,
+ 
+way. Uh, and so I think that, you know,
+has changed the mind of a lot of people
+ 
+has changed the mind of a lot of people
+in in how you do
+ 
+in in how you do
+uh science, computer science in
+ 
+uh science, computer science in
+particular, but u and modeling and all
+ 
+particular, but u and modeling and all
+that stuff, right? Um
+ 
+that stuff, right? Um
+>> yeah.
+ 
+>> yeah.
+>> So that's that's a big one. Uh then the
+ 
+>> So that's that's a big one. Uh then the
+the astonishing results of computer
+ 
+the astonishing results of computer
+vision like the fact that you know you
+ 
+vision like the fact that you know you
+can um
+ 
+can um
+you know train basically generic
+ 
+you know train basically generic
+computer vision systems with you know
+ 
+computer vision systems with you know
+it's economically feasible to collect a
+ 
+it's economically feasible to collect a
+lot of label data. Uh you can also have
+ 
+lot of label data. Uh you can also have
+weak labels. So, for example, at at
+ 
+weak labels. So, for example, at at
+Facebook, we used uh Instagram photos
+ 
+Facebook, we used uh Instagram photos
+together with the hashtags that people,
+ 
+together with the hashtags that people,
+you know, write for for the photos. And
+ 
+you know, write for for the photos. And
+that's a very weak label. It's
+ 
+that's a very weak label. It's
+unreliable, but it turns out to actually
+ 
+unreliable, but it turns out to actually
+be sufficient to train a very good
+ 
+be sufficient to train a very good
+vision pipeline. Um and and so we had
+ 
+vision pipeline. Um and and so we had
+like you know amazing results in
+ 
+like you know amazing results in
+computer vision uh in in semantic
+ 
+computer vision uh in in semantic
+segmentation instance segmentation
+ 
+segmentation instance segmentation
+object recognition tracking body pose
+ 
+object recognition tracking body pose
+estimation you know all those things
+ 
+estimation you know all those things
+right which were really difficult to do
+ 
+right which were really difficult to do
+you know you know just 10 years before
+ 
+you know you know just 10 years before
+right or five years before uh and you
+ 
+right or five years before uh and you
+know generating captions for images and
+ 
+know generating captions for images and
+descriptions and stuff like that right
+ 
+descriptions and stuff like that right
+so that was kind of um you know really
+ 
+so that was kind of um you know really
+cool um you know technique like RCNN for
+ 
+cool um you know technique like RCNN for
+example that came out of the vision
+ 
+example that came out of the vision
+group at at beta was pretty cool. I
+ 
+group at at beta was pretty cool. I
+think what uh more recently
+ 
+think what uh more recently
+uh and I'm jumping ahead of a number of
+ 
+uh and I'm jumping ahead of a number of
+years there uh what what was really
+ 
+years there uh what what was really
+astonishing is the fact that you can
+ 
+astonishing is the fact that you can
+train those things without any label
+ 
+train those things without any label
+data basically. So you can train a
+ 
+data basically. So you can train a
+vision pipeline now and it gets uh
+ 
+vision pipeline now and it gets uh
+produce extremely good representation
+ 
+produce extremely good representation
+generic representations for images and
+ 
+generic representations for images and
+you can train it completely
+ 
+you can train it completely
+unsupervised. You you basically you take
+ 
+unsupervised. You you basically you take
+um you take an image you distort it and
+ 
+um you take an image you distort it and
+you corrupt it in some ways. Okay, you
+ 
+you corrupt it in some ways. Okay, you
+run the original image and the distorted
+ 
+run the original image and the distorted
+one through encoders, identical encoders
+ 
+one through encoders, identical encoders
+and then you train uh you know a neural
+ 
+and then you train uh you know a neural
+net inside the representation to predict
+ 
+net inside the representation to predict
+the representation of the full image
+ 
+the representation of the full image
+from the representation of the corrupted
+ 
+from the representation of the corrupted
+or uh partially mass transformed one. Um
+ 
+or uh partially mass transformed one. Um
+so that's called joint embedding. Okay.
+ 
+so that's called joint embedding. Okay.
+Um and uh perhaps the best example of
+ 
+Um and uh perhaps the best example of
+this in recent years to learn
+ 
+this in recent years to learn
+representations of images is Dino uh
+ 
+representations of images is Dino uh
+Dino V1 V2 V3 produced by a group at
+ 
+Dino V1 V2 V3 produced by a group at
+fair in in Paris and another one is Japa
+ 
+fair in in Paris and another one is Japa
+and um and the fact that this you know
+ 
+and um and the fact that this you know
+you get representations that if you now
+ 
+you get representations that if you now
+feed those representations to a
+ 
+feed those representations to a
+classifier a supervised classifier you
+ 
+classifier a supervised classifier you
+get state-of-the-art performance you get
+ 
+get state-of-the-art performance you get
+better performance than any supervised
+ 
+better performance than any supervised
+system and that's kind of a astonishing.
+ 
+system and that's kind of a astonishing.
+It's a recent fairly recent, right? It's
+ 
+It's a recent fairly recent, right? It's
+in the last year. Um, okay. So,
+ 
+in the last year. Um, okay. So,
+now going back to the, you know, 2014 or
+ 
+now going back to the, you know, 2014 or
+so. Um, the fact that you could do uh
+ 
+so. Um, the fact that you could do uh
+image recognition at a fine grain. So,
+ 
+image recognition at a fine grain. So,
+for with a very very large number of
+ 
+for with a very very large number of
+categories where the best example of
+ 
+categories where the best example of
+this is face recognition. So our
+ 
+this is face recognition. So our
+colleagues at Facebook built a face
+ 
+colleagues at Facebook built a face
+recognition system that could basically
+ 
+recognition system that could basically
+identify a face among millions if not
+ 
+identify a face among millions if not
+billion a billion actually with pretty
+ 
+billion a billion actually with pretty
+good reliability. Uh Facebook doesn't do
+ 
+good reliability. Uh Facebook doesn't do
+face recognition anymore. The service is
+ 
+face recognition anymore. The service is
+turned off but the technology was there
+ 
+turned off but the technology was there
+and uh and the fact that this worked
+ 
+and uh and the fact that this worked
+with a commercial net like astonished
+ 
+with a commercial net like astonished
+even me right I mean I looked at those
+ 
+even me right I mean I looked at those
+results I said you guys like this works
+ 
+results I said you guys like this works
+so well I can I can't believe you can do
+ 
+so well I can I can't believe you can do
+classification with a million
+ 
+classification with a million
+categories. Um so that that was that was
+ 
+categories. Um so that that was that was
+a shock uh a bit of a shock to me. Um
+ 
+a shock uh a bit of a shock to me. Um
+and then um and then you know around
+ 
+and then um and then you know around
+ 
+u there was uh evidence that uh first of
+ 
+u there was uh evidence that uh first of
+all self-supervised learning could be
+ 
+all self-supervised learning could be
+applied to uh um
+ 
+applied to uh um
+text essentially representing text right
+ 
+text essentially representing text right
+so turning a text into a vector to
+ 
+so turning a text into a vector to
+represent the meaning of that text that
+ 
+represent the meaning of that text that
+can be done completely self-supervised
+ 
+can be done completely self-supervised
+without any labeling
+ 
+without any labeling
+uh by essentially taking a text and then
+ 
+uh by essentially taking a text and then
+removing some of the words and then
+ 
+removing some of the words and then
+training some big neural net to predict
+ 
+training some big neural net to predict
+the words that are missing, right? Um
+ 
+the words that are missing, right? Um
+and so things like you know word tove
+ 
+and so things like you know word tove
+and fast text and things like that were
+ 
+and fast text and things like that were
+built on this idea and they were um this
+ 
+built on this idea and they were um this
+actually drew on some ideas that Ronald
+ 
+actually drew on some ideas that Ronald
+and Chzon Weston had published in the
+ 
+and Chzon Weston had published in the
+late 2000 uh where they had a paper with
+ 
+late 2000 uh where they had a paper with
+a title that that upset a lot of people
+ 
+a title that that upset a lot of people
+in natural language processing. It was
+ 
+in natural language processing. It was
+NLP almost from scratch. Okay. And the
+ 
+NLP almost from scratch. Okay. And the
+because at the time you know the NLP
+ 
+because at the time you know the NLP
+community was using like you know
+ 
+community was using like you know
+handcrafted features kind of like
+ 
+handcrafted features kind of like
+computer vision community was using
+ 
+computer vision community was using
+handcrafted features with uh classifiers
+ 
+handcrafted features with uh classifiers
+on top. And they said oh you can learn
+ 
+on top. And they said oh you can learn
+the whole thing. You just train a deep
+ 
+the whole thing. You just train a deep
+learning system, self-s supervise, take
+ 
+learning system, self-s supervise, take
+a piece of text um and then train the
+ 
+a piece of text um and then train the
+neural net to produce a high score and
+ 
+neural net to produce a high score and
+then substitute or remove the the
+ 
+then substitute or remove the the
+central word or few words and then train
+ 
+central word or few words and then train
+the neural net to give you a low score.
+ 
+the neural net to give you a low score.
+And that seems like a pretty you know
+ 
+And that seems like a pretty you know
+trivial way of uh uh training system.
+ 
+trivial way of uh uh training system.
+But they they showed that the the kind
+ 
+But they they showed that the the kind
+of representations that was learned by
+ 
+of representations that was learned by
+this uh were amazing and you had like
+ 
+this uh were amazing and you had like
+computitional properties in those
+ 
+computitional properties in those
+representations that if you took the
+ 
+representations that if you took the
+vector for you know uh Paris and you
+ 
+vector for you know uh Paris and you
+subtract the vector for France and then
+ 
+subtract the vector for France and then
+you add that to uh UK you get you get
+ 
+you add that to uh UK you get you get
+London right? I mean so there's like you
+ 
+London right? I mean so there's like you
+know algebraic properties of those
+ 
+know algebraic properties of those
+representations that were kind of pretty
+ 
+representations that were kind of pretty
+astonishing. Um so the idea that you
+ 
+astonishing. Um so the idea that you
+know self-s supervised learning could
+ 
+know self-s supervised learning could
+really kind of bring something to the
+ 
+really kind of bring something to the
+table there I think was kind of a big um
+ 
+table there I think was kind of a big um
+u sort of mind uh change of uh mindset.
+ 
+u sort of mind uh change of uh mindset.
+Uh and then and then there was
+ 
+Uh and then and then there was
+transformers of course, right? Um that
+ 
+transformers of course, right? Um that
+that um
+ 
+that um
+so so before that there was uh some
+ 
+so so before that there was uh some
+demonstration that uh you know you could
+ 
+demonstration that uh you know you could
+basically match the performance of
+ 
+basically match the performance of
+classical systems for task like
+ 
+classical systems for task like
+translation
+ 
+translation
+uh language translation using large
+ 
+uh language translation using large
+neural nets like LSTM. So this was the
+ 
+neural nets like LSTM. So this was the
+work by EDSC when he was at Google. We
+ 
+work by EDSC when he was at Google. We
+had this big you know sequencetose
+ 
+had this big you know sequencetose
+sequence model with LSTMs and some you
+ 
+sequence model with LSTMs and some you
+know gigantic model where you know you
+ 
+know gigantic model where you know you
+can train it to do um uh translation and
+ 
+can train it to do um uh translation and
+it kind of works at the same level if
+ 
+it kind of works at the same level if
+not better in some cases than the the
+ 
+not better in some cases than the the
+then class
+ 
+then class
+um translation methods. Uh and then a
+ 
+um translation methods. Uh and then a
+few months later, Yosha Venjo Mitri
+ 
+few months later, Yosha Venjo Mitri
+Badau and and Kungyun Cho, who is now a
+ 
+Badau and and Kungyun Cho, who is now a
+colleague at NYU, uh showed that you
+ 
+colleague at NYU, uh showed that you
+could change the architecture and use
+ 
+could change the architecture and use
+this attention mechanism um that they
+ 
+this attention mechanism um that they
+that they proposed uh to basically get
+ 
+that they proposed uh to basically get
+really good performance on translation
+ 
+really good performance on translation
+with much smaller models than what Ilia
+ 
+with much smaller models than what Ilia
+had been proposing. And the entire
+ 
+had been proposing. And the entire
+industry jumped on this. Uh Chris
+ 
+industry jumped on this. Uh Chris
+Manning's group at Stanford kind of you
+ 
+Manning's group at Stanford kind of you
+know used that architecture and
+ 
+know used that architecture and
+basically beat um you know won the WT
+ 
+basically beat um you know won the WT
+competition for a particular uh type of
+ 
+competition for a particular uh type of
+translation and the entire industry
+ 
+translation and the entire industry
+jumped on it. So within a few months
+ 
+jumped on it. So within a few months
+after that like you know all the big
+ 
+after that like you know all the big
+players uh in translation were using
+ 
+players uh in translation were using
+attention type architectures for
+ 
+attention type architectures for
+translation
+ 
+translation
+and that's when um the transformer paper
+ 
+and that's when um the transformer paper
+came out attention is all you need. So
+ 
+came out attention is all you need. So
+basically if you build a neural net just
+ 
+basically if you build a neural net just
+with those kind of attention circuit uh
+ 
+with those kind of attention circuit uh
+you don't need much else and it ends up
+ 
+you don't need much else and it ends up
+working super well and that's what
+ 
+working super well and that's what
+started the you know the transformer
+ 
+started the you know the transformer
+revolution uh and then after that came
+ 
+revolution uh and then after that came
+BERT that also came out of Google which
+ 
+BERT that also came out of Google which
+was this idea of using self-supervised
+ 
+was this idea of using self-supervised
+learning where I take a sequence of
+ 
+learning where I take a sequence of
+words corrupt it remove some of the
+ 
+words corrupt it remove some of the
+words and then train this big neural net
+ 
+words and then train this big neural net
+to reconstruct the words that I'm
+ 
+to reconstruct the words that I'm
+missing predict the words that I'm
+ 
+missing predict the words that I'm
+missing
+ 
+missing
+Um and again people were amazed by like
+ 
+Um and again people were amazed by like
+how how good the representations learned
+ 
+how how good the representations learned
+by the system were for all kinds of NLP
+ 
+by the system were for all kinds of NLP
+tasks and that really uh you know kind
+ 
+tasks and that really uh you know kind
+of captured the imagination of a lot of
+ 
+of captured the imagination of a lot of
+people. Um and then after that the next
+ 
+people. Um and then after that the next
+revolution was oh um actually the best
+ 
+revolution was oh um actually the best
+thing to do is you remove the encoder
+ 
+thing to do is you remove the encoder
+you just use a decoder. Um and you just
+ 
+you just use a decoder. Um and you just
+train a system you feed it a sequence
+ 
+train a system you feed it a sequence
+and you just train it to reproduce the
+ 
+and you just train it to reproduce the
+input sequence on its output. And
+ 
+input sequence on its output. And
+because the architecture of the decoder
+ 
+because the architecture of the decoder
+is strictly causal um because a
+ 
+is strictly causal um because a
+particular output is not connected to
+ 
+particular output is not connected to
+the corresponding input. It's only
+ 
+the corresponding input. It's only
+connected to the ones to the left of it.
+ 
+connected to the ones to the left of it.
+implicitly you're training the system to
+ 
+implicitly you're training the system to
+predict the next word that comes after a
+ 
+predict the next word that comes after a
+sequence of words. That's the GPT
+ 
+sequence of words. That's the GPT
+architecture that that was you know
+ 
+architecture that that was you know
+promoted by uh OpenAI and uh that turned
+ 
+promoted by uh OpenAI and uh that turned
+out to be more scalable than Burke and
+ 
+out to be more scalable than Burke and
+so in a sense that you can train
+ 
+so in a sense that you can train
+gigantic networks on enormous amounts of
+ 
+gigantic networks on enormous amounts of
+data and you get some sort of emergent
+ 
+data and you get some sort of emergent
+uh uh property and that's what gave us
+ 
+uh uh property and that's what gave us
+LLMs. Okay. So yeah, I mean a lot of
+ 
+LLMs. Okay. So yeah, I mean a lot of
+things uh has have happened there and if
+ 
+things uh has have happened there and if
+if if you want to say a few words about
+ 
+if if you want to say a few words about
+this then um you know a few key words
+ 
+this then um you know a few key words
+right self-s supervised learning
+ 
+right self-s supervised learning
+basically is the present and the future
+ 
+basically is the present and the future
+um and uh training by prediction
+ 
+um and uh training by prediction
+essentially okay
+ 
+essentially okay
+>> now with generative model you predict
+ 
+>> now with generative model you predict
+the input uh what I'm advoc advocating
+ 
+the input uh what I'm advoc advocating
+right now which we might talk about
+ 
+right now which we might talk about
+uh is that you should not do this uh in
+ 
+uh is that you should not do this uh in
+in many cases. This works for for
+ 
+in many cases. This works for for
+language. It doesn't work for anything
+ 
+language. It doesn't work for anything
+else really. Um and uh and and the fact
+ 
+else really. Um and uh and and the fact
+that we now have multiple architectural
+ 
+that we now have multiple architectural
+components that we can combine to build
+ 
+components that we can combine to build
+a deep learning system. And uh so things
+ 
+a deep learning system. And uh so things
+like you know convolutional modules and
+ 
+like you know convolutional modules and
+self attention modules and memory
+ 
+self attention modules and memory
+modules and and you know linear maps and
+ 
+modules and and you know linear maps and
+nonlinearities blah blah blah. Uh and
+ 
+nonlinearities blah blah blah. Uh and
+one big revolution I forgot which
+ 
+one big revolution I forgot which
+actually I I can't believe I forgot in
+ 
+actually I I can't believe I forgot in
+2015 is the residual network
+ 
+2015 is the residual network
+architecture ResNet. Okay, that was in
+ 
+architecture ResNet. Okay, that was in
+2015 which is a very simple idea but it
+ 
+2015 which is a very simple idea but it
+solved a huge problem which is that when
+ 
+solved a huge problem which is that when
+you stack multiple layers of a of a
+ 
+you stack multiple layers of a of a
+neural net and you train it with
+ 
+neural net and you train it with
+backdrop you get some issue that the the
+ 
+backdrop you get some issue that the the
+gradients can become mushy or they die
+ 
+gradients can become mushy or they die
+or they explode and you have a hard time
+ 
+or they explode and you have a hard time
+kind of training the system. If one of
+ 
+kind of training the system. If one of
+the layers end up like not doing
+ 
+the layers end up like not doing
+something useful, the the gradients
+ 
+something useful, the the gradients
+basically are not useful and the entire
+ 
+basically are not useful and the entire
+network kind of dies more or less,
+ 
+network kind of dies more or less,
+right? So the idea of ResNet is super
+ 
+right? So the idea of ResNet is super
+simple. You you basically have
+ 
+simple. You you basically have
+connections that kind of skip every few
+ 
+connections that kind of skip every few
+layers um without nonlinearities or
+ 
+layers um without nonlinearities or
+weights. Okay, so by default the entire
+ 
+weights. Okay, so by default the entire
+network looks like the identity function
+ 
+network looks like the identity function
+and what the the trainable part of the
+ 
+and what the the trainable part of the
+neural net computes is a deviation from
+ 
+neural net computes is a deviation from
+the identity function. Okay, and that
+ 
+the identity function. Okay, and that
+turns out that you if you do this you
+ 
+turns out that you if you do this you
+can now stack hundreds of layers um or
+ 
+can now stack hundreds of layers um or
+at least dozens of layers, right? And so
+ 
+at least dozens of layers, right? And so
+that increased the power of uh of what
+ 
+that increased the power of uh of what
+you can do with multi neural nets by a
+ 
+you can do with multi neural nets by a
+huge amount. And that paper by Camingha
+ 
+huge amount. And that paper by Camingha
+when it was the paper when it was back
+ 
+when it was the paper when it was back
+at um Microsoft research Beijing uh is
+ 
+at um Microsoft research Beijing uh is
+the most cited paper in all of science
+ 
+the most cited paper in all of science
+of the 21st century.
+ 
+of the 21st century.
+>> Well that yeah that's been an amazing
+ 
+>> Well that yeah that's been an amazing
+decade of developments and people
+ 
+decade of developments and people
+building on and coming to where we are
+ 
+building on and coming to where we are
+today. tell us about your uh current
+ 
+today. tell us about your uh current
+thoughts about
+ 
+thoughts about
+um where the field should go and where
+ 
+um where the field should go and where
+you should go next.
+ 
+you should go next.
+>> Okay. Well,
+ 
+>> Okay. Well,
+notice that in my uh history of the last
+ 
+notice that in my uh history of the last
+uh dozen years, I did not even mention
+ 
+uh dozen years, I did not even mention
+reinforcement learning.
+ 
+Okay, which uh you know might sound
+ 
+Okay, which uh you know might sound
+strange because there there have been
+ 
+strange because there there have been
+enormous success of reinforcement
+ 
+enormous success of reinforcement
+learning for you know game playing for
+ 
+learning for you know game playing for
+example, right? Uh but I've always been
+ 
+example, right? Uh but I've always been
+very critical of reinforcement learning
+ 
+very critical of reinforcement learning
+in its uh current form because it's
+ 
+in its uh current form because it's
+extremely simple inefficient and so
+ 
+extremely simple inefficient and so
+there was you know an idea you know back
+ 
+there was you know an idea you know back
+in the you know 2014 15 16 time frame uh
+ 
+in the you know 2014 15 16 time frame uh
+where you know prior to AlphaGo and and
+ 
+where you know prior to AlphaGo and and
+and right after that reinforcement
+ 
+and right after that reinforcement
+learning was the ticket to building
+ 
+learning was the ticket to building
+truly intelligent machines that they
+ 
+truly intelligent machines that they
+they were basically going to be you know
+ 
+they were basically going to be you know
+RL based uh methods
+ 
+RL based uh methods
+um
+ 
+um
+with a slight issue that reinforcement
+ 
+with a slight issue that reinforcement
+learning is incredibly inefficient in
+ 
+learning is incredibly inefficient in
+terms of samples.
+ 
+terms of samples.
+And so I never believed in the the
+ 
+And so I never believed in the the
+primacy if you want of reinforcement
+ 
+primacy if you want of reinforcement
+learning. In fact, I in 2016 I I started
+ 
+learning. In fact, I in 2016 I I started
+uh in my talk, I have this slide where I
+ 
+uh in my talk, I have this slide where I
+represent uh machine learning or
+ 
+represent uh machine learning or
+intelligence as a cake. And I say if
+ 
+intelligence as a cake. And I say if
+intelligence is a cake, the bulk of the
+ 
+intelligence is a cake, the bulk of the
+cake is self-supervised learning. This
+ 
+cake is self-supervised learning. This
+is where most most of learning is
+ 
+is where most most of learning is
+self-supervised. It's not reinforcement.
+ 
+self-supervised. It's not reinforcement.
+It's not task specific. It's just
+ 
+It's not task specific. It's just
+understand the world. Uh
+ 
+understand the world. Uh
+then there is the icing on the cake.
+ 
+then there is the icing on the cake.
+That's supervised learning, right? to
+ 
+That's supervised learning, right? to
+tell the system what output you want.
+ 
+tell the system what output you want.
+Okay? And you're giving it quite a bit
+ 
+Okay? And you're giving it quite a bit
+of information. And the cherry on the
+ 
+of information. And the cherry on the
+cake is reinforcement learning. It's so
+ 
+cake is reinforcement learning. It's so
+inefficient because the amount of
+ 
+inefficient because the amount of
+feedback that the system gets from the
+ 
+feedback that the system gets from the
+environment is extremely poor
+ 
+environment is extremely poor
+informationally. It's very weak. It's
+ 
+informationally. It's very weak. It's
+just, you know, one number basically a
+ 
+just, you know, one number basically a
+reward. And so necessarily the number of
+ 
+reward. And so necessarily the number of
+trials you're going to have to make for
+ 
+trials you're going to have to make for
+this to work is going to be very large.
+ 
+this to work is going to be very large.
+And so the result is that this will only
+ 
+And so the result is that this will only
+work in virtual environments or games
+ 
+work in virtual environments or games
+where the number of possible actions is
+ 
+where the number of possible actions is
+relatively small. And you can combine
+ 
+relatively small. And you can combine
+this with search, you know, tree search
+ 
+this with search, you know, tree search
+like multicolor tree search. Um, and
+ 
+like multicolor tree search. Um, and
+then you can use reinforcement learning
+ 
+then you can use reinforcement learning
+to fine-tune the system, have it play,
+ 
+to fine-tune the system, have it play,
+you know, millions of games against
+ 
+you know, millions of games against
+itself. And that's really what happened
+ 
+itself. And that's really what happened
+with, you know, uh, chess and go and,
+ 
+with, you know, uh, chess and go and,
+um, everything, you know, all all of the
+ 
+um, everything, you know, all all of the
+all of the games. But it doesn't work in
+ 
+all of the games. But it doesn't work in
+the real world. is it's just not
+ 
+the real world. is it's just not
+efficient enough. Uh so the the few
+ 
+efficient enough. Uh so the the few
+success that we we're seeing in uh
+ 
+success that we we're seeing in uh
+robotics uh using reinforcement learning
+ 
+robotics uh using reinforcement learning
+are based on simulation where you train
+ 
+are based on simulation where you train
+the system in simulation. Uh and then
+ 
+the system in simulation. Uh and then
+you do kind of a transfer from
+ 
+you do kind of a transfer from
+simulation to to the real world and with
+ 
+simulation to to the real world and with
+a little bit of adjustment that this
+ 
+a little bit of adjustment that this
+works right with imitation learning and
+ 
+works right with imitation learning and
+things like that. Um but it's not
+ 
+things like that. Um but it's not
+entirely satisfactory because it doesn't
+ 
+entirely satisfactory because it doesn't
+explain how humans and animals can learn
+ 
+explain how humans and animals can learn
+so quickly, right? So that's the
+ 
+so quickly, right? So that's the
+question that's been I've been obsessed
+ 
+question that's been I've been obsessed
+with which is like what is it that you
+ 
+with which is like what is it that you
+know lets uh human baby to learn
+ 
+know lets uh human baby to learn
+intuitive physics in a few months and
+ 
+intuitive physics in a few months and
+and and you know that's human babies
+ 
+and and you know that's human babies
+like animals learn this much faster. Um
+ 
+like animals learn this much faster. Um
+and uh what is it that you know would
+ 
+and uh what is it that you know would
+allow a young human child to accomplish
+ 
+allow a young human child to accomplish
+a task without being trained to
+ 
+a task without being trained to
+accomplish that task? Just the first
+ 
+accomplish that task? Just the first
+time you ask a 10-year-old to, you know,
+ 
+time you ask a 10-year-old to, you know,
+clear out the dinner table and fill up
+ 
+clear out the dinner table and fill up
+the dishwasher, they can do it. They
+ 
+the dishwasher, they can do it. They
+don't need to be taught to do it, right?
+ 
+don't need to be taught to do it, right?
+It's something they can just uh uh
+ 
+It's something they can just uh uh
+figure out on their own. Um how is it
+ 
+figure out on their own. Um how is it
+that, you know, a 17-year-old can learn
+ 
+that, you know, a 17-year-old can learn
+to drive in about 20 hours of practice
+ 
+to drive in about 20 hours of practice
+when we still don't have self-driving
+ 
+when we still don't have self-driving
+cars despite the fact that we have
+ 
+cars despite the fact that we have
+millions of hours of training data of
+ 
+millions of hours of training data of
+expert drivers driving cars, right? Um
+ 
+expert drivers driving cars, right? Um
+and so um we certainly don't have AI
+ 
+and so um we certainly don't have AI
+systems that can learn to drive in 20
+ 
+systems that can learn to drive in 20
+hours of practice. So what's what is
+ 
+hours of practice. So what's what is
+missing there? That's the question I've
+ 
+missing there? That's the question I've
+been obsessed with for the last you know
+ 
+been obsessed with for the last you know
+10 years roughly. Um and basically
+ 
+10 years roughly. Um and basically
+developing a an approach to to that and
+ 
+developing a an approach to to that and
+I've I've converged on this idea of
+ 
+I've I've converged on this idea of
+world model right which is not a new
+ 
+world model right which is not a new
+idea like people have been using the
+ 
+idea like people have been using the
+concept of well model for for decades in
+ 
+concept of well model for for decades in
+optimal control for example. So it's the
+ 
+optimal control for example. So it's the
+idea that if you have some idea of the
+ 
+idea that if you have some idea of the
+state of the world and if you have an
+ 
+state of the world and if you have an
+action that you imagine taking, can you
+ 
+action that you imagine taking, can you
+predict the outcome of that action on
+ 
+predict the outcome of that action on
+the state of the world? Right? So that's
+ 
+the state of the world? Right? So that's
+a a world model, a model of the
+ 
+a a world model, a model of the
+environment that the system operates in.
+ 
+environment that the system operates in.
+And so if you have this model, you can
+ 
+And so if you have this model, you can
+you know from the current state of the
+ 
+you know from the current state of the
+world, you can have the system predict
+ 
+world, you can have the system predict
+what the result or the outcome of taking
+ 
+what the result or the outcome of taking
+a result of a sequence of actions will
+ 
+a result of a sequence of actions will
+be. You can compare this with a goal
+ 
+be. You can compare this with a goal
+um which would characterize whether a
+ 
+um which would characterize whether a
+task has been accomplished and then
+ 
+task has been accomplished and then
+through planning you can figure out a
+ 
+through planning you can figure out a
+sequence of actions that will minimize
+ 
+sequence of actions that will minimize
+that cost function that distance to the
+ 
+that cost function that distance to the
+goal of the of the predicted final
+ 
+goal of the of the predicted final
+state. Okay, this is how planning has
+ 
+state. Okay, this is how planning has
+worked in you know in optimal control
+ 
+worked in you know in optimal control
+and AI for for seven decades. Um so I
+ 
+and AI for for seven decades. Um so I
+think that idea is very powerful and was
+ 
+think that idea is very powerful and was
+somewhat obscured or or ignored by the
+ 
+somewhat obscured or or ignored by the
+reinforcement learning community. The
+ 
+reinforcement learning community. The
+fact that you don't need to learn a
+ 
+fact that you don't need to learn a
+policy, you need to learn a world model
+ 
+policy, you need to learn a world model
+and then you can use this world model
+ 
+and then you can use this world model
+for planning. Um and that to some extent
+ 
+for planning. Um and that to some extent
+is kind of going back to ideas in
+ 
+is kind of going back to ideas in
+classical AI because in classical AI,
+ 
+classical AI because in classical AI,
+you know, planning and search is
+ 
+you know, planning and search is
+basically, you know, a super central
+ 
+basically, you know, a super central
+concept, right? There's a lot of work on
+ 
+concept, right? There's a lot of work on
+this in
+ 
+this in
+classical AI and certainly in optimal
+ 
+classical AI and certainly in optimal
+control in motion, you know, motion
+ 
+control in motion, you know, motion
+planning in in robotics and things like
+ 
+planning in in robotics and things like
+that. So, so I'm saying essentially use
+ 
+that. So, so I'm saying essentially use
+this concept model predictive control,
+ 
+this concept model predictive control,
+right? NPC, but with a model that is
+ 
+right? NPC, but with a model that is
+learned from data and possibly a
+ 
+learned from data and possibly a
+hierarchical model. You can do
+ 
+hierarchical model. You can do
+hierarchical planning. That's basically
+ 
+hierarchical planning. That's basically
+the program I've been pursuing for the
+ 
+the program I've been pursuing for the
+last 10 years. uh myself at NYU and at
+ 
+last 10 years. uh myself at NYU and at
+MEA and we've been making some really
+ 
+MEA and we've been making some really
+fast progress over the last three years.
+ 
+fast progress over the last three years.
+So I'm really happy about this.
+ 
+So I'm really happy about this.
+>> I I agree that's very interesting
+ 
+>> I I agree that's very interesting
+direction. We could have a long
+ 
+direction. We could have a long
+conversation, but we're near the end of
+ 
+conversation, but we're near the end of
+our time here. Let me just ask one
+ 
+our time here. Let me just ask one
+question. It's always seemed to me one
+ 
+question. It's always seemed to me one
+of the interesting questions about world
+ 
+of the interesting questions about world
+model learning has to do with the clock,
+ 
+model learning has to do with the clock,
+the time. How do you deal with time? So,
+ 
+the time. How do you deal with time? So,
+if I have something in my hand
+ 
+if I have something in my hand
+and I take the action of letting go of
+ 
+and I take the action of letting go of
+it,
+ 
+it,
+um how do you describe the result? What
+ 
+um how do you describe the result? What
+is it a millisecond later? Is it when
+ 
+is it a millisecond later? Is it when
+the world stabilizes and reaches steady
+ 
+the world stabilizes and reaches steady
+state? Um
+ 
+state? Um
+>> right.
+ 
+>> right.
+>> What's your quick take on that that
+ 
+>> What's your quick take on that that
+question? So my quick take on this is
+ 
+question? So my quick take on this is
+that the solution to this uh uh question
+ 
+that the solution to this uh uh question
+is is is in hierarchy and again it's the
+ 
+is is is in hierarchy and again it's the
+same concept as as deep learning in the
+ 
+same concept as as deep learning in the
+first place. So, so we can make
+ 
+first place. So, so we can make
+predictions like as humans, we can make
+ 
+predictions like as humans, we can make
+predictions about the the state of the
+ 
+predictions about the the state of the
+world that are extremely accurate only
+ 
+world that are extremely accurate only
+if they are short-term, right? So, if
+ 
+if they are short-term, right? So, if
+you make a short-term prediction of, you
+ 
+you make a short-term prediction of, you
+know, I throw a ball at you and you can
+ 
+know, I throw a ball at you and you can
+you can predict where the ball is is
+ 
+you can predict where the ball is is
+going next and you can position yourself
+ 
+going next and you can position yourself
+to grab it or whatever, right? This is
+ 
+to grab it or whatever, right? This is
+relatively short term, uh, but it's
+ 
+relatively short term, uh, but it's
+relatively accurate.
+ 
+relatively accurate.
+um to make long-term prediction
+ 
+um to make long-term prediction
+you cannot be that accurate right and so
+ 
+you cannot be that accurate right and so
+uh you have to have a representation of
+ 
+uh you have to have a representation of
+the state of the world that is more
+ 
+the state of the world that is more
+abstract the longer term a prediction
+ 
+abstract the longer term a prediction
+you're trying to make the more abstract
+ 
+you're trying to make the more abstract
+the representation within which you make
+ 
+the representation within which you make
+the prediction needs to be and that
+ 
+the prediction needs to be and that
+suggests a whole architectural concept
+ 
+suggests a whole architectural concept
+that I've been pushing for a number of
+ 
+that I've been pushing for a number of
+years called called Jeppa so what that
+ 
+years called called Jeppa so what that
+means is joint embedding predictive
+ 
+means is joint embedding predictive
+architecture and this this idea that if
+ 
+architecture and this this idea that if
+you have a system that you observes
+ 
+you have a system that you observes
+u sensor data be it video um you know
+ 
+u sensor data be it video um you know
+other sensor data highdimensional
+ 
+other sensor data highdimensional
+continuous possibly noisy if you want to
+ 
+continuous possibly noisy if you want to
+make predictions you cannot possibly
+ 
+make predictions you cannot possibly
+predict every detail about the data. So
+ 
+predict every detail about the data. So
+the idea that you could you're going to
+ 
+the idea that you could you're going to
+use a generative model of the type that
+ 
+use a generative model of the type that
+people use for language to predict
+ 
+people use for language to predict
+what's going to happen in a video for
+ 
+what's going to happen in a video for
+example is is nuts and and it doesn't
+ 
+example is is nuts and and it doesn't
+work. Like we've tried this many times
+ 
+work. Like we've tried this many times
+with many different techniques. Um but
+ 
+with many different techniques. Um but
+it's also useless because you don't need
+ 
+it's also useless because you don't need
+to predict every details of of what goes
+ 
+to predict every details of of what goes
+on in the video. What you need to do is
+ 
+on in the video. What you need to do is
+predict as much uh like retain as much
+ 
+predict as much uh like retain as much
+information as possible in some abstract
+ 
+information as possible in some abstract
+representation space so that you
+ 
+representation space so that you
+characterize as much as you can what
+ 
+characterize as much as you can what
+goes on uh but yet you can actually
+ 
+goes on uh but yet you can actually
+predict what goes on right so there's a
+ 
+predict what goes on right so there's a
+lot of things like you know imagine
+ 
+lot of things like you know imagine
+you're driving you know on the road in
+ 
+you're driving you know on the road in
+the countryside and there is you know
+ 
+the countryside and there is you know
+trees around right uh everything you
+ 
+trees around right uh everything you
+care about is is basically what the
+ 
+care about is is basically what the
+other cars are doing and whether there's
+ 
+other cars are doing and whether there's
+a pedestrian that's going to cross the
+ 
+a pedestrian that's going to cross the
+street and and various other things like
+ 
+street and and various other things like
+this. Maybe you know interesting things
+ 
+this. Maybe you know interesting things
+in the in the landscape. But like
+ 
+in the in the landscape. But like
+there's going to be like you know random
+ 
+there's going to be like you know random
+motion of the leaves on the trees
+ 
+motion of the leaves on the trees
+because there is wind and maybe there is
+ 
+because there is wind and maybe there is
+a pond behind the trees and there is
+ 
+a pond behind the trees and there is
+ripples on it and there's no way you can
+ 
+ripples on it and there's no way you can
+predict this at the pixel level and
+ 
+predict this at the pixel level and
+there's no way you can you want to
+ 
+there's no way you can you want to
+devote any resources to actually doing
+ 
+devote any resources to actually doing
+this right. Um so what you need to do is
+ 
+this right. Um so what you need to do is
+you know figure out an abstract
+ 
+you know figure out an abstract
+representation
+ 
+representation
+uh of the world of the state of the
+ 
+uh of the world of the state of the
+world within for for which you can make
+ 
+world within for for which you can make
+predictions and we do this absolutely
+ 
+predictions and we do this absolutely
+all the time in in science okay and I
+ 
+all the time in in science okay and I
+mean I think it's at the root of
+ 
+mean I think it's at the root of
+intelligence really but but I think you
+ 
+intelligence really but but I think you
+know we do this all the time in science
+ 
+know we do this all the time in science
+like you know I could describe
+ 
+like you know I could describe
+everything that takes place between us
+ 
+everything that takes place between us
+right now in terms of you know quantum
+ 
+right now in terms of you know quantum
+field theory or something okay uh we
+ 
+field theory or something okay uh we
+need to we would need to know the wave
+ 
+need to we would need to know the wave
+function of the universe, you know, that
+ 
+function of the universe, you know, that
+contains New Jersey and and and
+ 
+contains New Jersey and and and
+Pittsburgh um to be able to make that
+ 
+Pittsburgh um to be able to make that
+prediction and have some gigantically
+ 
+prediction and have some gigantically
+large quantum computer to be able to
+ 
+large quantum computer to be able to
+make that prediction. So, of course,
+ 
+make that prediction. So, of course,
+it's completely impractical. What do we
+ 
+it's completely impractical. What do we
+do? We invent abstractions,
+ 
+do? We invent abstractions,
+right? Particles,
+ 
+right? Particles,
+uh atoms, molecules. In the living
+ 
+uh atoms, molecules. In the living
+world, it would be proteins, organels,
+ 
+world, it would be proteins, organels,
+cells, organs, organisms,
+ 
+cells, organs, organisms,
+ecosystems,
+ 
+ecosystems,
+societies, right? And all of those
+ 
+societies, right? And all of those
+levels of description, you know, as you
+ 
+levels of description, you know, as you
+go up the ladder, they're more and more
+ 
+go up the ladder, they're more and more
+abstract. There is less and less details
+ 
+abstract. There is less and less details
+about the underlying uh dynamics, but
+ 
+about the underlying uh dynamics, but
+that is precisely what allows you to
+ 
+that is precisely what allows you to
+make predictions. like you know uh there
+ 
+make predictions. like you know uh there
+is you know some description of what is
+ 
+is you know some description of what is
+taking place between us right now in
+ 
+taking place between us right now in
+terms of you know human psychology
+ 
+terms of you know human psychology
+which in principle can be reduced to
+ 
+which in principle can be reduced to
+quantum field theory but we don't do
+ 
+quantum field theory but we don't do
+this that's crazy right uh and and if we
+ 
+this that's crazy right uh and and if we
+were to use quantum field theory we
+ 
+were to use quantum field theory we
+would only be able to make predictions
+ 
+would only be able to make predictions
+that are extremely short term um whereas
+ 
+that are extremely short term um whereas
+with psychology maybe we can you know
+ 
+with psychology maybe we can you know
+have some prediction about you know our
+ 
+have some prediction about you know our
+state of mind tomorrow or thing right so
+ 
+state of mind tomorrow or thing right so
+uh so this idea that you have to learn
+ 
+uh so this idea that you have to learn
+abstract representation to make
+ 
+abstract representation to make
+prediction is absolutely fundamental and
+ 
+prediction is absolutely fundamental and
+so that's the idea behind this Jeppa
+ 
+so that's the idea behind this Jeppa
+architecture
+ 
+architecture
+>> um learn a representation make
+ 
+>> um learn a representation make
+predictions in representation space and
+ 
+predictions in representation space and
+what that also allows you is to learn
+ 
+what that also allows you is to learn
+world models because now what you can do
+ 
+world models because now what you can do
+is now that you have a representation
+ 
+is now that you have a representation
+for the state of the world and a way to
+ 
+for the state of the world and a way to
+predict what's the next state of the
+ 
+predict what's the next state of the
+world is going to be perhaps you can
+ 
+world is going to be perhaps you can
+condition this on an action that you
+ 
+condition this on an action that you
+imagine taking or an intervention you
+ 
+imagine taking or an intervention you
+are doing on the on the environment on
+ 
+are doing on the on the environment on
+the system that you are considering. So
+ 
+the system that you are considering. So
+now you have a causal model right state
+ 
+now you have a causal model right state
+of the world action next state of the
+ 
+of the world action next state of the
+world. Now I can do planning. Okay. So
+ 
+world. Now I can do planning. Okay. So
+if I can train those JPA architectures
+ 
+if I can train those JPA architectures
+uh action conditions and I can come up
+ 
+uh action conditions and I can come up
+with some planning procedure. I can
+ 
+with some planning procedure. I can
+train a hierarchical version of this JPA
+ 
+train a hierarchical version of this JPA
+that builds more and more abstract
+ 
+that builds more and more abstract
+representations of the world. I can do
+ 
+representations of the world. I can do
+hierarchical planning. So that's
+ 
+hierarchical planning. So that's
+basically what I'm my research program
+ 
+basically what I'm my research program
+for the next uh you know until my brain
+ 
+for the next uh you know until my brain
+turns to mushy.
+ 
+>> Okay. Well um looking forward to some of
+ 
+>> Okay. Well um looking forward to some of
+that. It's it's been great to have a
+ 
+that. It's it's been great to have a
+chance to hear both your your history
+ 
+chance to hear both your your history
+and how you got to this point but also
+ 
+and how you got to this point but also
+uh what you think are some of the
+ 
+uh what you think are some of the
+interesting things to be working on
+ 
+interesting things to be working on
+today. Yan Lun, thank you so much for
+ 
+today. Yan Lun, thank you so much for
+sharing with us.
+ 
+sharing with us.
+>> Thank you, Tom. That was a real
+ 
+>> Thank you, Tom. That was a real
+pleasure.

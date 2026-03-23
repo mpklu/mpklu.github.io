@@ -1,0 +1,3848 @@
+---
+title: "LLMs Are A Dead End: Exclusive Interview With Yann LeCun"
+url: "https://www.youtube.com/watch?v=XnnnAx5lrx8"
+channel: "This Is The World"
+date: "2026-03-11"
+duration: "0:51:10"
+source_type: "interview"
+person: "Yann LeCun"
+---
+
+So currently AI systems are in many ways
+ 
+So currently AI systems are in many ways
+very stupid. That model does not work if
+ 
+very stupid. That model does not work if
+you want a system to understand the
+ 
+you want a system to understand the
+physical world and what we're missing is
+ 
+physical world and what we're missing is
+>> Yan Lun is one of the fathers of
+ 
+>> Yan Lun is one of the fathers of
+artificial intelligence and today he
+ 
+artificial intelligence and today he
+announced the closing of the largest
+ 
+announced the closing of the largest
+seed funding round in Europe's history.
+ 
+seed funding round in Europe's history.
+>> So one of the things that my colleagues
+ 
+>> So one of the things that my colleagues
+and I have been working on is designing
+ 
+and I have been working on is designing
+a new type of AI systems. His new
+ 
+a new type of AI systems. His new
+startup AMI has raised over€1 billion
+ 
+startup AMI has raised over€1 billion
+euros in funding opening a new path for
+ 
+euros in funding opening a new path for
+the development of artificial
+ 
+the development of artificial
+intelligence
+ 
+intelligence
+>> that would be capable of understanding
+ 
+>> that would be capable of understanding
+physical world have physicist memory be
+ 
+physical world have physicist memory be
+able to reason and plan those system
+ 
+able to reason and plan those system
+will have emotions
+ 
+will have emotions
+>> you said machine learning sucks
+ 
+>> you said machine learning sucks
+>> the reason why we can't find a good
+ 
+>> the reason why we can't find a good
+definition of consciousness is because
+ 
+definition of consciousness is because
+we're not asking the right question
+ 
+we're not asking the right question
+>> believing that LLMs are a dead end he
+ 
+>> believing that LLMs are a dead end he
+wants to create a new digital world
+ 
+wants to create a new digital world
+model giving robots the ability to
+ 
+model giving robots the ability to
+understand multiple dimensions of
+ 
+understand multiple dimensions of
+reality.
+ 
+reality.
+>> Musk said that Tesla would reach five
+ 
+>> Musk said that Tesla would reach five
+level autonomy within next 5 years.
+ 
+level autonomy within next 5 years.
+>> He's been saying this for the last 8
+ 
+>> He's been saying this for the last 8
+years.
+ 
+years.
+>> What made your work with Jeffrey Hinton,
+ 
+>> What made your work with Jeffrey Hinton,
+your deep learning work such game
+ 
+your deep learning work such game
+changer?
+ 
+changer?
+>> So you're probably referring to a paper
+ 
+>> So you're probably referring to a paper
+that Jeffer and I published in Nature in
+ 
+that Jeffer and I published in Nature in
+2015. And this was uh this was not new
+ 
+2015. And this was uh this was not new
+work. It was basically
+ 
+work. It was basically
+u a bit of a manifesto if you want or a
+ 
+u a bit of a manifesto if you want or a
+a review paper to to tell the wide uh
+ 
+a review paper to to tell the wide uh
+community of science and and researchers
+ 
+community of science and and researchers
+there is this new set of techniques that
+ 
+there is this new set of techniques that
+work really well. Here is a list of
+ 
+work really well. Here is a list of
+things where it works well. Here is
+ 
+things where it works well. Here is
+where the future is going. And so it
+ 
+where the future is going. And so it
+sort of marked the sort of public
+ 
+sort of marked the sort of public
+beginning if you want popularization of
+ 
+beginning if you want popularization of
+deep learning. But there was no new
+ 
+deep learning. But there was no new
+result in that paper really. the the new
+ 
+result in that paper really. the the new
+results um and most of the other
+ 
+results um and most of the other
+citations go uh go go back to the work
+ 
+citations go uh go go back to the work
+that I did in the 1980s and 90s.
+ 
+that I did in the 1980s and 90s.
+>> Do you remember the moment when that
+ 
+>> Do you remember the moment when that
+popularity was beginning?
+ 
+popularity was beginning?
+>> There were there were two waves really.
+ 
+>> There were there were two waves really.
+It happened twice. So the first the
+ 
+It happened twice. So the first the
+first one was in the late 80s when we
+ 
+first one was in the late 80s when we
+started to have really good results um
+ 
+started to have really good results um
+using multi-layer neural networks. So we
+ 
+using multi-layer neural networks. So we
+now call this deep learning uh for for
+ 
+now call this deep learning uh for for
+task like uh like image recognition. At
+ 
+task like uh like image recognition. At
+the time we could not recognize complex
+ 
+the time we could not recognize complex
+images. It was more like simple images
+ 
+images. It was more like simple images
+like like handwritten characters and
+ 
+like like handwritten characters and
+things like this. But this was working
+ 
+things like this. But this was working
+really well. Um and um and I was really
+ 
+really well. Um and um and I was really
+excited at the time when we started
+ 
+excited at the time when we started
+getting those results because I thought
+ 
+getting those results because I thought
+this may completely change the way we do
+ 
+this may completely change the way we do
+uh pattern recognition and eventually
+ 
+uh pattern recognition and eventually
+computer vision and perhaps uh AI more
+ 
+computer vision and perhaps uh AI more
+generally. Um and so there was a wave of
+ 
+generally. Um and so there was a wave of
+excitement uh between the late 80s and
+ 
+excitement uh between the late 80s and
+mid 90s and then the interest kind of
+ 
+mid 90s and then the interest kind of
+disappeared in the mid90s is because the
+ 
+disappeared in the mid90s is because the
+the techniques that we had developed
+ 
+the techniques that we had developed
+required a lot of data for training and
+ 
+required a lot of data for training and
+we could only get good data. This was
+ 
+we could only get good data. This was
+before the internet. So we could only
+ 
+before the internet. So we could only
+get good data for you know a few
+ 
+get good data for you know a few
+applications things like uh like like
+ 
+applications things like uh like like
+you know handwriting recognition,
+ 
+you know handwriting recognition,
+character recognition and speech
+ 
+character recognition and speech
+recognition but that was about it.
+ 
+recognition but that was about it.
+um and it required computers that were
+ 
+um and it required computers that were
+at the time really expensive and it was
+ 
+at the time really expensive and it was
+a big investment. So interest in this
+ 
+a big investment. So interest in this
+kind of disappeared in the mid90s
+ 
+kind of disappeared in the mid90s
+um and and then
+ 
+um and and then
+interest sort of went up again slowly in
+ 
+interest sort of went up again slowly in
+the in the 2000s the late 2000s and it
+ 
+the in the 2000s the late 2000s and it
+totally exploded around 2013. So in 2013
+ 
+totally exploded around 2013. So in 2013
+is really the key year where the the
+ 
+is really the key year where the the
+research world realized that deep
+ 
+research world realized that deep
+learning really worked well and could be
+ 
+learning really worked well and could be
+applicable to a lot of different uh
+ 
+applicable to a lot of different uh
+different things. Um and and you know
+ 
+different things. Um and and you know
+has been kind of growing really really
+ 
+has been kind of growing really really
+quickly since then and you know 2015 was
+ 
+quickly since then and you know 2015 was
+another uh turning point.
+ 
+another uh turning point.
+>> We push AI to match their human
+ 
+>> We push AI to match their human
+capabilities today. Will we pick up the
+ 
+capabilities today. Will we pick up the
+human flow?
+ 
+human flow?
+>> No, I think uh so currently AI systems
+ 
+>> No, I think uh so currently AI systems
+are in many ways very stupid. Um
+ 
+are in many ways very stupid. Um
+we are fooled into thinking they are
+ 
+we are fooled into thinking they are
+smart because they can manipulate
+ 
+smart because they can manipulate
+language very well. Uh but they can't
+ 
+language very well. Uh but they can't
+they don't understand the physical
+ 
+they don't understand the physical
+world. They don't really have any
+ 
+world. They don't really have any
+persistent memory of the type that we
+ 
+persistent memory of the type that we
+have. they can't really reason and they
+ 
+have. they can't really reason and they
+can't plan and those are essential
+ 
+can't plan and those are essential
+characteristics of uh intelligent
+ 
+characteristics of uh intelligent
+behavior. So one of the things that my
+ 
+behavior. So one of the things that my
+colleagues and I have been working on uh
+ 
+colleagues and I have been working on uh
+at fair and at NYU actually is uh
+ 
+at fair and at NYU actually is uh
+designing a new type of AI system still
+ 
+designing a new type of AI system still
+based on deep learning um that would be
+ 
+based on deep learning um that would be
+capable of understanding physical world
+ 
+capable of understanding physical world
+have persistent memory be able to reason
+ 
+have persistent memory be able to reason
+and plan and in my opinion once we
+ 
+and plan and in my opinion once we
+succeed in in you know building those
+ 
+succeed in in you know building those
+systems around this blueprint those
+ 
+systems around this blueprint those
+system will have emotions so they'll
+ 
+system will have emotions so they'll
+have
+ 
+have
+emot emotions like uh maybe uh fear or
+ 
+emot emotions like uh maybe uh fear or
+excitement or elation uh because those
+ 
+excitement or elation uh because those
+are anticipations of outcome. Those
+ 
+are anticipations of outcome. Those
+systems will basically work by having a
+ 
+systems will basically work by having a
+goal that we set them to fulfill. We'll
+ 
+goal that we set them to fulfill. We'll
+we'll give them goals to accomplish and
+ 
+we'll give them goals to accomplish and
+then they will try to figure out what
+ 
+then they will try to figure out what
+kind of actions can I take so that I
+ 
+kind of actions can I take so that I
+fulfill that goal. If they can predict
+ 
+fulfill that goal. If they can predict
+in advance that this goal will be
+ 
+in advance that this goal will be
+fulfilled, it will kind of make them
+ 
+fulfilled, it will kind of make them
+happy if you won't. Okay? Or if they
+ 
+happy if you won't. Okay? Or if they
+predict that they can't, it will, you
+ 
+predict that they can't, it will, you
+know, not make them happy. So to some
+ 
+know, not make them happy. So to some
+extent, they will have emotions because
+ 
+extent, they will have emotions because
+they'll be able to anticipate the the
+ 
+they'll be able to anticipate the the
+outcome of a sequence of actions they
+ 
+outcome of a sequence of actions they
+might take. uh but we will not hardwire
+ 
+might take. uh but we will not hardwire
+into them anything like anger or uh you
+ 
+into them anything like anger or uh you
+know or jealousy or or anything like
+ 
+know or jealousy or or anything like
+that because
+ 
+that because
+>> consciousness is something else. We
+ 
+>> consciousness is something else. We
+don't know what it is really. Uh there's
+ 
+don't know what it is really. Uh there's
+no
+ 
+no
+>> there's no definition
+ 
+>> there's no definition
+>> there's no definition of it. There's no
+ 
+>> there's no definition of it. There's no
+kind of measurable thing really that can
+ 
+kind of measurable thing really that can
+tell us where you know whether something
+ 
+tell us where you know whether something
+is consciousness or not. Like even you
+ 
+is consciousness or not. Like even you
+know if we observe like you know animals
+ 
+know if we observe like you know animals
+um so we we would probably all agree
+ 
+um so we we would probably all agree
+that uh you know apes and monkeys are
+ 
+that uh you know apes and monkeys are
+conscious and maybe elephants and maybe
+ 
+conscious and maybe elephants and maybe
+you know animals of that type
+ 
+you know animals of that type
+>> that's what Roger Penro said in our
+ 
+>> that's what Roger Penro said in our
+interview
+ 
+interview
+>> but like you know is a dog conscious is
+ 
+>> but like you know is a dog conscious is
+a is a rat conscious
+ 
+a is a rat conscious
+where is the barrier like because we
+ 
+where is the barrier like because we
+don't have a good definition for it we
+ 
+don't have a good definition for it we
+really can't tell
+ 
+really can't tell
+>> um you said machine learning sucks
+ 
+>> um you said machine learning sucks
+um
+ 
+um
+>> was something changed.
+ 
+>> was something changed.
+>> Uh that's what we're working on.
+ 
+>> Uh that's what we're working on.
+>> When you look at AI development today,
+ 
+>> When you look at AI development today,
+>> well, we we're working towards uh you
+ 
+>> well, we we're working towards uh you
+know new ways of building machine
+ 
+know new ways of building machine
+learning systems so that they can learn
+ 
+learning systems so that they can learn
+as efficiently as humans and animals.
+ 
+as efficiently as humans and animals.
+Uh because currently it's not the case.
+ 
+Uh because currently it's not the case.
+Okay. Um and I I can I can tell you a
+ 
+Okay. Um and I I can I can tell you a
+little bit of the history of how machine
+ 
+little bit of the history of how machine
+learning has progressed over over the
+ 
+learning has progressed over over the
+last uh couple decades. So there's
+ 
+last uh couple decades. So there's
+really three paradigms of machine
+ 
+really three paradigms of machine
+learning. One is is called supervised
+ 
+learning. One is is called supervised
+learning which is the most classical
+ 
+learning which is the most classical
+one. And so the way you train a
+ 
+one. And so the way you train a
+supervised learning system is that let's
+ 
+supervised learning system is that let's
+say an image a system that is meant to
+ 
+say an image a system that is meant to
+recognize images. You show it a picture
+ 
+recognize images. You show it a picture
+let's say of a table and you tell it
+ 
+let's say of a table and you tell it
+this is a table. Okay. Okay, so it's
+ 
+this is a table. Okay. Okay, so it's
+supervised because you tell it what the
+ 
+supervised because you tell it what the
+correct answer is. The system computes
+ 
+correct answer is. The system computes
+its output and if it says something else
+ 
+its output and if it says something else
+than table, then it's going to adjust
+ 
+than table, then it's going to adjust
+its parameters, its internal structure
+ 
+its parameters, its internal structure
+so that the output it produces gets
+ 
+so that the output it produces gets
+closer to the output you want. Okay? And
+ 
+closer to the output you want. Okay? And
+if you keep doing this with lots of
+ 
+if you keep doing this with lots of
+examples of tables and chairs and cars
+ 
+examples of tables and chairs and cars
+and and you know cats and dogs,
+ 
+and and you know cats and dogs,
+eventually the system will find a way to
+ 
+eventually the system will find a way to
+recognize every image you train it on,
+ 
+recognize every image you train it on,
+but also images it's never seen that are
+ 
+but also images it's never seen that are
+similar to the one you train it on.
+ 
+similar to the one you train it on.
+Okay, this is called a generalization
+ 
+Okay, this is called a generalization
+ability. There's another paradigm
+ 
+ability. There's another paradigm
+uh which people thought was closer to
+ 
+uh which people thought was closer to
+the way animals and humans learn called
+ 
+the way animals and humans learn called
+reinforcement learning. So in
+ 
+reinforcement learning. So in
+reinforcement learning, you don't tell
+ 
+reinforcement learning, you don't tell
+the system what the correct answer is.
+ 
+the system what the correct answer is.
+You only tell it whether the answer it
+ 
+You only tell it whether the answer it
+produced was good or bad.
+ 
+produced was good or bad.
+And to some extent that can explain some
+ 
+And to some extent that can explain some
+type of human and animal learning. You
+ 
+type of human and animal learning. You
+know, you you try to ride a bike and you
+ 
+know, you you try to ride a bike and you
+don't know how to ride the bike and
+ 
+don't know how to ride the bike and
+after a while you fall. So you know you
+ 
+after a while you fall. So you know you
+did something bad and so you change your
+ 
+did something bad and so you change your
+strategy a little bit, right? And
+ 
+strategy a little bit, right? And
+eventually you learn how to ride a bike.
+ 
+eventually you learn how to ride a bike.
+Um, now it turns out reinforcement
+ 
+Um, now it turns out reinforcement
+learning is extremely inefficient. It
+ 
+learning is extremely inefficient. It
+works really well if you want to train a
+ 
+works really well if you want to train a
+system to play chess or play go or poker
+ 
+system to play chess or play go or poker
+or something like that. Um, because you
+ 
+or something like that. Um, because you
+can have the system play millions and
+ 
+can have the system play millions and
+millions of games against itself and
+ 
+millions of games against itself and
+basically fine-tune itself.
+ 
+basically fine-tune itself.
+Uh, but it doesn't really work in the
+ 
+Uh, but it doesn't really work in the
+real world. If you want to train a car
+ 
+real world. If you want to train a car
+to drive itself, you're not going to do
+ 
+to drive itself, you're not going to do
+it with reinforcement learning. It's
+ 
+it with reinforcement learning. It's
+going to crash thousands of times. uh if
+ 
+going to crash thousands of times. uh if
+you to train a robot to learn how to
+ 
+you to train a robot to learn how to
+grab things, reinforcement learning can
+ 
+grab things, reinforcement learning can
+be part of the solution, but it's not
+ 
+be part of the solution, but it's not
+the complete answer. It's not
+ 
+the complete answer. It's not
+sufficient. So there is a third form of
+ 
+sufficient. So there is a third form of
+learning called self-supervised
+ 
+learning called self-supervised
+learning. And this is what has enabled
+ 
+learning. And this is what has enabled
+uh the recent progress in natural
+ 
+uh the recent progress in natural
+language understanding and chatbots.
+ 
+language understanding and chatbots.
+Um and in self-supervised learning, you
+ 
+Um and in self-supervised learning, you
+you don't train the system to accomplish
+ 
+you don't train the system to accomplish
+any particular task. you just train it
+ 
+any particular task. you just train it
+to basically capture the structure of
+ 
+to basically capture the structure of
+its of its input. So the way this is
+ 
+its of its input. So the way this is
+used for um for text for example for
+ 
+used for um for text for example for
+language is that you take a piece of
+ 
+language is that you take a piece of
+text you corrupt it in some way by for
+ 
+text you corrupt it in some way by for
+example removing some words and then you
+ 
+example removing some words and then you
+train a big neural net to predict the
+ 
+train a big neural net to predict the
+words that are missing. Okay, a special
+ 
+words that are missing. Okay, a special
+case of this is that you take a piece of
+ 
+case of this is that you take a piece of
+text
+ 
+text
+um and the last word in that text is not
+ 
+um and the last word in that text is not
+visible and so you train the system to
+ 
+visible and so you train the system to
+predict the last word in that text and
+ 
+predict the last word in that text and
+this is the way large language models
+ 
+this is the way large language models
+are trained on. Every chatbot is trained
+ 
+are trained on. Every chatbot is trained
+this way. Um technically it's a little
+ 
+this way. Um technically it's a little
+different but that's the basic
+ 
+different but that's the basic
+principle. Okay, so that's called
+ 
+principle. Okay, so that's called
+self-supervised learning. You don't
+ 
+self-supervised learning. You don't
+train the system for a task. You just
+ 
+train the system for a task. You just
+train it to learn the internal
+ 
+train it to learn the internal
+dependency of the input. Um and
+ 
+dependency of the input. Um and
+the success of this has been
+ 
+the success of this has been
+astonishing. It it works amazingly well.
+ 
+astonishing. It it works amazingly well.
+You get system in the end that seem to
+ 
+You get system in the end that seem to
+really understand language and be able
+ 
+really understand language and be able
+to understand question if you fine-tune
+ 
+to understand question if you fine-tune
+them to to answer questions properly
+ 
+them to to answer questions properly
+properly using supervised learning or
+ 
+properly using supervised learning or
+reinforcement learning. Um so this is
+ 
+reinforcement learning. Um so this is
+what everybody has been working on in
+ 
+what everybody has been working on in
+the industry, right? But that model does
+ 
+the industry, right? But that model does
+not work if you want a system to
+ 
+not work if you want a system to
+understand the physical world.
+ 
+understand the physical world.
+>> Something is missing.
+ 
+>> Something is missing.
+>> Yes, it's just that the physical world
+ 
+>> Yes, it's just that the physical world
+is much more difficult to understand
+ 
+is much more difficult to understand
+than language. We think of language as
+ 
+than language. We think of language as
+the ability to be of intelligence
+ 
+the ability to be of intelligence
+because only humans can manipulate
+ 
+because only humans can manipulate
+language. But it turns out language is
+ 
+language. But it turns out language is
+simple. And it's simple because it's
+ 
+simple. And it's simple because it's
+discrete. It's a sequence of discrete
+ 
+discrete. It's a sequence of discrete
+symbols. There's only a finite number of
+ 
+symbols. There's only a finite number of
+possible words in a dictionary.
+ 
+possible words in a dictionary.
+Um, and so you can never train a system
+ 
+Um, and so you can never train a system
+to exactly predict what word is going to
+ 
+to exactly predict what word is going to
+come next, but you can train it to
+ 
+come next, but you can train it to
+produce something like a score for every
+ 
+produce something like a score for every
+word in a dictionary or a probability
+ 
+word in a dictionary or a probability
+for every word in a dictionary to appear
+ 
+for every word in a dictionary to appear
+at that location. And so you can handle
+ 
+at that location. And so you can handle
+the uncertainty in the prediction that
+ 
+the uncertainty in the prediction that
+way. But you cannot train a system to
+ 
+way. But you cannot train a system to
+predict what's going to happen in video.
+ 
+predict what's going to happen in video.
+People have tried to do this. I've tried
+ 
+People have tried to do this. I've tried
+to do this for 20 years. Um, and a lot
+ 
+to do this for 20 years. Um, and a lot
+of people have had this idea that if you
+ 
+of people have had this idea that if you
+could train a system to predict what's
+ 
+could train a system to predict what's
+going to happen in a video, then that
+ 
+going to happen in a video, then that
+system will implicitly understand the
+ 
+system will implicitly understand the
+underlying structure of the world, you
+ 
+underlying structure of the world, you
+know, intuitive physics, everything that
+ 
+know, intuitive physics, everything that
+any animal and any of us as babies
+ 
+any animal and any of us as babies
+>> or physical rights.
+ 
+>> or physical rights.
+>> Yeah. Physical intuition. You know, if
+ 
+>> Yeah. Physical intuition. You know, if
+um
+ 
+um
+um you know, you know that if I if I
+ 
+um you know, you know that if I if I
+take an object and I I I I let it go,
+ 
+take an object and I I I I let it go,
+it's going to fall. You you've learned
+ 
+it's going to fall. You you've learned
+that you know, gravity basically
+ 
+that you know, gravity basically
+attracts a object toward towards the
+ 
+attracts a object toward towards the
+ground. Uh human babies learn this by
+ 
+ground. Uh human babies learn this by
+the age of nine months roughly. It takes
+ 
+the age of nine months roughly. It takes
+about nine months to to learn.
+ 
+about nine months to to learn.
+>> Maybe natural limitation of AI
+ 
+>> Maybe natural limitation of AI
+development today. It's our knowledge
+ 
+development today. It's our knowledge
+about the reality. We cannot replace
+ 
+about the reality. We cannot replace
+more that we know.
+ 
+more that we know.
+>> Yeah. But it's it's it's a simpler
+ 
+>> Yeah. But it's it's it's a simpler
+problem because you know your cat or
+ 
+problem because you know your cat or
+your dog can you know learn about
+ 
+your dog can you know learn about
+gravity in just a few months, right? And
+ 
+gravity in just a few months, right? And
+the cat cats are really really good at
+ 
+the cat cats are really really good at
+this, right? I mean they can plan
+ 
+this, right? I mean they can plan
+complex actions and uh you know climb on
+ 
+complex actions and uh you know climb on
+all kinds of stuff and you know jump. So
+ 
+all kinds of stuff and you know jump. So
+obviously they have a very good
+ 
+obviously they have a very good
+intuitive understanding of what we call
+ 
+intuitive understanding of what we call
+intuitive physics. Um, and we don't know
+ 
+intuitive physics. Um, and we don't know
+how to reproduce this with computers
+ 
+how to reproduce this with computers
+yet.
+ 
+yet.
+And and the reason is, um,
+ 
+And and the reason is, um,
+it's it's another example of what AI
+ 
+it's it's another example of what AI
+researchers have called the Moravec
+ 
+researchers have called the Moravec
+paradox. So Hans Marav was a roboticist
+ 
+paradox. So Hans Marav was a roboticist
+and he you know he he made that point
+ 
+and he you know he he made that point
+like how come we can have computers play
+ 
+like how come we can have computers play
+chess and solve mathematical puzzles and
+ 
+chess and solve mathematical puzzles and
+things like this but we can't get them
+ 
+things like this but we can't get them
+to do physical things like manipulate
+ 
+to do physical things like manipulate
+objects that you know um animals can do
+ 
+objects that you know um animals can do
+or or or jump or things like that. So
+ 
+or or or jump or things like that. So
+it's another example of this paradox
+ 
+it's another example of this paradox
+that um the the the space of discrete
+ 
+that um the the the space of discrete
+objects and symbols is easily manipul
+ 
+objects and symbols is easily manipul
+manipulated by computers but the real
+ 
+manipulated by computers but the real
+world is just too complicated yet and
+ 
+world is just too complicated yet and
+the techniques that work in one case
+ 
+the techniques that work in one case
+don't work in the other case. Um a good
+ 
+don't work in the other case. Um a good
+uh
+ 
+uh
+a good way to kind of visualize this if
+ 
+a good way to kind of visualize this if
+you want is that um the amount of
+ 
+you want is that um the amount of
+information that gets to us through our
+ 
+information that gets to us through our
+senses let's say vision or touch
+ 
+senses let's say vision or touch
+uh is absolutely enormous compared to
+ 
+uh is absolutely enormous compared to
+the amount of information we can get
+ 
+the amount of information we can get
+through language.
+ 
+through language.
+Okay. And this may explain why we have
+ 
+Okay. And this may explain why we have
+LLM chatbots. they can pass the bar exam
+ 
+LLM chatbots. they can pass the bar exam
+or they can solve mathematical problems
+ 
+or they can solve mathematical problems
+or or you know write texts that sound
+ 
+or or you know write texts that sound
+that sound good. We still don't have
+ 
+that sound good. We still don't have
+domestic robots. We still don't have
+ 
+domestic robots. We still don't have
+robots that can accomplish tasks that a
+ 
+robots that can accomplish tasks that a
+cat or a dog can accomplish. We still
+ 
+cat or a dog can accomplish. We still
+don't have completely autonomous level
+ 
+don't have completely autonomous level
+five self-driving cars. And we certainly
+ 
+five self-driving cars. And we certainly
+don't have self-driving cars that can
+ 
+don't have self-driving cars that can
+train themselves to drive in about 20
+ 
+train themselves to drive in about 20
+hours of practice like any 17-year-old.
+ 
+hours of practice like any 17-year-old.
+So, so clearly we're missing something
+ 
+So, so clearly we're missing something
+big, right? Um, and what we're missing
+ 
+big, right? Um, and what we're missing
+is, you know, how to train a system to
+ 
+is, you know, how to train a system to
+uh understand complex sensory input like
+ 
+uh understand complex sensory input like
+like vision.
+ 
+like vision.
+>> And this is necessary
+ 
+>> And this is necessary
+uh if we want to learn machines as
+ 
+uh if we want to learn machines as
+professionally as humans and animals.
+ 
+professionally as humans and animals.
+>> Yeah. If you want machines that have
+ 
+>> Yeah. If you want machines that have
+intelligence that is similar to that of
+ 
+intelligence that is similar to that of
+animals and humans, that have common
+ 
+animals and humans, that have common
+sense,
+ 
+sense,
+um perhaps at some point have
+ 
+um perhaps at some point have
+consciousness and everything, um but
+ 
+consciousness and everything, um but
+like are capable of really sort of
+ 
+like are capable of really sort of
+learning really complex uh uh structure
+ 
+learning really complex uh uh structure
+of of complex worlds. We need to we need
+ 
+of of complex worlds. We need to we need
+to crack that uh that problem. So we
+ 
+to crack that uh that problem. So we
+we've been working on let me let me give
+ 
+we've been working on let me let me give
+you a very simple calculation. Yeah.
+ 
+you a very simple calculation. Yeah.
+>> A a big language model today. Um a
+ 
+>> A a big language model today. Um a
+typical large language model uh is
+ 
+typical large language model uh is
+trained with something on the order of
+ 
+trained with something on the order of
+20 trillion tokens, right? Or 20 20,000
+ 
+20 trillion tokens, right? Or 20 20,000
+billion tokens. A token is like a word
+ 
+billion tokens. A token is like a word
+more more or less. A token typically is
+ 
+more more or less. A token typically is
+represented on uh three bytes. Okay. So
+ 
+represented on uh three bytes. Okay. So
+20 or 30 trillion tokens each on three
+ 
+20 or 30 trillion tokens each on three
+bytes that's about
+ 
+bytes that's about
+10 to the 14 bytes a one with 14 zeros
+ 
+10 to the 14 bytes a one with 14 zeros
+behind it. This is the totality of all
+ 
+behind it. This is the totality of all
+the text available publicly on the
+ 
+the text available publicly on the
+internet. Uh it would take any of us
+ 
+internet. Uh it would take any of us
+several hundred thousand years to read
+ 
+several hundred thousand years to read
+through that material. Okay? So it's an
+ 
+through that material. Okay? So it's an
+enormous amount of information. But then
+ 
+enormous amount of information. But then
+you compare this with the amount of
+ 
+you compare this with the amount of
+information that gets to our brains
+ 
+information that gets to our brains
+through the visual system in the first
+ 
+through the visual system in the first
+four years of life and it's about the
+ 
+four years of life and it's about the
+same amount. In four years a young child
+ 
+same amount. In four years a young child
+has been awake a total of about 16,000
+ 
+has been awake a total of about 16,000
+hours. Um the amount of information
+ 
+hours. Um the amount of information
+getting to the brain through the the the
+ 
+getting to the brain through the the the
+optic nerve is about 2 megabytes per
+ 
+optic nerve is about 2 megabytes per
+second. Do the calculation and that's
+ 
+second. Do the calculation and that's
+about 10^ the 14 bytes. It's about the
+ 
+about 10^ the 14 bytes. It's about the
+same. In four years, a young child has
+ 
+same. In four years, a young child has
+has seen as much information or data as
+ 
+has seen as much information or data as
+the biggest LMS.
+ 
+the biggest LMS.
+And what that tells you is that we're
+ 
+And what that tells you is that we're
+never going to get to human level AI by
+ 
+never going to get to human level AI by
+just training on text. We're going to
+ 
+just training on text. We're going to
+have to get systems to understand the
+ 
+have to get systems to understand the
+real world. Um, and that understanding
+ 
+real world. Um, and that understanding
+the real world is really hard.
+ 
+the real world is really hard.
+>> On your LinkedIn and Facebook, you are
+ 
+>> On your LinkedIn and Facebook, you are
+linking AI and entropy.
+ 
+linking AI and entropy.
+Uh, what's the link? It's been a bit of
+ 
+Uh, what's the link? It's been a bit of
+an obsession of mine like there's a big
+ 
+an obsession of mine like there's a big
+question
+ 
+question
+which is at the root of a lot of
+ 
+which is at the root of a lot of
+problems in computer science in physics
+ 
+problems in computer science in physics
+information theory in a lot of different
+ 
+information theory in a lot of different
+fields which is the question of how you
+ 
+fields which is the question of how you
+quantify information
+ 
+quantify information
+okay how much information resides in a
+ 
+okay how much information resides in a
+message
+ 
+message
+and uh the the point I've made multiple
+ 
+and uh the the point I've made multiple
+times is that the amount of information
+ 
+times is that the amount of information
+in a message is not uh an absolute
+ 
+in a message is not uh an absolute
+quantity because it's it's it depends on
+ 
+quantity because it's it's it depends on
+the person interpreting this message.
+ 
+the person interpreting this message.
+The amount of information you can
+ 
+The amount of information you can
+extract from
+ 
+extract from
+sensors from a message language that
+ 
+sensors from a message language that
+someone that someone tells you or
+ 
+someone that someone tells you or
+whatever depends on how you can
+ 
+whatever depends on how you can
+interpret that. And so the the idea that
+ 
+interpret that. And so the the idea that
+you can measure information in absolute
+ 
+you can measure information in absolute
+term is probably false. you every
+ 
+term is probably false. you every
+measure of information is relative to a
+ 
+measure of information is relative to a
+particular way of interpreting that
+ 
+particular way of interpreting that
+information. So that's kind of the the
+ 
+information. So that's kind of the the
+point I was making and this has very
+ 
+point I was making and this has very
+far-ranging consequences because if
+ 
+far-ranging consequences because if
+there is no absolute way of measuring
+ 
+there is no absolute way of measuring
+information that means there's a lot of
+ 
+information that means there's a lot of
+notions in physics that don't really
+ 
+notions in physics that don't really
+have you know kind of objective
+ 
+have you know kind of objective
+definitions like entropy. So entropy is
+ 
+definitions like entropy. So entropy is
+a measure of our ignorance of the state
+ 
+a measure of our ignorance of the state
+of a physical system and of course that
+ 
+of a physical system and of course that
+depends on how much you know about the
+ 
+depends on how much you know about the
+system. Um and so um I've I've been sort
+ 
+system. Um and so um I've I've been sort
+of uh obsessed with this idea of trying
+ 
+of uh obsessed with this idea of trying
+to find good ways of defining uh entropy
+ 
+to find good ways of defining uh entropy
+complexity or information content that
+ 
+complexity or information content that
+is is relative.
+ 
+is is relative.
+>> Don't you think that our global database
+ 
+>> Don't you think that our global database
+to train AI models is over?
+ 
+to train AI models is over?
+>> So we're not even close. No, this
+ 
+>> So we're not even close. No, this
+there's a huge amount of uh textual
+ 
+there's a huge amount of uh textual
+knowledge that is not has not been
+ 
+knowledge that is not has not been
+digitized. You know maybe in a lot of
+ 
+digitized. You know maybe in a lot of
+the developed world a lot of it has been
+ 
+the developed world a lot of it has been
+digitized but uh most of it is not
+ 
+digitized but uh most of it is not
+public. There's a lot of medical data
+ 
+public. There's a lot of medical data
+for example that is not public and then
+ 
+for example that is not public and then
+there is a lot of cultural data
+ 
+there is a lot of cultural data
+historical data in a lot of regions in
+ 
+historical data in a lot of regions in
+the world that is not accessible in
+ 
+the world that is not accessible in
+digital form
+ 
+digital form
+or if it if it is in digital form it's
+ 
+or if it if it is in digital form it's
+in the form of scan documents so it's
+ 
+in the form of scan documents so it's
+not you know text or anything. So I so
+ 
+not you know text or anything. So I so
+it's not true. I think there's still a
+ 
+it's not true. I think there's still a
+lot of data out there that uh
+ 
+lot of data out there that uh
+>> and that questions about the nature of
+ 
+>> and that questions about the nature of
+the reality because for example we have
+ 
+the reality because for example we have
+no idea how matter is transformed into
+ 
+no idea how matter is transformed into
+consciousness in the human brain. So we
+ 
+consciousness in the human brain. So we
+have no data about it but maybe in the
+ 
+have no data about it but maybe in the
+future we will do this
+ 
+future we will do this
+>> well. So I think I don't think we should
+ 
+>> well. So I think I don't think we should
+be obsessed by the question of
+ 
+be obsessed by the question of
+consciousness. I I think it's a
+ 
+consciousness. I I think it's a
+>> but the world is obsessed. I think
+ 
+>> but the world is obsessed. I think
+>> the world is I mean some parts of the
+ 
+>> the world is I mean some parts of the
+world are obsessed by it. Uh, frankly, I
+ 
+world are obsessed by it. Uh, frankly, I
+think it's a bit of an epiphenomenon.
+ 
+think it's a bit of an epiphenomenon.
+And I think it's probably the reason why
+ 
+And I think it's probably the reason why
+we can't find a good definition of
+ 
+we can't find a good definition of
+consciousness is because we're not
+ 
+consciousness is because we're not
+asking the right question. Let me let me
+ 
+asking the right question. Let me let me
+give you an example. In the 18th
+ 
+give you an example. In the 18th
+century, people discover the 17th
+ 
+century, people discover the 17th
+century. They they discovered that the
+ 
+century. They they discovered that the
+image on the retina
+ 
+image on the retina
+>> iris. Okay? you know the you know light
+ 
+>> iris. Okay? you know the you know light
+comes through the iris and there's you
+ 
+comes through the iris and there's you
+have a lens and the image on the retina
+ 
+have a lens and the image on the retina
+forms upside down right and so the
+ 
+forms upside down right and so the
+people at at time were completely
+ 
+people at at time were completely
+puzzled how is it that we see the world
+ 
+puzzled how is it that we see the world
+right side up even though the image is
+ 
+right side up even though the image is
+formed upside down in our retina
+ 
+formed upside down in our retina
+okay that was a puzzle for them and now
+ 
+okay that was a puzzle for them and now
+we realize that question makes no sense
+ 
+we realize that question makes no sense
+I mean it's just that you know the way
+ 
+I mean it's just that you know the way
+you think about u you know how you how
+ 
+you think about u you know how you how
+your your brain interprets images, it's
+ 
+your your brain interprets images, it's
+irrelevant, you know, in what direction
+ 
+irrelevant, you know, in what direction
+the image forms on your on your retina.
+ 
+the image forms on your on your retina.
+So, so I think consciousness is a bit
+ 
+So, so I think consciousness is a bit
+like this. It's something that, you
+ 
+like this. It's something that, you
+know, we we can't define. We think
+ 
+know, we we can't define. We think
+exists, but we can't put our finger on
+ 
+exists, but we can't put our finger on
+it
+ 
+it
+>> and what make us individuals. So, maybe
+ 
+>> and what make us individuals. So, maybe
+that's different. That's different. No,
+ 
+that's different. That's different. No,
+obviously, I mean, there's a lot of
+ 
+obviously, I mean, there's a lot of
+things that, you know, make us all
+ 
+things that, you know, make us all
+different from each other. We have a
+ 
+different from each other. We have a
+different experience. Um, so we we learn
+ 
+different experience. Um, so we we learn
+different things, right? um we we we
+ 
+different things, right? um we we we
+grew up in different environments uh but
+ 
+grew up in different environments uh but
+also
+ 
+also
+our brains are wired slightly
+ 
+our brains are wired slightly
+differently. All of us are slightly
+ 
+differently. All of us are slightly
+different and that's a necessity for
+ 
+different and that's a necessity for
+evolution to uh make sure that every
+ 
+evolution to uh make sure that every
+individual human is different because we
+ 
+individual human is different because we
+are you know we're a social animal. So
+ 
+are you know we're a social animal. So
+there is a big advantage um
+ 
+there is a big advantage um
+when different people in the same tribe
+ 
+when different people in the same tribe
+are slightly different because that
+ 
+are slightly different because that
+means they can combine their expertise.
+ 
+means they can combine their expertise.
+If if every one of us was identical,
+ 
+If if every one of us was identical,
+then there would not be strength in
+ 
+then there would not be strength in
+number. Okay? But because we're
+ 
+number. Okay? But because we're
+different, we're stronger because we're
+ 
+different, we're stronger because we're
+diverse. So um so that's a result of uh
+ 
+diverse. So um so that's a result of uh
+evolution. And that can be done by you
+ 
+evolution. And that can be done by you
+know different slightly different wiring
+ 
+know different slightly different wiring
+of the brain, slightly different tuning
+ 
+of the brain, slightly different tuning
+of the you know different
+ 
+of the you know different
+neurotransmitters and hormones and
+ 
+neurotransmitters and hormones and
+whatever uh that makes us different.
+ 
+whatever uh that makes us different.
+>> What's about a free reasoning
+ 
+>> What's about a free reasoning
+abstractional thinking models? Can we
+ 
+abstractional thinking models? Can we
+expect something like this from Euro
+ 
+expect something like this from Euro
+Laboratory?
+ 
+Laboratory?
+>> So um the question of elaborating
+ 
+>> So um the question of elaborating
+abstract representations from
+ 
+abstract representations from
+observation is key to deep learning.
+ 
+observation is key to deep learning.
+Deep learning is all about learning
+ 
+Deep learning is all about learning
+representations. In fact, one of the
+ 
+representations. In fact, one of the
+main conferences on on deep learning is
+ 
+main conferences on on deep learning is
+called international conference on
+ 
+called international conference on
+learning representations. Uh which I
+ 
+learning representations. Uh which I
+created I co-created with Shabbenjo. So
+ 
+created I co-created with Shabbenjo. So
+this this tells you how central this
+ 
+this this tells you how central this
+question of learning abstract
+ 
+question of learning abstract
+representations is to uh to AI generally
+ 
+representations is to uh to AI generally
+and uh to deep learning in particular.
+ 
+and uh to deep learning in particular.
+Um
+ 
+Um
+now if you want a system to be able to
+ 
+now if you want a system to be able to
+reason
+ 
+reason
+um you you need another set of
+ 
+um you you need another set of
+characteristics. If you basically the
+ 
+characteristics. If you basically the
+the act of of reasoning or planning
+ 
+the act of of reasoning or planning
+uh classically in AI, not just in
+ 
+uh classically in AI, not just in
+machine learning based AI, but but since
+ 
+machine learning based AI, but but since
+the 1950s consists in u
+ 
+the 1950s consists in u
+having a way of searching for a solution
+ 
+having a way of searching for a solution
+to a problem. Okay, so for example, if I
+ 
+to a problem. Okay, so for example, if I
+give you a list of cities and I ask you,
+ 
+give you a list of cities and I ask you,
+give me the furthest circuit that goes
+ 
+give me the furthest circuit that goes
+through all those cities. Okay, you're
+ 
+through all those cities. Okay, you're
+going to think about it and say well you
+ 
+going to think about it and say well you
+know I should go from cities that are
+ 
+know I should go from cities that are
+nearby so that my total circuit is as
+ 
+nearby so that my total circuit is as
+close as possible. Now there is a space
+ 
+close as possible. Now there is a space
+of all possible circuits
+ 
+of all possible circuits
+which is a set of all permutations of
+ 
+which is a set of all permutations of
+the cities right in all the orders in
+ 
+the cities right in all the orders in
+which it can go through the cities. It's
+ 
+which it can go through the cities. It's
+an enormous u space and the way
+ 
+an enormous u space and the way
+algorithms that you know in your GPS and
+ 
+algorithms that you know in your GPS and
+things like this search for a path is
+ 
+things like this search for a path is
+that they they search through among all
+ 
+that they they search through among all
+possible path for one that is the
+ 
+possible path for one that is the
+shortest.
+ 
+shortest.
+All reasoning uh systems are based on
+ 
+All reasoning uh systems are based on
+this idea of a search. Okay, for in the
+ 
+this idea of a search. Okay, for in the
+space of possible solution, you search
+ 
+space of possible solution, you search
+for one that matches what uh you know
+ 
+for one that matches what uh you know
+the objective that you want. Um so the
+ 
+the objective that you want. Um so the
+way current systems uh are are doing
+ 
+way current systems uh are are doing
+this current LLMs is in a very very
+ 
+this current LLMs is in a very very
+primitive way. They're doing this in in
+ 
+primitive way. They're doing this in in
+what's called token space which is a
+ 
+what's called token space which is a
+space of outputs. So they basically have
+ 
+space of outputs. So they basically have
+the system generate lots of different
+ 
+the system generate lots of different
+sequences of tokens
+ 
+sequences of tokens
+um more or less randomly
+ 
+um more or less randomly
+and then they have another neural net
+ 
+and then they have another neural net
+looking through all of those um
+ 
+looking through all of those um
+hypothesized sequences for one that
+ 
+hypothesized sequences for one that
+looks the best and then it outputs that.
+ 
+looks the best and then it outputs that.
+It's extremely expensive because it
+ 
+It's extremely expensive because it
+requires generating lots and lots of
+ 
+requires generating lots and lots of
+outputs and then selecting good ones and
+ 
+outputs and then selecting good ones and
+it's not the way we think.
+ 
+it's not the way we think.
+So we don't think by
+ 
+So we don't think by
+you know generating lots and lots and
+ 
+you know generating lots and lots and
+lots of actions and then looking at the
+ 
+lots of actions and then looking at the
+result and then figuring out which one
+ 
+result and then figuring out which one
+is best. That's not the way we think. If
+ 
+is best. That's not the way we think. If
+I if I ask you for example imagine a
+ 
+I if I ask you for example imagine a
+cube floating in the air just in front
+ 
+cube floating in the air just in front
+of you. Okay. Now take that cube and
+ 
+of you. Okay. Now take that cube and
+rotate it by 90 degrees around a
+ 
+rotate it by 90 degrees around a
+vertical axis. Okay? So you have a cube,
+ 
+vertical axis. Okay? So you have a cube,
+rotate it by 90 degrees. Now picture
+ 
+rotate it by 90 degrees. Now picture
+that cube and tell me if it looks like
+ 
+that cube and tell me if it looks like
+the original cube before you rotated.
+ 
+the original cube before you rotated.
+Okay. The answer is yes because you know
+ 
+Okay. The answer is yes because you know
+that a cube has you know is if you
+ 
+that a cube has you know is if you
+rotated by 90 degree it's still a cube
+ 
+rotated by 90 degree it's still a cube
+and you're still seeing it from the from
+ 
+and you're still seeing it from the from
+the same uh the same viewpoint.
+ 
+the same uh the same viewpoint.
+>> You mean that is illusion of free
+ 
+>> You mean that is illusion of free
+reasoning? Well, so what you're doing is
+ 
+reasoning? Well, so what you're doing is
+that you're reasoning in your mental
+ 
+that you're reasoning in your mental
+state. You're not reasoning in your
+ 
+state. You're not reasoning in your
+output action state, action space
+ 
+output action state, action space
+>> in the physical world.
+ 
+>> in the physical world.
+>> In the physical world
+ 
+>> In the physical world
+>> or in whatever your your output state
+ 
+>> or in whatever your your output state
+is, right? You're you're reasoning in in
+ 
+is, right? You're you're reasoning in in
+an abstract space. And so we have those
+ 
+an abstract space. And so we have those
+mental models of the world that allow us
+ 
+mental models of the world that allow us
+to kind of predict what's going to
+ 
+to kind of predict what's going to
+happen in the world, manipulate
+ 
+happen in the world, manipulate
+reality, predict in advance what the
+ 
+reality, predict in advance what the
+consequences of our actions are going to
+ 
+consequences of our actions are going to
+be. And if we can predict what the
+ 
+be. And if we can predict what the
+consequences of our actions are going to
+ 
+consequences of our actions are going to
+be, like rotating a cube by 90 degrees
+ 
+be, like rotating a cube by 90 degrees
+or whatever it is, then we can plan a
+ 
+or whatever it is, then we can plan a
+sequence of actions so as to arrive at a
+ 
+sequence of actions so as to arrive at a
+particular goal, right? So um you know
+ 
+particular goal, right? So um you know
+whenever we accomplish a task
+ 
+whenever we accomplish a task
+consciously um you know all of our mind
+ 
+consciously um you know all of our mind
+is focused on it and we think about like
+ 
+is focused on it and we think about like
+what sequence of action do I have to do
+ 
+what sequence of action do I have to do
+to you know assemble this piece of you
+ 
+to you know assemble this piece of you
+know EK furniture or whatever or or
+ 
+know EK furniture or whatever or or
+build this uh thing out of wood or uh or
+ 
+build this uh thing out of wood or uh or
+just you know do anything basically
+ 
+just you know do anything basically
+everything we do every day that we use
+ 
+everything we do every day that we use
+our our mind for um a task of this type
+ 
+our our mind for um a task of this type
+where we need to plan and most of the
+ 
+where we need to plan and most of the
+time we plan we plan
+ 
+time we plan we plan
+uh hierarchically. So we don't for
+ 
+uh hierarchically. So we don't for
+example you're going to go go back to
+ 
+example you're going to go go back to
+Warza at some point right um
+ 
+Warza at some point right um
+if you decide right now to go back to
+ 
+if you decide right now to go back to
+Warzo from New York
+ 
+Warzo from New York
+>> um you know that you have to go to the
+ 
+>> um you know that you have to go to the
+airport and catch a plane.
+ 
+airport and catch a plane.
+Okay, now you have a sub goal going to
+ 
+Okay, now you have a sub goal going to
+the airport.
+ 
+the airport.
+And this is
+ 
+And this is
+what hierarchical planning is about. You
+ 
+what hierarchical planning is about. You
+you define sub goals to a ultimate goal.
+ 
+you define sub goals to a ultimate goal.
+Your ultimate goal is go to War. Your
+ 
+Your ultimate goal is go to War. Your
+sub goal is go to the airport. How do
+ 
+sub goal is go to the airport. How do
+you go to the airport? Well, we're in
+ 
+you go to the airport? Well, we're in
+New York. So you go down on the street
+ 
+New York. So you go down on the street
+and you hear the taxi to the airport.
+ 
+and you hear the taxi to the airport.
+How do you go down on the street? Well,
+ 
+How do you go down on the street? Well,
+you have to
+ 
+you have to
+move out of this building, go to the
+ 
+move out of this building, go to the
+elevator, take the elevator down, move
+ 
+elevator, take the elevator down, move
+out. How do you go to the elevator? you
+ 
+out. How do you go to the elevator? you
+have to stand up, go to the door, open
+ 
+have to stand up, go to the door, open
+the door, etc. And at some point, you
+ 
+the door, etc. And at some point, you
+get down to a goal that is sufficiently
+ 
+get down to a goal that is sufficiently
+close that you don't need to plan like
+ 
+close that you don't need to plan like
+to to stand up, you know, from your
+ 
+to to stand up, you know, from your
+chair, you don't need to plan because
+ 
+chair, you don't need to plan because
+you're so used to doing it, you you can
+ 
+you're so used to doing it, you you can
+just do it, right? Uh and you have all
+ 
+just do it, right? Uh and you have all
+the information that's necessary for
+ 
+the information that's necessary for
+that. So, this idea that we're going to
+ 
+that. So, this idea that we're going to
+need to do hierarchical planning, that
+ 
+need to do hierarchical planning, that
+intelligence systems need to do
+ 
+intelligence systems need to do
+hierarchical planning is crucial. We
+ 
+hierarchical planning is crucial. We
+have no idea how to do this with
+ 
+have no idea how to do this with
+machines today. That's a big challenge
+ 
+machines today. That's a big challenge
+for the next few years. That's why you
+ 
+for the next few years. That's why you
+spent so much time at Davos uh talking
+ 
+spent so much time at Davos uh talking
+about the robotics. Um you spoke about a
+ 
+about the robotics. Um you spoke about a
+coming decade of robotics. Robotics had
+ 
+coming decade of robotics. Robotics had
+endless
+ 
+endless
+winters. Why is this time different?
+ 
+winters. Why is this time different?
+>> Robots are usable in tasks that are
+ 
+>> Robots are usable in tasks that are
+relatively simple and can be
+ 
+relatively simple and can be
+kind of automated in a very simple way.
+ 
+kind of automated in a very simple way.
+So where u the sensing doesn't need to
+ 
+So where u the sensing doesn't need to
+be hard. Um so so you know you have
+ 
+be hard. Um so so you know you have
+manufacturing robots that paint cars in
+ 
+manufacturing robots that paint cars in
+in factories and you know assemble parts
+ 
+in factories and you know assemble parts
+and things like that. As long as
+ 
+and things like that. As long as
+everything is in the right place and um
+ 
+everything is in the right place and um
+you know those robots basically are just
+ 
+you know those robots basically are just
+automata.
+ 
+automata.
+Um,
+ 
+Um,
+but then let's take another task for
+ 
+but then let's take another task for
+like like like driving. Uh, a
+ 
+like like like driving. Uh, a
+self-driving car is a robot or a car
+ 
+self-driving car is a robot or a car
+that has driving assistance is also a
+ 
+that has driving assistance is also a
+robot. Um, we still don't have
+ 
+robot. Um, we still don't have
+self-driving cars that are as reliable
+ 
+self-driving cars that are as reliable
+as humans yet. I mean, we do, but they,
+ 
+as humans yet. I mean, we do, but they,
+you know, there's Whimo and and
+ 
+you know, there's Whimo and and
+companies like that, but they they cheat
+ 
+companies like that, but they they cheat
+a little bit. They use, you know,
+ 
+a little bit. They use, you know,
+sensors that are much more sophisticated
+ 
+sensors that are much more sophisticated
+than than human uh human sensing.
+ 
+than than human uh human sensing.
+>> But Musk uh said that Tesla would reach
+ 
+>> But Musk uh said that Tesla would reach
+five level autonomy within next five
+ 
+five level autonomy within next five
+years.
+ 
+years.
+>> He's been doing he's been saying this
+ 
+>> He's been doing he's been saying this
+for the last eight years. He said, you
+ 
+for the last eight years. He said, you
+know, this is going to happen next year
+ 
+know, this is going to happen next year
+for the last eight years and obviously
+ 
+for the last eight years and obviously
+it hasn't. Um so um either I mean you
+ 
+it hasn't. Um so um either I mean you
+clearly have to stop believing him on
+ 
+clearly have to stop believing him on
+this because he's been consistently
+ 
+this because he's been consistently
+wrong. uh you know either because um he
+ 
+wrong. uh you know either because um he
+thought he was right and it turned out
+ 
+thought he was right and it turned out
+to be wrong or he was just lying. Um I
+ 
+to be wrong or he was just lying. Um I
+think it's a way for him to kind of
+ 
+think it's a way for him to kind of
+inspire his team to kind of reach an
+ 
+inspire his team to kind of reach an
+attainable progress year after year.
+ 
+attainable progress year after year.
+>> Yeah. But uh but I think it's actually
+ 
+>> Yeah. But uh but I think it's actually
+um very difficult for an engineer or a
+ 
+um very difficult for an engineer or a
+scientist to be told by their their CEO
+ 
+scientist to be told by their their CEO
+the problem you've been devoting your
+ 
+the problem you've been devoting your
+entire career to solve you know we're
+ 
+entire career to solve you know we're
+going to solve it next year. So you
+ 
+going to solve it next year. So you
+think that is the biggest challenge of
+ 
+think that is the biggest challenge of
+our era to integrate AI and robotics.
+ 
+our era to integrate AI and robotics.
+>> If we are able to build AI systems that
+ 
+>> If we are able to build AI systems that
+understand the physical world,
+ 
+understand the physical world,
+that have persistent memory, can reason
+ 
+that have persistent memory, can reason
+and plan, then we'll have the basis for
+ 
+and plan, then we'll have the basis for
+AI that can power robots that would be
+ 
+AI that can power robots that would be
+much more flexible than current robots
+ 
+much more flexible than current robots
+that we have. So there's a lot of
+ 
+that we have. So there's a lot of
+robotic companies that have been formed
+ 
+robotic companies that have been formed
+over the last year or two. um you know
+ 
+over the last year or two. um you know
+they build humanoid robots and things
+ 
+they build humanoid robots and things
+like this and all the demos are really
+ 
+like this and all the demos are really
+impressive but those robots are very
+ 
+impressive but those robots are very
+stupid. They cannot do what you know a
+ 
+stupid. They cannot do what you know a
+human can do. Uh not because they don't
+ 
+human can do. Uh not because they don't
+have the physical ability it's because
+ 
+have the physical ability it's because
+they just are not smart enough to deal
+ 
+they just are not smart enough to deal
+with the real world. And so a lot of
+ 
+with the real world. And so a lot of
+those companies are counting on the fact
+ 
+those companies are counting on the fact
+that AI is going to make fast progress
+ 
+that AI is going to make fast progress
+over the next three to five years so
+ 
+over the next three to five years so
+that when they are ready to sell those
+ 
+that when they are ready to sell those
+robots at a large scale and build them
+ 
+robots at a large scale and build them
+at a large scale um they'll be smart
+ 
+at a large scale um they'll be smart
+enough because AI would have made
+ 
+enough because AI would have made
+progress. It's it's a it's a big bet.
+ 
+progress. It's it's a it's a big bet.
+Um, so I can't tell you whether it's
+ 
+Um, so I can't tell you whether it's
+going to happen within the next three or
+ 
+going to happen within the next three or
+five years, but um, but it's very likely
+ 
+five years, but um, but it's very likely
+that we're going to make significant
+ 
+that we're going to make significant
+progress in AI that is going to enable,
+ 
+progress in AI that is going to enable,
+you know, more flexible robots within
+ 
+you know, more flexible robots within
+the next decade, which is why I'm I've
+ 
+the next decade, which is why I'm I've
+said the next decade is a decade of
+ 
+said the next decade is a decade of
+robotics.
+ 
+robotics.
+>> Are you surprised when you look at AI
+ 
+>> Are you surprised when you look at AI
+development today, the progress day
+ 
+development today, the progress day
+after day, night after night?
+ 
+after day, night after night?
+>> Not really. No, no. But what surprised
+ 
+>> Not really. No, no. But what surprised
+me was the kind of the fact that it was
+ 
+me was the kind of the fact that it was
+very highly non-ontinuous. The fact that
+ 
+very highly non-ontinuous. The fact that
+there was a lot of progress in the 1980s
+ 
+there was a lot of progress in the 1980s
+and 90s and then nothing and then some
+ 
+and 90s and then nothing and then some
+more progress during the 2000 but it was
+ 
+more progress during the 2000 but it was
+under the radar. Most people didn't
+ 
+under the radar. Most people didn't
+realize we were making progress. Um and
+ 
+realize we were making progress. Um and
+then as soon as those progress became
+ 
+then as soon as those progress became
+visible around 2013 or so then the whole
+ 
+visible around 2013 or so then the whole
+field exploded and all of a sudden a lot
+ 
+field exploded and all of a sudden a lot
+of smart people started working on it. a
+ 
+of smart people started working on it. a
+lot of companies started investing u
+ 
+lot of companies started investing u
+there was a lot more interest so that
+ 
+there was a lot more interest so that
+progress has been accelerating just
+ 
+progress has been accelerating just
+because there was more investment and
+ 
+because there was more investment and
+more smart people working on it u but I
+ 
+more smart people working on it u but I
+would have thought the progress would
+ 
+would have thought the progress would
+you know since the 1980s would have been
+ 
+you know since the 1980s would have been
+much more continuous if a piece of
+ 
+much more continuous if a piece of
+research or development is published um
+ 
+research or development is published um
+so the techniques that are used to
+ 
+so the techniques that are used to
+produce it are published in a paper or
+ 
+produce it are published in a paper or
+white white paper report of some kind
+ 
+white white paper report of some kind
+and if the code is open source then the
+ 
+and if the code is open source then the
+entire world profits from it. Okay, not
+ 
+entire world profits from it. Okay, not
+just whoever produced it. The person who
+ 
+just whoever produced it. The person who
+produced it or the group that produced
+ 
+produced it or the group that produced
+it gets prestige, okay, and recognition
+ 
+it gets prestige, okay, and recognition
+and perhaps, you know, investment or
+ 
+and perhaps, you know, investment or
+whatever, but uh but the entire world
+ 
+whatever, but uh but the entire world
+profits from it. This is the magic of
+ 
+profits from it. This is the magic of
+open research and open-source software.
+ 
+open research and open-source software.
+uh Meta I mean I myself and and Meta
+ 
+uh Meta I mean I myself and and Meta
+more generally have been extremely uh
+ 
+more generally have been extremely uh
+strong proponent of this idea of open
+ 
+strong proponent of this idea of open
+research and open source and whenever an
+ 
+research and open source and whenever an
+entity that is practicing open research
+ 
+entity that is practicing open research
+and open source produces something the
+ 
+and open source produces something the
+entire community of open source profits
+ 
+entire community of open source profits
+from it as well. So people are kind of
+ 
+from it as well. So people are kind of
+formulating this as if it's a
+ 
+formulating this as if it's a
+competition but it's not it's more like
+ 
+competition but it's not it's more like
+a cooperation. The question is uh do we
+ 
+a cooperation. The question is uh do we
+want this cooperation to be worldwide?
+ 
+want this cooperation to be worldwide?
+And my answer to this is yes because
+ 
+And my answer to this is yes because
+there are good ideas coming from
+ 
+there are good ideas coming from
+everywhere in the world. Um Lama for
+ 
+everywhere in the world. Um Lama for
+example the first model uh the first LLM
+ 
+example the first model uh the first LLM
+that uh that Meta
+ 
+that uh that Meta
+put out.
+ 
+put out.
+>> Yeah, I mean it wasn't the first LM.
+ 
+>> Yeah, I mean it wasn't the first LM.
+There were LLM before that we put out
+ 
+There were LLM before that we put out
+but they they were a little bit uh under
+ 
+but they they were a little bit uh under
+the radar. Um
+ 
+the radar. Um
+it was produced in Paris in our labs in
+ 
+it was produced in Paris in our labs in
+Paris
+ 
+Paris
+>> and so this is not a lab
+ 
+>> and so this is not a lab
+>> which I created 10 years ago. Okay. Um
+ 
+>> which I created 10 years ago. Okay. Um
+this is fair fair Paris. Um has you know
+ 
+this is fair fair Paris. Um has you know
+over 100 over 100 researchers there
+ 
+over 100 over 100 researchers there
+working. So
+ 
+working. So
+>> and a lot of really good stuff came out
+ 
+>> and a lot of really good stuff came out
+of that lab in Paris. A lot of good
+ 
+of that lab in Paris. A lot of good
+stuff came out from our lab in Montreal.
+ 
+stuff came out from our lab in Montreal.
+Um so the research community is really
+ 
+Um so the research community is really
+worldwide. Everybody contributes. No
+ 
+worldwide. Everybody contributes. No
+entity
+ 
+entity
+has a monopoly on good ideas. Which is
+ 
+has a monopoly on good ideas. Which is
+why open collaboration makes the field
+ 
+why open collaboration makes the field
+progress faster. That's why we are big
+ 
+progress faster. That's why we are big
+proponents of open research and open
+ 
+proponents of open research and open
+source is because the entire field
+ 
+source is because the entire field
+progresses faster when you communicate
+ 
+progresses faster when you communicate
+with other scientists. Now there are
+ 
+with other scientists. Now there are
+some people in the industry who used to
+ 
+some people in the industry who used to
+kind of practice open research and
+ 
+kind of practice open research and
+climbed up. That's the case for open AI.
+ 
+climbed up. That's the case for open AI.
+Enthropic was never open. So they they
+ 
+Enthropic was never open. So they they
+they keep everything secret. Google kind
+ 
+they keep everything secret. Google kind
+of went from being
+ 
+of went from being
+partially open to being open essentially
+ 
+partially open to being open essentially
+because of us to now being partially
+ 
+because of us to now being partially
+closed. Uh they're not revealing all the
+ 
+closed. Uh they're not revealing all the
+techniques behind gemini for example.
+ 
+techniques behind gemini for example.
+They're still doing a lot of open
+ 
+They're still doing a lot of open
+research but it's more kind of
+ 
+research but it's more kind of
+fundamental long term. Um, so, um, I
+ 
+fundamental long term. Um, so, um, I
+think it's sad because
+ 
+think it's sad because
+a lot of people are kind of basically
+ 
+a lot of people are kind of basically
+putting themselves outside of the of the
+ 
+putting themselves outside of the of the
+world research community and not
+ 
+world research community and not
+participating, not contributing to uh,
+ 
+participating, not contributing to uh,
+to progress. The reason why progress in
+ 
+to progress. The reason why progress in
+AI has been so fast in the last 10 years
+ 
+AI has been so fast in the last 10 years
+is because of open research.
+ 
+is because of open research.
+And you have to realize that
+ 
+And you have to realize that
+>> everybody believe it.
+ 
+>> everybody believe it.
+>> Oh, absolutely. No, this is a fact. I'm
+ 
+>> Oh, absolutely. No, this is a fact. I'm
+I'm not the only one. It's not a belief.
+ 
+I'm not the only one. It's not a belief.
+It's a fact. Uh let me give you an
+ 
+It's a fact. Uh let me give you an
+example. Almost practically the entire
+ 
+example. Almost practically the entire
+AI industry builds or at least at the
+ 
+AI industry builds or at least at the
+research and development stage uh uses a
+ 
+research and development stage uh uses a
+a a software to build a system called
+ 
+a a software to build a system called
+PyTorch. PyTorch is open source. It was
+ 
+PyTorch. PyTorch is open source. It was
+produced by my colleagues at Meta at
+ 
+produced by my colleagues at Meta at
+fair initially and then a bigger
+ 
+fair initially and then a bigger
+population. Uh a few years ago P the
+ 
+population. Uh a few years ago P the
+ownership of PyTorch was transferred to
+ 
+ownership of PyTorch was transferred to
+the Linux Foundation. So Meta does not
+ 
+the Linux Foundation. So Meta does not
+own it anymore. It's still the main
+ 
+own it anymore. It's still the main
+contributor, but it doesn't control it.
+ 
+contributor, but it doesn't control it.
+It's controlled by a community of
+ 
+It's controlled by a community of
+developers essentially. Um the entire
+ 
+developers essentially. Um the entire
+industry uses it. If that includes
+ 
+industry uses it. If that includes
+OpenAI, it includes entropic.
+ 
+OpenAI, it includes entropic.
+Um Google has their own thing. But it
+ 
+Um Google has their own thing. But it
+includes Microsoft, it includes Nvidia,
+ 
+includes Microsoft, it includes Nvidia,
+it includes everybody. Everybody uses
+ 
+it includes everybody. Everybody uses
+PyTorch. The entire academic uh world
+ 
+PyTorch. The entire academic uh world
+research uh uses PyTorch.
+ 
+research uh uses PyTorch.
+um I think among all the papers that
+ 
+um I think among all the papers that
+appear in the scientific literature uh
+ 
+appear in the scientific literature uh
+pytorch is mentioned in something like
+ 
+pytorch is mentioned in something like
+70% of them. So what that tells you is
+ 
+70% of them. So what that tells you is
+is that you know progress in AI builds
+ 
+is that you know progress in AI builds
+on each other's uh
+ 
+work and and you know that that's how
+ 
+work and and you know that that's how
+you make uh science and technology
+ 
+you make uh science and technology
+progress.
+ 
+progress.
+>> Maybe start gay project would change
+ 
+>> Maybe start gay project would change
+everything. No,
+ 
+everything. No,
+now all the all the companies that are
+ 
+now all the all the companies that are
+involved in AI are are seeing a future
+ 
+involved in AI are are seeing a future
+pretty near future
+ 
+pretty near future
+where, you know, billions of people will
+ 
+where, you know, billions of people will
+want to use AI assistance on a daily
+ 
+want to use AI assistance on a daily
+basis.
+ 
+basis.
+Um, I'm wearing a pair of glasses now. I
+ 
+Um, I'm wearing a pair of glasses now. I
+don't know if you can see it, but it's
+ 
+don't know if you can see it, but it's
+got cameras on it. These are the Ray
+ 
+got cameras on it. These are the Ray
+Band Meta. Okay, they're built by by
+ 
+Band Meta. Okay, they're built by by
+Meta. And uh you can you can talk to
+ 
+Meta. And uh you can you can talk to
+them. There is an AI assistant um that
+ 
+them. There is an AI assistant um that
+is connected to and you can ask it any
+ 
+is connected to and you can ask it any
+question. You can even ask it to kind of
+ 
+question. You can even ask it to kind of
+you know recognize the species of plant
+ 
+you know recognize the species of plant
+from the camera and everything. Um so we
+ 
+from the camera and everything. Um so we
+see a future where people would be kind
+ 
+see a future where people would be kind
+of wearing smart glasses or maybe using
+ 
+of wearing smart glasses or maybe using
+their smartphone or other smart devices
+ 
+their smartphone or other smart devices
+and basically we use AI assistants all
+ 
+and basically we use AI assistants all
+the time in their daily lives. They will
+ 
+the time in their daily lives. They will
+help them in their daily lives. Now that
+ 
+help them in their daily lives. Now that
+means they're gonna there's going to be
+ 
+means they're gonna there's going to be
+billions of users of those AI assistants
+ 
+billions of users of those AI assistants
+using them multiple times a day and for
+ 
+using them multiple times a day and for
+this you need a very big infrastructure
+ 
+this you need a very big infrastructure
+of compute because running a LLM is or
+ 
+of compute because running a LLM is or
+an AI system whatever it is is not cheap
+ 
+an AI system whatever it is is not cheap
+so you need a lot of compute power most
+ 
+so you need a lot of compute power most
+of that investment so um you know meta
+ 
+of that investment so um you know meta
+is investing this year on the order of
+ 
+is investing this year on the order of
+60 to 65 billion in uh infrastructure
+ 
+60 to 65 billion in uh infrastructure
+mostly for AI. Um Microsoft has
+ 
+mostly for AI. Um Microsoft has
+announced they're investing 80 billion
+ 
+announced they're investing 80 billion
+80 billion.
+ 
+80 billion.
+Um and then Stargate is 500 billion but
+ 
+Um and then Stargate is 500 billion but
+it's over
+ 
+it's over
+five or 10 years and we don't know where
+ 
+five or 10 years and we don't know where
+the money is coming from. So it's on the
+ 
+the money is coming from. So it's on the
+same order of magnitude of investment.
+ 
+same order of magnitude of investment.
+It's really not that different from what
+ 
+It's really not that different from what
+you know Microsoft and Meta are already
+ 
+you know Microsoft and Meta are already
+doing. Um and most of it is for
+ 
+doing. Um and most of it is for
+inference. So it's for uh running AI
+ 
+inference. So it's for uh running AI
+assistant to serve billions of people.
+ 
+assistant to serve billions of people.
+It's not for training large models. That
+ 
+It's not for training large models. That
+is actually relatively cheap. I have a
+ 
+is actually relatively cheap. I have a
+question from our viewer.
+ 
+question from our viewer.
+Uh you propose
+ 
+Uh you propose
+an alternative to the transformer which
+ 
+an alternative to the transformer which
+is the most important piece of LLMs. How
+ 
+is the most important piece of LLMs. How
+does uh JPA world model differ from
+ 
+does uh JPA world model differ from
+transformers and why do you think world
+ 
+transformers and why do you think world
+models are diffusive?
+ 
+models are diffusive?
+>> Okay, so there is this architecture um
+ 
+>> Okay, so there is this architecture um
+which really should be called a a macro
+ 
+which really should be called a a macro
+architecture called JEPA. So that means
+ 
+architecture called JEPA. So that means
+joint embedding predictive architecture
+ 
+joint embedding predictive architecture
+and it is not
+ 
+and it is not
+an alternative to transformers. You can
+ 
+an alternative to transformers. You can
+have transformers inside of JPAS. Okay,
+ 
+have transformers inside of JPAS. Okay,
+JPA is kind of a macro architecture
+ 
+JPA is kind of a macro architecture
+within which you arrange uh different
+ 
+within which you arrange uh different
+modules and those modules could be
+ 
+modules and those modules could be
+transformers. They could be other things
+ 
+transformers. They could be other things
+if you want but they could be
+ 
+if you want but they could be
+transformers. So it's not those are
+ 
+transformers. So it's not those are
+orthogonal concepts. You you it's not a
+ 
+orthogonal concepts. You you it's not a
+they're not in opposition if you want.
+ 
+they're not in opposition if you want.
+what JPA is an alternative to. It's an
+ 
+what JPA is an alternative to. It's an
+alternative to uh something that doesn't
+ 
+alternative to uh something that doesn't
+have a common name uh but basically are
+ 
+have a common name uh but basically are
+the current crop of large language
+ 
+the current crop of large language
+models uh in the business are called
+ 
+models uh in the business are called
+auto reggressive decoder only
+ 
+auto reggressive decoder only
+architectures but uh or transformers or
+ 
+architectures but uh or transformers or
+uh open AI calls them GPTs okay general
+ 
+uh open AI calls them GPTs okay general
+purpose transformer. So a GPT is just a
+ 
+purpose transformer. So a GPT is just a
+particular and by the way it doesn't
+ 
+particular and by the way it doesn't
+need to be a transformer but um it's a
+ 
+need to be a transformer but um it's a
+particular architecture that train
+ 
+particular architecture that train
+that's trained using this
+ 
+that's trained using this
+self-supervised learning technique I was
+ 
+self-supervised learning technique I was
+describing earlier where you take a
+ 
+describing earlier where you take a
+sequence of symbols let's say text a
+ 
+sequence of symbols let's say text a
+sequence of words and you train a system
+ 
+sequence of words and you train a system
+um the system is organized in such a way
+ 
+um the system is organized in such a way
+that to predict a particular word on the
+ 
+that to predict a particular word on the
+input it can only look at the ones that
+ 
+input it can only look at the ones that
+are to the left of it. Okay, it's called
+ 
+are to the left of it. Okay, it's called
+a causal architecture. And if you train
+ 
+a causal architecture. And if you train
+a system to you feed it a text and you
+ 
+a system to you feed it a text and you
+just train it to reproduce that text on
+ 
+just train it to reproduce that text on
+its input, then basically implicitly you
+ 
+its input, then basically implicitly you
+train it to predict the next word in a
+ 
+train it to predict the next word in a
+text. All right? So then you can use
+ 
+text. All right? So then you can use
+that system once it's trained, you can
+ 
+that system once it's trained, you can
+use that system to just produce one word
+ 
+use that system to just produce one word
+after the other auto reggressively. And
+ 
+after the other auto reggressively. And
+that's what large language models are.
+ 
+that's what large language models are.
+Now try to apply this to the real world
+ 
+Now try to apply this to the real world
+because you want to train a robot to you
+ 
+because you want to train a robot to you
+know plan things or predict what's going
+ 
+know plan things or predict what's going
+to happen in the world and it doesn't
+ 
+to happen in the world and it doesn't
+work. So if instead of words you put uh
+ 
+work. So if instead of words you put uh
+you take frames from a video and you
+ 
+you take frames from a video and you
+turn those frames into things like
+ 
+turn those frames into things like
+tokens like like the words and you try
+ 
+tokens like like the words and you try
+to train a system to predict what's
+ 
+to train a system to predict what's
+going to happen in the video. Doesn't
+ 
+going to happen in the video. Doesn't
+work. Doesn't work very well. And so we
+ 
+work. Doesn't work very well. And so we
+have to and the reason it doesn't work
+ 
+have to and the reason it doesn't work
+is because there's a lot of things that
+ 
+is because there's a lot of things that
+happen in the world that you simply
+ 
+happen in the world that you simply
+cannot predict.
+ 
+cannot predict.
+And representing the fact that
+ 
+you cannot exactly predict what's going
+ 
+you cannot exactly predict what's going
+to happen is essentially a
+ 
+to happen is essentially a
+mathematically intractable problem in in
+ 
+mathematically intractable problem in in
+in high dimensional space like videos.
+ 
+in high dimensional space like videos.
+It's possible in discrete space like
+ 
+It's possible in discrete space like
+text.
+ 
+text.
+So you cannot predict what word comes
+ 
+So you cannot predict what word comes
+after a text but you can predict the
+ 
+after a text but you can predict the
+probability distribution over all the
+ 
+probability distribution over all the
+possible words. We don't know how to do
+ 
+possible words. We don't know how to do
+this with videos. We don't know how to
+ 
+this with videos. We don't know how to
+represent a distribution over all
+ 
+represent a distribution over all
+possible video frames. And so um so the
+ 
+possible video frames. And so um so the
+techniques that are used for text that
+ 
+techniques that are used for text that
+work really well for text and for DNA
+ 
+work really well for text and for DNA
+sequences and proteins do not work for
+ 
+sequences and proteins do not work for
+video or other natural signals.
+ 
+video or other natural signals.
+So JPA is an answer to this. It's a way
+ 
+So JPA is an answer to this. It's a way
+to basically
+ 
+to basically
+uh the main idea is that instead of
+ 
+uh the main idea is that instead of
+making that prediction in in the space
+ 
+making that prediction in in the space
+of
+ 
+of
+of the inputs,
+ 
+of the inputs,
+you train the system to learn an
+ 
+you train the system to learn an
+abstract representation of the input and
+ 
+abstract representation of the input and
+then train it to make prediction in that
+ 
+then train it to make prediction in that
+representation space.
+ 
+representation space.
+And that turns out to be a much better
+ 
+And that turns out to be a much better
+way of formulating the problem. Um
+ 
+way of formulating the problem. Um
+because you know if I take a video of
+ 
+because you know if I take a video of
+the room you are in we are in right now
+ 
+the room you are in we are in right now
+or any room okay and I point the camera
+ 
+or any room okay and I point the camera
+at one at one location and then I slowly
+ 
+at one at one location and then I slowly
+turn the camera
+ 
+turn the camera
+and then I stop and I ask the system
+ 
+and then I stop and I ask the system
+tell me what happens next in the video
+ 
+tell me what happens next in the video
+system might predict that the camera is
+ 
+system might predict that the camera is
+going to keep turning but there's no way
+ 
+going to keep turning but there's no way
+it can predict all the details of what's
+ 
+it can predict all the details of what's
+going to be in the in the field of view
+ 
+going to be in the in the field of view
+after the camera rotates. You know,
+ 
+after the camera rotates. You know,
+there's a plant, there might be a
+ 
+there's a plant, there might be a
+a painting on the wall, there might be
+ 
+a painting on the wall, there might be
+people sitting. It cannot predict what
+ 
+people sitting. It cannot predict what
+those people are going to look like. It
+ 
+those people are going to look like. It
+cannot predict what the species of plant
+ 
+cannot predict what the species of plant
+is or what the, you know, what the
+ 
+is or what the, you know, what the
+texture of the floor is going to be or
+ 
+texture of the floor is going to be or
+things like it's just impossible to
+ 
+things like it's just impossible to
+predict. And so if you're training a
+ 
+predict. And so if you're training a
+system to make those prediction, it
+ 
+system to make those prediction, it
+spends a huge amount of resources trying
+ 
+spends a huge amount of resources trying
+to predict things it cannot predict and
+ 
+to predict things it cannot predict and
+it fails. The greatest achievement of
+ 
+it fails. The greatest achievement of
+Yan Lakun Labulati is
+ 
+Yan Lakun Labulati is
+there is no Yan Laboratory.
+ 
+It's it's hard to put the figure on it.
+ 
+It's it's hard to put the figure on it.
+Um I mean what I'm known for is
+ 
+Um I mean what I'm known for is
+something called convolutional neural
+ 
+something called convolutional neural
+network which is a particular
+ 
+network which is a particular
+architecture
+ 
+architecture
+uh inspired by the architecture of the
+ 
+uh inspired by the architecture of the
+visual cortex designed to handle
+ 
+visual cortex designed to handle
+natural signals like images video audio
+ 
+natural signals like images video audio
+speech things like this and those
+ 
+speech things like this and those
+systems are used everywhere. So if you
+ 
+systems are used everywhere. So if you
+have any kind of driving assistance
+ 
+have any kind of driving assistance
+system in your car and most car all the
+ 
+system in your car and most car all the
+cars sold in the EU now have to have
+ 
+cars sold in the EU now have to have
+that right at least they have to have a
+ 
+that right at least they have to have a
+system that breaks your car
+ 
+system that breaks your car
+automatically when there is an obstacle
+ 
+automatically when there is an obstacle
+in front of it. That's your laboratory.
+ 
+in front of it. That's your laboratory.
+>> It's using commercial net. Okay. All of
+ 
+>> It's using commercial net. Okay. All of
+them. That's my invention from 1988.
+ 
+them. That's my invention from 1988.
+Okay. It goes back a long time. So
+ 
+Okay. It goes back a long time. So
+that's what I'm most famous for. The
+ 
+that's what I'm most famous for. The
+first applications were uh character
+ 
+first applications were uh character
+recognition, handwriting recognition,
+ 
+recognition, handwriting recognition,
+reading zip codes, reading checks, the
+ 
+reading zip codes, reading checks, the
+amount of checks, things like that. Um
+ 
+amount of checks, things like that. Um
+that was in the early 90s. And then uh
+ 
+that was in the early 90s. And then uh
+since you know 2010 roughly there's been
+ 
+since you know 2010 roughly there's been
+like a very quickly growing set of
+ 
+like a very quickly growing set of
+applications for this. When you talk to
+ 
+applications for this. When you talk to
+your phone you know speech recognition
+ 
+your phone you know speech recognition
+systems the first few layers of the
+ 
+systems the first few layers of the
+neural net that does this usually uses
+ 
+neural net that does this usually uses
+commercial nets. um when you have an
+ 
+commercial nets. um when you have an
+application on your phone that you know
+ 
+application on your phone that you know
+you can take a picture of uh I know a
+ 
+you can take a picture of uh I know a
+plant and ask uh you know your your app
+ 
+plant and ask uh you know your your app
+what is the species of that plant or
+ 
+what is the species of that plant or
+species of that insect or listening to
+ 
+species of that insect or listening to
+the song of a bird or something and tell
+ 
+the song of a bird or something and tell
+me what species it is that's a
+ 
+me what species it is that's a
+commercial
+ 
+commercial
+>> what is the place of Europe in the AI
+ 
+>> what is the place of Europe in the AI
+race
+ 
+race
+>> I think Europe has a very important role
+ 
+>> I think Europe has a very important role
+to play um because Europe has the most
+ 
+to play um because Europe has the most
+difficult thing to
+ 
+difficult thing to
+>> implementing regulations.
+ 
+>> implementing regulations.
+>> Uh well, there are issues of that type
+ 
+>> Uh well, there are issues of that type
+in EU. That's for sure. Like, for
+ 
+in EU. That's for sure. Like, for
+example, the glasses I'm wearing right
+ 
+example, the glasses I'm wearing right
+now. One uh
+ 
+now. One uh
+one application of this is, you know,
+ 
+one application of this is, you know,
+interpreting the images that go through
+ 
+interpreting the images that go through
+the camera. So, you can look at a a
+ 
+the camera. So, you can look at a a
+menu. I could look at a menu in Polish
+ 
+menu. I could look at a menu in Polish
+or you could be speaking to me in Polish
+ 
+or you could be speaking to me in Polish
+and, you know, there would be kind of
+ 
+and, you know, there would be kind of
+translation
+ 
+translation
+>> of the menu. Actually that's available
+ 
+>> of the menu. Actually that's available
+today future
+ 
+today future
+>> that's available today in those glasses
+ 
+>> that's available today in those glasses
+except the
+ 
+except the
+>> but the glasses are not available
+ 
+>> but the glasses are not available
+>> the glasses are available in Europe
+ 
+>> the glasses are available in Europe
+except the vision feature
+ 
+except the vision feature
+>> except the vision
+ 
+>> except the vision
+>> is is not available because of
+ 
+>> is is not available because of
+uncertainty about regulation it's not
+ 
+uncertainty about regulation it's not
+even clear the regulation would make it
+ 
+even clear the regulation would make it
+illegal it's just that it's unclear
+ 
+illegal it's just that it's unclear
+>> um so um but let me say that Europe has
+ 
+>> um so um but let me say that Europe has
+uh you know big
+ 
+uh you know big
+assets, big advantages and the first one
+ 
+assets, big advantages and the first one
+is talent. Uh so
+ 
+is talent. Uh so
+>> our programmerists,
+ 
+>> our programmerists,
+our programists, mathematicians,
+ 
+our programists, mathematicians,
+physicists,
+ 
+physicists,
+>> mathematicians, uh computer scientists,
+ 
+>> mathematicians, uh computer scientists,
+engineers more generally, uh you know,
+ 
+engineers more generally, uh you know,
+physicists etc. um a lot of top
+ 
+physicists etc. um a lot of top
+scientists in AI regardless of where
+ 
+scientists in AI regardless of where
+they work in the world come from Europe.
+ 
+they work in the world come from Europe.
+Uh I come from Europe. I remember the
+ 
+Uh I come from Europe. I remember the
+press con noble press conference when I
+ 
+press con noble press conference when I
+asked Jeffrey Hinton
+ 
+asked Jeffrey Hinton
+>> and my first question is to professor
+ 
+>> and my first question is to professor
+Jeffrey Hinton do you regret something
+ 
+Jeffrey Hinton do you regret something
+>> and I would like to ask you the same
+ 
+>> and I would like to ask you the same
+question.
+ 
+question.
+>> Uh I don't know what Jeff answered to
+ 
+>> Uh I don't know what Jeff answered to
+that question but I can guess what he
+ 
+that question but I can guess what he
+answered. Okay let me give you my answer
+ 
+answered. Okay let me give you my answer
+first. Okay. So my answer is um
+ 
+first. Okay. So my answer is um
+for the longest time
+ 
+for the longest time
+I was not interested in what we now call
+ 
+I was not interested in what we now call
+self-supervised learning because I
+ 
+self-supervised learning because I
+thought it was badly formulated as a
+ 
+thought it was badly formulated as a
+problem. And in fact, I had those
+ 
+problem. And in fact, I had those
+discussions with Jeff Inton for for many
+ 
+discussions with Jeff Inton for for many
+years where, you know, I I was pushing
+ 
+years where, you know, I I was pushing
+supervised learning and and and he told
+ 
+supervised learning and and and he told
+me like ultimately we need to figure out
+ 
+me like ultimately we need to figure out
+how to do what he calls unsupervised
+ 
+how to do what he calls unsupervised
+learning which is now a particular form
+ 
+learning which is now a particular form
+of equal supervised learning. And I only
+ 
+of equal supervised learning. And I only
+changed my mind about this in the mid
+ 
+changed my mind about this in the mid
+2000. Okay. And that was probably 10
+ 
+2000. Okay. And that was probably 10
+years too late. So I should have
+ 
+years too late. So I should have
+probably got interest gotten interested
+ 
+probably got interest gotten interested
+in that problem earlier. But the thing
+ 
+in that problem earlier. But the thing
+is between the mid9s and and the early
+ 
+is between the mid9s and and the early
+2000s uh not much happened in neural
+ 
+2000s uh not much happened in neural
+nets and deep learning because the whole
+ 
+nets and deep learning because the whole
+world was completely uninterested in
+ 
+world was completely uninterested in
+that. So you know we we had to do
+ 
+that. So you know we we had to do
+something else. I worked on something
+ 
+something else. I worked on something
+else. I worked on image compression a
+ 
+else. I worked on image compression a
+system called D deja vu djvu which I
+ 
+system called D deja vu djvu which I
+heard is was pretty popular in Poland
+ 
+heard is was pretty popular in Poland
+actually um uh in Eastern Europe more
+ 
+actually um uh in Eastern Europe more
+generally. But um uh so so I think I
+ 
+generally. But um uh so so I think I
+think that's that's one thing I would
+ 
+think that's that's one thing I would
+have I would have done differently. Um
+ 
+have I would have done differently. Um
+other than that I've been pretty happy
+ 
+other than that I've been pretty happy
+with things the the way things have been
+ 
+with things the the way things have been
+going. I would have been pretty a little
+ 
+going. I would have been pretty a little
+more forceful also at kind of keeping
+ 
+more forceful also at kind of keeping
+the interest of the community in in
+ 
+the interest of the community in in
+neuronets and machine learning in the
+ 
+neuronets and machine learning in the
+late 90s than I was. um uh so that there
+ 
+late 90s than I was. um uh so that there
+wouldn't have been a kind of a winter of
+ 
+wouldn't have been a kind of a winter of
+deep learning if you want right um I'm
+ 
+deep learning if you want right um I'm
+guessing uh perhaps one one thing that
+ 
+guessing uh perhaps one one thing that
+Jeff might have answered is that he had
+ 
+Jeff might have answered is that he had
+a bit of a change of mind uh two years
+ 
+a bit of a change of mind uh two years
+ago where the quest of his career was to
+ 
+ago where the quest of his career was to
+figure out the learning algorithm of the
+ 
+figure out the learning algorithm of the
+of the cortex of the brain
+ 
+of the cortex of the brain
+uh he always thought that back
+ 
+uh he always thought that back
+propagation which is the main technique
+ 
+propagation which is the main technique
+that we use to train neural nets today
+ 
+that we use to train neural nets today
+which he had something to do with and I
+ 
+which he had something to do with and I
+had something to do with as well. He
+ 
+had something to do with as well. He
+always thought that was not what the
+ 
+always thought that was not what the
+brain used because and the brain was be
+ 
+brain used because and the brain was be
+using something else because back
+ 
+using something else because back
+propagation is not really kind of
+ 
+propagation is not really kind of
+biologically uh plausible.
+ 
+biologically uh plausible.
+Um
+ 
+Um
+and and so he kept coming up with sort
+ 
+and and so he kept coming up with sort
+of new ways of doing machine learning
+ 
+of new ways of doing machine learning
+every two years for the last four years.
+ 
+every two years for the last four years.
+Um and two years ago he just gave up. He
+ 
+Um and two years ago he just gave up. He
+said, "Well, maybe the brain doesn't use
+ 
+said, "Well, maybe the brain doesn't use
+back propagation, but back propagation
+ 
+back propagation, but back propagation
+works really well, and maybe that's all
+ 
+works really well, and maybe that's all
+we need. Maybe it works even better than
+ 
+we need. Maybe it works even better than
+whatever it is that the brain uses." And
+ 
+whatever it is that the brain uses." And
+so, so he had this epiphany and then
+ 
+so, so he had this epiphany and then
+retired. Basically, he could declare
+ 
+retired. Basically, he could declare
+victory.
+ 
+victory.
+>> Thank you very much for your time and
+ 
+>> Thank you very much for your time and
+having you here. It was an honor. Thank
+ 
+having you here. It was an honor. Thank
+you. A pleasure.
