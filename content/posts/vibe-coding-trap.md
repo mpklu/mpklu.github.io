@@ -1,5 +1,5 @@
 +++
-date = '2026-03-23T10:00:00-04:00'
+date = '2026-03-23T00:30:00-04:00'
 draft = false
 title = 'The Vibe Coding Trap'
 tags = ['ai-productivity', 'cognitive-offloading', 'code-quality', 'developer-tools']
