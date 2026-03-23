@@ -39,3 +39,5 @@ theme = 'ananke'
 [params]
   show_reading_time = true
   mainSections = ['posts']
+  site_logo = '/images/avatar.png'
+  custom_css = ['custom.css']
