@@ -1,20 +1,20 @@
-last_run_date: "2026-03-26"
-last_summary_file: "content/newsdigests/2026-03-26-daily-digest.md"
+last_run_date: "2026-03-27"
+last_summary_file: "content/newsdigests/2026-03-27-daily-digest.md"
 sources:
   Anthropic:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
     posts_found: 0
     urls:
       - https://www.anthropic.com/engineering
   OpenAI:
     last_success: "2026-03-25"
-    consecutive_failures: 1
+    consecutive_failures: 2
     posts_found: 0
     urls:
       - https://openai.com/blog/rss.xml
   Google:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
     posts_found: 0
     urls:
@@ -23,46 +23,46 @@ sources:
       - https://blog.google/innovation-and-ai/rss/
       - https://blog.google/technology/developers/rss/
   BAIR:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
     posts_found: 0
     urls:
       - https://bair.berkeley.edu/blog/
   One Useful Thinking:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
     posts_found: 0
     urls:
       - https://www.oneusefulthing.org/
   Rundown:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
     posts_found: 1
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
   Cursor:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
-    posts_found: 0
+    posts_found: 1
     urls:
       - https://cursor.com/blog
   Addy Osmani:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
     posts_found: 0
     urls:
       - https://medium.com/feed/@addyosmani
   NVIDIA:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
-    posts_found: 0
+    posts_found: 1
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
   Overflow:
-    last_success: "2026-03-26"
+    last_success: "2026-03-27"
     consecutive_failures: 0
-    posts_found: 0
+    posts_found: 2
     urls:
       - https://stackoverflow.blog/
