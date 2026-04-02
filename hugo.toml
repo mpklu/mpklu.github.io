@@ -32,6 +32,11 @@ theme = 'ananke'
   weight = 20
 
 [[menus.main]]
+  name = 'Market News'
+  url = '/marketnews/'
+  weight = 25
+
+[[menus.main]]
   name = 'RSS'
   url = '/newsdigests/index.xml'
   weight = 30
@@ -41,3 +46,4 @@ theme = 'ananke'
   mainSections = ['posts']
   site_logo = '/images/avatar.png'
   custom_css = ['custom.css']
+  author = 'Kun Lu'
