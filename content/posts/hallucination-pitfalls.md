@@ -1,6 +1,6 @@
 +++
 date = '2026-04-08T12:00:00-04:00'
-draft = true
+draft = false
 title = 'The Most Dangerous Hallucination Is the One That Sounds Right'
 tags = ['ai-hallucination', 'claude-code', 'developer-tools', 'confabulation']
 categories = ['Analysis']
