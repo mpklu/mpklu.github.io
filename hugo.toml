@@ -47,3 +47,4 @@ theme = 'ananke'
   site_logo = '/images/avatar.png'
   custom_css = ['custom.css']
   author = 'Kun Lu'
+  giscusEnable = true
