@@ -1,5 +1,5 @@
 last_run_date: "2026-04-13"
-last_summary_file: "content/newsdigests/2026-04-13-feed-summary.md"
+last_summary_file: "content/newsdigests/2026-04-13-daily-digest.md"
 sources:
   Anthropic:
     last_success: "2026-04-13"
@@ -41,8 +41,8 @@ sources:
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
   Cursor:
-    last_success: "2026-04-13"
-    consecutive_failures: 0
+    last_success: "2026-04-12"
+    consecutive_failures: 1
     posts_found: 0
     urls:
       - https://cursor.com/blog
@@ -55,7 +55,7 @@ sources:
   NVIDIA:
     last_success: "2026-04-13"
     consecutive_failures: 0
-    posts_found: 0
+    posts_found: 7
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
@@ -63,31 +63,31 @@ sources:
   Overflow:
     last_success: "2026-04-13"
     consecutive_failures: 0
-    posts_found: 0
+    posts_found: 2
     urls:
       - https://stackoverflow.blog/
   Hacker News:
     last_success: "2026-04-13"
     consecutive_failures: 0
-    posts_found: 1
+    posts_found: 0
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
   Lobsters:
-    last_success: "2026-04-13"
-    consecutive_failures: 0
+    last_success: "2026-04-12"
+    consecutive_failures: 1
     posts_found: 0
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
     last_success: "2026-04-13"
     consecutive_failures: 0
-    posts_found: 1
+    posts_found: 3
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
-    last_success: "2026-04-12"
-    consecutive_failures: 1
+    last_success: "2026-04-13"
+    consecutive_failures: 0
     posts_found: 0
     urls:
       - https://github.com/trending
