@@ -1,0 +1,68 @@
+<div id="tts-player" class="mv3">
+  <button id="tts-play" class="f6 pointer dim br2 ph3 pv2 dib bg-near-white ba b--moon-gray mr2">&#9654; Listen</button>
+  <button id="tts-stop" class="f6 pointer dim br2 ph3 pv2 dib bg-near-white ba b--moon-gray" style="display:none">&#9724; Stop</button>
+  <span id="tts-status" class="f6 gray ml2"></span>
+</div>
+<script>
+(function () {
+  if (!window.speechSynthesis) return;
+
+  var playBtn = document.getElementById('tts-play');
+  var stopBtn = document.getElementById('tts-stop');
+  var statusEl = document.getElementById('tts-status');
+  var paused = false;
+
+  function getReadableText() {
+    var article = document.querySelector('article');
+    if (!article) return '';
+    var clone = article.cloneNode(true);
+    clone.querySelectorAll('#tts-player, img, figure, script, style, .tags, nav').forEach(function (el) {
+      el.parentNode.removeChild(el);
+    });
+    return (clone.innerText || clone.textContent).replace(/\n{3,}/g, '\n\n').trim();
+  }
+
+  playBtn.addEventListener('click', function () {
+    if (window.speechSynthesis.speaking && !paused) {
+      window.speechSynthesis.pause();
+      paused = true;
+      playBtn.textContent = '\u25BA Resume';
+      statusEl.textContent = 'Paused';
+    } else if (paused) {
+      window.speechSynthesis.resume();
+      paused = false;
+      playBtn.textContent = '\u23F8 Pause';
+      statusEl.textContent = 'Playing\u2026';
+    } else {
+      var utterance = new SpeechSynthesisUtterance(getReadableText());
+      utterance.lang = 'en-US';
+      utterance.rate = 0.95;
+      utterance.onstart = function () {
+        playBtn.textContent = '\u23F8 Pause';
+        stopBtn.style.display = '';
+        statusEl.textContent = 'Playing\u2026';
+      };
+      utterance.onend = function () {
+        playBtn.textContent = '\u25BA Listen';
+        stopBtn.style.display = 'none';
+        statusEl.textContent = '';
+        paused = false;
+      };
+      utterance.onerror = function () {
+        statusEl.textContent = 'TTS not supported in this browser';
+        playBtn.textContent = '\u25BA Listen';
+        stopBtn.style.display = 'none';
+      };
+      window.speechSynthesis.speak(utterance);
+    }
+  });
+
+  stopBtn.addEventListener('click', function () {
+    window.speechSynthesis.cancel();
+    paused = false;
+    playBtn.textContent = '\u25BA Listen';
+    stopBtn.style.display = 'none';
+    statusEl.textContent = '';
+  });
+}());
+</script>

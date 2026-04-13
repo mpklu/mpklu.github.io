@@ -48,3 +48,4 @@ theme = 'ananke'
   custom_css = ['custom.css']
   author = 'Kun Lu'
   giscusEnable = true
+  ttsEnable = true
