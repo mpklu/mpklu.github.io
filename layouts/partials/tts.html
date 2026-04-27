@@ -1,6 +1,7 @@
 <div id="tts-player" class="mv3">
   <button id="tts-play" class="f6 pointer dim br2 ph3 pv2 dib bg-near-white ba b--moon-gray mr2">&#9654; Listen</button>
-  <button id="tts-stop" class="f6 pointer dim br2 ph3 pv2 dib bg-near-white ba b--moon-gray" style="display:none">&#9724; Stop</button>
+  <button id="tts-stop" class="f6 pointer dim br2 ph3 pv2 dib bg-near-white ba b--moon-gray mr2" style="display:none">&#9724; Stop</button>
+  <select id="tts-voice" class="f6 br2 ph2 pv1 ba b--moon-gray bg-near-white" style="max-width:240px"></select>
   <span id="tts-status" class="f6 gray ml2"></span>
 </div>
 <script>
@@ -9,8 +10,67 @@
 
   var playBtn = document.getElementById('tts-play');
   var stopBtn = document.getElementById('tts-stop');
+  var voiceSel = document.getElementById('tts-voice');
   var statusEl = document.getElementById('tts-status');
   var paused = false;
+  var voices = [];
+
+  // Priority order — first regex that matches a voice.name wins.
+  var PREFERRED = [
+    /Google US English$/,
+    /Microsoft .* Online \(Natural\) - English/,
+    /\(Premium\)$/,
+    /^Alex$/,
+    /\(Enhanced\)$/,
+    /Google UK English Female/,
+    /Google UK English Male/,
+    /Microsoft Aria/,
+    /Microsoft Jenny/,
+    /Microsoft Guy/,
+    /Microsoft Zira/,
+    /Microsoft David/,
+  ];
+
+  function rankVoice(v) {
+    for (var i = 0; i < PREFERRED.length; i++) {
+      if (PREFERRED[i].test(v.name)) return i;
+    }
+    return PREFERRED.length;
+  }
+
+  function loadVoices() {
+    var all = window.speechSynthesis.getVoices();
+    voices = all.filter(function (v) { return /^en(-|_|$)/i.test(v.lang); });
+    voices.sort(function (a, b) {
+      var ra = rankVoice(a), rb = rankVoice(b);
+      if (ra !== rb) return ra - rb;
+      return a.name.localeCompare(b.name);
+    });
+
+    while (voiceSel.firstChild) voiceSel.removeChild(voiceSel.firstChild);
+    voices.forEach(function (v, i) {
+      var opt = document.createElement('option');
+      opt.value = i;
+      opt.textContent = v.name + ' (' + v.lang + ')' + (v.default ? ' ★' : '');
+      voiceSel.appendChild(opt);
+    });
+
+    var saved = localStorage.getItem('tts-voice-name');
+    if (saved) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx >= 0) voiceSel.value = idx;
+    }
+  }
+
+  loadVoices();
+  if (typeof speechSynthesis.onvoiceschanged !== 'undefined') {
+    speechSynthesis.onvoiceschanged = loadVoices;
+  }
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    if (v) localStorage.setItem('tts-voice-name', v.name);
+  });
 
   function getReadableText() {
     var article = document.querySelector('article');
@@ -26,31 +86,37 @@
     if (window.speechSynthesis.speaking && !paused) {
       window.speechSynthesis.pause();
       paused = true;
-      playBtn.textContent = '\u25BA Resume';
+      playBtn.textContent = '► Resume';
       statusEl.textContent = 'Paused';
     } else if (paused) {
       window.speechSynthesis.resume();
       paused = false;
-      playBtn.textContent = '\u23F8 Pause';
-      statusEl.textContent = 'Playing\u2026';
+      playBtn.textContent = '⏸ Pause';
+      statusEl.textContent = 'Playing…';
     } else {
       var utterance = new SpeechSynthesisUtterance(getReadableText());
-      utterance.lang = 'en-US';
+      var chosen = voices[voiceSel.value];
+      if (chosen) {
+        utterance.voice = chosen;
+        utterance.lang = chosen.lang;
+      } else {
+        utterance.lang = 'en-US';
+      }
       utterance.rate = 0.95;
       utterance.onstart = function () {
-        playBtn.textContent = '\u23F8 Pause';
+        playBtn.textContent = '⏸ Pause';
         stopBtn.style.display = '';
-        statusEl.textContent = 'Playing\u2026';
+        statusEl.textContent = 'Playing…';
       };
       utterance.onend = function () {
-        playBtn.textContent = '\u25BA Listen';
+        playBtn.textContent = '► Listen';
         stopBtn.style.display = 'none';
         statusEl.textContent = '';
         paused = false;
       };
       utterance.onerror = function () {
         statusEl.textContent = 'TTS not supported in this browser';
-        playBtn.textContent = '\u25BA Listen';
+        playBtn.textContent = '► Listen';
         stopBtn.style.display = 'none';
       };
       window.speechSynthesis.speak(utterance);
@@ -60,9 +126,8 @@
   stopBtn.addEventListener('click', function () {
     window.speechSynthesis.cancel();
     paused = false;
-    playBtn.textContent = '\u25BA Listen';
+    playBtn.textContent = '► Listen';
     stopBtn.style.display = 'none';
-    statusEl.textContent = '';
   });
 }());
 </script>
