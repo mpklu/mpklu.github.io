@@ -82,6 +82,71 @@
     return (clone.innerText || clone.textContent).replace(/\n{3,}/g, '\n\n').trim();
   }
 
+  // Chrome silently aborts long utterances; chunk into ~200-char pieces on
+  // sentence/clause boundaries.
+  function chunkText(text, max) {
+    max = max || 200;
+    var sentences = text.match(/[^.!?\n]+[.!?]+|\S[^\n]*\n?/g) || [text];
+    var chunks = [], buf = '';
+    sentences.forEach(function (s) {
+      s = s.trim();
+      if (!s) return;
+      if ((buf + ' ' + s).trim().length > max) {
+        if (buf) chunks.push(buf.trim());
+        if (s.length > max) {
+          // Hard-split overlong sentence on commas/spaces.
+          var parts = s.match(new RegExp('.{1,' + max + '}(\\s|,|$)', 'g')) || [s];
+          parts.forEach(function (p) { chunks.push(p.trim()); });
+          buf = '';
+        } else {
+          buf = s;
+        }
+      } else {
+        buf = (buf + ' ' + s).trim();
+      }
+    });
+    if (buf) chunks.push(buf.trim());
+    return chunks;
+  }
+
+  var queue = [];
+  var stopped = false;
+
+  function speakNext() {
+    if (stopped || queue.length === 0) {
+      playBtn.textContent = '► Listen';
+      stopBtn.style.display = 'none';
+      if (!stopped) statusEl.textContent = '';
+      paused = false;
+      return;
+    }
+    var text = queue.shift();
+    var u = new SpeechSynthesisUtterance(text);
+    var chosen = voices[voiceSel.value];
+    if (chosen) {
+      u.voice = chosen;
+      u.lang = chosen.lang;
+    } else {
+      u.lang = 'en-US';
+    }
+    u.rate = 0.95;
+    u.onstart = function () {
+      playBtn.textContent = '⏸ Pause';
+      stopBtn.style.display = '';
+      statusEl.textContent = 'Playing…';
+    };
+    u.onend = function () { speakNext(); };
+    u.onerror = function (e) {
+      // interrupted/canceled fire on normal stop — ignore.
+      if (e.error === 'interrupted' || e.error === 'canceled') return;
+      console.warn('TTS error:', e.error, 'voice:', chosen && chosen.name);
+      statusEl.textContent = 'TTS error: ' + (e.error || 'unknown');
+      // Try the next chunk anyway — one bad chunk shouldn't kill playback.
+      speakNext();
+    };
+    window.speechSynthesis.speak(u);
+  }
+
   playBtn.addEventListener('click', function () {
     if (window.speechSynthesis.speaking && !paused) {
       window.speechSynthesis.pause();
@@ -94,36 +159,21 @@
       playBtn.textContent = '⏸ Pause';
       statusEl.textContent = 'Playing…';
     } else {
-      var utterance = new SpeechSynthesisUtterance(getReadableText());
-      var chosen = voices[voiceSel.value];
-      if (chosen) {
-        utterance.voice = chosen;
-        utterance.lang = chosen.lang;
-      } else {
-        utterance.lang = 'en-US';
+      // Cancel any stuck state from a prior session.
+      window.speechSynthesis.cancel();
+      stopped = false;
+      queue = chunkText(getReadableText());
+      if (queue.length === 0) {
+        statusEl.textContent = 'Nothing to read';
+        return;
       }
-      utterance.rate = 0.95;
-      utterance.onstart = function () {
-        playBtn.textContent = '⏸ Pause';
-        stopBtn.style.display = '';
-        statusEl.textContent = 'Playing…';
-      };
-      utterance.onend = function () {
-        playBtn.textContent = '► Listen';
-        stopBtn.style.display = 'none';
-        statusEl.textContent = '';
-        paused = false;
-      };
-      utterance.onerror = function () {
-        statusEl.textContent = 'TTS not supported in this browser';
-        playBtn.textContent = '► Listen';
-        stopBtn.style.display = 'none';
-      };
-      window.speechSynthesis.speak(utterance);
+      speakNext();
     }
   });
 
   stopBtn.addEventListener('click', function () {
+    stopped = true;
+    queue = [];
     window.speechSynthesis.cancel();
     paused = false;
     playBtn.textContent = '► Listen';
