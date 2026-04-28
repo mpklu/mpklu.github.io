@@ -122,7 +122,13 @@
     }
     var text = queue.shift();
     var u = new SpeechSynthesisUtterance(text);
-    var chosen = voices[voiceSel.value];
+    // Re-resolve the voice by name from a fresh getVoices() call — Chrome
+    // invalidates voice references over time and silently produces no audio
+    // when handed a stale one.
+    var wantedName = voices[voiceSel.value] && voices[voiceSel.value].name;
+    var chosen = wantedName
+      ? window.speechSynthesis.getVoices().find(function (v) { return v.name === wantedName; })
+      : null;
     if (chosen) {
       u.voice = chosen;
       u.lang = chosen.lang;

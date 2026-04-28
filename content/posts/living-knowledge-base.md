@@ -12,7 +12,7 @@ categories = ['Software-Engineering']
 
 Documentation has always been the thing engineering teams promise to do and quietly skip. Sprint deadlines win, the wiki rots, the README becomes archaeology. We all know the cycle.
 
-Recently I came across a project that does it differently — and the difference is not just "we tried harder this time." It's a structural change that only makes sense in a world where AI agents are part of the development loop. After spending some time with it, I'm convinced the pattern is worth sharing, because it solves the documentation-decay problem in a way I haven't seen before.
+Recently I came across a project (by `Franco Dominguez Noriega`) that does it differently — and the difference is not just "we tried harder this time." It's a structural change that only makes sense in a world where AI agents are part of the development loop. After spending some time with it, I'm convinced the pattern is worth sharing, because it solves the documentation-decay problem in a way I haven't seen before.
 
 This post explains the pattern, walks through how it works on a concrete example, and gives you a step-by-step recipe to set it up on your next greenfield project.
 
@@ -236,9 +236,9 @@ touched.
 
 ## Project Structure
 
-```
+
 {{outline of src/, tests/, config/, etc.}}
-```
+
 
 ## Key Commands
 
@@ -246,8 +246,8 @@ touched.
 {{your-package-manager}} install
 {{your-test-runner}}
 ```
-```
 
+```
 That's enough to start. Add more sections — production-safety rules, deployment notes, key business invariants — as the project develops, but the article-mapping table is the load-bearing piece. Keep it accurate.
 
 ## Caveats and adjustments
