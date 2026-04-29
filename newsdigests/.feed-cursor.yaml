@@ -1,59 +1,59 @@
-last_run_date: "2026-04-28"
-last_summary_file: "content/newsdigests/2026-04-28-daily-digest.md"
+last_run_date: "2026-04-29"
+last_summary_file: "content/newsdigests/2026-04-29-feed-summary.md"
 sources:
   Anthropic:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
     posts_found: 0
     urls:
       - https://www.anthropic.com/engineering
   OpenAI:
-    last_success: "2026-04-27"
-    consecutive_failures: 2
-    posts_found: 0
+    last_success: "2026-04-29"
+    consecutive_failures: 0
+    posts_found: 1
     urls:
       - https://openai.com/blog/rss.xml
   Google:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
-    posts_found: 2
+    posts_found: 1
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
       - https://blog.google/innovation-and-ai/rss/
       - https://blog.google/technology/developers/rss/
   BAIR:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
     posts_found: 0
     urls:
       - https://bair.berkeley.edu/blog/
   One Useful Thinking:
     last_success: "2026-04-23"
-    consecutive_failures: 5
+    consecutive_failures: 6
     posts_found: 0
     urls:
       - https://www.oneusefulthing.org/
   Rundown:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
     posts_found: 1
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
   Cursor:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
     posts_found: 0
     urls:
       - https://cursor.com/blog
   Addy Osmani:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
     posts_found: 0
     urls:
       - https://medium.com/feed/@addyosmani
   NVIDIA:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
     posts_found: 0
     urls:
@@ -61,32 +61,32 @@ sources:
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
   Overflow:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
-    posts_found: 2
+    posts_found: 0
     urls:
       - https://stackoverflow.blog/
   Hacker News:
-    last_success: "2026-04-25"
-    consecutive_failures: 3
+    last_success: "2026-04-29"
+    consecutive_failures: 0
     posts_found: 0
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
   Lobsters:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
-    posts_found: 1
+    posts_found: 0
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
-    posts_found: 4
+    posts_found: 1
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
-    last_success: "2026-04-28"
+    last_success: "2026-04-29"
     consecutive_failures: 0
     posts_found: 0
     urls:
