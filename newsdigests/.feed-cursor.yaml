@@ -1,5 +1,5 @@
 last_run_date: "2026-05-10"
-last_summary_file: "content/newsdigests/2026-05-10-feed-summary.md"
+last_summary_file: "content/newsdigests/2026-05-10-daily-digest.md"
 sources:
   Anthropic:
     last_success: "2026-05-10"
@@ -10,7 +10,7 @@ sources:
   OpenAI:
     last_success: "2026-05-10"
     consecutive_failures: 0
-    posts_found: 0
+    posts_found: 1
     urls:
       - https://openai.com/blog/rss.xml
   Google:
@@ -30,7 +30,7 @@ sources:
       - https://bair.berkeley.edu/blog/
   One Useful Thinking:
     last_success: "2026-04-23"
-    consecutive_failures: 18
+    consecutive_failures: 19
     posts_found: 0
     urls:
       - https://www.oneusefulthing.org/
@@ -67,22 +67,22 @@ sources:
     urls:
       - https://stackoverflow.blog/
   Hacker News:
-    last_success: "2026-05-09"
-    consecutive_failures: 1
+    last_success: "2026-05-10"
+    consecutive_failures: 0
     posts_found: 0
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
   Lobsters:
     last_success: "2026-05-08"
-    consecutive_failures: 2
+    consecutive_failures: 3
     posts_found: 0
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
     last_success: "2026-05-10"
     consecutive_failures: 0
-    posts_found: 1
+    posts_found: 3
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
