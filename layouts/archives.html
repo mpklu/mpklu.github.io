@@ -1,0 +1,29 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $pages := where .Site.RegularPages "Section" "in" (slice "posts" "newsdigests" "marketnews") -}}
+
+{{- range $pages.GroupByPublishDate "2006" }}
+{{- if ne .Key "0001" }}
+<div class="archive-year">
+  <h2 class="archive-year-header">{{ .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h2>
+  <div class="archive-posts">
+    {{- range .Pages }}
+    <div class="archive-entry">
+      <h3 class="archive-entry-title">
+        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        <span class="archive-meta">&middot; {{ .Section | humanize }}</span>
+      </h3>
+      <div class="archive-meta">{{ .Date | time.Format (default "January 2, 2006" .Site.Params.DateFormat) }}</div>
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+{{- end }}
+{{- end }}
