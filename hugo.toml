@@ -1,7 +1,16 @@
 baseURL = 'https://mpklu.github.io/'
 languageCode = 'en-us'
 title = 'AI Coding Blog'
-theme = 'ananke'
+theme = 'PaperMod'
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+pygmentsUseClasses = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
 
 [taxonomies]
   tag = 'tags'
@@ -22,30 +31,80 @@ theme = 'ananke'
     weight = 10
 
 [[menus.main]]
+  identifier = 'posts'
   name = 'Posts'
   url = '/posts/'
   weight = 10
 
 [[menus.main]]
+  identifier = 'newsdigests'
   name = 'News Digests'
   url = '/newsdigests/'
   weight = 20
 
 [[menus.main]]
+  identifier = 'marketnews'
   name = 'Market News'
   url = '/marketnews/'
-  weight = 25
-
-[[menus.main]]
-  name = 'RSS'
-  url = '/newsdigests/index.xml'
   weight = 30
 
+[[menus.main]]
+  identifier = 'archives'
+  name = 'Archive'
+  url = '/archives/'
+  weight = 40
+
+[[menus.main]]
+  identifier = 'search'
+  name = 'Search'
+  url = '/search/'
+  weight = 50
+
+[[menus.main]]
+  identifier = 'rss'
+  name = 'RSS'
+  url = '/newsdigests/index.xml'
+  weight = 60
+
 [params]
-  show_reading_time = true
+  env = 'production'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowAllPagesInArchive = true
   mainSections = ['posts']
-  site_logo = '/images/avatar.png'
-  custom_css = ['custom.css']
   author = 'Kun Lu'
-  giscusEnable = true
-  ttsEnable = true
+  DateFormat = '2006-01-02'
+  comments = true
+
+  [params.label]
+    text = 'AI Coding Blog'
+    icon = '/images/avatar.png'
+    iconHeight = 35
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ['title', 'permalink', 'summary', 'content']
+
+  [params.giscus]
+    repo = 'mpklu/mpklu.github.io'
+    repoId = 'R_kgDORsgQlA'
+    category = 'Announcements'
+    categoryId = 'DIC_kwDORsgQlM4C6svi'
+    mapping = 'pathname'
+    strict = '0'
+    reactionsEnabled = '1'
+    emitMetadata = '0'
+    inputPosition = 'bottom'
+    theme = 'preferred_color_scheme'
+    lang = 'en'
