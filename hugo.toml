@@ -81,6 +81,7 @@ pygmentsUseClasses = true
   author = 'Kun Lu'
   DateFormat = '2006-01-02'
   comments = true
+  ttsEnable = true
 
   [params.label]
     text = 'AI Coding Blog'
