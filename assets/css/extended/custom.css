@@ -1,0 +1,10 @@
+/* Circular avatar in the nav bar logo */
+.logo a img,
+.logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  border: 2px solid var(--theme);
+}
