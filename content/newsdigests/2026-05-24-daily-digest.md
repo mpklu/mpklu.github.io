@@ -1,0 +1,47 @@
++++
+date = '2026-05-24'
+title = 'AI Daily Digest — 2026-05-24'
+draft = false
+tags = ['daily-digest']
+categories = ['News Digest']
++++
+
+## Key Highlights
+- **Karpathy lands at Anthropic to lead a recursive self-improvement pre-training team** — and All-In's panel argues continual learning + recursive self-improvement are the two "final frontiers" that could pull the timeline forward sharply. Chamath's framing: an order-of-magnitude per-year quality jump may turn out to be the *conservative* case once these two unlock.
+- **SpaceX's S-1 reveals "Elon Web Services" is the real story, not Starlink.** Anthropic is paying SpaceX **$1.25B/month** — a $45B / 3-year deal — to rent Colossus 1 and parts of Colossus 2 (with 90-day cancellation for either side). Composer 2.5 (Cursor's model, trained on Colossus 2 in ~3 weeks of RL) now sits Pareto-dominant on the coding frontier; the panel reads it as proof that Cursor's coding-token corpus + XAI compute is a real new pole in the model race.
+- **The "America turns on AI" thread is hardening into a policy problem.** Three commencement speeches (Eric Schmidt's included) got booed for AI-job framing; a planned Trump AI executive order was scrubbed at the last minute after the attendee list (frontier-lab CEOs + hyperscalers) leaked; Chamath and Gavin Baker both flag a coordinated anti-data-center / anti-AI sentiment campaign and call on the industry to lead with end-user benefit stories rather than CEO doom takes.
+- **Quiet day on the blog side** — every curated source's latest content predates the 2026-05-23 cutoff and was already captured in earlier digests. No new written posts to summarize.
+
+---
+
+## Interviews & Conversations
+
+### [SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?](https://www.youtube.com/watch?v=HGbA6ze0_3M) — All-In Podcast (1:42:00)
+
+Episode 274 with guest Gavin Baker (Treaties Management). The week's hinge story for the panel is **Andrej Karpathy joining Anthropic to lead a new pre-training team focused on recursive self-improvement**. Baker argues recursive self-improvement + continual learning are AI's "two final frontiers" — and that if they unlock, Chamath's repeated "10x per year" line "might seem conservative." Anthropic was EBIT-positive last quarter per the WSJ; combined LLM-app ARR across OpenAI, Anthropic, Gemini, Cursor, XAI, and open source is on a path to $200–400B by year-end at ~80% gross margins on inference, which the panel treats as the end of the "circular funding" critique.
+
+**SpaceX S-1 (filing for ~$1.75T at ~$75B raise, ticker SPCX, ~June 12 listing):** Starlink at $11.4B revenue (50% growth, $4.4B operating income); space business $4B; **XAI $3.2B revenue but $6.4B operating loss**; $20B capex with 60%+ going to AI buildout. The new line item — **"Elon Web Services" — is a $1.25B/month, $45B/3-year Anthropic compute deal** for Colossus 1 + parts of Colossus 2 (90-day mutual-cancel clause). Baker's read: SpaceX builds gigawatt-class data centers faster and cheaper than anyone (122 → 91 → 66 days for sequential builds), and Jensen will allocate GPUs to whoever can plug them in. Chamath's underwriting case: 25–30B revenue this year, doubling next, plus a partner-of-choice slot for Nvidia's DC-to-DC rack-architecture rewrite that eliminates the AC conversion loss inside data centers.
+
+**Cursor Composer 2.5 is the under-the-radar bombshell.** Same base model as Composer 2 (Kimmy K.25), but 3–4 weeks of RL on Colossus 2 against Cursor's proprietary coding-token corpus — which Baker claims exceeds the public internet's coding tokens — produces a model that is *Pareto-dominant* against the frontier. Combined with Grok Build (the missing harness/runtime/state layer that previously held XAI back), the panel treats this as the moment XAI/Cursor became a credible fourth pole alongside Anthropic, OpenAI, and Google.
+
+**On the "America turns on AI" backlash** (the topic that occupies the most airtime): three recent commencement speeches were booed when AI-job-loss framing came up; a Trump AI executive order with frontier-lab CEOs and hyperscaler CEOs on the attendee list was **pulled at the last minute** after the list leaked. Chamath argues each model-maker is "trading their own book" — Dario's safety-doom framing is read as regulatory-moat positioning, Schmidt's "50% of young people's jobs gone" line is treated as net-negative for the industry. Baker and Friedberg both flag what they believe is a foreign-state-funded sentiment campaign against US data center buildouts ("very logical for China, but not good for America"), and explicitly invoke Cold War KGB media-influence playbooks. The panel's recommendation: stop interviewing model CEOs about AI's impact, start interviewing the factory worker, the doctor, the scientist who used it. Friedberg's deeper diagnosis: AI feels asymmetric and anti-humanist in the same way heliocentrism felt to the church, and the average person can't yet answer "when does this benefit me," so the "few people making trillions" narrative is winning by default.
+
+**On slowing AI down:** Friedberg makes the post-Manhattan-Project argument that proliferation cannot be paused without ceding the balance — "if the US doesn't advance, someone else will, and you can game-theory why that's worse for the world." Chamath flips the framing of paced rollouts (truck-driver job protection, robot-hour taxes funding retraining) into a question: *has anyone actually surveyed the workers?* Amazon warehouse churn at 35–40% suggests the jobs people want protected may not be the jobs people want.
+
+**On the China visit & Strait of Hormuz:** No grand deal — some aircraft and soybean purchases, some H100/A200 sales to BYU and top firms. Baker dissents from the "no chips to China" camp: selling depreciated Nvidia GPUs into China *slows* their development of a domestic optical-scaleup-fabric ecosystem and is net-stabilizing for US AI leadership. The geopolitical subtext: with Iranian/Russian/Venezuelan oil increasingly off the chessboard for any China-Taiwan scenario, the energy leverage on a conflict is enormous.
+
+### [Chip design from the bottom up — Reiner Pope](https://www.youtube.com/watch?v=oIk3R-sMX5o) — Dwarkesh Patel (1:20:19)
+
+Reiner Pope, CEO of new AI-chip company **Maddock** (Dwarkesh is an angel investor), builds up chip design from logic gates to full TPU/GPU architectures. The throughline: **at every level of the stack, AI chip design is a fight to maximize compute relative to communication.** The fundamental primitive is the multiply-accumulate, and a 4-bit × 4-bit multiplier requires P×Q AND gates plus the same number of full adders — meaning area scales **quadratically** with bit width. This is the single reason low-precision arithmetic (FP4 vs FP8) is so favorable: Nvidia's B3 100 spec finally acknowledges FP4 should be ~3× FP8 (vs 2× historically), and the true ratio should be 4×.
+
+The interview's central architectural argument is the **systolic array** (Tensor Cores): in a pre-Volta CUDA core, ~7/8 of the area is spent on register-file muxing rather than the actual ALU. Going one loop-level up — baking matrix-vector multiply into hardware rather than scalar multiply-accumulate — lets you stuff much more compute behind the same register-file bandwidth, because the weight matrix can be stored **locally inside the systolic array** and trickle-fed in slowly. Pope's elegant framing: matrix multiplication is naturally co-locatable because "you do a lot of multiplication to get one value out."
+
+**GPU vs TPU as a top-level block-structure choice:** a TPU is a few big matrix units around one vector unit; a GPU is many tiny TPUs (SMs with Tensor Cores) tiled. The big TPU's systolic array better amortizes register-file overhead, but moving data between vector and matrix units bottlenecks on perimeter wiring. Maddock has publicly discussed a **"splittable systolic array"** — a big array that can also act as many small ones — as a hybrid bet.
+
+**FPGAs vs ASICs vs CPUs** comes up via Jane Street's FPGA preference for deterministic latency: FPGAs emulate the ASIC programming model in a generic substrate of registers, LUTs (4-input lookup tables = programmable gates), and mux-based wiring; the ~10× cost penalty vs an ASIC comes from the truth-table-encoded mux logic. CPU non-determinism, by contrast, is a deliberate design choice — driven by caches (probabilistic hit rates) and branch predictors (5ns to evaluate a branch at 1–2GHz forces speculative execution). TPUs replace the cache with an explicit software-controlled "scratchpad" that has separate instructions for scratchpad vs HBM access. **Energy consumption is dominated by switching power** (charging/discharging capacitors on bit flips), which is why brains can run slow without paying a clock-cycle energy penalty — but also why running silicon at brain-like speeds doesn't get you 1000× energy savings, just proportional ones.
+
+---
+
+## References
+1. Jason Calacanis, David Sacks, Chamath Palihapitiya, David Friedberg, Gavin Baker, ["SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?,"](https://www.youtube.com/watch?v=HGbA6ze0_3M) All-In Podcast, 2026-05-22 [video]
+2. Dwarkesh Patel with Reiner Pope, ["Chip design from the bottom up — Reiner Pope,"](https://www.youtube.com/watch?v=oIk3R-sMX5o) Dwarkesh Patel, 2026-05-22 [video]
