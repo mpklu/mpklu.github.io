@@ -1,5 +1,5 @@
 +++
-date = '2026-06-05T21:00:00-04:00'
+date = '2026-06-07T22:28:00-04:00'
 draft = false
 title = 'The Bugs Were Hiding Behind the Right Answers'
 tags = ['ai-collaboration', 'knowledge-transfer', 'verification', 'claude-code', 'skills']
