@@ -182,7 +182,7 @@ Tomorrow's jobs report is the near-term catalyst. Consensus looks for a July pay
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,303.10 | +$57.30 | +1.35% |
+| Gold | $4,303 | ~flat | +0.01% |
 | WTI Oil | $77.81 | +$2.59 | +3.44% |
 | Brent Oil | $83.06 | +$3.61 | +4.54% |
 | EUR/USD | 1.1533 | -0.0008 | -0.07% |
@@ -190,7 +190,9 @@ Tomorrow's jobs report is the near-term catalyst. Consensus looks for a July pay
 | 10Y Yield | 4.67% | +0.05 | +5 bp |
 | US Dollar (DXY) | 99.98 | +0.29 | +0.29% |
 
-Gold and oil rallying together while the dollar firms and yields rise is an uncomfortable mix — it reads as a geopolitical risk premium rather than a growth impulse.
+_Gold and oil moves are cross-checked against ETF proxies (GLD/IAU for gold, USO/BNO for crude), because the continuous futures contracts emitted stale bars around a roll today._
+
+The composition matters here. Gold went essentially nowhere after surging roughly 4% yesterday, so today was not a broad flight to safety — it was oil specifically, moving on supply risk, while the dollar firmed and yields rose. That combination squeezes equity valuations from two directions at once without the safe-haven confirmation you would expect if the market thought something systemic had broken.
 
 ## Notable Voices
 
@@ -213,7 +215,7 @@ There is a striking spread of views here. Lee and Cramer are constructive; Dimon
 
 ## Market Outlook
 
-Today's tape was narrow damage dressed up as a broad decline: the Dow's 464-point drop came overwhelmingly from Honeywell's 20% collapse on a slashed 2026 outlook and weakness in high-priced names like UnitedHealth, while the S&P 500 and NASDAQ finished within a fifth of a percent of flat and the VIX actually fell to 15.15. The more meaningful signal is the combination of crude reversing higher — WTI +3.4%, Brent +4.5% — alongside gold at $4,303 and the 10-year back up to 4.67%, which points to a geopolitical risk premium rebuilding around an unratified Strait of Hormuz arrangement rather than any improvement in growth expectations. Underneath, the earnings-reaction function has turned unforgiving: Honeywell, AppLovin, and Western Digital were all punished severely for guidance rather than results, and UPS remains under pressure a week after beating on revenue and EPS because margins compressed to 4.1%. That asymmetry warrants caution into a heavy watchlist calendar — Oklo reports tomorrow, Rocket Lab and Hims & Hers on Monday, Super Micro Tuesday — where a beat may not be enough if the outlook wobbles. The immediate catalyst is tomorrow morning's July jobs report, where consensus of 79K payrolls and an unchanged 4.2% unemployment rate sets a low bar, but any upside surprise in average hourly earnings would land on a 10-year yield that has already backed up five basis points.
+Today's tape was narrow damage dressed up as a broad decline: the Dow's 464-point drop came overwhelmingly from Honeywell's 20% collapse on a slashed 2026 outlook and weakness in high-priced names like UnitedHealth, while the S&P 500 and NASDAQ finished within a fifth of a percent of flat and the VIX actually fell to 15.15. The more meaningful signal is crude reversing higher — WTI +3.4%, Brent +4.5% — alongside a 10-year back up at 4.67% and a firmer dollar, while gold sat out the move entirely after yesterday's roughly 4% surge; that mix points to an oil-specific supply premium rather than a general flight to safety. Underneath, the earnings-reaction function has turned unforgiving: Honeywell, AppLovin, and Western Digital were all punished severely for guidance rather than results, and UPS remains under pressure a week after beating on revenue and EPS because margins compressed to 4.1%. That asymmetry warrants caution into a heavy watchlist calendar — Oklo reports tomorrow, Rocket Lab and Hims & Hers on Monday, Super Micro Tuesday — where a beat may not be enough if the outlook wobbles. The immediate catalyst is tomorrow morning's July jobs report, where consensus of 79K payrolls and an unchanged 4.2% unemployment rate sets a low bar, but any upside surprise in average hourly earnings would land on a yield curve that has already started backing up.
 
 ---
 
