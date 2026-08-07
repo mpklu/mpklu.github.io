@@ -24,7 +24,7 @@ The BLS reported the US economy **lost 23,000 jobs in July**, against consensus 
 
 ### [Gold extends surge as rate-hike odds recede](https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html) — Yahoo Finance
 
-Gold rose **3.69% to $4,398.60**, up roughly 4.8% on the week and back to levels last seen in mid-June. Coverage attributes the move to two forces: the weak jobs print reducing expectations of near-term Fed tightening, and continued Middle East instability keeping energy costs and inflation concerns elevated ahead of the September FOMC. Which of the two is dominant is genuinely unclear.
+Gold rose roughly **2.3% to about $4,400**, up around 4.8% on the week and back to levels last seen in mid-June. Coverage attributes the move to two forces: the weak jobs print reducing expectations of near-term Fed tightening, and continued Middle East instability keeping energy costs and inflation concerns elevated ahead of the September FOMC. Which of the two is dominant is genuinely unclear.
 
 ### [Canada discussing trade concessions with US for tariff relief](https://www.claimsjournal.com/news/national/2026/08/07/339377.htm) — Claims Journal (AP)
 
@@ -180,13 +180,15 @@ _LUNA (Luna Innovations) returned no price data from the quote feed today — po
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,398.60 | +$156.60 | +3.69% |
-| WTI Oil | $76.99 | -$0.30 | -0.39% |
-| Brent Oil | $82.13 | -$0.36 | -0.44% |
+| Gold | ~$4,400 | +$97 | +2.3% |
+| WTI Oil | $77.08 | -$0.21 | -0.3% |
+| Brent Oil | $82.27 | -$0.22 | -0.3% |
 | EUR/USD | 1.1561 | +0.0003 | +0.03% |
 | USD/JPY | 157.80 | +0.20 | +0.12% |
 | 10Y Yield | 4.66% | -0.01 | -1 bp |
 | US Dollar (DXY) | 99.61 | -0.36 | -0.36% |
+
+_Data note: the continuous gold and oil futures contracts carried stale prior-session bars today (identical volume printed on Aug 5 and Aug 6), which inflated the raw one-day changes. Gold's figure above is the ETF-corroborated move — GLD +2.26% and IAU +2.27% — rather than the futures-implied +3.8%. Oil is quoted from the futures; the USO (-0.75%) and BNO (-0.93%) proxies imply a somewhat larger decline, so treat the magnitude as approximate. Direction is unambiguous in both cases._
 
 ## Notable Voices
 
@@ -204,7 +206,7 @@ Palihapitiya argued that AI agents make the traditional bottoms-up enterprise so
 
 ## Market Outlook
 
-Equities took a weak July payrolls print — a 23,000 job loss against roughly 80,000 expected — as a reason to rally, with the NASDAQ up 1.30% and the Russell 2000 up 1.10% as traders priced out the risk of further tightening. The more telling move was in gold, which jumped 3.69% to $4,398.60 while the dollar slipped to 99.61 and the VIX drifted down to 14.90 — a combination that suggests investors are hedging currency debasement and inflation rather than an equity drawdown. Beneath the index level the day belonged to nuclear and AI-adjacent small caps, where Oklo's first criticality at Groves lifted the entire SMR complex and Tempus, Rocket Lab and Super Micro all posted mid-to-high single-digit gains. That concentration of risk appetite in speculative pre-earnings names warrants attention, particularly with Hims & Hers, Rocket Lab and Super Micro all reporting within four sessions. Tuesday's July CPI release is the next real test — if the labor market is cooling while breakevens grind up toward 2.26%, the September FOMC becomes considerably harder to handicap.
+Equities took a weak July payrolls print — a 23,000 job loss against roughly 80,000 expected — as a reason to rally, with the NASDAQ up 1.30% and the Russell 2000 up 1.10% as traders priced out the risk of further tightening. The more telling move was in gold, which rose about 2.3% to roughly $4,400 while the dollar slipped to 99.61 and the VIX drifted down to 14.90 — a combination that suggests investors are hedging currency debasement and inflation rather than an equity drawdown. Beneath the index level the day belonged to nuclear and AI-adjacent small caps, where Oklo's first criticality at Groves lifted the entire SMR complex and Tempus, Rocket Lab and Super Micro all posted mid-to-high single-digit gains. That concentration of risk appetite in speculative pre-earnings names warrants attention, particularly with Hims & Hers, Rocket Lab and Super Micro all reporting within four sessions. Tuesday's July CPI release is the next real test — if the labor market is cooling while breakevens grind up toward 2.26%, the September FOMC becomes considerably harder to handicap.
 
 ---
 
