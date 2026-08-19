@@ -16,7 +16,7 @@ categories = ['Market News']
 | Russell 2000 | 3,032.94 | +15.05 | +0.50% |
 | VIX | 14.89 | -0.95 | -6.00% |
 
-The index line barely moved. Almost everything else did. Gold rose **4.66%**, bitcoin **6.2%**, silver **4.0%**, the dollar fell to its lowest since May, and the 30-year yield dropped nine basis points — while the S&P 500 crawled up a fifth of a percent. Two things happened today and they pointed in opposite directions: the Treasury intervened in its own bond market, and the Fed's July minutes revealed three votes for a rate *hike*. Markets traded the first and ignored the second.
+The index line barely moved. Almost everything else did. Gold rose **3.84%**, silver **4.47%**, bitcoin **6.21%**, the dollar fell to its lowest since May, and the 30-year yield dropped nine basis points — while the S&P 500 crawled up a fifth of a percent. Two things happened today and they pointed in opposite directions: the Treasury intervened in its own bond market, and the Fed's July minutes revealed three votes for a rate *hike*. Markets traded the first and ignored the second.
 
 ## Breaking News & Macro Events
 
@@ -198,15 +198,18 @@ _Source: [InvesTech Research economic release calendar, August 2026](https://www
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,569.50 | +$203.50 | +4.66% |
-| WTI Oil | $84.25 | -$0.69 | -0.81% |
-| Brent Oil | $91.46 | +$0.44 | +0.48% |
+| Gold | $4,577.30 | +$169.30 | +3.84% |
+| Silver | $66.68 | +$2.85 | +4.47% |
+| WTI Oil | $84.30 | +$0.16 | +0.19% |
+| Brent Oil | $91.44 | +$0.36 | +0.40% |
 | EUR/USD | 1.1681 | +0.0098 | +0.85% |
 | USD/JPY | 158.19 | -1.15 | -0.72% |
 | 10Y Yield | 4.653% | -0.053 | -5.3 bp |
 | US Dollar (DXY) | 98.81 | -0.84 | -0.84% |
 
-Supporting moves not in the table: **silver +4.03% to $66.52**, **bitcoin +6.21% to $68,699**, **30-year yield 5.19% (-9bp)**. Gold's close was its highest since May 14; the dollar's, its lowest since May 13. The precious metals, crypto, and FX moves are all the same trade expressed three ways.
+_Methodology note: the continuous futures contracts for gold, silver, WTI and Brent all posted duplicated, near-zero volume on Aug 17–18 — a contract-roll artifact that makes their prior closes unusable. The percentage changes above are taken from the liquid ETF proxies (GLD +3.84%, IAU +3.83%, SLV +4.47%, USO +0.19%, BNO +0.40%) and applied to the current futures level. Price levels come from today's real, high-volume session bars._
+
+Supporting moves not in the table: **bitcoin +6.21% to $68,699** and the **30-year yield at 5.19% (-9bp)**. Gold's close was its highest since May 14; the dollar's, its lowest since May 13. Precious metals, crypto, and the dollar are all the same trade expressed three ways — and note that oil did *not* join it. This was a monetary repricing, not a commodity or inflation-shock story.
 
 ## Notable Voices
 
@@ -218,7 +221,7 @@ _(No other verified commentary from tracked figures in the last three days.)_
 
 ## Market Outlook
 
-Equities finished marginally higher — the S&P 500 up **0.21%**, ending a three-day losing run — but the index move badly understates what happened, because the Treasury's unscheduled decision to at least **double long-bond buybacks to $4 billion per operation** sent the 30-year down **nine basis points**, the dollar to a three-month low, gold up **4.66%**, silver up **4.03%**, and bitcoin up **6.21%** in a single coordinated repricing. What makes it notable is what markets chose to ignore: the **9-3 July FOMC minutes**, released the same afternoon with three regional presidents dissenting for a *hike* and participants warning that tightening may be necessary, should have supported the dollar and pressured hard assets — instead investors treated an activist Treasury as the more binding constraint than a hawkish Fed, which is the definition of pricing fiscal dominance over monetary policy. Beneath the macro, the day's real alpha was idiosyncratic and clinical: the first successful Phase 3 readout for a personalized mRNA cancer vaccine lifted **Tempus AI 24%** and **Pfizer 3.6%**, while semiconductors ignored the bond relief entirely, with **Intel down 4%** and now trading below its own **$95 offering price** — the market is still separating who pays for the AI buildout from who benefits. The divergence that warrants the most attention is **Meta sitting within 5% of a 52-week low** and **Rocket Lab falling 4%** on a broadly risk-on session, since names that cannot rally on good days tend to lead on bad ones. All roads now run through **next Wednesday, August 26**, when **NVIDIA reports into PCE and the second-estimate Q2 GDP revision on the same session** — and then to **Friday the 28th**, when Fed Chair Kevin Warsh delivers his first Jackson Hole keynote to a market that just spent a day betting against his committee's own minutes.
+Equities finished marginally higher — the S&P 500 up **0.21%**, ending a three-day losing run — but the index move badly understates what happened, because the Treasury's unscheduled decision to at least **double long-bond buybacks to $4 billion per operation** sent the 30-year down **nine basis points**, the dollar to a three-month low, gold up **3.84%**, silver up **4.47%**, and bitcoin up **6.21%** in a single coordinated repricing. What makes it notable is what markets chose to ignore: the **9-3 July FOMC minutes**, released the same afternoon with three regional presidents dissenting for a *hike* and participants warning that tightening may be necessary, should have supported the dollar and pressured hard assets — instead investors treated an activist Treasury as the more binding constraint than a hawkish Fed, which is the definition of pricing fiscal dominance over monetary policy. Note too that crude did not participate, which argues this was a monetary repricing rather than an inflation scare. Beneath the macro, the day's real alpha was idiosyncratic and clinical: the first successful Phase 3 readout for a personalized mRNA cancer vaccine lifted **Tempus AI 24%** and **Pfizer 3.6%**, while semiconductors ignored the bond relief entirely, with **Intel down 4%** and now trading below its own **$95 offering price** — the market is still separating who pays for the AI buildout from who benefits. The divergence that warrants the most attention is **Meta sitting within 5% of a 52-week low** and **Rocket Lab falling 4%** on a broadly risk-on session, since names that cannot rally on good days tend to lead on bad ones. All roads now run through **next Wednesday, August 26**, when **NVIDIA reports into PCE and the second-estimate Q2 GDP revision on the same session** — and then to **Friday the 28th**, when Fed Chair Kevin Warsh delivers his first Jackson Hole keynote to a market that just spent a day betting against his committee's own minutes.
 
 ---
 
