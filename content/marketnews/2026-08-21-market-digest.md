@@ -172,15 +172,15 @@ Bitcoin gained 6.09% to $77,481 and Ethereum added 4.80%, and the move propagate
 | Gold | $4,668 | +$89 | +1.95% |
 | WTI Oil | $86.80 | +$0.06 | +0.07% |
 | Brent Oil | $94.05 | +$0.54 | +0.58% |
-| EUR/USD | 1.1678 | +0.0004 | +0.04% |
-| USD/JPY | 159.01 | +0.73 | +0.46% |
+| EUR/USD | 1.1680 | -0.0006 | -0.06% |
+| USD/JPY | 158.98 | +0.03 | +0.02% |
 | 10Y Yield | 4.74% | +0.04 | +4 bp |
 | US Dollar (DXY) | 98.83 | -0.07 | -0.07% |
 | Bitcoin | $77,481 | +$4,448 | +6.09% |
 
-_Gold and oil percentage changes are derived from ETF proxies (GLD/IAU, USO/BNO). The front-month futures series showed a contract-roll distortion today — raw GC=F data implied a +3.4% gold move against the ETFs' +1.95%._
+_Method notes: gold and oil percentage changes are derived from ETF proxies (GLD/IAU, USO/BNO) because the front-month futures series showed a contract-roll distortion today — raw GC=F data implied a +3.4% gold move against the ETFs' +1.95%. The two FX pairs are priced from hourly bars (last print of the prior session vs. the latest), since daily bars for `EURUSD=X`/`USDJPY=X` carry the day's opening value rather than its close._
 
-Gold at $4,668 with a near-2% daily gain, while the dollar sat flat and equities rallied, is the one discordant note in an otherwise clean risk-on session. That combination usually reflects a bid for hedges rather than a growth or inflation signal.
+Gold at $4,668 with a near-2% daily gain, while the dollar and both major pairs sat essentially flat and equities rallied, is the one discordant note in an otherwise clean risk-on session. That combination usually reflects a bid for hedges rather than a growth or inflation signal.
 
 ## Notable Voices
 
