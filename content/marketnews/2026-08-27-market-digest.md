@@ -24,7 +24,7 @@ NVIDIA posted fiscal Q2 revenue of **$96.2 billion, up 106% year over year** and
 
 ### [Warsh takes the Jackson Hole podium for the first time as Fed Chair](https://www.bloomberg.com/news/articles/2026-08-22/kevin-warsh-to-make-first-jackson-hole-speech-as-fed-chair) — Bloomberg
 
-The Kansas City Fed's annual Economic Policy Symposium runs **August 27–29** in Jackson Hole, themed "Financial Innovation: Implications for Payments and Policy." Kevin Warsh, who succeeded Jerome Powell as Chair in May, delivers his first symposium keynote **Friday, August 28**. With inflation still above target and the 10-year yield at 4.67%, the speech is the market's clearest read yet on how this Fed weighs sticky inflation against a visibly cooling labor market ahead of the September 15–16 FOMC meeting.
+The Kansas City Fed's annual Economic Policy Symposium runs **August 27–29** in Jackson Hole. Kevin Warsh, who succeeded Jerome Powell as Chair in May, delivers his first symposium keynote **Friday, August 28**. With inflation still above target and the 10-year yield at 4.67%, the speech is the market's clearest read yet on how this Fed weighs sticky inflation against a visibly cooling labor market ahead of the September 15–16 FOMC meeting.
 
 ### [Meta settles state child-safety claims for up to $17.1 billion](https://www.npr.org/2026/08/26/nx-s1-5944781/meta-settlement-child-safety-lawsuit) — NPR
 
@@ -189,15 +189,17 @@ Two things stand out. Michigan sentiment near **51** with one-year inflation exp
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,659.20 | +$61.00 | +1.33% |
-| WTI Oil | $83.63 | +$1.40 | +1.70% |
-| Brent Oil | $88.59 | +$0.75 | +0.85% |
-| EUR/USD | 1.1654 | -0.0021 | -0.18% |
-| USD/JPY | 159.39 | +0.17 | +0.11% |
+| Gold | $4,657.10 | +$13.93 | +0.30% |
+| WTI Oil | $83.59 | +$1.71 | +2.09% |
+| Brent Oil | $88.55 | +$2.00 | +2.31% |
+| EUR/USD | 1.1655 | -0.0003 | -0.02% |
+| USD/JPY | 159.38 | +0.11 | +0.07% |
 | 10Y Yield | 4.672% | +0.8 bp | +0.17% |
-| US Dollar (DXY) | 99.14 | -0.03 | -0.03% |
+| US Dollar (DXY) | 99.15 | -0.02 | -0.02% |
 
-Gold at $4,659 alongside a risk-on equity tape is the day's most interesting tension: equity investors bought growth while someone kept bidding the hedge.
+_Gold and oil percentages are taken from liquid ETF proxies (GLD/IAU for gold, USO/BNO for crude) because the front-month futures contracts are showing low-volume roll artifacts that corrupt the prior close. FX is priced off hourly bars rather than daily closes._
+
+Crude was the day's real mover, with WTI and Brent both up more than 2%, while gold was close to unchanged at $4,657 and the dollar barely moved. An energy bid on top of one-year inflation expectations at 4.3% is not the combination a Fed hoping to cut wants to see.
 
 ## Notable Voices
 
@@ -211,7 +213,7 @@ Ives continues to argue the AI cycle is roughly a third of the way through a nin
 
 ## Market Outlook
 
-The NASDAQ's 1.57% advance was effectively one stock's story: NVIDIA's 8.74% surge on 106% revenue growth and a 70% forward growth guide dragged the semiconductor complex up with it, while the VIX slid to 14.51. What distinguishes this move from earlier AI-momentum episodes is that it is anchored in reported results and issued guidance rather than multiple expansion — but breadth stayed thin, with the Dow up only 0.20% and the Russell 2000 up 0.28%, and gold's simultaneous 1.33% gain to $4,659 suggests the hedging bid never left. The macro backdrop warrants more caution than the tape implies: Michigan sentiment near 51, one-year inflation expectations at 4.3%, an August payroll consensus of just 12,000 jobs, and a 30-year yield at a 19-year high that has already pushed Treasury into doubling long-end buybacks. That combination — decelerating labor, sticky expectations, and a long end that resists suppression — is a harder problem than any single earnings report can resolve. Attention now turns to Chair Warsh's first Jackson Hole keynote on Friday morning and the September 4 payroll report, which together will set the terms for the September 15–16 FOMC meeting.
+The NASDAQ's 1.57% advance was effectively one stock's story: NVIDIA's 8.74% surge on 106% revenue growth and a 70% forward growth guide dragged the semiconductor complex up with it, while the VIX slid to 14.51. What distinguishes this move from earlier AI-momentum episodes is that it is anchored in reported results and issued guidance rather than multiple expansion — but breadth stayed thin, with the Dow up only 0.20% and the Russell 2000 up 0.28%, and gold held its $4,657 level rather than giving ground to the risk-on bid. The macro backdrop warrants more caution than the tape implies: Michigan sentiment near 51, one-year inflation expectations at 4.3%, crude up more than 2% on the day, an August payroll consensus of just 12,000 jobs, and a 30-year yield at a 19-year high that has already pushed Treasury into doubling its long-end buybacks. That combination — decelerating labor, sticky expectations, firming energy, and a long end that resists suppression — is a harder problem than any single earnings report can resolve. Attention now turns to Chair Warsh's first Jackson Hole keynote on Friday morning and the September 4 payroll report, which together will set the terms for the September 15–16 FOMC meeting.
 
 ---
 
@@ -231,5 +233,4 @@ The NASDAQ's 1.57% advance was effectively one stock's story: NVIDIA's 8.74% sur
 10. The Motley Fool, ["Dan Ives Says the AI Trade Is Only in the 'Third Inning,'"](https://www.fool.com/investing/2026/08/27/dan-ives-says-were-in-the-3rd-inning-of-the-ai-rev/) 2026-08-27
 11. Federal Reserve, ["FOMC Calendars,"](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) accessed 2026-08-27
 12. Trading Economics, ["United States Economic Calendar,"](https://tradingeconomics.com/united-states/calendar) accessed 2026-08-27
-13. Kansas City Fed, ["Kansas City Fed to Host Annual Jackson Hole Economic Policy Symposium,"](https://www.kansascityfed.org/newsroom/2026-news-releases/kansas-city-fed-to-host-annual-jackson-hole-economic-policy-symposium-2026/) 2026
-14. FRED, ["Federal Reserve Economic Data,"](https://fred.stlouisfed.org/) series FEDFUNDS, CPIAUCSL, UNRATE, DGS10, T10YIE, accessed 2026-08-27
+13. FRED, ["Federal Reserve Economic Data,"](https://fred.stlouisfed.org/) series FEDFUNDS, CPIAUCSL, UNRATE, DGS10, T10YIE, accessed 2026-08-27
