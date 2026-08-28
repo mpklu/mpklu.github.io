@@ -24,7 +24,7 @@ The headline indices barely moved. Underneath them, the market repriced hard: sm
 
 Fed Chair Kevin Warsh used his first Jackson Hole address to call inflation "concerning," saying summer readings that came in better than expected do not tell him underlying trends have meaningfully improved: "We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed." He described the economy as at "full employment," removing the labor-market justification for near-term easing.
 
-Warsh declined to offer forward guidance or a reaction function, adding that "we should not indulge a regime in which market participants are looking primarily to the Fed for their next trade." [PBS](https://www.pbs.org/newshour/economy/watch-live-fed-chair-warsh-speaks-at-jackson-hole-economic-policy-symposium) framed the remarks as signaling stubborn inflation may ultimately require rate *hikes*. The cross-asset reaction was internally consistent with a hawkish repricing: the 10-year yield rose to 4.72%, the dollar index gained 0.5%, gold fell over 2%, and the longest-duration equity risk was hit hardest.
+Warsh declined to offer forward guidance or a reaction function, adding that "we should not indulge a regime in which market participants are looking primarily to the Fed for their next trade." [PBS](https://www.pbs.org/newshour/economy/watch-live-fed-chair-warsh-speaks-at-jackson-hole-economic-policy-symposium) framed the remarks as signaling stubborn inflation may ultimately require rate *hikes*. The cross-asset reaction was internally consistent with a hawkish repricing: the 10-year yield rose to 4.72%, the dollar index gained 0.5%, gold fell more than 3%, and the longest-duration equity risk was hit hardest.
 
 ### [Meta agrees to $17 billion child-safety settlement with 47 states](https://www.npr.org/2026/08/26/nx-s1-5944781/meta-settlement-child-safety-lawsuit) — NPR (Aug 26)
 
@@ -173,15 +173,17 @@ _Note: Monday, September 7 is Labor Day — US markets closed._
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,505.10 | -$104.60 | -2.27% |
-| WTI Oil | $83.43 | -$0.10 | -0.11% |
-| Brent Oil | $88.27 | -$1.43 | -1.59% |
-| EUR/USD | 1.1587 | -0.0067 | -0.58% |
-| USD/JPY | 160.06 | +0.81 | +0.51% |
+| Gold | $4,505.10 | -$150.85 | -3.24% |
+| WTI Oil | $83.43 | -$0.20 | -0.24% |
+| Brent Oil | $88.27 | -$0.39 | -0.44% |
+| EUR/USD | 1.1586 | -0.0072 | -0.61% |
+| USD/JPY | 160.09 | +0.74 | +0.47% |
 | 10Y Yield | 4.72% | +0.048 | +4.8 bp |
-| US Dollar (DXY) | 99.67 | +0.51 | +0.52% |
+| US Dollar (DXY) | 99.70 | +0.53 | +0.53% |
 
-Precious metals took the brunt of the hawkish repricing — the gold ETF (GLD) fell 3.2% and silver (SLV) dropped 4.4%, both steeper than the futures settle implies. Energy was effectively unchanged.
+Precious metals took the brunt of the hawkish repricing: gold fell 3.2% and silver 4.4%, the sharpest moves on the board. Energy was effectively unchanged, so this was a rates-and-dollar story rather than a commodity-demand one.
+
+_Gold and crude percentages are derived from liquid ETF proxies (GLD -3.24% and IAU -3.23% for gold; USO -0.24%, BNO -0.44%), which agree with each other. The front-month futures series carried duplicated volume across Aug 26–27 and understated gold at -2.27% while overstating Brent's decline at -1.59%. FX is priced from hourly bars._
 
 ## Notable Voices
 
@@ -199,7 +201,7 @@ Cramer argued that pessimism has created opportunity in beaten-down data center 
 
 ## Market Outlook
 
-Today was a quiet tape hiding a violent rotation: the S&P slipped just 0.25% while the Russell 2000 fell 1.39% and the speculative complex — Tempus down 9.4%, Hims 8.9%, Circle 7.5%, Strategy 7.3%, and the entire nuclear cohort 4.6–6.6% — was repriced wholesale. The proximate cause is not a mystery. Kevin Warsh's first Jackson Hole address called inflation "concerning" and declared the economy at full employment, and every asset class confirmed the read: the 10-year at 4.72%, the dollar up half a percent, and gold off more than 2%. That combination is the signature of rate-cut expectations being withdrawn, and it lands hardest on long-duration, cash-flow-negative equity — which describes most of the day's losers far better than any of their individual news items does. What warrants attention is that mega-cap tech absorbed the flow rather than fighting it, with Amazon, Apple, Alphabet, and Meta all closing green on no fresh catalyst of consequence: this is a quality rotation inside the AI trade, not an exit from it. The September 4 nonfarm payrolls report is now the market's next real test — with a Fed chair who has publicly removed the labor market as a reason to ease, a strong print may be read as hawkish rather than reassuring.
+Today was a quiet tape hiding a violent rotation: the S&P slipped just 0.25% while the Russell 2000 fell 1.39% and the speculative complex — Tempus down 9.4%, Hims 8.9%, Circle 7.5%, Strategy 7.3%, and the entire nuclear cohort 4.6–6.6% — was repriced wholesale. The proximate cause is not a mystery. Kevin Warsh's first Jackson Hole address called inflation "concerning" and declared the economy at full employment, and every asset class confirmed the read: the 10-year at 4.72%, the dollar up half a percent, and gold off more than 3%. That combination is the signature of rate-cut expectations being withdrawn, and it lands hardest on long-duration, cash-flow-negative equity — which describes most of the day's losers far better than any of their individual news items does. What warrants attention is that mega-cap tech absorbed the flow rather than fighting it, with Amazon, Apple, Alphabet, and Meta all closing green on no fresh catalyst of consequence: this is a quality rotation inside the AI trade, not an exit from it. The September 4 nonfarm payrolls report is now the market's next real test — with a Fed chair who has publicly removed the labor market as a reason to ease, a strong print may be read as hawkish rather than reassuring.
 
 ---
 
