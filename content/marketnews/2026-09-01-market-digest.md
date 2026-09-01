@@ -20,7 +20,7 @@ categories = ['Market News']
 
 ### [Oil prices surge above $94 after U.S. strikes Iran in Hormuz](https://finance.yahoo.com/energy/articles/oil-prices-surge-above-94-173653702.html) — Yahoo Finance
 
-Renewed U.S. military action against Iranian positions in the Strait of Hormuz sent crude sharply higher, with WTI closing up **5.80%** at $90.73 and Brent up **5.23%** at $95.22. The strikes reverse a partial normalization in energy prices that followed the collapsed June 17 U.S.–Iran memorandum, which unraveled after Iran demanded sanctions relief and an end to the naval blockade before reopening the waterway. The IEA has already cut its 2026 global supply forecast to 102 million barrels per day, a 4.3 million bpd year-over-year decline. Equities sold off across the board while the energy complex rallied — a classic supply-shock rotation.
+Renewed U.S. military action against Iranian positions in the Strait of Hormuz sent crude sharply higher, with WTI closing up **5.46%** at $90.73 and Brent up **5.15%** at $95.22. The strikes reverse a partial normalization in energy prices that followed the collapsed June 17 U.S.–Iran memorandum, which unraveled after Iran demanded sanctions relief and an end to the naval blockade before reopening the waterway. The IEA has already cut its 2026 global supply forecast to 102 million barrels per day, a 4.3 million bpd year-over-year decline. Equities sold off across the board while the energy complex rallied — a classic supply-shock rotation.
 
 ### [September Fed decision is now a coin flip as rate hike odds increase post-Warsh](https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html) — CNBC
 
@@ -180,15 +180,15 @@ The 10-year Treasury yield closed at **4.80%**, up 4bp and above its prior 52-we
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,374.90 | -$56.20 | -1.27% |
-| WTI Oil | $90.73 | +$4.97 | +5.80% |
-| Brent Oil | $95.22 | +$4.73 | +5.23% |
-| EUR/USD | 1.1593 | +0.0004 | +0.03% |
-| USD/JPY | 160.21 | +0.08 | +0.05% |
+| Gold | $4,374.90 | -$127.85 | -2.84% |
+| WTI Oil | $90.73 | +$4.70 | +5.46% |
+| Brent Oil | $95.22 | +$4.66 | +5.15% |
+| EUR/USD | 1.1593 | -0.0016 | -0.14% |
+| USD/JPY | 160.21 | +0.41 | +0.26% |
 | 10Y Yield | 4.80% | +0.04 | +4 bp |
 | US Dollar (DXY) | 99.69 | +0.26 | +0.26% |
 
-Worth noting the unusual pairing: crude spiked on a live military escalation while gold *fell* 1.27%. When the safe-haven metal declines into a geopolitical shock, the rates channel is doing the driving — rising real yields are outweighing the haven bid.
+Worth noting the unusual pairing: crude spiked on a live military escalation while gold *fell* 2.84%. When the safe-haven metal drops nearly 3% into a geopolitical shock, the rates channel is doing the driving — rising real yields are decisively outweighing the haven bid.
 
 ## Notable Voices
 
@@ -198,7 +198,7 @@ Fundstrat's Tom Lee argues the setup is asymmetric: if the Fed declines to raise
 
 ## Market Outlook
 
-Renewed U.S.–Iran hostilities in the Strait of Hormuz drove crude up more than 5% and pushed the 10-year Treasury yield to 4.80% — a new 52-week high — sending all four major indices lower, with the Russell 2000 (-1.23%) and NASDAQ (-1.03%) absorbing the most damage and the VIX jumping 9.52% off a low base. The mechanism matters more than the magnitude: this is a supply-side energy shock arriving two weeks before an FOMC meeting where hike odds already sit near a coin flip, which is why the pain concentrated in long-duration and high-beta names — CRCL -6.35%, MSTR -6.06%, OKLO -5.03%, SOFI -4.64% — while defensives like UNH and PFE finished green. Gold falling 1.27% into a live geopolitical escalation is the tell that rising real yields, not risk aversion, are setting the tone. Nike's break to a fresh 52-week low and a decade-plus trough, against Apple's +2.61% on the Ternus succession, underscores how sharply the market is currently discriminating between idiosyncratic stories and macro beta. Friday's August payrolls report is the most important catalyst on the calendar — with July prints already showing a 23,000 job decline, a soft number colliding with $90 crude would hand the Fed a genuine stagflationary dilemma just nine days before it has to decide.
+Renewed U.S.–Iran hostilities in the Strait of Hormuz drove crude up more than 5% and pushed the 10-year Treasury yield to 4.80% — a new 52-week high — sending all four major indices lower, with the Russell 2000 (-1.23%) and NASDAQ (-1.03%) absorbing the most damage and the VIX jumping 9.52% off a low base. The mechanism matters more than the magnitude: this is a supply-side energy shock arriving two weeks before an FOMC meeting where hike odds already sit near a coin flip, which is why the pain concentrated in long-duration and high-beta names — CRCL -6.35%, MSTR -6.06%, OKLO -5.03%, SOFI -4.64% — while defensives like UNH and PFE finished green. Gold falling 2.84% into a live geopolitical escalation is the tell that rising real yields, not risk aversion, are setting the tone. Nike's break to a fresh 52-week low and a decade-plus trough, against Apple's +2.61% on the Ternus succession, underscores how sharply the market is currently discriminating between idiosyncratic stories and macro beta. Friday's August payrolls report is the most important catalyst on the calendar — with July prints already showing a 23,000 job decline, a soft number colliding with $90 crude would hand the Fed a genuine stagflationary dilemma just nine days before it has to decide.
 
 ---
 
