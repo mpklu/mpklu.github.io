@@ -178,15 +178,15 @@ _Release dates per the [Scotiabank Economics Calendar of Economic Release Dates,
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,431.90 | +$83.90 | +1.93% |
-| WTI Oil | $90.53 | +$0.31 | +0.34% |
-| Brent Oil | $95.14 | +$0.49 | +0.52% |
-| EUR/USD | 1.1592 | -0.0026 | -0.22% |
-| USD/JPY | 158.71 | -1.04 | -0.65% |
+| Gold | $4,434.30 | +$65.50 | +1.50% |
+| WTI Oil | $90.63 | +$0.10 | +0.11% |
+| Brent Oil | $95.23 | +$0.30 | +0.32% |
+| EUR/USD | 1.1590 | +0.0007 | +0.06% |
+| USD/JPY | 158.73 | -1.47 | -0.92% |
 | 10Y Yield | 4.80% | +0.00 | +0 bp |
 | US Dollar (DXY) | 99.56 | -0.11 | -0.11% |
 
-Gold recovered the entire 2.84% it gave up yesterday and then some, which is the most interesting line in the table. Yesterday the rates channel overwhelmed the haven bid; today, with the 10-year pinned flat, the haven bid had the field to itself. Crude held above $90 on both benchmarks — the Hormuz supply premium is not going anywhere. The yen firmed 0.65% against a barely-changed dollar, the one place where the day's price action doesn't fit a simple risk-on story.
+Gold clawed back roughly half of the 2.84% it gave up yesterday — a partial recovery, not a full one, which is the honest read. Yesterday the rates channel overwhelmed the haven bid; today, with the 10-year pinned flat, the haven bid got some of the field back but not all of it. Crude was effectively unchanged on both benchmarks while holding above $90 — the Hormuz supply premium is intact and simply not moving. The standout is the yen, up 0.92% against a barely-changed dollar, the one place where the day's price action doesn't fit a simple risk-on story.
 
 ## Notable Voices
 
@@ -200,7 +200,7 @@ Cramer called Dell's quarter "one of the best quarters I've ever seen," arguing 
 
 ## Market Outlook
 
-Equities snapped a three-day losing streak with the Russell 2000 leading at +1.13% and VIX shedding 7% to 15.20 — but the catalyst was an absence rather than an event, namely a 10-year Treasury that finished flat at 4.80% instead of climbing again. That distinction matters, because none of the three pressures driving last week's selloff actually eased: crude is still above $90 on Hormuz supply risk, Canada's counter-tariffs on $27.6 billion of US goods land September 8, and Chair Warsh has left a September rate **hike** as a live coin flip. Gold reclaiming its entire prior-day loss while the dollar sat still suggests the haven bid never left — it was simply outmuscled by rates yesterday. The rotation into rate-sensitive names, with SoFi up 4.63% and the Russell outpacing the megacaps, warrants attention as a positioning tell rather than a conviction trade. Friday's August employment report is the first of two prints that will settle the September FOMC question, and a soft number is the shortest path to validating today's bounce.
+Equities snapped a three-day losing streak with the Russell 2000 leading at +1.13% and VIX shedding 7% to 15.20 — but the catalyst was an absence rather than an event, namely a 10-year Treasury that finished flat at 4.80% instead of climbing again. That distinction matters, because none of the three pressures driving last week's selloff actually eased: crude is still above $90 on Hormuz supply risk, Canada's counter-tariffs on $27.6 billion of US goods land September 8, and Chair Warsh has left a September rate **hike** as a live coin flip. Gold recovering about half its prior-day loss while the dollar sat still suggests the haven bid never left — it was simply outmuscled by rates yesterday. The rotation into rate-sensitive names, with SoFi up 4.63% and the Russell outpacing the megacaps, warrants attention as a positioning tell rather than a conviction trade. Friday's August employment report is the first of two prints that will settle the September FOMC question, and a soft number is the shortest path to validating today's bounce.
 
 ---
 
