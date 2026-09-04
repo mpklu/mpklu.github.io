@@ -180,15 +180,15 @@ Next week is short and top-heavy: three trading days before CPI lands on Friday 
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,478.00 | -$35.80 | -0.79% |
-| WTI Oil | $91.31 | -$0.71 | -0.77% |
-| Brent Oil | $95.99 | -$0.01 | -0.01% |
+| Gold | $4,478.00 | -$37.90 | -0.84% |
+| WTI Oil | $91.31 | -$0.08 | -0.09% |
+| Brent Oil | $95.99 | +$0.36 | +0.38% |
 | EUR/USD | 1.1616 | -0.0011 | -0.09% |
 | USD/JPY | 156.23 | +0.11 | +0.07% |
 | 10Y Yield | 4.78% | +0.02 | +2 bp |
-| US Dollar (DXY) | 99.16 | +0.10 | +0.10% |
+| US Dollar (DXY) | 99.16 | +0.16 | +0.16% |
 
-Gold gave back 0.79% and the dollar firmed slightly — the textbook response to a hot labor print. But hold that thought against the bond market: the 10-year rose all of **2 basis points**, and the 10-year breakeven sits at 2.35%, up a single basis point. If the market genuinely believed a hike was coming and inflation was re-accelerating, the long end would have done considerably more than that. After Thursday's 1.9% surge, the yen went nowhere.
+Gold gave back 0.84% and the dollar firmed slightly — the textbook response to a hot labor print. But hold that thought against the bond market: the 10-year rose all of **2 basis points**, and the 10-year breakeven sits at 2.35%, up a single basis point. If the market genuinely believed a hike was coming and inflation was re-accelerating, the long end would have done considerably more than that. After Thursday's 1.9% surge, the yen went nowhere.
 
 ## Notable Voices
 
