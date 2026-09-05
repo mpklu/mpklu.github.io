@@ -1,22 +1,25 @@
-last_run_date: "2026-09-03"
-last_summary_file: "content/newsdigests/2026-09-03-daily-digest.md"
+last_run_date: "2026-09-05"
+last_summary_file: "content/newsdigests/2026-09-05-daily-digest.md"
+notes: "Window spanned 2026-09-03..2026-09-05 because no digest ran on 2026-09-04."
 sources:
   Anthropic:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
     posts_found: 0
+    notes: "Engineering index reachable; listing carries no dates, no new posts identified in window"
     urls:
       - https://www.anthropic.com/engineering
   OpenAI:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
-    posts_found: 1
+    posts_found: 4
+    notes: "Article pages 403 to bots; content taken from RSS <description>. RSS needs a browser User-Agent — bare curl returns empty."
     urls:
       - https://openai.com/blog/rss.xml
   Google:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
-    posts_found: 8
+    posts_found: 5
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
@@ -24,76 +27,79 @@ sources:
       - https://blog.google/technology/developers/rss/
   BAIR:
     last_success: "2026-08-25"
-    consecutive_failures: 7
+    consecutive_failures: 9
     posts_found: 0
-    notes: "Verified unreachable 2026-09-03: SSL_ERROR_SYSCALL on https://bair.berkeley.edu/blog/ and connection timeout on feed.xml. Failing since 2026-08-26 — candidate for removal."
+    notes: "SSL_ERROR_SYSCALL persists; failing since 2026-08-26. Recommend removal from .feed/source.md."
     urls:
       - https://bair.berkeley.edu/blog/
   One Useful Thinking:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy; newest post 2026-08-31 (outside window)"
+    notes: "Feed healthy via /feed; newest post 2026-08-31 'Agency and Agents' (outside window). Use https://www.oneusefulthing.org/feed — the bare site URL is hard to parse."
     urls:
       - https://www.oneusefulthing.org/
   Rundown:
-    last_success: "2026-09-03"
-    consecutive_failures: 0
-    posts_found: 2
-    urls:
-      - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
-  Cursor:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
     posts_found: 1
     urls:
+      - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
+  Cursor:
+    last_success: "2026-09-05"
+    consecutive_failures: 0
+    posts_found: 0
+    notes: "Feed healthy; newest post 2026-09-02 (outside window)"
+    urls:
       - https://cursor.com/blog
   Addy Osmani:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
     posts_found: 0
     notes: "Feed healthy; newest post 2026-08-22 (outside window)"
     urls:
       - https://medium.com/feed/@addyosmani
   NVIDIA:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
-    posts_found: 3
+    posts_found: 6
+    notes: "developer.nvidia.com/blog/feed/ returns 0 items — use the HTML listing. Article pages return blank via WebFetch but curl with a browser UA works."
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
   Overflow:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
     posts_found: 1
+    notes: "2026-09-04 'secure-by-default AI coding agent' is a podcast episode with no transcript on page; omitted."
     urls:
       - https://stackoverflow.blog/
   Hacker News:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
-    posts_found: 4
-    notes: "LLM feed returned a transient 502 on first attempt; succeeded on retry with 20 items"
+    posts_found: 5
+    notes: "AI feed healthy (20 items). LLM feed returned HTTP 502 on 3 consecutive retries — down, not empty."
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
   Lobsters:
-    last_success: "2026-09-02"
-    consecutive_failures: 1
-    posts_found: 0
-    notes: "Verified unreachable 2026-09-03: SSL_ERROR_SYSCALL / UNEXPECTED_EOF on lobste.rs:443 across 3 retries"
+    last_success: "2026-09-05"
+    consecutive_failures: 0
+    posts_found: 1
+    notes: "Recovered — reachable again after the 2026-09-03 SSL failure"
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
-    posts_found: 13
+    posts_found: 12
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
-    last_success: "2026-09-03"
+    last_success: "2026-09-05"
     consecutive_failures: 0
-    posts_found: 19
-    notes: "Parsed directly from live github.com/trending HTML; all repo names, languages and stars-today confirmed"
+    posts_found: 16
+    notes: "Parsed from live github.com/trending HTML; all repo names, languages and stars-today verified against the page"
     urls:
       - https://github.com/trending
