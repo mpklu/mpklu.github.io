@@ -1,26 +1,26 @@
-last_run_date: "2026-09-06"
-last_summary_file: "content/newsdigests/2026-09-06-daily-digest.md"
-notes: "Thin Saturday window (2026-09-05..2026-09-06): only 4 in-window items. Digest also carries 5 catch-up items dated 09-02..09-04 that were verified absent from every prior digest (grep over content/newsdigests/) — Gemini 3.8 Flash/Flash Cyber, Fairwind cyber-defense program, Workspace voice features, and two OpenAI Astra case studies. Subagent GitHub Trending output cross-checked against live HTML: 13 reported vs 16 actual, all 13 accurate, 3 omitted; used the verified 16."
+last_run_date: "2026-09-08"
+last_summary_file: "content/newsdigests/2026-09-08-daily-digest.md"
+notes: "Window 2026-09-06..2026-09-08 (3 days — no digest ran on 2026-09-07, Labor Day). 15 in-window blog posts. Every source cross-checked against raw RSS/HTML with curl before writing. Subagent misses this run: batch 1 dropped Google 'Backing 16 green AI projects' (09-07); batch 2 logged Addy/NVIDIA-main/Lobsters as FAILURES when they were healthy-with-zero-posts, and refused GitHub Trending — used my own verified 16-repo parse. Batch 2's NVIDIA 'CUDA Rust' post looked fabricated (absent from my first listing parse) but is REAL: HTTP 200, dated Sep 08 — verified before discarding, per prior lesson. TechCrunch AI-glossary item (09-07) excluded as already covered in 2026-05-10 digest (evergreen page that gets re-dated). OpenAI article bodies still 403 even via r.jina.ai (Cloudflare challenge); recovered 'An Alien Mind' + research-acceleration substance from The Rundown's 09-07/09-08 issues instead of RSS one-liners."
 sources:
   Anthropic:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Engineering index reachable; newest post dated April 2026, nothing in window"
+    notes: "Engineering index reachable; newest post still dated Apr 23 2026. Nothing in window."
     urls:
       - https://www.anthropic.com/engineering
   OpenAI:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
-    posts_found: 2
-    notes: "0 in-window (newest 2026-09-03). The 2 counted are 09-03 Astra case studies (playco, legora) never covered by any prior digest. Article pages 403 to bots — content from RSS <description>; RSS needs a browser User-Agent."
+    posts_found: 3
+    notes: "3 in-window: 'An Alien Mind' (Pachocki alignment essay, 09-06), 'Research acceleration: The view inside OpenAI' (09-06), 'Supporting independent journalism in Ukraine' (09-07). Article pages 403 to bots AND to r.jina.ai; RSS <description> is a single sentence, so substance came from The Rundown's coverage."
     urls:
       - https://openai.com/blog/rss.xml
   Google:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
-    posts_found: 3
-    notes: "0 in-window (newest 2026-09-04). The 3 counted are never-covered catch-up: Gemini 3.8 Flash/Flash Cyber (09-02), Fairwind proactive cyber defense (09-02), Workspace voice features (09-03)."
+    posts_found: 2
+    notes: "2 in-window, both 09-07: contrail avoidance trial (Cathay Pacific), 16 green AI projects APAC. Subagent found only the first — always diff the agent list against blog.google/rss/. DeepMind + Developers feeds healthy, newest 09-03/09-01, nothing in window."
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
@@ -28,81 +28,81 @@ sources:
       - https://blog.google/technology/developers/rss/
   BAIR:
     last_success: "2026-08-25"
-    consecutive_failures: 10
+    consecutive_failures: 11
     posts_found: 0
-    notes: "ECONNRESET / socket closed; failing since 2026-08-26. Well past the 7-day threshold — remove from .feed/source.md."
+    notes: "Confirmed dead by direct curl: connection times out (rc=28, http=000, 0 bytes) and subagent saw ECONNREFUSED on 128.32.244.190:443. Failing since 2026-08-26. 11 days past a 7-day threshold — REMOVE from .feed/source.md."
     urls:
       - https://bair.berkeley.edu/blog/
   One Useful Thinking:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy via /feed; newest post 2026-08-31 'Agency and Agents'. Use https://www.oneusefulthing.org/feed — the bare site URL is hard to parse."
+    notes: "Feed healthy via /feed; newest still 2026-08-31 'Agency and Agents'. Use https://www.oneusefulthing.org/feed — the bare site URL is hard to parse."
     urls:
       - https://www.oneusefulthing.org/
   Rundown:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "Feed healthy; newest 2026-09-04. Publishes weekdays only — no weekend edition."
+    posts_found: 2
+    notes: "2 in-window: 09-07 'Another OpenAI agent swarm surfaces', 09-08 'Inside OpenAI's agent-powered research boom'. content:encoded carries the FULL issue — the highest-value secondary stories (Pachocki slowdown essay, NBC 7,105-adult poll) sit ~6,000 chars in, past the lead. Always keyword-search the whole body, don't read only the first section."
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
   Cursor:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy; newest post 2026-09-02 (outside window)"
+    notes: "Feed healthy; newest post 2026-09-04 (outside window)"
     urls:
       - https://cursor.com/blog
   Addy Osmani:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy; newest post 2026-08-22 (outside window)"
+    notes: "Feed healthy; newest post 2026-08-22. Subagent wrongly logged this as a failure — empty-but-healthy is a success."
     urls:
       - https://medium.com/feed/@addyosmani
   NVIDIA:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "All three URLs reachable; newest 2026-09-03/09-04, nothing in window. developer.nvidia.com/blog/feed/ returns 0 items — use the HTML listing. blogs.nvidia.com/feed/ works fine via curl with a browser UA."
+    posts_found: 1
+    notes: "1 in-window: developer.nvidia.com 'Introducing CUDA Rust' (Sep 08). blogs.nvidia.com/feed/ healthy, newest 09-03 — subagent wrongly called it a failure. nvidianews.nvidia.com/rss returns 0 items; HTML listing newest is Sep 03. Article bodies on developer.nvidia.com are JS-rendered (strip to empty) — take the summary from the listing page excerpt."
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
   Overflow:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "Feed healthy; newest 2026-09-04 'How to build a secure-by-default AI coding agent' — a podcast episode whose page yields only a sponsor blurb, no transcript. Omitted again, same as 2026-09-05. Use https://stackoverflow.blog/feed/ rather than the bare site URL."
+    posts_found: 1
+    notes: "1 in-window: 09-08 'Scaling your money safely with AI' (PayPal CTO podcast). Included this time — unlike the 09-04 episode, the RSS description has real substance even though the article page is only show notes. Use https://stackoverflow.blog/feed/."
     urls:
       - https://stackoverflow.blog/
   Hacker News:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "BOTH feeds returned HTTP 502 on attempts 1 and 2, then HTTP 200 on attempt 3. Always retry 3x with a delay before recording a failure. Recovered content: newest AI item 2026-09-05 (sylvainkalache) and newest LLM item 2026-09-03 — both already covered, so 0 new."
+    posts_found: 4
+    notes: "Both feeds returned HTTP 200 on attempt 1 this run (no 502s). 4 in-window: bottlenecklabs autonomous-business benchmark (09-07), Benedict Evans 'AI, tools and transformation' (09-06), Zwinkau 'How I feel about AI' (09-06), Cantrill 'Your intellectual fly is open' (09-06). Still retry 3x — 502s are intermittent, not gone."
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
   Lobsters:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "Terence Tao AI-and-mathematics thread, surfaced 2026-09-06 (original Mastodon post 2026-09-03)"
+    posts_found: 0
+    notes: "Feed healthy; newest 2026-09-04 (outside window). Subagent wrongly logged as a failure."
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
-    posts_found: 3
-    notes: "Exactly 3 items dated 2026-09-05, 0 dated 09-06. Count verified against the raw RSS with curl — no truncation this run."
+    posts_found: 2
+    notes: "3 items in window per raw RSS (verified by curl, no truncation): 09-07 AI glossary, 09-06 Anthropic settlement claims, 09-06 Kalanick/Atoms robotaxi. Counted 2 — the AI-glossary URL is an evergreen page TechCrunch periodically re-dates and it was already covered in the 2026-05-10 digest."
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
-    last_success: "2026-09-06"
+    last_success: "2026-09-08"
     consecutive_failures: 0
     posts_found: 16
-    notes: "16 repos parsed from live github.com/trending HTML; names, languages and stars-today verified directly. Subagent reported only 13 — always re-parse the page rather than trusting the agent's list."
+    notes: "16 repos parsed from live github.com/trending HTML; names, languages and stars-today verified directly. Subagent refused the task outright ('no publication dates') — parse the page yourself, the agent will not do it reliably."
     urls:
       - https://github.com/trending
