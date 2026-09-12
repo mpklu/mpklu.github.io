@@ -1,26 +1,26 @@
-last_run_date: "2026-09-11"
-last_summary_file: "content/newsdigests/2026-09-11-daily-digest.md"
-notes: "Window 2026-09-08..2026-09-11 (no digest ran 09-09 or 09-10). ~45 in-window blog posts, 8 videos. BIG ONE: yt-fetch is UNBLOCKED — first transcripts since the 2026-09-04 bot-detection wall; 8 uncovered videos had piled up (09-03 through 09-11), so the Interviews section is a backlog flush, not a normal day. yt-fetch was STILL RUNNING when this digest started (log mtime 08:41, two .srt files converted to .txt at 08:40 between two consecutive ls calls) — always check /tmp/blog-yt-fetch.log mtime AND re-list the dir before finalizing the transcript set. Every source cross-checked against raw RSS/HTML with curl before writing; both subagents under-reported again (details per source). Verified independently via WebSearch: Coxon resignation (real, 76M+ views in a day, WSJ-confirmed) and GPT-6 Astra launch + Critical-cyber classification. GitHub Trending parsed myself from live HTML (16 repos) — subagent wasn't even asked this time."
+last_run_date: "2026-09-12"
+last_summary_file: "content/newsdigests/2026-09-12-daily-digest.md"
+notes: "Window: on-or-after 2026-09-11, deduped against the 09-11 digest's 74 URLs. 18 new blog items, 2 new videos. Lead story is the 25-Fields-Medallist declaration (mathandai.org + Tao's blog) — an escalation of the Tao mathstodon thread covered 09-11, so the dedupe had to be by URL, not by topic. yt-fetch was STILL RUNNING at skill start (log mtime == wall clock, two .txt files landed mid-run); waited for the log to go quiet before finalizing. Both subagent batches were cross-checked against raw curl parses of every feed — counts matched exactly this run for the first time in three runs (batch 1: 3 OpenAI + 1 Google + 1 Rundown; batch 2: 8 TechCrunch + HN + 1 Lobsters + 1 SO). Batch 2's FIRST response was a non-answer (\"I am now fetching...\") with no data — it returned real YAML only on its second completion, ~4min later. Verified by hand before publishing: Fields Medallist count (25, by counting names on mathandai.org, matches TechCrunch's 'twenty-five'), the Buckmaster/OpenAI attribution allegation, and the Nscale board list. DISCARDED as unverifiable: batch 2's claim that OpenAI annualized revenue is ~$40B vs Anthropic ~$65B (looked inverted; not in the article body I fetched). GitHub Trending parsed from live HTML by me, 16 repos."
 sources:
   Anthropic:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "Engineering index still stale (newest Apr 23 2026, nothing in window). The in-window Anthropic item is the Sept 2026 Threat Intelligence Report, surfaced via Hacker News, not via the engineering feed — anthropic.com/threat-intelligence-report-september-2026. Consider adding anthropic.com/news to the URL list; the engineering index alone misses everything that matters."
+    posts_found: 0
+    notes: "Engineering index still stale (newest Apr 23 2026). Batch 1 also checked anthropic.com/news this run per the 09-11 note: healthy, newest 2026-09-01, nothing in window. The 09-11 threat report was covered in yesterday's digest. Adding anthropic.com/news to .feed/source.md is still the right call (needs user approval) — the engineering index alone misses everything that matters."
     urls:
       - https://www.anthropic.com/engineering
   OpenAI:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 16
-    notes: "16 in-window (09-08 x7, 09-09 x3, 09-10 x6). Subagent reported only 6 — it dropped the ENTIRE 09-08 block (incl. Navier-Stokes, the lead story) plus Paul Christiano's board appointment. Recovered all 8 by curling the RSS myself. Article pages still 403 to bots; RSS <description> is one sentence, so real substance for Navier-Stokes/Astra/Christiano came from The Rundown, TechCrunch, and Science. ALWAYS diff the agent's OpenAI list against raw rss.xml — this is the second consecutive run it under-reported this feed."
+    posts_found: 3
+    notes: "IMPORTANT: https://openai.com/blog/rss.xml now 307-redirects to https://openai.com/news/rss.xml. Bare curl without -L returns 15 bytes and parses as ZERO items — always use curl -sL. Feed carries 1192 items. 3 in-window: scaling-storage (09-11), cognition-devin (09-11), perplexity (dated 09-14, i.e. FUTURE-dated in the feed — included as newest). Article pages still 403; RSS <description> is the only body source. Batch 1 matched the raw parse exactly this run — first time in three runs."
     urls:
       - https://openai.com/blog/rss.xml
   Google:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 8
-    notes: "8 unique in-window across the Keyword/DeepMind/Innovation feeds (AlphaGenome Atlas appears on both DeepMind and Keyword — dedupe). Developers feed healthy, newest 09-01, nothing in window."
+    posts_found: 1
+    notes: "1 in-window: Venice Film Festival XR projects (09-11), which arrives via the Keyword feed but has an /innovation-and-ai/ URL. DeepMind newest 09-08, Innovation newest 09-09, Developers newest 09-01 — all healthy, all empty in window."
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
@@ -28,81 +28,81 @@ sources:
       - https://blog.google/technology/developers/rss/
   BAIR:
     last_success: "2026-08-25"
-    consecutive_failures: 12
+    consecutive_failures: 13
     posts_found: 0
-    notes: "DEAD. Re-confirmed by direct curl this run: rc=28, http=000, 0 bytes after 25s. Failing since 2026-08-26, now 12 consecutive runs — 5 past the 7-run threshold. Was omitted from both subagent batches this run and checked by hand. REMOVE from .feed/source.md (needs user approval)."
+    notes: "DEAD — 13 consecutive failures, 6 past the 7-run threshold. Omitted from both subagent batches again this run. REMOVE from .feed/source.md (still needs user approval)."
     urls:
       - https://bair.berkeley.edu/blog/
   One Useful Thinking:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy via /feed; newest still 2026-08-31 'Agency and Agents' — unchanged for 11 days. Use https://www.oneusefulthing.org/feed, not the bare site URL."
+    notes: "Feed healthy via /feed; newest STILL 2026-08-31 'Agency and Agents' — unchanged for 12 days now. Use https://www.oneusefulthing.org/feed, not the bare site URL."
     urls:
       - https://www.oneusefulthing.org/
   Rundown:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 3
-    notes: "3 in-window: 09-09 Navier-Stokes/Millennium Prize, 09-10 Coxon extinction debate, 09-11 Anthropic threat report. content:encoded carries the full issue (~10k chars each) and remains the single best source for substance on stories whose primary pages are bot-blocked. Secondary stories (DeepSeek V4.1-Flash pricing, Suno v6 licensing, Meta Muse tiers) sit deep in the body — keyword-search the whole thing."
+    posts_found: 0
+    notes: "Newest issue is 09-11 'Anthropic opens the files on global Claude misuse' — already covered in the 09-11 digest, so zero NEW items. No 09-12 issue at fetch time (08:29 ET); the newsletter usually lands later in the morning, so an early run will systematically miss same-day issues."
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
   Cursor:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "1 in-window: 'Introducing Projects' (09-10) — coordinator agent delegating to thousands of subagents. Verified against the live blog listing; previous post was 09-02."
+    posts_found: 0
+    notes: "Healthy, newest still 'Introducing Projects' (09-10), covered yesterday."
     urls:
       - https://cursor.com/blog
   Addy Osmani:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy; newest still 2026-08-22 'Practical Loop Engineering'. Subagent correctly logged this as healthy-but-empty this run (it got this wrong on 09-08)."
+    notes: "Feed healthy; newest still 2026-08-22 'Practical Loop Engineering' — 21 days stale."
     urls:
       - https://medium.com/feed/@addyosmani
   NVIDIA:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 4
-    notes: "4 in-window from blogs.nvidia.com/feed/ (09-10 Skild AI S1, 09-10 robotaxi full-stack, 09-10 d-Matrix NVLink Fusion, 09-09 IBC real-time AI). Subagent logged developer.nvidia.com/blog and nvidianews as 'XML parse error: not a valid RSS/Atom feed' — those are HTML listing pages, NOT failures; developer blog bodies are JS-rendered so take the listing excerpt. Use blogs.nvidia.com/feed/ (with /feed/), not the bare domain."
+    posts_found: 0
+    notes: "blogs.nvidia.com/feed/ healthy (18 items), newest 09-10 — all four in-window items were covered yesterday. Use /feed/ with the trailing slash. developer.nvidia.com/blog and nvidianews are HTML listings, NOT feeds — 'not a valid RSS/Atom feed' is not a failure."
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
   Overflow:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 3
-    notes: "3 in-window: 09-09 'Java's age is its AI superpower', 09-10 '(Re)introducing Developer Story', 09-11 'AI cybersecurity is a cat and mouse game'. Use https://stackoverflow.blog/feed/. Podcast episodes: RSS description carries the guest and thesis even when the article page is only show notes."
+    posts_found: 0
+    notes: "Healthy (40 items), newest 09-11 'AI cybersecurity is a cat and mouse game' — covered yesterday. Use https://stackoverflow.blog/feed/."
     urls:
       - https://stackoverflow.blog/
   Hacker News:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 12
-    notes: "Both feeds HTTP 200 on attempt 1 (retry loop still in place — 502s are intermittent, not gone). 12 in-window across AI+LLM. Lead item is Terence Tao's mathstodon thread (09-08) on open problems being non-renewably mined — WebFetch only returns part 1/4; use the Mastodon API (/api/v1/statuses/<id> and /context) to get the full thread. science.org 403s WebFetch."
+    posts_found: 5
+    notes: "AI feed 200 on attempt 1 (9 in-window, 5 new after dedupe); LLM feed healthy but newest is 09-10, zero in-window. Dominant pattern today is an anti-AI-content backlash: one Ask HN at 798 pts/102 comments plus THREE separate AI-filtering front-ends on the same day. For HN thread bodies and comments use the Algolia API (hn.algolia.com/api/v1/items/<id>) — WebFetch on news.ycombinator.com is unreliable."
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
   Lobsters:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 3
-    notes: "3 in-window: 09-11 'Feeling sad about AI', 09-09 Stanford unstructured-data thesis, 09-09 'Better AI code comment detector'."
+    posts_found: 1
+    notes: "1 new in-window: 09-11 'Retrospectively Reverse-Engineering Apple's Neural Engine'. The other 09-11 item ('Feeling sad about AI') was covered yesterday."
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
-    posts_found: 19
-    notes: "19 in-window per raw RSS, verified by curl — no truncation this run, and the subagent matched the full count for once. BUT it hallucinated the substance: it described the Anthropic distillation story as friendly 'partnerships with Alibaba, Moonshot AI, and DeepSeek' when the report is about ADVERSARIAL distillation via fraudulent accounts. Its per-post summaries are padded restatements of headlines — fetch article bodies yourself for anything you plan to quote a number from."
+    posts_found: 8
+    notes: "8 in-window per raw RSS, and batch 2 matched the full count — no truncation, second clean run. BUT: TechCrunch RSS has NO content:encoded, only a one-line <description>. Anything you want to quote a number from must come from curl-ing the article page (which works fine, http=200, unlike openai.com). Two of the 8 are Disrupt conference ads, not news — drop them. Verified this way: the Buckmaster attribution allegation and the Nscale board list."
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
-    last_success: "2026-09-11"
+    last_success: "2026-09-12"
     consecutive_failures: 0
     posts_found: 16
-    notes: "16 repos parsed from live github.com/trending HTML by me, not a subagent — names, languages and stars-today taken straight from the markup. Working regex set: split on '<article class=\"Box-row\">', flatten whitespace, then <h2...><a href=\"/([^\"]+?)\" for name (strip the trailing /stargazers), <p class=\"col-9...\">(.*?)</p> for description, itemprop=\"programmingLanguage\" for language, '([\\d,]+) stars today' for delta."
+    notes: "16 repos parsed from live HTML by me. REGEX GOTCHA: the old '<h2...><a href=\"/([^\"]+?)\"' name pattern now grabs a /sponsors/<user> link on rows that have a sponsor button (hit asgeirtj/system_prompts_leaks this run). Fix: collect ALL href=\"/owner/repo\" matches in the row and take the first one that is not 'sponsors/...'. Language via itemprop=\"programmingLanguage\", delta via '([0-9,]+) stars today'."
     urls:
       - https://github.com/trending
