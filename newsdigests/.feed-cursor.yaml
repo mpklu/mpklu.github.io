@@ -1,26 +1,26 @@
-last_run_date: "2026-09-14"
-last_summary_file: "content/newsdigests/2026-09-14-daily-digest.md"
-notes: "Window: on-or-after 2026-09-13, deduped against the 09-13 digest's 22 URLs. 6 articles + 6 GitHub repos, 0 videos. Monday run — the story is still the Amodei pacing essay, but the reaction wave has split into three distinct camps: political (Obama/Trump via TechCrunch), skeptical-press (Equity podcast), and a technical rebuttal (Bryan Cantrill). BIGGEST FINDING THIS RUN — the two configured hnrss feeds (q=AI, q=LLM) match on TITLE TEXT ONLY, so they silently miss major HN front-page AI stories whose titles contain neither string. Cantrill's 'The contagion of fear' (232 pts, the single best piece of the day) and 'Ask HN: What are you working on?' (219 pts, 443 comments) were both INVISIBLE to my raw parse and to batch 1; only batch 2 surfaced them. Fix: query the Algolia front-page API (hn.algolia.com/api/v1/search?tags=front_page) alongside hnrss, not instead of it. Agent performance was inverted from 09-13: batch 1 STALLED at 600s but its partial YAML was accurate and matched my parse exactly; batch 2 COMPLETED and was the only source for three real stories. Verified batch 2 claim-by-claim via Algolia — bcantrill (232pts), Sacks (311pts, objectID 49685991), Ask HN (219pts) are all REAL, contradicting the prior-run assumption that agent-only items are fabrications. But batch 2's Ask HN *statistics* ('33% AI projects vs 17% in 2024', '6,000 submissions') are uncorroborated and were NOT published — the item was dropped rather than risk inventing numbers. Batch 2 also reported Addy Osmani as a 300s timeout; my own curl read the feed fine (newest 08-22), so that failure is a MISLABEL and consecutive_failures stays 0. GitHub Trending: both my parse and batch 2 returned the identical 20 repos in identical order — strongest cross-validation yet; note my first regex returned 0 because <a> now carries data-hydro-click attrs before href, so match <a\\b[^>]*?href=. Rundown content verified verbatim against the source including the Hassabis/Nadella endorsements the agent asserted. Trump's 'negative forces' quote and Altman's 'independent evaluators with employee-like access' pledge each appear in TWO independent sources (Rundown + TechCrunch/Obama) — both solid. Interconnects piece is really 09-11 published / 09-13 updated, surfaced on HN today; included with real dates shown rather than passed off as new. CORRECTED BEFORE PUBLISH: I initially wrote an invented HN item id (49688109) for the Sacks link; real objectID is 49685991 — never hand-write an HN id, always read objectID from Algolia."
+last_run_date: "2026-09-15"
+last_summary_file: "content/newsdigests/2026-09-15-daily-digest.md"
+notes: "Window: on-or-after 2026-09-14, deduped against the 09-14 digest's 12 URLs and all prior GitHub repo slugs. 30 blog items + 3 GitHub repos + 3 videos — the biggest day since the Amodei essay dropped. Story of the day is the Trump/Huang speakerphone call at the All-In Summit, which I had from THREE independent sources (Rundown quick hit, two TechCrunch pieces, and the full All-In transcript fetched by yt-fetch at 08:15) — the transcript is the primary source and the articles quote it accurately. AGENT PERFORMANCE: batch 1 COMPLETED in 21 min and matched my parse exactly (5 posts, same URLs, Rundown body verified verbatim); its one 'failure' (anthropic.com/engineering 300s timeout) is a MISLABEL — my curl read 178KB fine, so consecutive_failures stays 0. Batch 2 DIED after ~60 min with 'Your computer went to sleep mid-response' and returned zero data (its last message was 'Now let me fetch the article content'). My own concurrent curl parse was the ONLY source for NVIDIA, Overflow, HN, Lobsters, TechCrunch and GitHub Trending — running it from the start was decisive again. hnrss: BOTH feeds returned a 552-byte envelope on the first 3 tries; a later retry got q=AI (16.5KB, 7 in-window) but q=LLM stayed at 149 bytes across 3 more tries — treat q=LLM as down today, not quiet. Algolia front_page API was fetched alongside and surfaced RubyGems (482pts), Pion (435), dbt Charts (254) and Litt (249), none of which the title-match hnrss feeds returned. Published-date vs surfaced-date: erkansaka (09-10), tenderlovemaking (09-11), amazon.science (09-10), daniellitt (09-13) all pre-date the window but surfaced on HN/Lobsters in-window and none had been published in a prior digest (grepped slugs across content/newsdigests/); dates are shown honestly in the digest. Musk transcript: the head/tail excerpt CUT OUT the entire AI-safety segment (it sits in the middle 4,800 words) — I pulled the middle by regex before writing; do this whenever a long interview's AI content is not at the start. Shotwell's 'Cursor situation... closed a month ago' is reported as said, hedged, not verified. Rundown quick hit about Nvidia/Palantir/Booz Allen limiting Fable over 30-day logs is attributed to The Information via Rundown, not independently verified. GitHub Trending page had only 14 <article> blocks today (two separate fetches agreed), 6 already covered, 4 non-AI, 3 new AI + LibreChat (perennial, skipped)."
 sources:
   Anthropic:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Engineering index still stale (newest Apr 23 2026) — 5 months. darioamodei.com checked directly again: newest post is still 'We Must Pace the Frontier', already covered 09-13, so no new. Adding anthropic.com/news AND darioamodei.com to .feed/source.md remains the right call (needs user approval) — the CEO's essay driving five straight days of coverage is still not reachable from any configured URL."
+    notes: "engineering index still stale (no 2026-09 dates at all); anthropic.com/news newest Sep 10. Batch 1 called engineering a 300s timeout — mislabel, curl returned 178KB. Still no configured URL reaches darioamodei.com; the CBS interview surfaced only as a Rundown quick hit."
     urls:
       - https://www.anthropic.com/engineering
   OpenAI:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "curl -sL still mandatory (307 to /news/rss.xml). 1193 items. Exactly 1 in-window: perplexity-improving-accuracy-with-astra, still FUTURE-dated 2026-09-14 and already published in the 09-12 digest. This is the second consecutive run it has presented as a false new post — the URL dedup caught it both times. It should fall out of the window tomorrow."
+    posts_found: 1
+    notes: "curl -sL to /news/rss.xml, 1193 items. 2 in window: fyxer (NEW, published from RSS description because index page 403s) and perplexity-improving-accuracy-with-astra (still 09-14-dated, already published 09-12, deduped a third time)."
     urls:
       - https://openai.com/blog/rss.xml
   Google:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "All four feeds healthy and all empty in window. Newest: Keyword 09-11, DeepMind 09-08, Innovation 09-09, Developers 09-01. Batch 1 claimed 'window: 2 posts' for blog.google/rss in its health block while returning zero Google posts — self-contradiction, and my parse confirms 0."
+    posts_found: 3
+    notes: "Keyword had 3 on 09-14 (Koch dialogue, DevFest, Lea County data center); Developers feed duplicated DevFest; DeepMind newest 09-08; Innovation newest 09-09. Batch 1 bodies matched the pages."
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
@@ -28,88 +28,81 @@ sources:
       - https://blog.google/technology/developers/rss/
   BAIR:
     last_success: "2026-08-25"
-    consecutive_failures: 15
+    consecutive_failures: 16
     posts_found: 0
-    notes: "DEAD — 15 consecutive failures, 8 past the threshold. Omitted from the fetch entirely again. REMOVE from .feed/source.md (still needs user approval)."
+    notes: "DEAD — 16 consecutive failures. Omitted from the fetch. REMOVE from .feed/source.md (needs user approval)."
     urls:
       - https://bair.berkeley.edu/blog/
   One Useful Thinking:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy via /feed; newest STILL 2026-08-31 'Agency and Agents' — unchanged for 14 days. Use https://www.oneusefulthing.org/feed, not the bare site URL."
+    notes: "Feed healthy; newest still 2026-08-31 (15 days)."
     urls:
       - https://www.oneusefulthing.org/
   Rundown:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
     posts_found: 1
-    notes: "HEALTHY — 20 items, newest 09-14 'Top AI labs want to pump the brakes', which IS today's issue and was captured. The 08:2x timing problem noted on 09-12/09-13 did NOT bite today; the issue was already live at fetch time. Body verified verbatim by raw curl."
+    notes: "20 items, newest 09-15 'Trump, China both shoot down the AI slowdown' — live at 08:3x fetch time. Full body verified verbatim by curl including the Microsoft Code of Conduct section and the quick hits."
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
   Cursor:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Newest 09-10, out of window."
+    notes: "Newest 09-10."
     urls:
       - https://cursor.com/blog
   Addy Osmani:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
     posts_found: 0
-    notes: "HEALTHY via raw curl — 10 items, newest 2026-08-22, so legitimately 0 in window. Batch 2 reported a 300s timeout; that is a MISLABEL and must not increment consecutive_failures."
+    notes: "10 items, newest 08-22. (addyosmani/agent-skills repo is trending again — covered under GitHub Trending.)"
     urls:
       - https://medium.com/feed/@addyosmani
   NVIDIA:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "blogs.nvidia.com/feed/ newest 09-10; developer.nvidia.com/blog newest Sep 10 2026 (the /feed/ path returns empty — parse dates out of the HTML instead); nvidianews.nvidia.com/releases 404s, root page has no parseable dates. All out of window regardless."
+    posts_found: 3
+    notes: "blogs.nvidia.com/feed/: 2 in window (Perplexity Portable Computer 09-14, CHOP cardiac 09-15). developer.nvidia.com/blog: 1 dated Sep 14 (Dropless MoE in JAX) — the listing HTML needs a 1500-char context window around the date string to map to a title. nvidianews root still has no parseable dates. CHOP page needs a plain <p> dump; the <article> heuristic grabs the sidebar."
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
   Overflow:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "stackoverflow.blog/feed/ healthy, 40 items, newest 09-11."
+    posts_found: 1
+    notes: "40 items, newest 09-15 podcast (Kevin Frazier). Summary from the feed description; the page body is only the outro."
     urls:
       - https://stackoverflow.blog/
   Hacker News:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "Both hnrss feeds healthy (20 items each) after the len<1000 retry guard. 4 in-window on q=AI, of which 3 were already published (Bengio, Xe Iaso, Garry Tan) leaving 1 new: the Interconnects open-models reading list. CRITICAL LIMITATION CONFIRMED — these feeds match title text only, so Cantrill's 'The contagion of fear' (232 pts) and 'Ask HN: What are you working on?' (219 pts) never appeared despite being front-page AI discussion. Add the Algolia front_page API as a third HN source."
+    posts_found: 9
+    notes: "q=AI: 552-byte envelope x3 at 08:36, then healthy (16.5KB, 7 in-window, 6 new; Interconnects deduped) at ~09:20. q=LLM: 552 then 149 bytes across 6 total tries — DOWN today, not quiet. Algolia front_page (hitsPerPage=100) added RubyGems 49695876, Pion 49700477, dbt Charts 49704246, Litt 49698699 — all with real objectIDs copied from the API. Keep Algolia as a standing third source."
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
   Lobsters:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "25 items, newest 09-12, out of window."
+    posts_found: 4
+    notes: "25 items, 4 in window (OpenArm, Appleton, Nemin letter, Amazon overfit) — all new, all published."
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
-    posts_found: 2
-    notes: "19 items, newest 09-13, 2 in window and both NEW (warnings-of-doom, obama-urges-democrats). No truncation this run — my parse and batch 2 agree on both. Article bodies fetched in full by raw curl."
+    posts_found: 8
+    notes: "20 items, 12 in window; 8 AI-substantive published (Koa, Huang/Trump x2, Glass Imaging, Siri review, Microsoft code of conduct, Superhuman/Fathom); skipped Daydream (thin), Vinyl Bar (non-AI) and 3 Disrupt promos. All bodies fetched in full by curl."
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
-    last_success: "2026-09-14"
+    last_success: "2026-09-15"
     consecutive_failures: 0
-    posts_found: 6
-    notes: "20 repos parsed; 9 carried over from the 09-13 digest and were deduped, 6 AI-relevant new ones published (Agent-Reach, TradingAgents, MiroFish, VoxCPM, Claude-Red, oh-my-hermes), the rest non-AI (localsend, vaultwarden, ever-gauzy, opendisplay, flowsint, project-nomad) or perennial (huggingface/transformers). My parse and batch 2 returned the identical 20 in identical order."
+    posts_found: 3
+    notes: "Only 14 <article> blocks on the page today (two fetches agreed, order identical). 6 already covered (open-code-review, colibri, VoiceStudio, OpenResearch, atlas, DeskcommCRM), 4 non-AI (ever-gauzy, BrewUI, ghidra, omniget), LibreChat perennial. Published: earendil-works/pi, MG1937/ASC, addyosmani/agent-skills. No agent cross-validation this run (batch 2 died)."
     urls:
       - https://github.com/trending
-  bcantrill (UNCONFIGURED):
-    last_success: "2026-09-14"
-    consecutive_failures: 0
-    posts_found: 1
-    notes: "NOT IN .feed/source.md — reached me only via batch 2, and was the best piece of the day (232 pts on HN). Bryan Cantrill's Observation Deck has now produced a lead-quality item; https://bcantrill.dtrace.org/feed/ is worth adding alongside darioamodei.com (needs user approval). Second consecutive run where the strongest story came from an unconfigured source."
-    urls:
-      - https://bcantrill.dtrace.org/
