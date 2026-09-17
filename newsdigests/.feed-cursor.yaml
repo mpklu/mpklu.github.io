@@ -1,26 +1,26 @@
-last_run_date: "2026-09-16"
-last_summary_file: "content/newsdigests/2026-09-16-daily-digest.md"
-notes: "Window: on-or-after 2026-09-15, deduped against the 09-15 digest's 45 URLs and all prior GitHub repo slugs. 38 blog items + 4 new GitHub repos + 5 videos. Story of the day is the safety debate going live on stage: Amodei, Huang, Altman, Nadella and VP Vance all on record within 24h, and they disagree. yt-fetch RACE: it started at 08:32 (late) and was STILL RUNNING when this skill began — the transcripts dir showed only 09-15-iwBOQeFPAwg at first and would have read as 'no new videos'. Five transcripts landed at 09:39-09:41 while I fetched blogs; I polled until new files stopped arriving before writing. Always check pgrep blog_yt-fetch before concluding the Interviews section is empty. AGENT PERFORMANCE: batch 1 completed in 2.5min, accurate but TRUNCATED — returned 5 of the 14 in-window Google Keyword items. Batch 2 took 12min and was the more useful of the two: it surfaced real detail my 9-paragraph curl extract had cut off (F-Droid's aggregate stats, Koa's CRM Bench numbers, AIUC's 5,000-test suite, the AI Infra Summit partner list, AI graveyard's Relay/S&P figures). EVERY numeric claim it volunteered was verified by curl against the primary source before publishing — all 7 checked came back exactly right this time, which is the opposite of the usual pattern; verify anyway. Batch 2 also self-contradicted once: it listed blogs.nvidia.com as a failure ('domain fetch blocked') while returning 6 posts from that exact domain — mislabel, consecutive_failures stays 0. Its TechCrunch '404' was the 09-14 Jensen/Trump piece already published 09-15. hnrss: BOTH feeds returned curl rc=000 (connection failure, not the 552-byte envelope) on the first concurrent pass; q=AI recovered on retry 1, q=LLM took 3 tries through two 502s. Algolia front_page again surfaced AI stories the title-match feeds missed entirely — TypeSafe/Jev (1561pts), Baseten takeover (302), dank.systems bear case (292), yosefk (129); the Jev launch was the day's biggest HN story and hnrss q=AI did not have it. Keep Algolia as a standing third source. GitHub Trending: 21 article blocks, repo-name regex needed a fallback (the h2>a form missed all 21 — used the first non-sponsors owner/repo href instead); 6 already covered in prior digests, 4 new AI. Lambda appears with TWO different numbers in two NVIDIA posts — 24% more token throughput (megawatts-to-tokens) and 23% performance-per-watt (AI Infra Summit); both are real and separately attributed, do not merge them. Adecco CEO's '354% of their time' saved in the Dreamforce transcript is a garbled ASR number — dropped rather than quoted."
+last_run_date: "2026-09-17"
+last_summary_file: "content/newsdigests/2026-09-17-daily-digest.md"
+notes: "Window: on-or-after 2026-09-16, deduped against the 09-16 digest's 45 URLs and all prior GitHub repo slugs. 31 blog items + 2 new GitHub repos + 3 videos. Story of the day is Zuckerberg breaking ranks on Amodei's coordinated-slowdown proposal (Rundown's scorecard: Amodei/Altman/Musk/Hassabis for, Zuck/Huang/Trump/Beijing against) landing the same day OpenAI published its misalignment reporting framework and TechCrunch ran TWO pieces questioning embedded evaluators. yt-fetch RACE AGAIN, worse than 09-16: it started at 08:46 and was still running when this skill began — at that moment the transcripts dir held ONLY files already published in the 09-16 digest, so the Interviews section would have read as empty. First new transcript landed 09:15, a SECOND at 09:19, and a THIRD at 09:19:20; the process did not exit until ~09:22. I polled with a bounded pgrep loop until it exited rather than guessing. The 09:19 arrival (USA TODAY Dreamforce cut) was the better of the two — do not stop polling after the first file appears. WORSE: I nearly missed the third file (2026-09-15-_JbDZ2Rj2SA, the CNN Amodei/Tristan Harris agent-swarm interview and the single most substantive video of the run) because I was spot-checking with `ls -la | tail -4` — the leading underscore in the video ID sorts it into the MIDDLE of the 09-15 block, not the end. It only surfaced in `git status` output after the commit. NEVER verify the transcript set with tail; diff the full filename list against the prior digest's youtube.com/watch URLs. AGENT PERFORMANCE: both batches completed (~29min and ~30min) and both were useful, but both mislabeled healthy sources as failures — batch 1 called Anthropic a 'fetch timeout' (my curl got 178KB fine, nothing in window), One Useful Thing 'content unavailable' (RSS healthy, 20 items, newest still 2026-08-31, now 17 days stale), and listed Cursor and Addy Osmani as failures when they were simply 0-in-window. consecutive_failures stays 0 for all four. Batch 2 mislabeled StackOverflow/Lobsters/hnrss-LLM the same way. VERIFICATION CAUGHT TWO ERRORS: batch 2 reported Vera Rubin '3.7x on demanding workloads like DeepSeek-R1 and Qwen3-VL' — the real post says 3.7x on Qwen3-VL and 2.5x on DeepSeek-R1, two different numbers conflated into one; and its GitHub Trending absolute star counts are garbage (affaan-m/ECC listed at 260,876 stars for a repo gaining 1,173/day, and the list is not actually sorted by the counts given) — used my own 'stars today' from the trending page instead and dropped absolute counts. Everything else batch 2 volunteered verified exactly: TensorRT Edge-LLM 52.33 tok/s + 1,007 turns + 6.4x, cuTile 24 operators + 99.5%, Treble $18M/Paladin/$40M total (the odd $12M+$18M>$40M math is TechCrunch's own), Hang Ten $53M/$32M/$85M/Xora + every named investor, Google Home $20/mo Premium Advanced. Batch 1's Rundown summary verified verbatim including the Zuck quotes. Batch 1's teens stats were RIGHT where checkable (1,000+ teens, 74% weekly study partner) but it omitted the strongest number (94% used AI in past year) and volunteered a '55% cross-check facts' figure I could NOT find on the page — dropped it, used the verified 64% digital-literacy figure instead. hnrss: both feeds healthy first try this run (16KB and 19KB, no retries needed) but q=AI had only 3 in-window items and q=LLM had ZERO — Algolia front_page + search_by_date(points>100) was again the dominant source, supplying CUDA Rust (776pts, the day's top story and absent from both hnrss feeds), qorl (595), ternary LLM (218), Dream-RSI (206), DeepSeek hacking (169), DeepMind Institute (175), OpenSpec (163), PS5 Linux (318). NOTE the Algolia search_by_date numericFilters must be passed with curl -G --data-urlencode or the API returns non-JSON. UNREADABLE (JS-only, no data endpoint): harnesstax.github.io (161pts) and mimo.xiaomi.com/rl (478pts) — both omitted rather than summarized from their titles; z.ai blog also returns a 2KB shell. OpenAI article pages still 403 (10KB Cloudflare interstitial) so the misalignment framework — a major safety item — is published from its one-line RSS description with that limitation stated in the digest body. GitHub Trending: 20 articles, repo-name regex needed the sponsors filter again (affaan-m and ever-co both resolved to /sponsors/ links first); 11 already covered in prior digests, only 2 genuinely new AI repos."
 sources:
   Anthropic:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
     posts_found: 0
-    notes: "engineering index fetched fine (178KB); newest parseable date 2026-09-11, nothing in window. Still no configured URL reaches darioamodei.com — his Dreamforce appearance came via the yt-fetch transcript, not this feed."
+    notes: "engineering index fetched fine via curl (178KB, 24 slugs); no September dates parseable, nothing in window. Batch 1 called this a timeout — it is not. The real Anthropic news of the day (Cowork/chat merge) published at claude.com/blog, which is NOT in .feed/source.md and was picked up via HN + TechCrunch. Consider adding claude.com/blog to the source list."
     urls:
       - https://www.anthropic.com/engineering
   OpenAI:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "curl -sL to /news/rss.xml, 1194 items. 1 in window: reimagining-advertising-with-ai (09-16). Article page still 403s (415-byte body) — published from the RSS description, which is one line only."
+    posts_found: 5
+    notes: "curl -sL to /news/rss.xml, 1206 items. 5 in window, all 09-16: model-misalignment-reporting-framework, unlocking-new-ways-of-working, helping-older-adults, how-to-connect-ai-usage-to-business-value, reimagining-advertising (already published 09-16, deduped out). Article pages still 403 — RSS descriptions are one line each."
     urls:
       - https://openai.com/blog/rss.xml
   Google:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
-    posts_found: 14
-    notes: "Keyword feed had 14 in window — biggest Google day yet, driven by the AI for Societal Impact collection (6 articles) plus the Gemini 3.8 Live launch. Batch 1 returned only 5 of the 14; my own parse was the complete list. DeepMind newest 09-15 (Gemini 3.8 Live, duplicate of Keyword). 7 of the 14 were non-AI corporate news (Brazil carbon removal, Thompson Center, Nevada energy, Pixel Drop) and were deliberately omitted from the digest."
+    posts_found: 8
+    notes: "Keyword feed had 8 in window (7 on 09-16, 1 on 09-17). DeepMind, Innovation-AI and Developers feeds all healthy but 0 in window (newest 09-15 across all three). Only 2 of the 8 were AI content (teens research, Search profiles for publishers); the other 6 were ads/commerce and sustainability corporate news (Rethink 2026, holiday shopping, Stegra green steel, Terradot carbon removal, Thompson Center) and were deliberately omitted."
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
@@ -28,84 +28,82 @@ sources:
       - https://blog.google/technology/developers/rss/
   BAIR:
     last_success: "2026-08-25"
-    consecutive_failures: 17
+    consecutive_failures: 18
     posts_found: 0
-    notes: "DEAD — 17 consecutive failures. Omitted from the fetch again. REMOVE from .feed/source.md (still needs user approval)."
+    notes: "DEAD — 18 consecutive failures. Omitted from the fetch again. REMOVE from .feed/source.md (still needs user approval)."
     urls:
       - https://bair.berkeley.edu/blog/
   One Useful Thinking:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy (922KB, 20 items); newest still 2026-08-31 (16 days)."
+    notes: "Feed healthy via /feed (20 items); newest still 2026-08-31 (17 days). Batch 1 mislabeled this a failure — it is not."
     urls:
       - https://www.oneusefulthing.org/
   Rundown:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "20 items, newest 09-16 'ChatGPT co-creator launches a new kind of AI' (TypeSafe/Jev). Verified its Jev claims against typesafe.ai directly — pricing, latency and the 'more like a database than a coworker' line all match the primary source. The 09-15 issue was already published yesterday."
+    posts_found: 2
+    notes: "Beehiiv feed healthy. 2 in window: Zuck slowdown (09-17, the lead story) and ChatGPT co-creator/Jev (09-16, deduped — the TypeSafe launch was already the 09-16 digest's lead). The 09-17 issue also flagged the DeepMind Institute, which corroborated the HN item."
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
   Cursor:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Page fetched (425KB); newest date token still 2026-09-10."
+    notes: "Blog index fetched fine (420KB); newest post 2026-09-15, nothing in window. Batch 1 filed this as a failure — it is a clean 0-in-window."
     urls:
       - https://cursor.com/blog
   Addy Osmani:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
     posts_found: 0
-    notes: "10 items, newest 08-22 (25 days). addyosmani/agent-skills still trending but already covered 09-15."
+    notes: "Medium RSS healthy, 10 items, nothing in window. His agent-skills repo was on GitHub Trending again (+680 today) but has appeared in 9 prior digests."
     urls:
       - https://medium.com/feed/@addyosmani
   NVIDIA:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
-    posts_found: 8
-    notes: "blogs.nvidia.com/feed/: 6 in window, 5 new (CHOP cardiac deduped — published 09-15). developer.nvidia.com/blog: 4 dated Sep 15 (Dense vs MoE, Groq 3 LPX, NVLink 6, and FLARE which is Sep 14 = out of window); the listing HTML still needs a ~1500-char context window around the date string to map date->title. Batch 2 mislabeled this source as network-blocked while simultaneously returning its posts."
+    posts_found: 7
+    notes: "blogs.nvidia.com/feed 4 in window (Vera Rubin MLPerf, AI Energy Management Alliance + Earth-2 both already in the 09-16 digest, GeForce NOW non-AI); developer.nvidia.com/blog/feed 3 in window plus the CUDA Rust post, which is dated Sep 08 on-page but only hit HN on 09-16 at 776 points — included on that basis. nvidianews.nvidia.com not separately parsed; the RSS feeds covered it."
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
   Overflow:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
     posts_found: 0
-    notes: "40 items, newest 09-15 'AI, JD, and other letters of the law' — already published in the 09-15 digest, so 0 new. Batch 2 called this a failure ('podcast metadata only'); it is not, the feed is healthy and simply had nothing newer."
+    notes: "stackoverflow.blog/feed healthy, 40 items, 0 in window."
     urls:
       - https://stackoverflow.blog/
   Hacker News:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
-    posts_found: 6
-    notes: "q=AI: curl rc=000 on the concurrent pass, then 200/16.7KB on retry 1 (20 items, 4 in window). q=LLM: rc=000, then 502 x2 at 552 bytes, then 200/19.4KB on try 3 (20 items, 1 in window: F-Droid slop). Retry on rc=000 AND on len<1000 — both failure shapes appeared in the same run. Algolia front_page (hitsPerPage=100) added TypeSafe/Jev 49717558 (1561pts), Baseten 49716476 (302), dank.systems 49715927 (292), yosefk 49705944 (129), Apple Reference Image 49721322 (342), Mistral/Mozilla 49723408 (196) — objectIDs copied from the API, not written by hand."
+    posts_found: 10
+    notes: "hnrss q=AI healthy first try (16KB) but only 3 in window; q=LLM healthy (19KB) with ZERO in window despite Algolia showing 'Learning Programming in an Age of LLMs' at 247pts — the title-only substring match missed it again. Algolia front_page + search_by_date(points>100) supplied everything that mattered. Keep Algolia as the primary HN source; the hnrss feeds are now the weakest of the three."
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
+      - https://hn.algolia.com/api/v1/search?tags=front_page
   Lobsters:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
-    posts_found: 3
-    notes: "25 items, 3 in window, 1 new: taggart-tech 'Model Training Incidents are Negligence'. OpenArm and maggieappleton/planning-agents both deduped (published 09-15)."
+    posts_found: 0
+    notes: "lobste.rs/t/ai.rss healthy, 25 items, 0 in window."
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
     posts_found: 17
-    notes: "17 in window from a 20-item feed — the single biggest source today. 2 deduped (Jensen/Trump call, Salesforce-Nvidia Koa analysis, both published 09-15), 2 Disrupt promos skipped, 13 published. RSS descriptions are ONE-LINE excerpts only, not article bodies — full articles had to be curled individually for anything beyond a headline summary."
+    notes: "17 in window — the largest single source this run. 7 published: two safety-evaluator pieces, Al Gore, Cowork merge, Google Home MCP, Meta Luna glasses, Treble, Hang Ten. Omitted: 4 Disrupt 2026 event promos, Threads podcast tools, Snap glasses, plus SK Hynix and Alexa+ India (both already in the 09-16 digest)."
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
-    last_success: "2026-09-16"
+    last_success: "2026-09-17"
     consecutive_failures: 0
-    posts_found: 4
-    notes: "21 article blocks. New AI repos: cloudflare/security-audit-skill, Tencent/WeKnora, anthropics/knowledge-work-plugins, jamiepine/voicebox. Already covered in prior digests: alibaba/open-code-review, JustVugg/colibri, alphaXiv/OpenResearch, SnailSploit/Claude-Red, multimodal-art-projection/YuE, affaan-m/ECC, addyosmani/agent-skills. Name regex: the <h2><a href> form matched ZERO of 21 today — fell back to first non-sponsors owner/repo href in each block."
+    posts_found: 2
+    notes: "20 article blocks parsed; sponsors-link fallback required again (affaan-m/ECC and ever-co/ever-gauzy both resolve to /sponsors/ first). 11 slugs already covered in prior digests (knowledge-work-plugins, security-audit-skill, WeKnora, voicebox, open-code-review, agent-skills x9, OpenResearch, colibri, ECC x7, claude-code, cline). Only Tencent/BrowserSkill and TencentCloud/Octop were new AI repos. Do NOT trust agent-reported absolute star counts — use the 'stars today' figure from the page."
     urls:
       - https://github.com/trending
-transcripts:
-  processed: 5
-  notes: "All five fetched by yt-fetch DURING this run (09:39-09:41): Nadella/All-In (6.8k words), Amodei+Huang+Busch Dreamforce keynote (11.1k), Altman/Benioff Dreamforce (6.6k), Vance/All-In (5.5k), Theo 'How I Code Without Typing' (8.1k). Zero \\h escapes in all five (checked with grep -oF). The 11.1k-word Dreamforce keynote was read IN FULL rather than head/tail — its three interviews are sequential and Huang's safety segment sits ~70% in, which a head/tail excerpt would have cut. Title says 'Debate' but it is really the keynote with three sequential conversations; described honestly in the digest."
