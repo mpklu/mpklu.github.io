@@ -1,28 +1,29 @@
-last_run_date: "2026-09-22"
-last_summary_file: "content/newsdigests/2026-09-22-daily-digest.md"
-notes: "TUESDAY RUN, one-day window (on-or-after 2026-09-21). No yt-fetch race: log mtime 08:06, skill started 08:23, pgrep clean. BAIR IS ALIVE AGAIN after 22 consecutive timeouts: curl rc=0, 200, 39KB, newest post 2026-07-29 - so it was a long outage, not a dead site; do NOT remove it from source.md, and the 'BAIR dead' memory needs revising. ALGOLIA FIRST CALL FAILED (JSON decode on an HTML/empty body) - the unencoded '>' in numericFilters; urllib.parse.quote fixed it on retry. Keep the retry. BOTH BATCHES WERE USABLE THIS RUN, a first in weeks: batch 2 returned 33 complete items with no placeholders and correct GitHub star alignment; batch 1 got 4 of 5 OpenAI posts (missed /index/v7) and PADDED the one-line RSS descriptions with invented second sentences ('The advisory panel brings together experts...') - use the raw RSS description, never the agent's expansion, for 403'd OpenAI pages. Batch 1 also said Cursor newest 'unknown'; the page had a 09-21 entry, but it is an EXTERNAL link card to x.ai/news/grok-4-7 (Cursor co-publishes SpaceXAI model posts) - a Cursor 'post' with no cursor.com URL. Batch 2 volunteered unverifiable stats (Muse '95% Facebook users', TensorRT '156.6s to 34.2s') not in my extracts - omitted. XIAOMI MIMO PAGE IS A JS SHELL (0 paragraphs, WebFetch also got nothing) - sourced the top HN story from artificialanalysis.ai + the HN thread and said so in the text. GitHub Trending rendered only 8 Box-row blocks this run (page 548KB) - not 25; noted in the digest rather than padding. FORBES 403s. STACKOVERFLOW.BLOG /feed/ works fine even though the listing page shows only 4 outbound links. THREE DEDUPES: Rundown 09-21 lead (Hacktron, ran 09-19), Trump AI Force (Rundown 09-22 repackaged; ran 09-20 from TechCrunch primary), Jensen 0% quote (same CBS interview covered 09-20) - kept only as one-clause context. Cursor AIUC-1 and Grok 4.6 both grep-hit older digests; skipped. TRANSCRIPT SCREEN via python re: Theo Fable video 9098 words / 42 strict (used), Rao All-In 4660 / 16 strict (used - substantive chip talk despite modest count), Blake Scholl supersonic 3130 / 0 strict (discarded). Six older UNUSED transcripts (Tom Lee, America's 250, Nick Shirley, Isaacman, Gurley, AppLovin) were prior-run discards - do not reprocess. PAIN AXIS: Rundown's '25-71% vs 0-4%' relief-button rates are NOT in the arXiv abstract; attributed to the Rundown explicitly. Spymarks essay's identity-tracking claim is the author's inference from payload capacity, phrased as such. CROSS-SOURCE: math advisory group = OpenAI RSS + Tao guest post + TechCrunch (only De Lellis signed both letter and group); Muse = 2 TechCrunch + Rundown + Ron Johnson; Rao energy wall paired with NVIDIA DSX Ready and Nscale; Theo's 'dumb zone is folklore' paired with the HN 'median thinking declined' thread and the 09-22 status incident."
+last_run_date: "2026-09-23"
+last_summary_file: "content/newsdigests/2026-09-23-daily-digest.md"
+notes: "WEDNESDAY RUN, one-day window (on-or-after 2026-09-22). No yt-fetch race: log mtime 08:08, skill started 08:23; yt-fetch's own report said 2 new channel transcripts, 0 interviews, 5 pruned. HUGE LAUNCH DAY: Opus 5.5 (HN 1609p) and GPT-6 Sol/Luna (1600p) 90 min apart - led with both plus Theo's same-day Grok 4.7 video as the benchmarks-vs-reality companion. AGENTS: batch 1 returned 2 of 6 OpenAI posts and 3 of 4 Google posts, and mislabeled every empty-but-healthy source as a 'failure'; batch 2 returned 3 of 14 TechCrunch items but its GitHub Trending list (17 rows, star counts) matched my own parse EXACTLY, and its DSec numbers (380k concurrent / 5k per sec / 3M per day / 160 nodes) matched the arXiv abstract - so batch 2's volunteered stats were all real this run. Still verify. MY OWN PARSER: DeepMind rss (19KB) and nvidianews /rss (62KB) both threw XML parse errors - the bytes came back, so they are not dead; check what's in the bodies next run (nvidianews has now returned 0 usable items two runs running). blog.google/rss used 4 in window incl. Sensemaking AI that batch 1 missed. OPENAI 403s as usual - Sol/Luna, prompt-caching and Parallel pages fetched FINE with browser UA (only /index/priorities-principles-third-party-assessments and the two 09-23 posts 403'd), so the 403 is per-page, not blanket: try each page before falling back to RSS description. BLOOMBERG 403; the HN thread's own archive.ph/0V37g link served the full text (dated 09-18, HN 09-22) - said so in the digest. Algolia items API gave top comments for 3 threads in one call - useful for 'HN commenters said' lines; attribute commenter claims (Palantir blame loop) as commenter claims. assbench.com is a JS shell (8 words) - skipped. mouse.dev page is well-structured, note Codex binary inside Meta's Muse image. DEDUPES: Nscale IPO, Isaac ROS 5.0, ROS 2 agent post, ROCm podcast, Apple dbushell, gzip LM, Navier-Stokes, MiMo, status.claude incident, Rundown math-advisory item (all ran 09-22); BuilderIO/agent-native (ran 09-20/21). Qualcomm grep hit 09-22 was a different mention - the Snapdragon Summit story is new. TRANSCRIPT SCREEN: Theo jLgpzgpsWPc 5747 words - strict keyword count only 4 because Whisper wrote 'Gro 47'/'Grock' for Grok; the 'gro|grock' variants scored 15 - add xAI misspellings to the screen regex. All-In VF90rBzl26E (Hilton/Pratt California politics) 10439 words / 0 strict / 4 loose incl. 'Skid Row data centers' joke - discarded after grepping the middle; do not reprocess. Six older UNUSED transcripts remain prior-run discards. ITU scholarships: 'ITU' grep hit 09-21/22 were substrings (situation etc.) - grep 'scholarship' found nothing, so it was new. Verified Gates $100M/200M/50M and ITU 100k/80+ countries/1.2B against the pages before writing since they came from the agent."
 sources:
   Anthropic:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
-    posts_found: 0
-    notes: "Healthy, 178KB. Newest real post still 2026-05-25; the 2026-09-18 string is the Sanity CMS _updatedAt field. Standing suggestion: add claude.com/blog to .feed/source.md."
+    posts_found: 1
+    notes: "/engineering unchanged (newest real post 2026-05-25). The Opus 5.5 launch post lives at anthropic.com/claude-opus-5-5 and surfaced via HN/Algolia (1609p), not via /engineering - counted here. Standing suggestion: add claude.com/blog and anthropic.com/news to .feed/source.md."
     urls:
       - https://www.anthropic.com/engineering
+      - https://www.anthropic.com/claude-opus-5-5
 
   OpenAI:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
-    posts_found: 5
-    notes: "5 in window (math advisory group, Higgsfield/Astra, building standards, Academy paths, V7). Article pages 403 - used RSS description fields only and said so in the digest. Batch 1 missed /index/v7 and padded descriptions."
+    posts_found: 6
+    notes: "6 in window: Sol/Luna, prompt caching, Parallel case study, third-party assessments (09-22); Ukraine Daybreak, Grab skills (09-23). Sol/Luna, caching and Parallel pages fetched fine with browser UA; the other three 403'd - used RSS descriptions and said so. Batch 1 found only 2 of 6."
     urls:
       - https://openai.com/blog/rss.xml
 
   Google:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
     posts_found: 4
-    notes: "Keyword had 4 in window (3 Googlebook preorder posts + Digital Promise $4M); DeepMind/Innovation/Developers all newest 09-15, 0 in window."
+    notes: "Keyword 4 in window (Gates $100M farmers, ITU scholarships, Jigsaw Sensemaking, AI Max ads) - all used. DeepMind feed returned 19KB but my parser threw 'not well-formed (invalid token): line 1' - agent read it as newest 09-15; inspect the body next run. Innovation/Developers newest 09-15, 0 in window."
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
@@ -30,68 +31,68 @@ sources:
       - https://blog.google/technology/developers/rss/
 
   BAIR:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
     posts_found: 0
-    notes: "BACK ONLINE after 22 consecutive timeouts (08-26 through 09-21). curl 200, 39KB, feed.xml linked. Newest post 2026-07-29 (cuda-to-mlx-k-search), 0 in window. Do NOT remove from source.md."
+    notes: "feed.xml 289KB, 10 items, newest 2026-07-29. Healthy second day running after the 22-run outage."
     urls:
       - https://bair.berkeley.edu/blog/
 
   One Useful Thinking:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Feed healthy, newest 2026-09-18 ('The Overhang'). 0 in window."
+    notes: "Feed healthy, newest 2026-09-18. 0 in window."
     urls:
       - https://www.oneusefulthing.org/
 
   Rundown:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
     posts_found: 1
-    notes: "09-22 issue 'Amazon shuts out Meta's Muse' used for the lead story's Amazon/Meta specifics and for surfacing the Pain Axis arXiv paper. Its AI Force item was a dedupe (ran 09-20). Read content:encoded (1596 words), not description."
+    notes: "09-23 issue 'The pacing era's first launch day' (1636 words in content:encoded) used for the AA 58-vs-53 framing, a16z Academy, and quick hits (Alibaba chip, BC v. OpenAI, 20-country oversight call) flagged as unverified. Its math-advisory item was a dedupe."
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
 
   Cursor:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "412KB. One 09-21 entry, but it is an external card to x.ai/news/grok-4-7 (Cursor co-publishes SpaceXAI model posts) - credited to x.ai 'via Cursor'. Newest cursor.com post is still 09-15."
+    posts_found: 0
+    notes: "Per batch 1: newest entry still the 09-21 external Grok 4.7 card; no new cursor.com post. Not independently fetched this run."
     urls:
       - https://cursor.com/blog
 
   Addy Osmani:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Medium feed healthy, newest 2026-08-22. 0 in window."
+    notes: "Medium feed healthy, newest 2026-08-22."
     urls:
       - https://medium.com/feed/@addyosmani
 
   NVIDIA:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
-    posts_found: 9
-    notes: "blogs.nvidia.com 6 in window (Isaac ROS 5.0, DSX Ready, Halos safety, Egypt, agent-stack security, clean-energy [already ran 09-21]); developer.nvidia.com 4 in window (TensorRT multi-device, agent eval, ROS 2 agent, AIPerf [already ran 09-19]). Used 7; skipped Egypt (ecosystem PR). nvidianews /rss returned 0 items - check that URL next run."
+    posts_found: 6
+    notes: "blogs.nvidia.com 2 in window (AI Day Singapore - skipped as ecosystem PR; Isaac ROS 5.0 - ran 09-22). developer.nvidia.com 4 in window: Confidential Computing, Topograph, DLSS 5 used; ROS 2 agent post ran 09-22. nvidianews /rss returned 62KB but XML parse failed at line 5 - second run with 0 usable items; inspect the body."
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
 
   Overflow:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "/feed/ healthy (40 items). 1 in window: the ROCm podcast episode (09-22)."
+    posts_found: 2
+    notes: "/feed/ healthy (40 items). 2 in window: Slack Code Channels podcast (09-23, used), ROCm podcast (09-22, ran yesterday)."
     urls:
       - https://stackoverflow.blog/
 
   Hacker News:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
-    posts_found: 21
-    notes: "Algolia (URL-encoded numericFilters) collected 59 stories; ~21 AI-relevant used. Kept: MiMo v2.6 949p (lead, page unreadable), Attention 868p, Breck 771p, Grok 4.7 582p, Spymarks 495p, Transformer Explainer 460p (resurfaced), median-thinking tweet 396p, Apple Intelligence cluster (324/320/230/146p), mini-AGI 264p, Linear CI 261p, Heretic 254p, M5 Ultra 253p, gzip LM 206p, Dettmers dlab 169p, Tao guest post 146p, Bakker 142p, carette 140p, Claude status 123p, JetBrains Air 43p. Deduped: Kev 439p, Jev-Leftpad 229p, FT financial 154p (all 09-21). Dropped non-AI: ZuckOff, Cantrill/Sun, Disney+, NASA MSR, Grim Fandango, Raspberry Pi RAM, Python Workers, FAA fiber cut, Uber arbitration, de minimis, HERMES radio, Git 2.56, Copland, Woolf ads, mathmain (npm supply chain, not AI), AMD RNG, Mac mini, visa lottery."
+    posts_found: 15
+    notes: "hnrss AI/LLM feeds gave 3 items; Algolia points>100 since 09-22 gave 41 stories, ~15 AI-relevant used: Opus 5.5 1609p, Sol/Luna 1600p, Pentagon/Minab 704p, Enigma 684p, alexn wisdom 381p, mouse.dev Muse 314p, AA Opus 308p, Arcturus Jev 299p, Jev-in-25-lines 271p, Unreal Agent 208p, Drop 175p, Ars Muse 0-day 119p, JevBench 116p, minimaxir 101p. Deduped: dbushell 834p, gzip 392p, MiMo 156p, status.claude 139p, Navier-Stokes 110p. Skipped: r/ClaudeAI 'done with this' 147p (did not read the reddit post itself), assbench 157p (JS shell), Waymo transit rewards 169p, FoxPro, FBI hack, SAML, AMD RNG, GrapheneOS, Discord age, Grammarly, ICC, vapes, FIFA ads, geastack, canals, doctor essay."
     urls:
       - https://hnrss.org/newest?points=100&q=AI
       - https://hnrss.org/newest?points=100&q=LLM
@@ -99,25 +100,25 @@ sources:
       - https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points>100
 
   Lobsters:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
     posts_found: 1
-    notes: "t/ai.rss healthy. 1 in window: mini-AGI (also HN 264p) - counted once."
+    notes: "t/ai.rss healthy. 1 in window: DeepSeek DSec arXiv (used; numbers verified against abstract)."
     urls:
       - https://lobste.rs/t/ai.rss
 
   TechCrunch:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
     posts_found: 8
-    notes: "Feed healthy, 11 in window; dropped 3 Disrupt promos and 'Benchmark partnership' event post. Used 7: Nscale IPO, Ron Johnson, math advisory, Muse growth, Muse/Amazon block, Tabby, Googlebook. Article pages fetch fine with curl + browser UA."
+    notes: "Feed healthy, 14 in window; dropped 5 Disrupt/Founder Summit promos and the Nscale dedupe. Used 8: Greek PM, Snorkel, Qualcomm, Muse/OpenClaw, Sol/Luna, Opus 5.5, AstroForge, data-center opposition. Article pages fetch fine with browser UA. Batch 2 returned only 3 of 14."
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
 
   GitHub Trending:
-    last_success: "2026-09-22"
+    last_success: "2026-09-23"
     consecutive_failures: 0
-    posts_found: 4
-    notes: "Only 8 Box-row blocks rendered (page 548KB) - noted in digest. New AI repos: agent-substrate/substrate +498, dream-num/univer +202, superdesigndev/treg +197, browser-use/video-use +155. Still trending from prior digests: google/ax +2324, anthropics/financial-services +436. sponsors/davila7 row is a sponsor card for claude-code-templates, not a repo."
+    posts_found: 6
+    notes: "17 Box-row blocks rendered (646KB). New AI repos: obra/superpowers +528, pbakaus/impeccable +287, DeusData/codebase-memory-mcp +201, TNT-Likely/PanWatch +175, strands-agents/harness-sdk +96, HKUDS/CLI-Anything +41. Still trending: google/ax +1542, univer +1140, video-use +745, financial-services +665, agent-native +609, substrate +560, treg +502. Non-AI: OpenStock, mvt, spirula-studio. Batch 2's list matched mine exactly this run."
     urls:
       - https://github.com/trending
