@@ -1,124 +1,129 @@
-last_run_date: "2026-09-23"
-last_summary_file: "content/newsdigests/2026-09-23-daily-digest.md"
-notes: "WEDNESDAY RUN, one-day window (on-or-after 2026-09-22). No yt-fetch race: log mtime 08:08, skill started 08:23; yt-fetch's own report said 2 new channel transcripts, 0 interviews, 5 pruned. HUGE LAUNCH DAY: Opus 5.5 (HN 1609p) and GPT-6 Sol/Luna (1600p) 90 min apart - led with both plus Theo's same-day Grok 4.7 video as the benchmarks-vs-reality companion. AGENTS: batch 1 returned 2 of 6 OpenAI posts and 3 of 4 Google posts, and mislabeled every empty-but-healthy source as a 'failure'; batch 2 returned 3 of 14 TechCrunch items but its GitHub Trending list (17 rows, star counts) matched my own parse EXACTLY, and its DSec numbers (380k concurrent / 5k per sec / 3M per day / 160 nodes) matched the arXiv abstract - so batch 2's volunteered stats were all real this run. Still verify. MY OWN PARSER: DeepMind rss (19KB) and nvidianews /rss (62KB) both threw XML parse errors - the bytes came back, so they are not dead; check what's in the bodies next run (nvidianews has now returned 0 usable items two runs running). blog.google/rss used 4 in window incl. Sensemaking AI that batch 1 missed. OPENAI 403s as usual - Sol/Luna, prompt-caching and Parallel pages fetched FINE with browser UA (only /index/priorities-principles-third-party-assessments and the two 09-23 posts 403'd), so the 403 is per-page, not blanket: try each page before falling back to RSS description. BLOOMBERG 403; the HN thread's own archive.ph/0V37g link served the full text (dated 09-18, HN 09-22) - said so in the digest. Algolia items API gave top comments for 3 threads in one call - useful for 'HN commenters said' lines; attribute commenter claims (Palantir blame loop) as commenter claims. assbench.com is a JS shell (8 words) - skipped. mouse.dev page is well-structured, note Codex binary inside Meta's Muse image. DEDUPES: Nscale IPO, Isaac ROS 5.0, ROS 2 agent post, ROCm podcast, Apple dbushell, gzip LM, Navier-Stokes, MiMo, status.claude incident, Rundown math-advisory item (all ran 09-22); BuilderIO/agent-native (ran 09-20/21). Qualcomm grep hit 09-22 was a different mention - the Snapdragon Summit story is new. TRANSCRIPT SCREEN: Theo jLgpzgpsWPc 5747 words - strict keyword count only 4 because Whisper wrote 'Gro 47'/'Grock' for Grok; the 'gro|grock' variants scored 15 - add xAI misspellings to the screen regex. All-In VF90rBzl26E (Hilton/Pratt California politics) 10439 words / 0 strict / 4 loose incl. 'Skid Row data centers' joke - discarded after grepping the middle; do not reprocess. Six older UNUSED transcripts remain prior-run discards. ITU scholarships: 'ITU' grep hit 09-21/22 were substrings (situation etc.) - grep 'scholarship' found nothing, so it was new. Verified Gates $100M/200M/50M and ITU 100k/80+ countries/1.2B against the pages before writing since they came from the agent."
+last_run_date: "2026-09-24"
+last_summary_file: "content/newsdigests/2026-09-24-daily-digest.md"
+notes: "THURSDAY RUN, window on-or-after 2026-09-23. yt-fetch finished 08:05 (log mtime), 5 new transcripts via en-orig fallback; used 4 (Jensen/Ezra Klein 18.9k words: head 5k + middle keyword passages + tail; Altman & Amodei C-SPAN UN speeches in full; Theo Opus 5.5). Discarded All-In Bending Spoons 6t5yF8ansoQ (business) and VF90rBzl26E (again - do not reprocess). KEYWORD SCREEN GOTCHA: grep -wE 'AI|...' scored Jensen at 7 because the ASR writes 'A.I.' - add 'a\\.i\\.' to the screen (it scored 89). LEAD: UN Security Council's first AI-safety session + OpenAI agent breach of Australia's Medicare stats portal + Transluce urlquery.net evidence + Claude ART enzyme discovery. OpenAI /index pages all 403 today. Batch 1 mislabeled healthy-but-empty sources as failures; batch 2 skipped all hnrss-AI items - my own curl + Algolia front_page supplied the safety stories. DEDUPES: Ukraine Daybreak, AI Max, Greek PM, Rundown pacing issue, Slack Code Channels, OpenAI Ads/Airbnb/Grab all ran 09-23. The URL-dedupe must also cover items I add by hand after the RSS pass (Slack nearly slipped through)."
 sources:
   Anthropic:
-    last_success: "2026-09-23"
+    last_success: "2026-09-24"
     consecutive_failures: 0
     posts_found: 1
-    notes: "/engineering unchanged (newest real post 2026-05-25). The Opus 5.5 launch post lives at anthropic.com/claude-opus-5-5 and surfaced via HN/Algolia (1609p), not via /engineering - counted here. Standing suggestion: add claude.com/blog and anthropic.com/news to .feed/source.md."
+    notes: "/engineering unchanged (newest 2026-05-25). Lead story (Claude ART enzyme discovery, HN 684p) lives at anthropic.com/news - batch 1 only checked /engineering and logged Anthropic as a 'failure'. Standing suggestion: add anthropic.com/news to .feed/source.md."
     urls:
-      - https://www.anthropic.com/engineering
-      - https://www.anthropic.com/claude-opus-5-5
-
+      - https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
   OpenAI:
-    last_success: "2026-09-23"
-    consecutive_failures: 0
-    posts_found: 6
-    notes: "6 in window: Sol/Luna, prompt caching, Parallel case study, third-party assessments (09-22); Ukraine Daybreak, Grab skills (09-23). Sol/Luna, caching and Parallel pages fetched fine with browser UA; the other three 403'd - used RSS descriptions and said so. Batch 1 found only 2 of 6."
-    urls:
-      - https://openai.com/blog/rss.xml
-
-  Google:
-    last_success: "2026-09-23"
+    last_success: "2026-09-24"
     consecutive_failures: 0
     posts_found: 4
-    notes: "Keyword 4 in window (Gates $100M farmers, ITU scholarships, Jigsaw Sensemaking, AI Max ads) - all used. DeepMind feed returned 19KB but my parser threw 'not well-formed (invalid token): line 1' - agent read it as newest 09-15; inspect the body next run. Innovation/Developers newest 09-15, 0 in window."
+    notes: "New in window: Altman UN remarks, MentalHealthBench, Harvey, invideo, Ringg, Academy (Ukraine ran 09-23; Ads SE Asia/Airbnb/Grab have UTC 00-02 09-23 stamps and ran 09-23). EVERY /index page 403'd today, browser UA and WebFetch alike. Altman speech covered via the C-SPAN transcript + CNN/TNW; MentalHealthBench dropped (one-line description only). 4 case-study/Academy items used from RSS descriptions."
     urls:
-      - https://blog.google/rss/
-      - https://deepmind.google/blog/rss.xml
-      - https://blog.google/innovation-and-ai/rss/
-      - https://blog.google/technology/developers/rss/
-
-  BAIR:
-    last_success: "2026-09-23"
-    consecutive_failures: 0
-    posts_found: 0
-    notes: "feed.xml 289KB, 10 items, newest 2026-07-29. Healthy second day running after the 22-run outage."
-    urls:
-      - https://bair.berkeley.edu/blog/
-
-  One Useful Thinking:
-    last_success: "2026-09-23"
-    consecutive_failures: 0
-    posts_found: 0
-    notes: "Feed healthy, newest 2026-09-18. 0 in window."
-    urls:
-      - https://www.oneusefulthing.org/
-
-  Rundown:
-    last_success: "2026-09-23"
-    consecutive_failures: 0
-    posts_found: 1
-    notes: "09-23 issue 'The pacing era's first launch day' (1636 words in content:encoded) used for the AA 58-vs-53 framing, a16z Academy, and quick hits (Alibaba chip, BC v. OpenAI, 20-country oversight call) flagged as unverified. Its math-advisory item was a dedupe."
-    urls:
-      - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
-
-  Cursor:
-    last_success: "2026-09-23"
-    consecutive_failures: 0
-    posts_found: 0
-    notes: "Per batch 1: newest entry still the 09-21 external Grok 4.7 card; no new cursor.com post. Not independently fetched this run."
-    urls:
-      - https://cursor.com/blog
-
-  Addy Osmani:
-    last_success: "2026-09-23"
-    consecutive_failures: 0
-    posts_found: 0
-    notes: "Medium feed healthy, newest 2026-08-22."
-    urls:
-      - https://medium.com/feed/@addyosmani
-
-  NVIDIA:
-    last_success: "2026-09-23"
+      - https://openai.com/index/harvey-from-context-to-confidence-with-astra
+      - https://openai.com/index/invideo-builds-with-gpt-6-astra
+      - https://openai.com/index/ringg
+      - https://openai.com/index/two-years-of-openai-academy
+  Google:
+    last_success: "2026-09-24"
     consecutive_failures: 0
     posts_found: 6
-    notes: "blogs.nvidia.com 2 in window (AI Day Singapore - skipped as ecosystem PR; Isaac ROS 5.0 - ran 09-22). developer.nvidia.com 4 in window: Confidential Computing, Topograph, DLSS 5 used; ROS 2 agent post ran 09-22. nvidianews /rss returned 62KB but XML parse failed at line 5 - second run with 0 usable items; inspect the body."
+    notes: "Keyword 11 in window; used Vids, Connected Apps, MedGemma, TTS, Made On YouTube; skipped veterans, Hispanic Heritage, Beam, Android Enterprise, Flow tools; AI Max ran 09-23. DeepMind rss parsed fine today (70KB/100 items) - Private AI Compute memory used. Developers 0 in window."
     urls:
-      - https://blogs.nvidia.com/
-      - https://developer.nvidia.com/blog
-      - https://nvidianews.nvidia.com/
-
-  Overflow:
-    last_success: "2026-09-23"
+      - https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/
+      - https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/
+      - https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/
+      - https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/
+      - https://blog.google/products-and-platforms/products/youtube/made-on-youtube-updates-2026/
+      - https://blog.google/innovation-and-ai/technology/health/medgemma-global-healthcare/
+  BAIR:
+    last_success: "2026-09-24"
+    consecutive_failures: 0
+    posts_found: 0
+    notes: "200/39KB, newest 2026-07-29. Healthy third day."
+    urls: []
+  One Useful Thinking:
+    last_success: "2026-09-24"
+    consecutive_failures: 0
+    posts_found: 0
+    notes: "Feed healthy (927KB), 0 in window."
+    urls: []
+  Rundown:
+    last_success: "2026-09-24"
+    consecutive_failures: 0
+    posts_found: 1
+    notes: "09-24 issue on Anthropic's enzyme find used (agent quote, Amodei PhD line). 09-23 issue ran yesterday."
+    urls:
+      - https://therundownai.beehiiv.com/p/anthropic-ai-biology-lab-makes-its-first-find
+  Cursor:
+    last_success: "2026-09-24"
     consecutive_failures: 0
     posts_found: 2
-    notes: "/feed/ healthy (40 items). 2 in window: Slack Code Channels podcast (09-23, used), ROCm podcast (09-22, ran yesterday)."
+    notes: "Two 09-23 posts found by parsing date strings next to hrefs on cursor.com/blog: improved-token-efficiency, rollouts-and-security-reviewer. Both used; pages fetch fine."
     urls:
-      - https://stackoverflow.blog/
-
+      - https://cursor.com/blog/improved-token-efficiency
+      - https://cursor.com/blog/rollouts-and-security-reviewer
+  Addy Osmani:
+    last_success: "2026-09-24"
+    consecutive_failures: 0
+    posts_found: 0
+    notes: "Feed healthy, 0 in window."
+    urls: []
+  NVIDIA:
+    last_success: "2026-09-24"
+    consecutive_failures: 0
+    posts_found: 4
+    notes: "blogs.nvidia.com 1 in window (Sakeena Fiza profile, skipped). developer.nvidia.com 4, all used. nvidianews not parsed this run."
+    urls:
+      - https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/
+      - https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/
+      - https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright/
+      - https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving/
+  Overflow:
+    last_success: "2026-09-24"
+    consecutive_failures: 0
+    posts_found: 0
+    notes: "Feed healthy. Only in-window item (Slack Code Channels podcast) ran 09-23 - dropped as a dedupe."
+    urls: []
   Hacker News:
-    last_success: "2026-09-23"
-    consecutive_failures: 0
-    posts_found: 15
-    notes: "hnrss AI/LLM feeds gave 3 items; Algolia points>100 since 09-22 gave 41 stories, ~15 AI-relevant used: Opus 5.5 1609p, Sol/Luna 1600p, Pentagon/Minab 704p, Enigma 684p, alexn wisdom 381p, mouse.dev Muse 314p, AA Opus 308p, Arcturus Jev 299p, Jev-in-25-lines 271p, Unreal Agent 208p, Drop 175p, Ars Muse 0-day 119p, JevBench 116p, minimaxir 101p. Deduped: dbushell 834p, gzip 392p, MiMo 156p, status.claude 139p, Navier-Stokes 110p. Skipped: r/ClaudeAI 'done with this' 147p (did not read the reddit post itself), assbench 157p (JS shell), Waymo transit rewards 169p, FoxPro, FBI hack, SAML, AMD RNG, GrapheneOS, Discord age, Grammarly, ICC, vapes, FIFA ads, geastack, canals, doctor essay."
-    urls:
-      - https://hnrss.org/newest?points=100&q=AI
-      - https://hnrss.org/newest?points=100&q=LLM
-      - https://hn.algolia.com/api/v1/search?tags=front_page
-      - https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points>100
-
-  Lobsters:
-    last_success: "2026-09-23"
-    consecutive_failures: 0
-    posts_found: 1
-    notes: "t/ai.rss healthy. 1 in window: DeepSeek DSec arXiv (used; numbers verified against abstract)."
-    urls:
-      - https://lobste.rs/t/ai.rss
-
-  TechCrunch:
-    last_success: "2026-09-23"
+    last_success: "2026-09-24"
     consecutive_failures: 0
     posts_found: 8
-    notes: "Feed healthy, 14 in window; dropped 5 Disrupt/Founder Summit promos and the Nscale dedupe. Used 8: Greek PM, Snorkel, Qualcomm, Muse/OpenClaw, Sol/Luna, Opus 5.5, AstroForge, data-center opposition. Article pages fetch fine with browser UA. Batch 2 returned only 3 of 14."
+    notes: "hnrss AI 4 in window, LLM 1; Algolia front_page added the rest. Used: enzyme 684p, Meta VR Glasses 431p, jyn tokens 313p, Klippenstein 308p, arXiv 210p, Transluce 158p, Mercury 125p, BBC OpenAI/Australia 106p. Skipped: Stripe Knowledge AI 182p (post dated 2026-07-30), reddit Meta video takedown 258p (reddit blocked, unverifiable), Contrastive LMs 94p (Notion JS shell), Qualcomm Linux 470p and other non-AI. Batch 2 missed every hnrss-AI item."
     urls:
-      - https://techcrunch.com/category/artificial-intelligence/feed/
-
-  GitHub Trending:
-    last_success: "2026-09-23"
+      - https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign
+      - https://jyn.dev/tokens-too-cheap-to-meter/
+      - https://transluce.org/agent-activity
+      - https://www.bbc.com/news/live/cvgl73pxgndwt
+      - https://artificialanalysis.ai/models/mercury-2-5
+      - https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/
+      - https://www.meta.com/vr-glasses/
+  Lobsters:
+    last_success: "2026-09-24"
     consecutive_failures: 0
-    posts_found: 6
-    notes: "17 Box-row blocks rendered (646KB). New AI repos: obra/superpowers +528, pbakaus/impeccable +287, DeusData/codebase-memory-mcp +201, TNT-Likely/PanWatch +175, strands-agents/harness-sdk +96, HKUDS/CLI-Anything +41. Still trending: google/ax +1542, univer +1140, video-use +745, financial-services +665, agent-native +609, substrate +560, treg +502. Non-AI: OpenStock, mvt, spirula-studio. Batch 2's list matched mine exactly this run."
+    posts_found: 1
+    notes: "1 in window (Clankers second brain), used."
     urls:
-      - https://github.com/trending
+      - https://jadarma.github.io/blog/posts/2026/09/clankers-made-me-build-a-second-brain/
+  TechCrunch:
+    last_success: "2026-09-24"
+    consecutive_failures: 0
+    posts_found: 11
+    notes: "16 in window; dropped Disrupt/StrictlyVC promos, Spotify Taste Profile, Greek PM (ran 09-23). Used 11. Batch 2 returned 11 - much better than last run."
+    urls:
+      - https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/
+      - https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/
+      - https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/
+      - https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/
+      - https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/
+      - https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/
+      - https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/
+      - https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/
+      - https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/
+      - https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/
+      - https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/
+  GitHub Trending:
+    last_success: "2026-09-24"
+    consecutive_failures: 0
+    posts_found: 4
+    notes: "14 Box-rows. Headlined: hindsight +1607, google/ax +1376, anthropics/financial-services +510, ai-engineering-from-scratch +310. Still trending: univer +1060, CLI-Anything +415. Batch 2's star counts matched my parse."
+    urls:
+      - https://github.com/vectorize-io/hindsight
+      - https://github.com/google/ax
+      - https://github.com/anthropics/financial-services
+      - https://github.com/rohitg00/ai-engineering-from-scratch
