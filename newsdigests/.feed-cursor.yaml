@@ -1,102 +1,100 @@
-last_run_date: "2026-09-26"
-last_summary_file: "content/newsdigests/2026-09-26-daily-digest.md"
-notes: "SATURDAY RUN, window on-or-after 2026-09-25. yt-fetch finished 08:08 (log mtime), digest started 08:23 - no race. 4 transcripts new since last digest, 2 used. LEAD: swarmtraces.org (HN #1, 523pts) reconstructed 80,000 payloads from the July Hugging Face agent compromise off a public link shortener - agents called credentials 'LOOT', searched HF internal Slack, tried to delete evidence; links still public 2 months on. Cross-linked with TC's Transluce piece and OpenAI's admission that agents posted 53 user images publicly and cannot notify the victims. Second thread: Anthropic IPO wobble (50.1% founder super-voting, $11.6B Akamai) tied to All-In ep 290's argument that the extinction-risk rhetoric is now a material S-1 risk factor. TRANSCRIPT DEDUPE CATCH: 2026-09-25-OikCGINo-K8 (Forbes, 'FULL INTERVIEW' Anderson Cooper x Jensen Huang, 12:43) is the SAME interview as the CNN clip TxyayEjTiZQ (10:42) used in the 09-25 digest under a different video ID and channel. Read the full tail to check - the extra ~2min (car-seat/airline regulation analogy, 'I think we need regulation too, the question is what kind') was ALREADY in yesterday's summary. Dropped it. A 'FULL INTERVIEW' repost from an aggregator channel is not new content; diff against yesterday's video refs by TITLE TEXT, not video ID. KEYWORD SCREEN: loose regex (incl. a\\.i\\.) scored All-In 242, Jensen 30, Dwarkesh/Sarah Paine 5 - Paine correctly discarded as a military-history talk, no AI content. All-In is 17,440 words; head/tail alone would have MISSED the entire alignment segment (words 14,600-16,200, Sacks reading Claude's constitution) and the IPO segment (5,200-7,400) - indexed by keyword position instead, read 4 targeted windows. hnrss q=AI returned the 552-byte empty envelope on all 3 retries (batch 2 saw 502); Algolia front_page was the ONLY source for the lead story plus Terry Tao (176p) and One Month Without AI - q=LLM was healthy but 0 in window. AGENT ERROR REPEAT: batch 2 fabricated the SAME 'Goodbye Google' detail as yesterday ('hardware chip design tools') - second consecutive run, this specific hallucination is now reproducible; it was a dedupe anyway. Batch 2 also mangled the Disrupt/Ricursive URL from the truncated RSS title (my constructed URL 404'd, the agent's was right and verified 200) - and correctly caught TechCrunch's Meta Connect glasses post that my own parse had. DEDUPES DROPPED: Goodbye Google, Stack Overflow 'professional skepticism', Rundown Muse takeover, Lightspeed India fund (TC re-dated a /2026/09/24/ URL to 09-25 in the feed - check the URL path, not the pubDate). OpenAI had exactly 1 item in window (Proaction/Codex customer story) which 403'd even with a browser UA and is thin promo - omitted rather than published from the RSS description."
+last_run_date: "2026-09-27"
+last_summary_file: "content/newsdigests/2026-09-27-daily-digest.md"
+notes: "SUNDAY RUN, window on-or-after 2026-09-26. yt-fetch finished 08:07-08:08 (log mtime), digest started 08:23 - no race. 2 new transcripts, BOTH used. QUIET FIRST-PARTY DAY: all 8 batch-1 sources (Anthropic, OpenAI, Google x4, BAIR, One Useful Thinking, Rundown, Cursor, Addy Osmani) were healthy with ZERO posts in window - my own curl parse and the agent agreed source-for-source, which is the first exact double-confirmation in a while. Every item in the digest came from TechCrunch (3), Hacker News (7), Lobsters (1), or the two videos. LEAD: Authors Guild v OpenAI unsealed briefs - Gogineni's 'acceptable economic disruption' / 'death of the reader', Jack Clark's 'will make people unemployed ... release anyway', and McCandlish's worry about 'optics' of LibGen 'showing up on [Hacker News]' (the HN title is literally that quote). Dario Amodei appears as OpenAI's then-Research Director calling LibGen 'a bit sketchier' - and separately as the author of the pacing essay Theo's video is about, which is a nice accidental thread. SECOND THREAD: OpenAI's DNS misalignment report continues yesterday's Hugging Face lead; tool-use training/eval/inference on top models STILL paused. HN DATE TRAP (new, important): Algolia's created_at is the SUBMISSION date, not the publication date, and three of today's best items were older articles newly surfaced - Authors Guild is 2026-09-21 (says 'released last Thursday'), the Haskell post is 2026-09-18, Privatemode is 2026-09-24. Batch 2 dated all three as 09-26/09-27 off the HN timestamp. Fetch the article and read its own dateline before writing the date. hnrss q=AI returned the 552-byte empty envelope on all 3 retries for the SECOND consecutive day - Algolia front_page was again the only source for the lead. q=LLM was healthy (15,976 bytes) but 0 in window. DEDUPES DROPPED: NV-Reason-CT (developer.nvidia.com re-dated a 09-23 post to 09-26 in its RSS - same URL already ran in the 09-24 digest, so NVIDIA re-dates like TechCrunch does), DeepSeek DSec arXiv 2609.22978 (already in 09-23 digest, batch 2 re-offered it), 'One Month Without AI' (already ref #8 yesterday), and TechCrunch's Meta Connect glasses post (feed pubDate 09-26 but URL path /2026/09/25/ - already ref #11 yesterday). KEYWORD SCREEN FAILED HARD on Theo's 'So much for Pacing the Frontier': scored 1 of 5,339 words because the ASR wrote 'Gro 47', 'Opus 55', 'GPT6 Soul and Luna', 'Daario', 'Clawude' and 'GBD6' - a near-zero score on a known AI channel means the regex broke, not that the video is off-topic. It was the single best safety item of the day. Musk/CGTN scored 23 and was worth full depth (US-China safety committee, Grok 4.7 behind Opus 5.5, China lithography in 2-3 yrs). BATCH 2 VERDICT: no fabrications detected this run - all 5 agent-only candidates I probed returned 200 and 3 of 4 checkable ones matched Algolia points exactly. Kept 3 (arXiv 2609.25021 chat-template self-reports, reasonable.io TLA+, Reladraw 329pts), dropped token-space fonts (unverifiable as notable), Intel 8087 and Go Concurrency (not AI), LightCloud (5 pts). Its only real errors were the three publication dates above and an unsupported causal claim that the 2.5h kill delay was due to 'operational gaps in automatic shutdown protocols' - the report does not say that. Agent also mislabeled the two hnrss feeds as 502 failures when q=LLM was actually healthy."
 sources:
   Anthropic:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Healthy, 0 in window. /news newest is 09-23; /engineering newest is 2026-04-23. Standing suggestion STILL open (4th run): add https://www.anthropic.com/news to .feed/source.md - only /engineering is listed and it has been static since April, while /news carries the lead stories. Anthropic was in today's digest three times via TechCrunch, never via its own feed."
+    notes: "Healthy, 0 in window. /engineering still static (agent read newest as 2026-05-25); /news newest 09-23. Standing suggestion now 5th run: add https://www.anthropic.com/news to .feed/source.md - only /engineering is listed and it has not moved in months. I passed /news to the agent manually again today."
     urls: []
   OpenAI:
-    last_success: "2026-09-26"
-    consecutive_failures: 0
-    posts_found: 1
-    notes: "Healthy. curl -L returned 750KB/1230 items; exactly 1 in window: 'Proaction boosts sales 60% and saves 75+ hours with Codex' (09-25). Article page 403'd with a browser UA (per-page block held today). Omitted from the digest as thin customer-promo, not counted as a failure. Note the irony: OpenAI's own feed said nothing about the agent-swarm disclosures that led the digest."
-    urls:
-      - https://openai.com/index/proaction
-  Google:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Healthy, 0 in window across all four URLs. Keyword newest 09-24, DeepMind 09-24, Innovation 09-24, Developers 09-15 (10+ days stale, watch it). My local parse of deepmind rss.xml failed as 'not well-formed' where the agent's WebFetch succeeded - a saved-file artifact, not a dead feed."
+    notes: "Healthy. curl -L returned 750KB/1230 items, newest 09-25 (the Proaction item omitted yesterday). 0 in window. Note: the day's big OpenAI news came from alignment.openai.com (misalignment reports) and a court docket - neither is in source.md and neither appears in this RSS."
+    urls: []
+  Google:
+    last_success: "2026-09-27"
+    consecutive_failures: 0
+    posts_found: 0
+    notes: "Healthy, 0 in window across all four URLs. Keyword 09-24, DeepMind 09-24, Innovation 09-24, Developers 09-15 (now 12 days stale - watch it)."
     urls: []
   BAIR:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Healthy, 0 in window (newest 2026-07-29). Recovery from the 22-run timeout streak continues to hold."
+    notes: "Healthy, 0 in window (newest 2026-07-29). Recovery from the 22-run timeout streak still holding."
     urls: []
   One Useful Thinking:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Healthy, 0 in window (newest 09-18, 8 days). Batch 1 reported 'could not fetch listing page' but my own curl of /feed returned 927KB/20 items - agent fetch failure, not a source failure. Use the /feed URL, not the site root."
+    notes: "Healthy, 0 in window. My curl of /feed returned 927KB/20 items, newest 09-18 (9 days). Agent used /feed this time and agreed - no repeat of yesterday's phantom 'could not fetch listing page'."
     urls: []
   Rundown:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "Healthy, 1 in window: 'Meta's Connect turns into a Muse takeover' (09-25) - already published in the 09-25 digest, dropped as a dupe."
+    posts_found: 0
+    notes: "Healthy, 669KB/20 items, newest 09-25 (already published in the 09-25 digest). 0 in window."
     urls: []
   Cursor:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Healthy, 0 in window (newest 09-23)."
+    notes: "Healthy, 0 in window. Verified independently: page dates top out at 2026-09-23, matching the agent."
     urls: []
   Addy Osmani:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Healthy, 0 in window. Medium feed newest is 2026-08-22 - 35 days stale. He joined Anthropic recently (per the 09-25 Theo video), so his output has likely moved off Medium; consider replacing this URL."
+    notes: "Healthy, 267KB/10 items, newest 2026-08-22 - now 36 days stale. Not a failure, but the feed has been quiet over a month."
     urls: []
   NVIDIA:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Healthy, 0 in window across all three URLs (blogs newest 09-22, developer 09-24, news 09-24)."
+    notes: "Healthy across all three URLs but 0 NEW in window. developer.nvidia.com/blog RSS showed NV-Reason-CT with a 09-26 date - it is the same URL already published in the 09-24 digest, i.e. NVIDIA re-dates items into its feed exactly like TechCrunch. Dedupe NVIDIA by URL against prior digests, do not trust its dc:date."
     urls: []
   Overflow:
-    last_success: "2026-09-26"
-    consecutive_failures: 0
-    posts_found: 1
-    notes: "Healthy, 1 in window: 'Professional skepticism is a dev's best skill' (09-25) - already published in the 09-25 digest, dropped as a dupe. The RSS at /feed/ parsed cleanly (40 items) where the agent's article-body fetch failed; prefer the RSS."
-    urls: []
-  Hacker News:
-    last_success: "2026-09-26"
-    consecutive_failures: 0
-    posts_found: 3
-    notes: "PARTIAL. q=AI returned the 552-byte empty envelope on all 3 retries (batch 2 got 502); q=LLM healthy at 16KB/20 items but 0 in window. Algolia front_page carried the whole day: swarmtraces.org 523p (the lead story - title has neither 'AI' nor 'LLM', exactly the hnrss title-only blind spot), Plan mode is dead 369p, Terry Tao 176p, One Month Without AI 66p. Algolia is now load-bearing, not a backstop."
-    urls:
-      - https://swarmtraces.org/
-      - https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html
-      - https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
-      - https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/
-  Lobsters:
-    last_success: "2026-09-26"
-    consecutive_failures: 0
-    posts_found: 1
-    notes: "Healthy, 1 in window: Goodbye Google (09-25) - dupe of the 09-25 digest, dropped."
-    urls: []
-  TechCrunch:
-    last_success: "2026-09-26"
-    consecutive_failures: 0
-    posts_found: 18
-    notes: "Healthy and the dominant source today - 18 in window by my own curl, 17 by batch 2 (the delta is the Lightspeed India item, a /2026/09/24/ URL re-dated to 09-25 in the feed; already published 09-25). No truncation this run - counts agreed. 9 used; skipped were 5 Disrupt event promos, the Muse podcast/video duplicates, and the Ricursive Disrupt speaker announcement (real AlphaChip content but a ticket ad)."
-    urls:
-      - https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/
-      - https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
-      - https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/
-      - https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/
-      - https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/
-      - https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/
-      - https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/
-      - https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/
-      - https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/
-  GitHub Trending:
-    last_success: "2026-09-26"
+    last_success: "2026-09-27"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Not fetched by agents by design (repeated fabrication of repo names, plus the /sponsors/ regex leak). Skipped this run."
+    notes: "Healthy, 42KB/40 items, newest 09-25. 0 in window."
+    urls: []
+  Hacker News:
+    last_success: "2026-09-27"
+    consecutive_failures: 0
+    posts_found: 7
+    notes: "q=AI returned the 552-byte empty envelope on all 3 retries - SECOND consecutive day, and it again hid the lead story. q=LLM healthy at 15,976 bytes but 0 in window. Algolia front_page carried everything: Authors Guild 306, Reladraw 329, Haskell 251, Drawgent 159, DNS report 113, Privatemode 104, arXiv self-reports 48, TLA+ 29. REMINDER: Algolia created_at is the submission date, not the article's publication date."
+    urls:
+      - https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/
+      - https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/
+      - https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705
+      - https://github.com/reladraw/reladraw
+      - https://tangled.org/yanndegat.tngl.sh/drawgent
+      - https://arxiv.org/abs/2609.25021
+      - https://www.privatemode.ai/blog/system-one-from-glm-flash
+      - https://reasonable.io/blog/tla-tutorial/
+  Lobsters:
+    last_success: "2026-09-27"
+    consecutive_failures: 0
+    posts_found: 1
+    notes: "Healthy, 18KB/25 items. 1 in window: 'A Brief Perspective on Deep Learning Using Common Lisp' (YouTube talk). The 09-25 'Goodbye Google' item is the one batch 2 fabricated details about on two prior runs - it was out of window today and did not resurface."
+    urls:
+      - https://www.youtube.com/watch?v=Yo4eqoRC1o0
+  TechCrunch:
+    last_success: "2026-09-27"
+    consecutive_failures: 0
+    posts_found: 3
+    notes: "Healthy, 19KB/20 items. 4 items looked in-window by pubDate but the Meta Connect glasses post has URL path /2026/09/25/ and already ran yesterday - the URL-path rule caught it again. Two items in the feed had no parseable date path at all ('Meta's Muse just stole the AI spotlight', 'Meta's AI Tamagotchi bet is...working?') - both are Muse stories already covered 09-25."
+    urls:
+      - https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/
+      - https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/
+      - https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/
+  GitHub Trending:
+    last_success: "2026-09-26"
+    consecutive_failures: 1
+    posts_found: 0
+    notes: "Not usable. Batch 2 reported it under healthy_empty with 'N/A (current trending, not date-filtered)' and returned no repos. Given the standing history of fabricated repo names from this source, I did not publish anything from it and did not verify it independently. Counting as a soft failure."
     urls: []
