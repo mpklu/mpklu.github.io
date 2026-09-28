@@ -19,7 +19,7 @@
     <title>AI Daily Digest</title>
     <link>https://mpklu.github.io/newsdigests/</link>
   </image>
-  <item><title>TEST ITEM - delete me</title><description>test</description><enclosure url="https://mpklu.github.io/podcast/episodes/ai-daily-digest-2099-01-01.mp3" length="6893768" type="audio/mpeg" /><guid isPermaLink="false">ai-daily-digest-2099-01-01</guid><pubDate>Mon, 28 Sep 2026 15:43:59 -0000</pubDate><itunes:duration>861</itunes:duration></item><item>
+  <item>
     <title>AI Daily Digest — 2026-09-28</title>
     <description>A spoken read-out of the AI Daily Digest for September 28, 2026.</description>
     <enclosure url="https://mpklu.github.io/podcast/episodes/ai-daily-digest-2026-09-28.mp3" length="6893768" type="audio/mpeg" />
