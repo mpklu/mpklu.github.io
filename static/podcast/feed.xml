@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 <channel>
   <title>AI Daily Digest</title>
@@ -19,7 +19,7 @@
     <title>AI Daily Digest</title>
     <link>https://mpklu.github.io/newsdigests/</link>
   </image>
-  <item><title>AI Daily Digest — 2026-09-29</title><description>Daniel and Lillian discuss the AI Daily Digest for September 29, 2026.</description><enclosure url="https://pub-d79ea0a0281c45be92ba383281171631.r2.dev/episodes/ai-daily-digest-2026-09-29.mp3" length="5498725" type="audio/mpeg" /><guid isPermaLink="false">ai-daily-digest-2026-09-29</guid><pubDate>Tue, 29 Sep 2026 14:00:51 -0000</pubDate><itunes:duration>687</itunes:duration></item><item>
+  <item><title>AI Daily Digest — 2026-09-29</title><description>The Cambridge report on automating AI R&amp;D, Anthropic's IPO prospectus and its startling risk factors, and OpenAI's misalignment incident disclosures.</description><enclosure url="https://pub-d79ea0a0281c45be92ba383281171631.r2.dev/episodes/ai-daily-digest-2026-09-29.mp3" length="5498725" type="audio/mpeg" /><guid isPermaLink="false">ai-daily-digest-2026-09-29</guid><pubDate>Tue, 29 Sep 2026 14:00:51 -0000</pubDate><itunes:duration>687</itunes:duration></item><item>
     <title>AI Daily Digest — 2026-09-28</title>
     <description>A spoken read-out of the AI Daily Digest for September 28, 2026.</description>
     <enclosure url="https://pub-d79ea0a0281c45be92ba383281171631.r2.dev/episodes/ai-daily-digest-2026-09-28.mp3" length="6893768" type="audio/mpeg" />
