@@ -26,11 +26,11 @@ The driver is a *Financial Times* report that OpenAI's annualized revenue is rou
 
 ### [Oil jumps on Iran strike reports, then fades on Trump's midterm pledge](https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248) — NBC News
 
-Crude spiked early on reports the administration was weighing renewed large-scale strikes on Iran, compounded by Iranian attacks on tankers in the Strait of Hormuz and Gulf of Mexico production shut-ins ahead of a tropical storm. Brent traded above **$104** before Trump posted that the US "will not be attacking Iran at any time prior to the Midterm Elections" on **November 3**. The pledge capped the rally but did not reverse it — both benchmarks still finished up more than **2.8%**, which is the inflation input that matters for next week's CPI.
+Crude spiked early on reports the administration was weighing renewed large-scale strikes on Iran, compounded by Iranian attacks on tankers in the Strait of Hormuz and Gulf of Mexico production shut-ins ahead of a tropical storm. Brent traded above **$104** before Trump posted that the US "will not be attacking Iran at any time prior to the Midterm Elections" on **November 3**. The pledge capped the rally but did not reverse it — both benchmarks still finished up roughly **2–3%**, which is the inflation input that matters for next week's CPI.
 
 ### Treasury yields eased despite the oil move
 
-The 10-year fell to **5.23%** from **5.28%**, backing away from the multidecade highs it touched Wednesday morning; the 30-year printed **5.61%**. Worth noting the direction: a **3%** oil move that does *not* push the long end higher suggests the bond market read the Iran headlines as a transient supply-risk premium rather than a durable inflation shock.
+The 10-year fell to **5.23%** from **5.28%**, backing away from the multidecade highs it touched Wednesday morning; the 30-year printed **5.61%**. Worth noting the direction: an oil move of that size that does *not* push the long end higher suggests the bond market read the Iran headlines as a transient supply-risk premium rather than a durable inflation shock.
 
 ## Economic Calendar
 
@@ -191,19 +191,19 @@ _LUNA (Luna Innovations) returned no price data again — the ticker has been de
 
 | Asset | Price | Change | % Change |
 |-------|-------|--------|----------|
-| Gold | $4,160.30 | +$19.30 | +0.47% |
-| WTI Oil | $90.73 | +$2.45 | +2.81% |
-| Brent Oil | $103.35 | +$3.15 | +3.23% |
+| Gold | $4,159.50 | +$22.80 | +0.55% |
+| WTI Oil | $90.82 | +$1.88 | +2.11% |
+| Brent Oil | $103.49 | +$2.54 | +2.52% |
 | EUR/USD | 1.1215 | +0.0016 | +0.14% |
 | USD/JPY | 157.90 | -0.16 | -0.10% |
 | 10Y Yield | 5.23% | -0.05 | -5 bp |
 | US Dollar (DXY) | 102.10 | -0.14 | -0.14% |
 
-The Brent–WTI spread held at roughly **$12.60**, consistent with yesterday and wide by historical standards. Both crude figures were verified against explicit November and December contracts to rule out a roll artifact. Gold's **+0.47%** is modest given the geopolitical headlines — a softer dollar and lower real yields did more of the work than the Iran risk premium.
+The Brent–WTI spread held at roughly **$12.70**, consistent with yesterday and wide by historical standards. All three contracts posted unreliable prior-session bars today, so these changes are measured at matched 16:00 ET prints and cross-checked against ETF proxies, which read 0.2–0.3 points higher (USO **+2.55%**, BNO **+2.81%**, GLD **+0.73%**) — read the crude move as roughly **2–3%** rather than a precise figure. Gold's gain is modest given the geopolitical headlines; a softer dollar and lower real yields did more of the work than the Iran risk premium.
 
 ## Market Outlook
 
-The market spent a second session taking apart one number: a *Financial Times* report that OpenAI's annualized revenue runs about **$20 billion** below prior estimates, which dragged the Nasdaq down **1.25%** and the semiconductor complex as much as **4%** intraday while the Dow finished green. What makes this more than a one-day rotation is where the damage concentrated — not in earnings misses but in the longest-duration assets, with pre-revenue nuclear developers like OKLO and SMR closing within **3%** of 52-week lows and SMCI shedding **4.8%**, the same decompression pattern visible yesterday in the crypto proxies. The reassuring counter-signal is in the bond market: a **2.8%** jump in crude did not lift the long end, with the 10-year easing to **5.23%** and breakeven inflation unmoved at **2.36%** for a third session, which suggests the Iran premium is being priced as transient rather than structural. The VIX at **15.41** confirms that nobody is hedging this as a systemic event. September CPI on **October 14**, forecast to accelerate to **3.6%**, remains the catalyst that matters most — but TSMC's October 15 results now carry unusual weight as the first hard read on whether a revised OpenAI forecast actually changes what gets ordered.
+The market spent a second session taking apart one number: a *Financial Times* report that OpenAI's annualized revenue runs about **$20 billion** below prior estimates, which dragged the Nasdaq down **1.25%** and the semiconductor complex as much as **4%** intraday while the Dow finished green. What makes this more than a one-day rotation is where the damage concentrated — not in earnings misses but in the longest-duration assets, with pre-revenue nuclear developers like OKLO and SMR closing within **3%** of 52-week lows and SMCI shedding **4.8%**, the same decompression pattern visible yesterday in the crypto proxies. The reassuring counter-signal is in the bond market: a crude rally of roughly **2–3%** did not lift the long end, with the 10-year easing to **5.23%** and breakeven inflation unmoved at **2.36%** for a third session, which suggests the Iran premium is being priced as transient rather than structural. The VIX at **15.41** confirms that nobody is hedging this as a systemic event. September CPI on **October 14**, forecast to accelerate to **3.6%**, remains the catalyst that matters most — but TSMC's October 15 results now carry unusual weight as the first hard read on whether a revised OpenAI forecast actually changes what gets ordered.
 
 ---
 
