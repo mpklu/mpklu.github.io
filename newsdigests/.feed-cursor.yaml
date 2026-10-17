@@ -1,35 +1,35 @@
-last_run_date: "2026-10-16"
-last_summary_file: "content/newsdigests/2026-10-16-daily-digest.md"
-notes: "FRIDAY RUN, TWO-DAY WINDOW (last_run_date 10-15 == yesterday, so window was ON OR AFTER 2026-10-15, covering 10-15 and 10-16) minus the 10-15 digest's 40 reference URLs. 45 refs: 42 blog, 3 video. THE DAY'S STORY IS AI OVERSIGHT AND LOCAL FRONTIER WEIGHTS, AND THE TWO BEST ITEMS ARGUE WITH EACH OTHER: Anthropic gave SIX METR STAFF 'employee-like access' (company hardware, office space, internal tools 'roughly on par with what our own risk assessment teams have access to'), CANNOT VETO PUBLICATION (only narrow predefined redactions, and METR may publicly characterize the redactions), four stated evaluator requirements and a three-tier ladder with SecureBio/Accenture lower and Hugging Face in early talks - and the SAME WEEK a More Perfect Union documentary on Dario Amodei (transcript, 10-14) asks whether Anthropic can be trusted at all, with Nate Soares of MIRI saying the history of AI 'is a history of people trying to draw red lines and then blowing straight past them.' Reading them together is the digest's best synthesis. META SHIPPED MUSE SPARK OPEN: 816B total / 42B active, 1M context, and the real news is it RUNS ON TWO M5 ULTRA MAC STUDIOS via MLX (512GB unified memory each, 1.2TB/s bandwidth) - frontier-class open weights on a desk. THE QUOTE VERIFIER CAUGHT THE RECURRING DEFECT FOR A THIRD-PLUS CONSECUTIVE RUN, AND IT WAS ASR-QUOTE TIDYING/MERGING - ALL THREE IN THE SAME More Perfect Union PARAGRAPH: (1) I wrote 'disturbing patterns of behavior, dishonesty' but the transcript reads 'disturbing uh uh patterns of behavior, dishonesty' - I silently deleted the ASR filler INSIDE quote marks; (2) I collapsed 'very hard to continue to work with a company, to continue to trust the company' into 'very hard to continue to trust the company' - THE MERGED-QUOTE-ACROSS-A-SEAM BUG AGAIN; (3) I wrote 'quite catastrophically wrong on the scale of human civilization' but the source is 'quite catastrophically wrong on the scale of of, you know, human civilization' (first7 FOUND / last7 no - the seam diagnostic worked exactly as designed). FIX WAS TO PARAPHRASE ALL THREE AND KEEP ONLY THE ONE CLEAN QUOTE ('somewhere between 10 and 25%'). THE LESSON TRANSFERS: on ASR, DO NOT QUOTE AT ALL unless the span is verbatim-clean; paraphrase by default. Verifier also caught a FACTUAL slip the quote check surfaced incidentally: I wrote 'Google Brain' but the transcript says 'Google's AI Lab' - fixed. Final 34/35; the one MISS ('what you have open') is MY OWN constructed rhetorical contrast, not an attributed quote - correct as written, do not 'fix' it next run. DATE DISCIPLINE KILLED THE BIGGEST HN STORY OF THE WINDOW: OpenCode 2.0 at 867 POINTS is datePublished 2026-10-12, four days stale - the HN-score-dates-the-submission rule has now paid off on three consecutive runs, and this was the most tempting kill yet. Also killed Krea 3 (317p, only on-page date 2026-10-08), LFM2.5 (286p, already killed 10-15 as 10-13) and the startupfortune AI-debt piece (378p, already killed 10-15 as 10-11) - BOTH OF YESTERDAY'S KILLS RESURFACED WITH HIGH POINTS AND WOULD HAVE SLIPPED IN IF I HAD NOT RE-CHECKED. TWO HN ITEMS 404'd ON MY OWN FETCH and batch 2 had independently flagged both as unverifiable: thenewstack 'Linus Torvalds let Claude Code fix the Linux page cache' (the fetched page returned a DIFFERENT article by a different author) and a BBC 'Anthropic thinks its AI might be conscious' - both EXCLUDED. The Torvalds one was thematically perfect and I wanted it; it does not exist at that URL. BATCH 1 FLAGGED A PROMPT-INJECTION ATTEMPT and handled it correctly: the deepmind.google antimicrobial-peptides page carries embedded text instructing the reader to reproduce article paragraphs verbatim in a specific format. The agent ignored it and said so unprompted. KEEP WATCHING FOR THIS - a source page is now a potential instruction channel. BOTH AGENTS CLEAN AND HONEST, NINTH RUN RUNNING - keep the anti-fabrication paragraph naming the past HN-point-count invention VERBATIM in both prompts. Batch 2 reported HN points of 2, 4 and 5 on its own finds rather than inflating them, which is exactly the behavior the paragraph is for. MY OWN SWEEP WAS THE SOLE SOURCE of the mathematics cluster (Terry Tao + Derek Thompson + Simons $15M, all 2026-10-15 - a three-source story neither agent assembled), the Citizen Lab AdFection spyware research, Current Affairs 'Why We're Banning AI' and the goodfire interpretability essay. BATCH 2 WAS THE SOLE SOURCE of the entire NVIDIA Nemotron 3.5 / RTX Spark / Adobe / Mercedes / Volvo set, Cloudflare+OpenAI and the sunshowers part-2 'ripoff' quote. KEEP RUNNING THE CONCURRENT PARSE - the split is consistent and neither side is redundant. SCION DISPUTE RESOLVED IN THE SOURCE: sunshowers part 2 escalates to 'This was a ripoff' with claimed private confirmation of intentional copying and personnel overlap, BUT ITS OWN UPDATE SAYS Anthropic's Nick G. responded on HN and 'sufficient attribution has been added to Anthropic's blog post.' I reported the resolution, not just the accusation - read the update block before framing a dispute as open. TOM LEE DUPLICATE: a SECOND Tom Lee clip arrived (The Creative Investor, 16:47) after yesterday's (Finance Deep Dive, 10:43) was already used. 5-GRAM OVERLAP WAS 7.67% WITH A 138-WORD CONTIGUOUS VERBATIM RUN - i.e. both clips embed the SAME Funstrat segment (Cisco/1997, ~$30T vs ~$35T, 2033 peak). NOT a pure repost: the host's own commentary around it is new and tracks today's CoreWeave CDS story (DA Davidson bankruptcy note, bonds 9%->15%, ~772k puts in a day, private-credit thesis). I USED THE NEW HOST ANALYSIS AND EXPLICITLY LABELLED THE LEE SEGMENT AS A RE-RUN. The contiguity test (mark words inside any shared 5-gram, then find runs) is the right tool and is better than the bare percentage - 7.67% looked low until the 138-word run showed up. DROPPED 2026-10-16-vmNHUSrTLLo (APT, Tesla flying Roadster reveal, 24:30) - keyword density 1.5/1k; per the standing 'near-zero on a known AI channel means the regex broke' rule I READ ALL FOUR HITS IN CONTEXT and they are 'Model S/Model 3/Model Y' plus Musk saying the audience is needed 'to prove that it's not AI or SI'. Regex did NOT break; genuinely a car reveal. Dropping was correct. THEO (48:04, 9,861 words) IS THIRD-DAY COMMENTARY, NOT NEWS - I grepped past digests before writing and found Scion was the 10-14 LEAD and the Mononoke rebuttal was a 10-15 item, so I framed the video as practitioner reaction and used only its NEW contribution (the Meta-Mercurial/Graphite/Cursor-Origin lineage, and the 'role of engineers was to tell Claude no' section). ALWAYS GREP PAST DIGESTS FOR A REACTION VIDEO'S SUBJECT BEFORE WRITING IT UP. Read it by INDEXED KEYWORD WINDOWS, not head/tail. YT-FETCH RACE: no race this run - log mtime 08:10, RESULT success in the log, 4 new transcripts. BUT a yt-dlp PID (85327) WAS STILL ALIVE from Thu Oct 15 17:08 (15h18m elapsed, foreground tty s005, downloading Oewc0KgfQUU) - a HUNG MANUAL RUN, unrelated to the scheduled job. `ps aux | grep yt-dlp` alone would have made me wait for nothing; CHECK `ps -p <pid> -o lstart` AND the log RESULT line, not just process presence. hugo --minify exits 0; check_post.py on the digest --> 0 ERRORS, 16 warnings (all long-sentence/em-dash style). check_post.py --all still reports the same PRE-EXISTING errors in content/posts/ (vibe-coding-trap.md orphan refs + a dead internal link) - NOT from this digest, do not panic-fix inside a digest run. 5 h2 / 32 h3; 45 body URLs map 1:1 onto 45 references, zero orphans BOTH directions on first write. Zero future-dated strings. Re-ls'd all three cited transcripts after writing: present. SOURCE-FILE DEBT STILL NOT FIXED, TWENTY-FOURTH RUN: `git log -- .feed/source.md` still shows ONE commit (c6f320a, 2026-04-01). CNBC tech+top RSS, Phoronix rss.php, anthropic.com/news, anthropic.com/research, claude.dev/blog, theverge.com/rss, pi.website/blog and oneusefulthing.org/feed are ALL STILL ABSENT and were carried manually from this cursor again. Today they supplied the Anthropic/METR lead, the claude.dev code-review post, three CNBC items, two Phoronix items and two Verge items. ALSO NOW WORTH ADDING: research.meta.ai/blog (sole primary source for the Muse Spark Open lead), blog.cloudflare.com, stackoverflow.blog/feed and citizenlab.ca. Per the known 'not writable from the digest run' failure I did NOT re-flag it in-file; ESCALATED TO THE HUMAN IN THE RUN REPORT INSTEAD."
+last_run_date: "2026-10-17"
+last_summary_file: "content/newsdigests/2026-10-17-daily-digest.md"
+notes: "SATURDAY RUN. last_run_date was 10-16 == yesterday, so window was ON OR AFTER 2026-10-16 (covering 10-16 and 10-17) minus the 85 reference URLs from the 10-15 and 10-16 digests. 27 refs: 26 blog, 1 video. THE DAY'S STORY IS LABOR ECONOMICS AND THE TWO BEST ITEMS ARGUE WITH EACH OTHER AGAIN: Anthropic dropped FIVE research posts on 10-16, including TWO economics reports - 'How employment is changing at Anthropic' (by August interactive AI agent hours outnumbered employee hours 6 TO 1, crossover in March 2026; junior technical hiring down as a share; 'human attention the bottleneck'; employees turn to 'meta-work') and 'The AI expectations gap' (Morning Consult survey of ALMOST 11,000 US adults vs staff: 39% vs 91% expect a Nobel-level discovery by 2030; 26% vs 59% say a task takes a quarter of the time; >half of staff vs 5% of US workers expect AI to do 80% of their job by 2030). AND MERCOR PUBLISHED THE EXACT COUNTERPOINT THE SAME DAY: only 208 of 923 O*NET occupations have a task with >=5 benchmark prompts, 6 of 22 job families have none, and '90% of American working hours are spent on tasks with little or no coverage from existing benchmarks.' Computer & Math is 29/36 covered; Healthcare Practitioners 12/89. Reading them together is the digest's best synthesis and it mirrors Anthropic's own finding that the disagreement is about CAPABILITY TIMELINES, not economics. THE QUOTE VERIFIER CAUGHT THE RECURRING DEFECT FOR A FOURTH-PLUS CONSECUTIVE RUN AND IT WAS THE SAME MERGED-QUOTE-ACROSS-AN-ATTRIBUTION BUG: I wrote Menin's line as 'I just don't understand how you can say that there are these safe models. It's just unacceptable.' but CNBC reads '...these safe models,' Menin said. 'It's just unacceptable.' - first7 FOUND / last7 no, the seam diagnostic worked exactly as designed AGAIN. Fixed by splitting into two quoted spans joined by 'followed by'. THIS BUG HAS NOW APPEARED IN EVERY RUN I HAVE CHECKED - keep running the verifier, it is the single highest-yield check. Final 44/51; the 6 remaining MISSes were 5 reference TITLES whose pages were not in the fetch set plus my own constructed phrase 'write a whole platform with an agent' - correct as written, do not 'fix' next run. AGENT-TITLE CHECK PAID OFF: I re-fetched the 5 unverified titles rather than trusting them. OpenAI's three (Itau / Stack Overflow for Agents / Benefit Street) are VERBATIM CORRECT from RSS CDATA, Anthropic's umbrella title correct, and the Google one is a TRAP WORTH REMEMBERING - the agent's 'We're sharing 3 tips to study smarter with Gemini Notebook.' matches the H1 AND og:title, but the <title> TAG SAYS SOMETHING DIFFERENT ('3 new study features in Gemini Notebook'). blog.google ships two different titles per post; the h1/og:title is the right one to cite, so the agent was RIGHT and a naive <title> check would have 'corrected' it wrongly. DATE DISCIPLINE KILLED SIX HIGH-POINT HN STORIES, THE BIGGEST HAUL YET: 'You could have invented transformers from memory' (330p, datePublished 2026-10-15), Show HN Gemini 4 Argon plays StarCraft (226p, 2026-10-15), FLUX 3 Image Klein (176p, datePublished 2026-10-15T15:00Z), Llama.cpp on a jailbroken PS5 (306p, GitHub api created_at 2026-10-01 - FOURTEEN DAYS old, the repo just trended), and the FT 'Anthropic assigned highest junk credit rating in June' (263p, hard 403, date unverifiable, and 'in June' in the title is itself a staleness tell) - all EXCLUDED. THE BEST CATCH WAS LOBSTERS: raymyers.org 'Why Math Dumped OpenAI' had a Lobsters pubDate of 2026-10-16 and WOULD HAVE SLOTTED PERFECTLY into the 10-16 mathematics cluster, but the page itself says 'Oct 11, 2026' - SIX DAYS STALE. LOBSTERS pubDate IS A SUBMISSION DATE TOO, exactly like HN; the 10-16 cursor already flagged a 1-day Lobsters/article conflict and this is the same bug a week wider. ALWAYS OPEN THE ARTICLE. MERCOR HAS NO PUBLICATION DATE ANYWHERE on the page - no datePublished, no og date, no visible byline date. I dated it 2026-10-16 from the HN submission plus sitemap.xml lastmod 2026-10-17 and SAID SO IN THE REFERENCE. sitemap.xml lastmod is a good fallback signal for undated JS-rendered research pages; add it to the date-hunting toolkit next to the RSS-feed trick. ALSO NOTE Mercor's stat tiles SCRAMBLE under strip-tags ('of 923 occupations covered 208 of 18,797 tasks covered 924 benchmarks in the index 29') - the numbers interleave with their labels, so I used ONLY the full prose sentences, never the tile text. CNBC ARTICLE PAGES FETCH FINE FROM MY OWN urllib WITH A BROWSER UA - the standing note that they 403 is WebFetch-SPECIFIC. I pulled full bodies for the Grok/NYC Council, DNI Clayton and Paysend pieces and got real quotes from all three. BUT THE CNBC FEED <description> FIELDS WERE ALL EMPTY THIS RUN (they carried usable excerpts on 10-16), so the feed is discovery-only today - fetch the page. THE VERGE IS THE INVERSE: pages fetch 200 but the body is JS-rendered and <p> tags yield only 'Posts from this topic will be added to your daily email digest'; the only real text is the DEK, which I used and labelled for both Verge items. BATCH 2 UNDER-REPORTED AGAIN but honestly - it listed ~8 in-window items it had NOT verified and said so, which is the correct behavior and exactly what the anti-fabrication paragraph is for. My own sweep was the SOLE SOURCE of the Mercor story, The Register Postgres 19 piece, DeepSeek-V4.1-Flash-1017, both Phoronix AI items, the Elorian/Jev/Replit-self-driving TechCrunch set and all three CNBC bodies. Batch 1 was the SOLE SOURCE of the four Anthropic economics/research posts and the OpenAI customer trio. KEEP RUNNING THE CONCURRENT PARSE - neither side is redundant, ninth-plus consecutive run. NEITHER AGENT FABRICATED and batch 1 explicitly reported seeing NO prompt injection (it was asked). ONE TRANSCRIPT USED, ONE DROPPED. Used All-In 10-17 (1:34:06, 17,351 words, keyword density 14.44/1k) read by INDEXED KEYWORD WINDOWS not head/tail; guest is BEN HOROWITZ (ASR 'Ben Harowitz'), hosts Sacks/Chamath/Calacanis, Freeberg absent. Heavy ASR garbling ('Cororeweave', 'Chimoth'/'Shamant', 'Navius', 'data bicks', 'Antropic') so I PARAPHRASED BY DEFAULT and quoted only two clean spans. I EXPLICITLY LABELLED the Anthropic ARR range as secondhand because the hosts themselves say 'They did not disclose this numbers' - and I flagged the panel's Gates/COVID gain-of-function causal claim as asserted, not evidenced. DROPPED 2026-10-16-XbQv0vO2Ymo (Katie Couric x Alex Gibney on the Musk documentary, 1:04:25, 10,484 words, density 1.30/1k). THE OVERLAP TEST SAID IT WAS NEW CONTENT - only 0.58% 5-gram overlap vs the 10-08 Kara Swisher Gibney interview, longest shared run 13 words - SO THE REPOST TEST ALONE WOULD HAVE LET IT IN. I dropped it on SUBSTANCE instead: I read all 14 AI hits in context (regex did not break, it is genuinely a media-power interview) and then GREPPED PAST DIGESTS, which showed the 10-09 digest already covered BOTH of its AI threads - the Hinton/super-admin-federal-data question and the LLM-transference thread - from a different interview on the same press tour. LESSON: A LOW 5-GRAM OVERLAP DOES NOT MEAN NEW NEWS. A press tour produces different words about the same thing; run the past-digest grep on the SUBJECT, not just the n-gram test on the text. Also checked the one tempting new angle (whether AI generated Musk's on-screen pushback) and the answer in the transcript is NO - 'That's an editorial choice.' YT-FETCH: no race, log mtime 08:08 vs run start 08:23. BUT a yt-dlp PID (9022) was alive since Fri Oct 16 16:32 on foreground tty s005 downloading ty1ZtGGuTDk - ANOTHER HUNG MANUAL RUN, second run in a row, unrelated to the scheduled job. `ps -p <pid> -o lstart` is the disambiguator; process presence alone proves nothing. hugo --minify exits 0; check_post.py on the digest --> 0 ERRORS, 16 warnings (all long-sentence/em-dash style, same profile as every prior run). 6 h2 / 24 h3; 27 body URLs map 1:1 onto 27 references, zero orphans BOTH directions on first write. Zero future-dated strings. Re-ls'd the cited transcript after writing and re-grepped all quoted spans against the surviving copy: present. SOURCE-FILE DEBT STILL NOT FIXED, TWENTY-FIFTH RUN: `git log -- .feed/source.md` still shows ONE commit (c6f320a, 2026-04-01). CNBC tech+top RSS, Phoronix rss.php, anthropic.com/news, anthropic.com/research, claude.dev/blog, theverge.com/rss, stackoverflow.blog/feed and oneusefulthing.org/feed are ALL STILL ABSENT and were carried manually from this cursor again. TODAY anthropic.com/research ALONE supplied five posts including both lead stories, and Phoronix supplied two. NEW THIS RUN AND WORTH ADDING: feeds.arstechnica.com/arstechnica/technology-lab (sole source of the OpenAI crypto-wallet story, a top-three item) and theregister.com. Per the known 'not writable from the digest run' failure I did NOT re-flag it in-file; ESCALATED TO THE HUMAN IN THE RUN REPORT INSTEAD."
 sources:
   Anthropic:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 1
-    notes: "ONE in-window: /news 'An update on independent evaluators' (10-15T17:20Z) - the day's lead, and a genuinely substantive governance post (six embedded METR staff, no publication veto, three-tier access ladder). /research and /engineering were TRUE ZEROS (newest 10-12 and 10-13 respectively). The 10-13 /engineering Scion post is now THREE DAYS of story (post 10-14, rebuttal 10-15, part-2 + Theo reaction 10-16) - grep past digests before re-covering it. Browser UA still mandatory; the 2026-us-midterms post showed a 10-14/10-15 date conflict between article page and listing, moot because it was already in the 10-15 digest."
+    posts_found: 5
+    notes: "BIGGEST SOURCE OF THE RUN BY FAR - FIVE in-window, ALL on /research, ALL dated 2026-10-16: the two economics reports (employment-at-anthropic 16:26Z, ai-expectations-gap 16:45Z), their umbrella framing post (expectations-for-the-future 16:21Z), ecdsa-curve-origins (17:02Z, 905p on HN) and designing-efficient-quantum-circuits (17:29Z, 151p). /news and /engineering were TRUE ZEROS (newest 10-15 and 10-13). Browser UA still mandatory. NOTE the umbrella post and the report phrase the headline stat DIFFERENTLY - umbrella says 'six times more agents than employees', the report says 'interactive AI agent hours outnumbered employees 6 to 1'. USE THE REPORT'S WORDING; agents-vs-agent-hours is not the same claim."
     urls:
       - https://www.anthropic.com/news
       - https://www.anthropic.com/research
       - https://www.anthropic.com/engineering
   claude.dev:
     last_success: "2026-10-16"
-    consecutive_failures: 0
-    posts_found: 1
-    notes: "BROKE ITS QUIET STREAK with a strong one: 'How the Claude Code team does code review' (10-15, Addy Osmani + Morgan Westlee Lunt + Qing Wang). Claude writes ~90% of Claude Code's own code; merged PRs more than doubled June->September while the reverted share fell >40%. Natural companion to the Scion post. rss.xml still returns HTML not XML - use the /blog listing. STILL NOT IN .feed/source.md. NOTE: the in-window Addy Osmani piece is HERE, not on his Medium feed (Medium newest is 2026-08-22)."
+    consecutive_failures: 1
+    posts_found: 0
+    notes: "Fetched 200 (19KB). Newest is still the 10-15 code-review post, already used in the 10-16 digest. True zero. It resurfaced on HN at 373p dated 10-16 and batch 2 correctly killed it on the article date. rss.xml still returns HTML not XML - use the /blog listing. STILL NOT IN .feed/source.md."
     urls:
       - https://claude.dev/blog
   OpenAI:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
     posts_found: 3
-    notes: "Feed healthy (789KB, 1296 items). THREE in-window, all 10-15: Rosalind Academic Plan, Sullivan & Cromwell Agreement Analyzer, teaching-students piece. ARTICLE PAGES STILL 403 - the stable split holds (feed alive, /index/* slugs blocked), so summaries came from RSS descriptions and are thin. Labelled as such in the digest."
+    notes: "Feed healthy (135KB). THREE in-window, all 10-16, all customer stories: Itau, Stack Overflow for Agents, Benefit Street Partners. ARTICLE PAGES STILL 403 - the stable split holds (feed alive, /index/* slugs blocked). I verified all three TITLES AND DESCRIPTIONS verbatim out of the RSS CDATA rather than trusting the agent, and they were exact. Summaries are RSS-description-thin and labelled as such."
     urls:
       - https://openai.com/blog/rss.xml
   Google:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 10
-    notes: "Ten in-window on blog.google (all 10-15), of which I used five (Circle to Search scam detection, AI Mode linking, News AI pilot 400+ publications, quantum magic-state cultivation, crisis-resilience white paper) and dropped the consumer filler (holiday shopping, Pixel repair day, earthquake-alert expansion as a standalone). DeepMind rss.xml: ONE in-window (antimicrobial peptides via Antigravity) and curl --compressed is STILL REQUIRED. THAT PAGE CARRIES A PROMPT INJECTION - embedded text instructing the reader to reproduce paragraphs verbatim in a set format; batch 1 ignored it and disclosed it. Universal Cart and SynthID were already in the 10-15 digest."
+    posts_found: 1
+    notes: "QUIET DAY after ten in-window yesterday: ONE across all four feeds (Gemini Notebook study features, 10-16, innovation-and-ai). Developer feed newest 10-13. DeepMind rss.xml parsed cleanly with --compressed, newest 10-15, TRUE ZERO - and NO prompt injection seen this run (the 10-16 antimicrobial-peptides page carried one; batch 1 was asked and reported none today). TRAP: blog.google ships TWO DIFFERENT TITLES per post - the <title> tag said '3 new study features in Gemini Notebook' while h1/og:title said 'We're sharing 3 tips to study smarter with Gemini Notebook.' Cite the h1."
     urls:
       - https://blog.google/rss/
       - https://deepmind.google/blog/rss.xml
@@ -37,110 +37,130 @@ sources:
       - https://blog.google/technology/developers/rss/
   BAIR:
     last_success: "2026-09-22"
-    consecutive_failures: 1
+    consecutive_failures: 2
     posts_found: 0
-    notes: "Listing fetched 200 (~39KB) but contains no 2026-10 dates; agent did not open individual posts, so this is a soft zero rather than verified-absent. Per the standing rule, do NOT retire on a streak count without positive evidence - it was wrongly presumed dead once already."
+    notes: "Listing fetched 200 (11KB), nothing on or after 10-16. Remember the standing rule: the 22-run timeout streak lifted on its own 2026-09-22. Never retire it on a streak count without positive evidence."
     urls:
       - https://bair.berkeley.edu/blog/
   One Useful Thing:
     last_success: "2026-10-01"
-    consecutive_failures: 1
+    consecutive_failures: 2
     posts_found: 0
-    notes: "/feed fetched 200 (907KB), newest item 2026-10-01 - a true zero, genuinely quiet for two weeks. Keep using the /feed URL, NEVER the homepage (JS-rendered, no dates). STILL NOT IN .feed/source.md."
+    notes: "/feed fetched 200 (143KB), newest item still 2026-10-01 - genuinely quiet for over two weeks now. Keep using the /feed URL, NEVER the homepage (JS-rendered, no dates). STILL NOT IN .feed/source.md."
     urls:
       - https://www.oneusefulthing.org/feed
   Rundown:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 2
-    notes: "Two in-window: 'Meta turns Mac into an AI supercomputer' (10-16) and 'Rogue AI agents sit for their first interview' (10-15, already in the 10-15 digest). Used neither as a primary - the Muse story is better from research.meta.ai directly - but the 10-16 item independently corroborated the two-Mac-Studio detail."
+    posts_found: 1
+    notes: "One in-window: 'Meta turns Mac into an AI supercomputer' (10-16) - but that is the Muse Spark Open story which LED the 10-16 digest from research.meta.ai directly. Correctly excluded as a duplicate. Feed is 659KB and parses fine."
     urls:
       - https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml
   Cursor:
     last_success: "2026-10-13"
-    consecutive_failures: 1
+    consecutive_failures: 2
     posts_found: 0
-    notes: "Fetched 200, newest 2026-10-13, nothing in window. Dates are still present on the listing (the old 'no dates' note stays retired). Appeared in the digest only as a third party - Graphite is now part of Cursor and is building Origin as a GitHub alternative, per the Theo transcript."
+    notes: "Blog listing has nothing on or after 10-16. GOOD CATCH BY BATCH 1: there IS a 10-16 item at /changelog/cloud-agent-canvases-and-environments but it is a CHANGELOG entry, not a blog post, and the agent said so instead of padding. Dates still present on the listing (the old 'no dates' note stays retired)."
     urls:
       - https://cursor.com/blog
   Addy Osmani:
     last_success: "2026-08-22"
-    consecutive_failures: 1
+    consecutive_failures: 2
     posts_found: 0
-    notes: "Medium feed 200, newest 2026-08-22. NOT a real zero for the author - his in-window work is the claude.dev code-review post. Check claude.dev before concluding Osmani was quiet."
+    notes: "Medium feed 200 (94KB), newest 2026-08-22. NOT a real zero for the author - check claude.dev before concluding Osmani was quiet; his recent work ships there."
     urls:
       - https://medium.com/feed/@addyosmani
   NVIDIA:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 8
-    notes: "BIGGEST SOURCE OF THE RUN and all three hosts mattered: blogs.nvidia.com (Nemotron 3.5 Super VL), developer.nvidia.com (Muse Spark Open on GB300, Nemotron agentic post), nvidianews.nvidia.com (RTX Spark PC availability 10-16, Adobe, Mercedes, Volvo). WARNING CONFIRMED BY BATCH 2: the developer-blog RSS RE-STAMPS ~25 OLD ITEMS with one identical pubDate (2026-10-15 18:13 UTC) whose listing dates are Aug-Sep - the feed timestamp is NOT a publication date there. Always cross-check the listing or article page. research.nvidia.com/labs/nemotron also carries real dated pages."
+    posts_found: 1
+    notes: "ONE used: the developer-blog RTX Spark 'code, test and deploy on one machine' post (verified 2026-10-16T17:00Z on the article page). blogs.nvidia.com had 10-15 items only. nvidianews listing showed 10-16 RTX Spark PC availability and a Mercedes item but batch 2 did not fetch the bodies and I did not need them. THE RE-STAMPING WARNING STILL HOLDS: developer.nvidia.com/blog RSS gives ~25 old Aug/Sep items one identical recent pubDate - always confirm on the article page, which is how the RTX Spark date was established."
     urls:
       - https://blogs.nvidia.com/
       - https://developer.nvidia.com/blog
       - https://nvidianews.nvidia.com/
   Overflow:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 3
-    notes: "Three in-window: MCP infrastructure (10-15), formal methods podcast (10-16), and the AI-context-layer piece (10-15, already in the 10-15 digest). stackoverflow.blog/feed/ parses cleanly and is more reliable than the listing - worth adding to source.md as the feed URL."
+    posts_found: 1
+    notes: "One in-window (the 10-16 formal-methods podcast) but it was ALREADY IN THE 10-16 DIGEST - correctly excluded, so zero used. stackoverflow.blog/feed/ parses cleanly (37KB, 40 items) and is more reliable than the listing. Worth adding to source.md as the FEED url."
     urls:
-      - https://stackoverflow.blog/
+      - https://stackoverflow.blog/feed/
   Hacker News:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 61
-    notes: "hnrss STILL DEAD - Algolia search_by_date with points>70 since 10-14 12:00 is the source of record, 61 unique stories across a vendor-name query sweep. FOUR HIGH-POINT KILLS ON DATE, the biggest yet: OpenCode 2.0 (867p, datePublished 2026-10-12), Krea 3 (317p, only on-page date 10-08), LFM2.5 (286p, re-kill from 10-15), startupfortune AI-debt (378p, re-kill from 10-15). YESTERDAY'S KILLS COME BACK WITH HIGHER POINTS - re-check them every run. Two items 404'd on my own fetch (thenewstack Torvalds/page-cache, BBC consciousness) and were excluded. Algolia supplied the Muse Spark Open primary source, goodfire, sunshowers part 2, Derek Thompson, Simons, Current Affairs, Citizen Lab and the GNOME post. urllib, NOT curl."
+    posts_found: 29
+    notes: "hnrss STILL DEAD - Algolia search_by_date with points>60 since 10-15 12:00 is the source of record, 29 unique stories across a 15-query vendor-name sweep (AI, LLM, OpenAI, Anthropic, Claude, Google, Gemini, Meta, NVIDIA, model, agent, DeepSeek, GPT, coding, open-source). FIVE KILLS ON DATE, the biggest haul yet: alexwang.ai transformers (330p, 10-15), StarSkirmish/Gemini 4 Argon (226p, 10-15), FLUX 3 Image Klein (176p, 10-15T15:00Z), PS5LM (306p, GitHub created_at 2026-10-01), FT junk-credit-rating (263p, 403 and undatable). Algolia WAS the sole source of Mercor (527p) and DeepSeek-V4.1-Flash-1017 (257p/230p) - both real, both in-window, both verified independently. urllib, NOT curl."
     urls:
       - https://hn.algolia.com/api/v1/search_by_date
   Lobsters:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 2
-    notes: "Two in-window and both used: Terry Tao 'Why are we even doing all this?' and the goodfire interpretability essay. Small feed, high hit rate. NOTE the Tao item's Lobsters pubDate (10-16 00:28 -0500) differs from the article's own 10-15 - trust the article."
+    posts_found: 1
+    notes: "ONE in-window by feed pubDate and it was a KILL: raymyers.org 'Why Math Dumped OpenAI', Lobsters pubDate 2026-10-16 but the article page says 'Oct 11, 2026' - SIX DAYS STALE. CONFIRMS THAT LOBSTERS pubDate IS A SUBMISSION DATE, same as HN points; the 10-16 cursor saw a 1-day version of this and today it was six. The page has NO feed (index.xml, feed.xml and posts/index.xml all 404) so the on-page date is the only source - and it IS on the page, near the title. Small feed, but zero used today."
     urls:
       - https://lobste.rs/t/ai.rss
   TechCrunch:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 13
-    notes: "Thirteen in-window by pubDate, but SEVERAL CARRY /2026/10/14/ URL PATHS with 10-15 pubDates (Figma, Ricursive, Gudea) - per the standing rule the URL path wins, and Figma/Ricursive were already in the 10-15 digest anyway. Used Meta-on-Macs, Rivian agents, Bluesky Attie, METR. Verified the Rivian 'AI & Autonomy Day' quote against my own fetch."
+    posts_found: 9
+    notes: "Nine in-window, ALL with clean /2026/10/16/ URL paths matching their pubDates - no path-vs-pubDate conflict this run. Used five: Replit-leaves-Anthropic, Replit 'self-driving company', India CERT-In, Elorian/Glimpse, Jev/Vercel. I fetched and verified all five bodies myself. Dropped the two Nvidia-VC physical-AI items (video/podcast pages) and Mark Wahlberg."
     urls:
       - https://techcrunch.com/category/artificial-intelligence/feed/
   GitHub Trending:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
     posts_found: 0
-    notes: "Server-rendered HTML fetched fine (the 'JS-rendered' excuse stays retired). 13 repos listed, no per-item dates and no story worth a slot; star counts deliberately not reported since they were unverified. Nothing used."
+    notes: "Server-rendered HTML fetched fine for a second straight run (the 'JS-rendered' excuse stays retired). 15 repos, no per-item dates, nothing used. RELATED LESSON FROM TODAY: when a GitHub repo DOES look like a story, api.github.com/repos/<o>/<r> gives created_at and pushed_at for free - that is how PS5LM was killed as a 14-day-old repo."
     urls:
       - https://github.com/trending
   CNBC:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 51
-    notes: "NOT IN .feed/source.md - carried manually for a 24th run and again a top-three source. Both channels healthy (~20KB each, 21 and 30 in-window). ARTICLE PAGES 403 TO WebFetch but the FEEDS ARE OPEN, so headlines and pubDates are solid and the feed description is usable as a verbatim excerpt. Used: AWS/Anthropic forward-deployed engineers, CoreWeave CDS distress, Fed's Warsh 'very bumpy', Apple+Meta. Several items had pubDate 10-16 against a /2026/10/15/ path; already-covered ones (memory stocks, Anthropic Q3, Asia rout, Huang/China) correctly excluded."
+    posts_found: 45
+    notes: "NOT IN .feed/source.md - carried manually for a 25th run and again a top-three source. Both channels healthy (~20KB each, 15 and 30 in-window). KEY CORRECTION TO THE STANDING NOTE: the 403 is WebFetch-SPECIFIC - article pages fetch 200 from plain urllib with a browser UA, and I pulled full bodies with real quotes for Grok/NYC Council, DNI Clayton and Paysend. THE INVERSE ALSO CHANGED: the feed <description> fields were ALL EMPTY today (they carried usable excerpts on 10-16), so the feed is discovery-only - do not count on it for excerpts. Used three; excluded the already-covered Anthropic/METR, CoreWeave CDS and Huang items."
     urls:
       - https://www.cnbc.com/id/19854910/device/rss/rss.html
       - https://www.cnbc.com/id/100003114/device/rss/rss.html
   Phoronix:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
-    posts_found: 16
-    notes: "NOT IN .feed/source.md - carried manually. rss.php open and reliable (article pages still Cloudflare-challenged); the feed description is a usable verbatim excerpt and I verified the AVX-512 quote directly against the XML. Used Intel LLM-Scaler-vLLM PV 1.5 and the AI-generated AVX-512 LLVMpipe MR. Its AI-reverse-engineering item pointed to the GNOME blog, which was the better primary source."
+    posts_found: 18
+    notes: "NOT IN .feed/source.md - carried manually. rss.php open and reliable (18 in-window). Used two AI items: GNOME Moose 0.6 (10-17, and this one's article page fetched FINE from urllib - the Cloudflare challenge is not blanket) and the AI-generated Starling desktop office suite (10-16). Its Intel LLM-Scaler and AVX-512 items were already in the 10-16 digest and were correctly excluded. The feed <description> remains a usable verbatim excerpt here, unlike CNBC's today."
     urls:
       - https://www.phoronix.com/rss.php
   The Verge:
-    last_success: "2026-10-16"
+    last_success: "2026-10-17"
     consecutive_failures: 0
     posts_found: 10
-    notes: "NOT IN .feed/source.md - carried manually. Feed parses fine via curl/urllib but WebFetch REFUSES the domain outright for agents ('unable to fetch from www.theverge.com'), so bodies come from my own fetch or stay headline-only. Used ChatGPT/Chrome tabs and the zero-click spyware piece. The Amazon Bee story was already in the 10-15 digest via the Verge."
+    notes: "NOT IN .feed/source.md - carried manually. Feed parses fine via urllib; WebFetch still REFUSES the domain for agents. NEW AND IMPORTANT: the article pages return 200 to urllib but the BODY IS JS-RENDERED - every <p> tag yields boilerplate ('Posts from this topic will be added to your daily email digest') and the ONLY real prose is the DEK. I used the dek for both items (App Store nudify ban, Tesla FSD crash) and LABELLED it. Do not report a Verge page as 'fetched' and then summarize it as if you had the body."
     urls:
       - https://www.theverge.com/rss/index.xml
+  Ars Technica:
+    last_success: "2026-10-17"
+    consecutive_failures: 0
+    posts_found: 1
+    notes: "NEW SOURCE THIS RUN AND IT IMMEDIATELY EARNED ITS SLOT - NOT IN .feed/source.md. feeds.arstechnica.com/arstechnica/technology-lab was the SOLE source of 'OpenAI models hacked a crypto wallet and breached more websites' (Dan Goodin, 2026-10-16T20:59Z), a top-three item that no other source carried. Batch 2 got only the feed description because WebFetch refused the page; MY OWN urllib fetch with a browser UA got the FULL BODY including the hospital-bed-statistics incident detail. ADD THIS FEED."
+    urls:
+      - https://feeds.arstechnica.com/arstechnica/technology-lab
+  The Register:
+    last_success: "2026-10-17"
+    consecutive_failures: 0
+    posts_found: 1
+    notes: "NEW SOURCE THIS RUN, found via HN (199p) - NOT IN .feed/source.md. 'Postgres 19 delayed after AI reviewers find more bugs than humans can fix' (Lindsay Clark, datePublished 2026-10-16T10:00Z, page also prints 'Published fri 16 Oct 2026 // 11:00 UTC'). Article pages fetch 200 and carry clean datePublished JSON-LD plus relative 'N days ago' strings on sidebar links - use the JSON-LD. Worth adding a feed."
+    urls:
+      - https://www.theregister.com/databases/
+  Mercor:
+    last_success: "2026-10-17"
+    consecutive_failures: 0
+    posts_found: 1
+    notes: "NEW SOURCE, found via HN (527p). 'A benchmark map of the US economy' - one of the two lead items. WARNING: the page has NO publication date of any kind (no datePublished, no og date, no byline date). I dated it 2026-10-16 from the HN submission plus sitemap.xml lastmod (2026-10-17) and DISCLOSED that in the reference. SECOND WARNING: the stat tiles SCRAMBLE under strip-tags - 'of 923 occupations covered 208 of 18,797 tasks covered 924 benchmarks in the index 29' interleaves numbers with their labels, so take figures ONLY from the full prose sentences ('only 208 of 923 occupations have a task with at least 5 benchmark prompts', '90% of American working hours...')."
+    urls:
+      - https://www.mercor.com/research/labor-index/benchmark-map/
   Pi:
     last_success: "2026-10-13"
-    consecutive_failures: 1
+    consecutive_failures: 2
     posts_found: 0
-    notes: "NOT IN .feed/source.md. Listing fetched; newest item is the 10-13 API beta, nothing in window. True zero."
+    notes: "NOT IN .feed/source.md. Listing fetched 200 (10KB); newest item is still the 10-13 API beta. True zero."
     urls:
       - https://pi.website/blog
-</content>
