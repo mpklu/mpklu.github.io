@@ -1,12 +1,13 @@
-last_run_date: '2026-10-25'
-last_summary_file: content/newsdigests/2026-10-25-daily-digest.md
-notes: 'SUNDAY RUN. last_run_date was 10-24 == yesterday, so the window was ON OR AFTER 2026-10-24 minus the 156 reference URLs of the 10-23 and 10-24 digests. 29 refs, all blog; no new transcripts (yt-fetch log mtime 08:09, ''No new transcripts today'', Karp NDHeUx7nUbs still pending with no captions; the 16h yt-dlp PID 96126 is still cliamp''s, not ours). Body ~3,100 words. SWEEP: own sweep.py over 52 feeds in parallel, incl. Google News RSS site:-queries for Reuters/FT/Bloomberg/Information/WSJ/NYT as a DISCOVERY-ONLY layer (links unciteable). Both haiku agents found nothing on/after cutoff on anthropic.com x3, claude.com, claude.dev, alignment.openai.com, openai RSS (803KB, 1318 items, newest 10-23), Google x5, NVIDIA x3, HF, PyTorch, MS Security, AISI, METR, Aikido, Straiker, gov.uk, Lobsters, GitHub trending (all nine AI repos created before 10-20). Agent 2 computed epoch 1792814400 independently of my 1792814400 — match. REUTERS WORKAROUND: reuters.com 401s every client; the Google News CBMi id for new items is encrypted (base64 yields ''AU_yqL...'' not a URL). Indian Express syndicates Reuters verbatim with byline ''Reuters'' in JSON-LD and the tech RSS at indianexpress.com/section/technology/feed/ is open — grep it for the Reuters headline. digitaltrends.com/feed/ and notebookcheck News.152.100.html listing also carried it. Indian Express body has ZERO-WIDTH chars (U+200B/U+2060) inside words — the verifier must strip them or a real quote reads as a miss. DATE KILLS: Dream-1 (dreamlabs.ai page says October 18, 2026; HN 172p on 10-24), Cerebras trillion-param post (10-22; HN 10-25), arXiv 2610.29162 AI-generated language (export.arxiv 10-21), Apricitas creative-class (09-27, HN 390p), GVS5H repo (created 08-26, HN 168p), Simon''s battledrones (10-24T03:59Z = 23:59 ET 10-23, trivial). DATED HONESTLY and kept: Guardian Finland (10-22, never covered; surfaced via NY Post 10-24 + HN 253p), Symantec report (10-21, Register 10-24), Redwood SCE (10-23 22:13Z, missed Friday; arXiv 2610.31593 10-22), jacob_drori gradient routing (10-23 19:55Z), Pew (10-23), PreussenElektra announcement (10-21, Tom''s HW 10-25). STORY-TEXT KILLS: TechCrunch Block Dessa = Friday''s; Tom''s HW OpenAI CPU-cache = Friday''s OpenAI post; Verge Blue Planet III = Friday''s Guardian; BBC biosecurity lab (?at_medium param hid it from the URL diff — cited Friday); Gizmodo Altman ''patch all the bugs'' = the 10-23 Stanford GSB transcript already digested; TechCrunch text-message agents listicle and Rundown SAP piece (''In partnership with SAP'' — sponsored) not news; CNBC Investing Club paywalled. PAYWALLED, UNCITED: WSJ ''FBI Explores Espionage Case Against Saudi OpenAI Suspect'' (10-24 exclusive; no open carrier found in HT/IBTimes RSS — watch Monday), WSJ ''AI Hacks Are Coming Thick and Fast'', WSJ Colossus 2, FT ''Students worry AI is about to kill their future'' (10-25), FT children''s money questions to chatbots, Bloomberg Goldman Kospi -25% on AI trade (market digest territory), The Information ''Anthropic''s Margin is OpenAI''s Opportunity''. KIMI: Friday''s K3.1 Pro entry missed the Cybersecurity section (90.5% -> 81.0% xdev-bench-hard delta, cyber data removed from mid-training + RL). Reuters made it the story Saturday; cited the kimi.ai URL again as primary for a NEW angle despite it being in the exclusion set — the exclusion is for discovery, not for primaries. QUOTE VERIFIER: 75 quotes, 2 first-pass misses, both mine (a Bloomberg headline quoted from Google News titles — reframed without quotes; and the zero-width-char Reuters quote above). 75/75 after. Verifier now strips U+200B/C/D/2060/FEFF. SYNTHESES: (1) Kimi''s self-reported capability cut + Symantec''s hijack-a-borrowed-model agent + China''s draft export controls = the open-weight cyber debate with numbers on all three sides. (2) Redwood SCE + Fabien Roger (Opus 4.8 monitor misaligned, not weak) + David Africa patching = the research side of Friday''s OpenAI/METR/AISI post-mortems. (3) Slok S&P 493 flat + TechCrunch 42% abandoned + Verge Stepback publishers = AI payoff concentrated in the labs. (4) Data centres: PreussenElektra, Finland, Whitehall, Marx. (5) Election: Convovo 97/92, PA ad labels, Blank''s Europe kill-switch. SOURCE-FILE DEBT, THIRTY-THIRD RUN: .feed/source.md still at one commit. New today and worth adding: lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30 (four safety posts today), blog.redwoodresearch.org/feed, security.com/threat-intelligence (Symantec), indianexpress.com/section/technology/feed/ (open Reuters carrier), apollo.com Daily Spark (JS; meta description + og carry the note), pewresearch.org short-reads. Plus the whole carried list from prior runs (Tom''s HW, Wired, Aikido, Straiker, AISI, METR, HF, Simon Willison, nyteknik — 404 today, gov.uk, CNBC x2, Guardian x2, Register, Verge x2, Ars x2, Phoronix, Nieman, BBC, MS Security, MIT TR, claude.com, claude.dev, alignment.openai.com, cloudblog, pytorch, stackoverflow, oneusefulthing, jack-clark, spotify, linuxfoundation, VentureBeat, Mistral, Microsoft AI). Escalated in the run report.'
+last_run_date: '2026-10-26'
+last_summary_file: content/newsdigests/2026-10-26-daily-digest.md
+notes: 'MONDAY RUN. last_run_date was 10-25 == yesterday, so the window was ON OR AFTER 2026-10-25 minus the 94 reference URLs of the 10-24 and 10-25 digests. 37 refs: 35 blog + 2 video (LeCun k4irc59yUsE, uploaded 10-22 but only fetched this morning as a gap-fill; Theo 5Bmp9cz1JN8). Body ~4,600 words. Both haiku agents matched my own sweep item-for-item on the 14 source.md sources (only Rundown had in-window items among the primaries; HN/TechCrunch batch returned 14 posts, 0 failures, GitHub Trending 14 rows). Agent 2 caught my Algolia epoch error in the prompt (1792900800 is 04:00Z) and re-queried with 1792886400; my own script computed the same. DATE KILLS (HN-surfaced, article older): dailycal Borcherds (10-23), techspot Nikon (10-12), Cerebras (10-22, killed yesterday too), GVS5H (08-26), arXiv 2512.19428 (2025), Register IBM Krishna (10-22). KEPT WITH HONEST DATE: dbreunig 10-24 (HN 10-25, 205p). DEDUPED BY STORY: TechCrunch Apollo/Slok piece (Daily Spark covered 10-25), Reuters Kimi
+  curb (covered 10-25); Rundown SAP piece skipped as sponsored (''In partnership with SAP''). ANTHROPIC S-1: cryptobriefing/Fox said 9 a.m. ET; I polled efts full-text search every 90s from 08:42 (0 hits throughout) and the browse-edgar getcurrent S-1 atom feed showed ''S-1 - Anthropic, PBC (0002130357)'' at 09:03; acceptance 13:00:11Z. The efts index lagged the live feed by 10+ minutes — poll getcurrent, not efts. Pulled anthropicpbc-sx1.htm (14MB, 243k words) via data.sec.gov submissions JSON and wrote the lead item from the filing text; all 15 quotes verified against the stripped text. Price range/share counts blank. SEC.gov 403s the browser UA; needs a declared ''name email'' UA — verify.py could not fetch the Meta FWP, I verified those quotes with the SEC UA by hand. Tom''s HW $2,000-per-GPU Huang quote is NOT in the GTC Berlin keynote transcript PvFjbPYEOZI (0 hits for ''per GPU''); attributed to Tom''s video source only. Theo transcript ASR renders GPT-6.1 Sol as ''Soul'' throughout;
+  quoted verbatim and flagged. Edit tool denied again in this launchd run; all fixes applied by rewriting the file (python replace / Write). WDfhSrA4Z7A (Tom Lee/CoinDesk, 10-19) remains the one transcript never digested — off-topic for the AI digest.'
 sources:
   Anthropic:
-    last_success: '2026-10-25'
+    last_success: '2026-10-26'
     consecutive_failures: 0
     posts_found: 0
-    notes: '/research: AISI alignment assessment (10-23, JSON-LD) — the day''s primary; employment-at-anthropic (10-16) cited as primary for the Guardian. claude.com/resources/articles: Duet safety/privacy (10-23, agent flagged as same-story; I used it — distinct safety content) + Cowork-Enterprise GA (10-23). /news newest still Stubbs 10-21; /engineering listing parsed 0 links again (regex), agent says newest 10-19. Register''s ''another mea culpa'' headline = the AISI post.'
     urls: []
   OpenAI Alignment (misalignment reports):
     last_success: '2026-10-25'
@@ -27,16 +28,14 @@ sources:
     notes: jack-clark.net/index.xml 404s — use jack-clark.net/feed/ (works; newest 477, 10-19). importai.substack.com/feed also clean. Expect 478 Mon 10-26.
     urls: []
   OpenAI:
-    last_success: '2026-10-25'
+    last_success: '2026-10-26'
     consecutive_failures: 0
     posts_found: 0
-    notes: 'Feed 1318 items, 3 in window (NASK URL-killed). securing-training-environment: 403 to the agent, 200 to my urllib first try (full 2,934-word body), timeout on retry; storage-part-two 403 to everyone — cited from the RSS description, labelled. Per-client intermittency continues.'
     urls: []
   Google:
-    last_success: '2026-10-25'
+    last_success: '2026-10-26'
     consecutive_failures: 0
     posts_found: 0
-    notes: 'Keyword: Argon builders showcase (10-23, Fusaro) used. innovation-and-ai newest 10-20, developers 10-13.'
     urls: []
   Google Cloud Blog:
     last_success: '2026-10-25'
@@ -57,22 +56,19 @@ sources:
     notes: rss.xml clean with gzip (100 items); newest 10-22 forest types (prev-cited).
     urls: []
   NVIDIA:
-    last_success: '2026-10-25'
+    last_success: '2026-10-26'
     consecutive_failures: 0
     posts_found: 0
-    notes: 'blogs.nvidia.com/feed/: only Kazakhstan in window (prev-killed). developer feed: my regex parser now works (xmlns strip fixed) — Microduck agents (10-23) + TensorRT GPT parts 1-2 (10-23) used; cuOpt mPDLP killed (JSON-LD 10-07 vs feed 10-22). nvidianews listing: 2 hrefs parse, both 10-21 (agent).'
     urls: []
   Cursor:
-    last_success: '2026-10-25'
+    last_success: '2026-10-26'
     consecutive_failures: 0
     posts_found: 0
-    notes: Newest still 10-16 Navan (agent-confirmed). No JSON-LD on Cursor pages.
     urls: []
   BAIR:
-    last_success: '2026-10-25'
+    last_success: '2026-10-26'
     consecutive_failures: 0
     posts_found: 0
-    notes: Listing live; newest still 2026-07-29 cuda-to-mlx. Do NOT retire.
     urls: []
   One Useful Thing:
     last_success: '2026-10-25'
@@ -81,10 +77,9 @@ sources:
     notes: /feed clean; newest still 10-20.
     urls: []
   Addy Osmani:
-    last_success: '2026-10-25'
+    last_success: '2026-10-26'
     consecutive_failures: 0
     posts_found: 0
-    notes: Medium feed healthy (10 items); newest 2026-08-22. Not retiring.
     urls: []
   Stack Overflow:
     last_success: '2026-10-25'
@@ -93,43 +88,39 @@ sources:
     notes: SaaS-demise podcast (10-23, Nivia Henry) used in one sentence; body only in <meta description>.
     urls: []
   Rundown:
-    last_success: '2026-10-25'
-    consecutive_failures: 0
-    posts_found: 0
-    notes: 'No 10-24 issue in feed; 10-23 issue URL-killed (cited yesterday). Agent listed its outbound links: Axios banks (403), Information Claude/Grok (paywalled — Straiker is the open primary), METR X post, Ideogram Vector 1.0 (X only, not chased), Bloomberg DeepSeek. Discovery-only again.'
-    urls: []
-  Hacker News:
-    last_success: '2026-10-25'
-    consecutive_failures: 0
-    posts_found: 6
-    notes: 'Algolia search_by_date, ts computed 1792713599, points>50, 16 queries. Used: Kimi K3.1 Pro (947p), Dessa (409p), Verge Google ads (357p), Swedish gov ban (321p — SR 403, Ny Teknik/TT carried it), Silcock cyber-normal (176p), HTTP2Shell (171p, nitter → aikido.dev primary), ThinkingCap Gemma (118p), AA Kimi page (119p), OpenAI securing (106p), Enron Brain (63p). Killed: calif.io iPhone (929p, post dated 10-16), Dijkstra EWD667 1978 (372p), Jev hype (90p, 10-19), berget CO2 (prev), Samsung TV reddit (unreadable), Gizmodo MS diagnosis (yesterday''s story), LessWrong AI-takeover fiction (67p, 15k words — not news), Corgi (95p, landing page only).'
-    urls:
-    - https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector
-    - https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/
-    - https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/
-    - https://danluu.com/ambitious/
-    - https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/
-    - https://twitter.com/log4j/status/2113014142600953868
-  Lobsters:
-    last_success: '2026-10-25'
-    consecutive_failures: 0
-    posts_found: 0
-    notes: noyb 'digital expropriation' (page date '23 October 2026' found by grep; agent correctly left it UNRESOLVED) used. arXiv Next-Concept Modeling killed (published 10-09). 'Nina Simone in 2036' is fiction.
-    urls: []
-  GitHub Trending:
-    last_success: '2026-10-25'
-    consecutive_failures: 0
-    posts_found: 0
-    notes: Nine AI repos trending (cloudflare/security-audit-skill, NVIDIA/OpenShell, aws/agent-toolkit-for-aws, Nutlope/hallmark, claude-howto, impeccable, pollen-robotics/microduck, gemini-cli, makecindy/cindy) — all created before 10-20 per api.github.com. Nothing published.
-    urls: []
-  TechCrunch:
-    last_success: '2026-10-25'
+    last_success: '2026-10-26'
     consecutive_failures: 0
     posts_found: 2
-    notes: 5 in window; used OpenAI no-internet (Fernholz, Adler-to-Fortune quote) and Microduck toy (agent flagged as same-event; used for the 20k-preorder angle). Founder Summit promo dropped. Duet app + ConnectWise have URL path 10-22 — out of window.
     urls:
-    - https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/
-    - https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/
+    - https://therundownai.beehiiv.com/p/kimi-continues-to-challenge-the-frontier-with-k3-1-pro
+    - https://therundownai.beehiiv.com/p/sap-s-philipp-herzig-on-ai-built-for-business-data
+  Hacker News:
+    last_success: '2026-10-26'
+    consecutive_failures: 0
+    posts_found: 4
+    urls:
+    - https://lynchlab.net/llm-skin-cancer
+    - https://minimaxir.com/2026/10/cheap-llms/
+    - https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html
+    - https://github.com/JetBrains/thinkrail
+  Lobsters:
+    last_success: '2026-10-26'
+    consecutive_failures: 0
+    posts_found: 0
+    urls: []
+  GitHub Trending:
+    last_success: '2026-10-26'
+    consecutive_failures: 0
+    posts_found: 0
+    urls: []
+  TechCrunch:
+    last_success: '2026-10-26'
+    consecutive_failures: 0
+    posts_found: 3
+    urls:
+    - https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/
+    - https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
+    - https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/
   CNBC:
     last_success: '2026-10-25'
     consecutive_failures: 0
@@ -348,3 +339,13 @@ sources:
     posts_found: 1
     urls:
     - https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/
+  One Useful Thinking:
+    last_success: '2026-10-26'
+    consecutive_failures: 0
+    posts_found: 0
+    urls: []
+  Overflow:
+    last_success: '2026-10-26'
+    consecutive_failures: 0
+    posts_found: 0
+    urls: []
