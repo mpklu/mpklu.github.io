@@ -32,7 +32,7 @@ Affected sectors: Energy, Defense, Airlines
 | NASDAQ | 29,705.00 | -0.9% |
 | DOW | 52,629.00 | -0.1% |
 
-Futures are as of 06:50 ET, compared with Wednesday's settlement bar. The ETF proxies agree: SPY is -0.17%, QQQ -0.86% and DIA -0.10% against Wednesday's close. On Wednesday the S&P 500 rose **0.28%** to 7,743.98.
+Futures are as of 06:50 ET, compared with Wednesday's daily futures bar. The ETF proxies agree: SPY is -0.17%, QQQ -0.86% and DIA -0.10% against Wednesday's close. On Wednesday the S&P 500 rose **0.28%** to 7,743.98.
 
 ### Watchlist Movers
 Pre-market prints as of ~07:00 ET, compared with Wednesday's close.
