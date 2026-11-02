@@ -35,7 +35,7 @@ Futures are bouncing after Friday's chip-led selloff, with the Nasdaq leading.
 ### Watchlist Movers
 - **TEM** ~+3% pre-market. Tempus [reported Q3 results](https://www.sec.gov/Archives/edgar/data/1717115/000119312526442619/tem-ex99_1.htm) at 7:00 a.m. ET. Revenue was $411.5M (+23% y/y), oncology volume grew 32%, and adjusted EBITDA was $25.6M (vs. $1.5M a year ago). It raised full-year revenue guidance to $1.60–1.605B.
 - **MSTR** +2.3%, **SMCI** +2.2%, **SMR** +2.1%, **RKLB** +2.1%, **TSM** +1.9%. Broad risk-on bounce, no single catalyst.
-- **NVDA** +1.2%. Chips are rebounding after Friday. Nvidia holds $2B stakes in both Marvell and Lumentum.
+- **NVDA** +1.2%. Chips are rebounding after Friday. Nvidia invested $2B each in Marvell and Lumentum earlier this year.
 - **CRCL** +0.9%. Circle froze more than $1.1B in USDC linked to the Binance hack.
 
 ### International Markets
