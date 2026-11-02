@@ -1,207 +1,210 @@
-last_run_date: '2026-11-01'
-last_summary_file: content/newsdigests/2026-11-01-daily-digest.md
-notes: 'SUNDAY RUN. Window on/after 2026-10-31 minus 10-27..10-31 digest URLs (250). 0 new transcripts (yt-fetch: shorts only); all 15 transcript files already covered. 31 refs, all blog. No first-party
-  lab posts. Lead: ChatGPT share-link account takeover (Parameter) + hikers/cognitive surrender (Wired) + Amazon AI memo (Corey Quinn) + AI ROI vs neocloud debt + DeepSeek dsh-superagent. Dups skipped:
-  OpenAI funding cut, game-cloning rule, scraping opt-out, Volta infostealer, YC Minecraft swarms, Suncatcher. Verifier 51 spans, 1 false miss (X og:desc stored with \u2014 JSON escape). Edit denied again
-  - python str.replace patch. Scripts in /tmp/dd1101-scripts.'
+last_run_date: '2026-11-02'
+last_summary_file: content/newsdigests/2026-11-02-daily-digest.md
+notes: 'MONDAY RUN. Window on/after 2026-11-01 minus 10-28..11-01 digest URLs (243). 2 new transcripts (Altman ADIPC Abu Dhabi, Theo Ultra plan), 15 older already covered. 34 refs (32 blog, 2 video). No
+  first-party lab posts except GTIG XCPE + claude.com/pricing. Lead: WIRED nudify-app network + XCPE + Trigger.dev; midterm data-center referendum (Rundown/TechCrunch/MIT TR/CNBC agents blocked); Altman
+  ADIPC + Korea budget; Claude Ultra + game-clone prompt confirmation; Torvalds AI fixes. Dups skipped: VOLTA, cruelty policy (CNN used as follow-up), game-clone rule (Tom''s used for Osmani confirmation),
+  MS 60k buyouts, DeepSeek agent, xAI NAACP, Altman RAM. Verifier 54 spans, 1 false miss (CNN quote; cnn.html not in pages dir, confirmed directly). All 34 refs HTTP 200. Scripts in /tmp/dd1102-scripts.'
 sources:
   Anthropic:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: Nothing new on /news (10-28), /research (10-27), /engineering (10-13), claude.com (10-28) per agent. No response found to the Jiahao Shao account-block claim.
+    posts_found: 1
+    urls:
+    - https://claude.com/pricing
+    notes: No new /news (10-28), /engineering (10-13), claude.com/blog (10-28). Ultra plan (announced 10-30, missed by 10-30..11-01 digests) cited from claude.com/pricing via Theo video.
   OpenAI Alignment (misalignment reports):
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: newest 10-29.
     urls: []
   claude.dev:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: newest 10-15.
     urls: []
   Jack Clark / Import AI:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
     urls: []
   OpenAI:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
+    consecutive_failures: 0
+    posts_found: 0
+    urls: []
+    notes: RSS newest 10-30.
+  Google:
+    last_success: '2026-11-02'
+    consecutive_failures: 0
+    posts_found: 0
+    urls: []
+    notes: Keyword/Innovation/Developers newest 10-28..10-30.
+  Google Cloud Blog:
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 1
+    notes: GTIG XCPE botnet takedown.
     urls:
-    - https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits
-    notes: RSS newest 10-30. help.openai.com usage-limits article (via HN) fetched OK with fetch.py; urllib HEAD-style check 403s it.
-  Google:
-    last_success: '2026-11-01'
-    consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: RSS newest 10-30. Suncatcher haiku (Register 10-31) = 10-31 digest dup.
-  Google Cloud Blog:
-    last_success: '2026-11-01'
-    consecutive_failures: 0
-    posts_found: 0
-    notes: nothing in window.
-    urls: []
+    - https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/
   PyTorch Foundation:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
     urls: []
   DeepMind:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
-    notes: newest 10-28.
+    notes: newest 10-30.
     urls: []
   NVIDIA:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: blog/dev/newsroom newest 10-30.
   Cursor:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: blog newest 10-29, changelog 10-20.
   BAIR:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: newest 07-29.
   One Useful Thing:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: newest 10-20.
     urls: []
   Addy Osmani:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: newest 08-22.
+    notes: newest 08-22. (Osmani now at Anthropic - quoted via Tom's on game-clone prompt.)
   Stack Overflow:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: newest 10-30.
     urls: []
   Rundown:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: newest 10-30.
-  Hacker News:
-    last_success: '2026-11-01'
-    consecutive_failures: 0
-    posts_found: 8
+    posts_found: 1
     urls:
-    - https://www.parameter.ai/labs/we-found-a-gap-at-openai
-    - https://twitter.com/jiahaoshao1/status/2116475922190922088
-    - https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits
-    - https://nullprogram.com/blog/2026/10/31/
-    - https://github.com/kerlenton/bootgpt
-    - https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/
-    - https://ryanmadden.net/gpt-56-beats-factorio/
-    - https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve
-    notes: hnrss AI + LLM both 502 - Algolia sweep (own, epoch 1793404800 = 2026-10-31T00:00Z). Agent also found nullprogram Prospero. Talos VOLTA = 10-31 digest dup via Wired; Mashable game-cloning dup;
-      India Today Anthropic hack dated 10-26 (old).
+    - https://therundownai.beehiiv.com/p/ai-backlash-heads-to-the-polls
+    notes: AI backlash heads to the polls.
+  Hacker News:
+    last_success: '2026-11-02'
+    consecutive_failures: 0
+    posts_found: 5
+    urls:
+    - https://blog.raed.dev/posts/proton-loser-thinking/
+    - https://picon.dev/en/publications/ai-assisted-engineering
+    - https://eva.ac/blog/llms/
+    - https://trigger.dev/blog/security-incident-nov-2026
+    - https://chaosmanage.github.io/i-killed-unlimited-chatgpt/
+    notes: hnrss AI timed out, LLM ok; own Algolia sweep epoch 1793491200 = 2026-11-01T00:00Z. Mythos-class "leak" HN item 50326727 had URL deleted by mods for malware concerns - not used (no source). Minecraft
+      swarms/Nolan Lawson/Apollo zero-payoff = old/dup.
   Lobsters:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: Lets Build a Brain dated 10-21 - out of window.
+    posts_found: 1
+    urls:
+    - https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html
+    notes: braindead-local-intelligence.
   GitHub Trending:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: claude-mem, lightpanda, Kronos, Claude-Code-Game-Studios etc - not used (descriptions only).
+    notes: agent-desktop, claude-mem, colibri, worktrunk etc - descriptions only, not used.
   TechCrunch:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 2
     urls:
-    - https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/
-    - https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/
+    - https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/
+    - https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/
     notes: OpenAI funding cut = 10-31 digest dup.
   CNBC:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
+    consecutive_failures: 0
+    posts_found: 3
+    notes: 'Cramer AI-trade piece: body not extractable, not used.'
+    urls:
+    - https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html
+    - https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html
+    - https://www.cnbc.com/2026/11/02/openai-sam-altman-samsung-sk-south-korea.html
+  The Register:
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 4
-    notes: TEC Summit live blog (250p) not used.
+    notes: Exact /530xxxx IDs taken from sweep.json - two hand-typed IDs were wrong before fix. Microsoft 60k buyouts opinion = 10-29 dup.
     urls:
-    - https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html
-    - https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html
-    - https://www.cnbc.com/2026/10/31/ai-construction-worker-safety.html
-    - https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html
-  The Register:
-    last_success: '2026-11-01'
-    consecutive_failures: 0
-    posts_found: 1
-    notes: Darkbloom payouts, Manchester AI ambition gap, Vera Platforms, Corey Quinn Amazon memo not used.
-    urls:
-    - https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804
+    - https://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852
+    - https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872
+    - https://www.theregister.com/ai-and-ml/2026/11/02/britains-driverless-dream-hits-a-roundabout-of-awkward-questions/5306715
+    - https://www.theregister.com/offbeat/2026/11/02/vintage-fun-prodding-ai-agents-using-retro-hardware-just-because-you-can/5306705
   The Guardian:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
-    posts_found: 2
+    posts_found: 4
     notes: Dating wingman / fashion stylists not used.
     urls:
-    - https://www.theguardian.com/commentisfree/2026/oct/31/ai-rely-brain-new-tech-product-lives-boredom
-    - https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west
+    - https://www.theguardian.com/technology/2026/nov/02/palantir-unused-nhs-hospital-trusts
+    - https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial
+    - https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb
+    - https://www.theguardian.com/commentisfree/2026/nov/02/ai-ipos-tax-billionaires
   The Verge:
-    last_success: '2026-11-01'
-    consecutive_failures: 0
-    posts_found: 1
-    notes: Altman Cheeky Pint quote printed as "empathy for the method"; transcript says "math".
-    urls:
-    - https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code
-  MIT Technology Review:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
     urls: []
+  MIT Technology Review:
+    last_success: '2026-11-02'
+    consecutive_failures: 0
+    posts_found: 1
+    notes: nothing in window.
+    urls:
+    - https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/
   Phoronix:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
-    notes: CUDA Oxide 0.3 - <p> extraction empty again; not used.
+    notes: OverlayFS AI-review fixes + RADV LLM policy mentioned in Torvalds item (RSS descriptions; article <p> empty).
     urls: []
   Ars Technica:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
     urls: []
   Nieman Lab:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
     urls: []
   BBC News:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
-    posts_found: 1
-    notes: Neoclouds (Lily Jamali). Binance/North Korea not AI.
-    urls:
-    - https://www.bbc.co.uk/news/articles/cje36degrgv5o
+    posts_found: 0
+    notes: Neoclouds = 11-01 dup.
+    urls: []
   Microsoft Security Blog:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
@@ -245,7 +248,7 @@ sources:
     urls: []
   VentureBeat:
     last_success: '2026-10-28'
-    consecutive_failures: 3
+    consecutive_failures: 4
     posts_found: 0
     notes: category/ai/feed/ 200, 7 items, none in window.
     urls: []
@@ -257,22 +260,22 @@ sources:
     notes: Not swept today. Not swept 10-29.
     urls: []
   Tom's Hardware:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 4
     urls:
-    - https://www.tomshardware.com/tech-industry/cyber-security/ghost-students-using-ai-to-apply-for-student-loans-with-stolen-identities-dojs-operation-ghostbusters-busts-usd200-million-ring-faking-online-college-attendance-unsuspecting-victims-saddled-with-student-debt-they-didnt-sign-up-for
-    - https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history
-    - https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent
-    - https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products
-    notes: URLs taken from sweep output intact; all HTTP 200. MS engineer PDP-11 RAM not used.
+    - https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks
+    - https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000
+    - https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-engineer-successfully-compiles-a-32-bit-risc-v-cpu-in-qwen-3-5-4b-llm-inserted-directly-into-its-weights-built-in-cpu-can-run-processor-arithmetic-operations-code-and-of-course-doom
+    - https://www.tomshardware.com/networking/military-explores-commercial-5g-networks-for-enemy-drone-defense-ai-agents-developed-the-system-recently-used-in-battlefield-trials-in-latvia
+    notes: VOLTA-AUTODOXER = 10-31 dup (Talos). Musk mocks Altman RAM not used beyond a phrase. FINAL URLs from fetch; all 200.
   Wired:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 1
     urls:
-    - https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/
-    notes: 'AI Emergency Alerts (Bittle, 10-28) again skipped: unverified hurricane claim per 10-28 note.'
+    - https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/
+    notes: AI web-search how-to not used.
   UK AISI:
     last_success: '2026-10-31'
     consecutive_failures: 0
@@ -298,18 +301,18 @@ sources:
     urls: []
     notes: NEW. CARLIY0S report (10-21, JSON-LD) — the open primary behind The Information's Claude/Grok banks story. Not swept 10-29.
   Hugging Face blog:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: nothing in window.
   Simon Willison:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 2
     urls:
-    - https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
-    - https://simonwillison.net/2026/Oct/31/datasette-llm/
+    - https://simonwillison.net/2026/Nov/1/kyle-kingsbury/
+    - https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/
   Ny Teknik:
     last_success: '2026-10-24'
     consecutive_failures: 2
@@ -325,20 +328,21 @@ sources:
     notes: NEW. AI Biosecurity Lab announcement (Cabinet Office, 10-24T00:01+01:00). Found via gov.uk/search/news-and-communications?keywords=. Not swept 10-29.
   FT / Bloomberg / The Information:
     last_success: null
-    consecutive_failures: 5
+    consecutive_failures: 6
     posts_found: 0
     urls: []
-    notes: 'Discovery only: Bloomberg DeepSeek Super-Agent (cited via TNW), FT AI labour-market + growth-bet pieces (403, not used), Information Meta humanoid (403, not used).'
+    notes: 'Discovery only, all 403: Bloomberg Anthropic $3.5B Japan IPO tranche, NK AI crypto heists, AI longer workdays; Information AI testing framework refusal, space DC 100x cost; FT AI safety interactive.
+      Not used.'
     error: paywalled; discovery only (Information carried the Astra distillation scoop, cited via Reuters)
   LessWrong:
     consecutive_failures: 0
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     posts_found: 0
     urls: []
     notes: nothing in window.
   Redwood Research:
     consecutive_failures: 0
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     posts_found: 0
     urls: []
     notes: nothing in window.
@@ -363,46 +367,42 @@ sources:
     urls: []
     notes: 6 in window, religion - not AI.
   One Useful Thinking:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: newest 10-20.
   Overflow:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: newest 10-30.
   Reuters via Indian Express:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
     posts_found: 1
     urls:
-    - https://indianexpress.com/article/technology/artificial-intelligence/sam-altman-controversial-take-global-memory-crisis-ai-10946044/
-    notes: Altman RAM reaction used; publisher opt-out standard = 10-31 dup.
+    - https://indianexpress.com/article/technology/artificial-intelligence/instinct-whatsapp-disruption-ai-agents-what-happened-10947160/
+    notes: Instinct WhatsApp outage.
   Bing News RSS (discovery):
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
-    posts_found: 2
-    urls:
-    - https://finance.yahoo.com/technology/ai/articles/anthropic-reduplicating-aws-rents-own-074652977.html
-    - https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent
-    notes: q=DeepSeek coding agent -> TNW + Straits Times (Bloomberg 403). GitHub api.github.com/orgs/deepseek-ai/repos confirms dsh-superagent-prototype created 10-31.
+    posts_found: 0
+    urls: []
+    notes: Claude Ultra coverage dated 10-30/11-01 confirmed rename; CNN cruelty explainer discovered here.
   Engadget:
-    last_success: '2026-11-01'
+    last_success: '2026-11-02'
     consecutive_failures: 0
-    posts_found: 1
-    urls:
-    - https://www.engadget.com/2302431/brandon-stirrup-xbox-manager-says-ai-used-game-development/
-    notes: Claude Duet how-to (rehash of 10-23/24) not used.
+    posts_found: 0
+    urls: []
+    notes: game-clone + xAI NAACP = dups.
   GitHub Blog:
-    last_success: '2026-10-29'
+    last_success: '2026-11-02'
     consecutive_failures: 0
-    posts_found: 1
-    urls:
-    - https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/
-    notes: 'NEW: Octoverse primary, found via Simon Willison / Tom''s Hardware hrefs.'
+    posts_found: 0
+    urls: []
+    notes: Game Off 2026 not AI.
   404 Media:
     last_success: '2026-10-31'
     consecutive_failures: 0
@@ -475,3 +475,18 @@ sources:
     urls:
     - https://www.parameter.ai/labs/we-found-a-gap-at-openai
     notes: NEW (via HN + Simon Willison).
+  CNN:
+    last_success: '2026-11-02'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://www.cnn.com/2026/11/01/business/anthropic-dont-be-mean-claude-ban
+    notes: NEW (via Bing). Body only in <p> without class - generic <p> extraction works.
+  YouTube transcripts:
+    last_success: '2026-11-02'
+    consecutive_failures: 0
+    posts_found: 2
+    urls:
+    - https://www.youtube.com/watch?v=RvPMq8enPL4
+    - https://www.youtube.com/watch?v=y5TEATUDDfc
+    notes: '2 new: Altman ADIPC (DWS News), Theo Claude Ultra.'
