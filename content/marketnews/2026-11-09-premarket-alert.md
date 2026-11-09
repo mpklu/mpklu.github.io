@@ -30,7 +30,7 @@ ETF proxies agree: SPY is +0.6%, QQQ is +0.5% and DIA is +0.9% pre-market.
 
 ### Watchlist Movers
 - **NVDA** -5.2% pre-market. Board probe into Huang (see above).
-- **MSTR** -3.8% pre-market. No company news found. Bitcoin is near **$74,300**, close to Strategy's reported average cost basis, and crypto-linked names are lower together.
+- **MSTR** -3.8% pre-market. No company news found. Bitcoin is near **$74,300**, and crypto-linked names are lower together.
 - **CRCL** -3.5% pre-market. No company-specific catalyst found. It is trading down with the crypto complex.
 - **AMZN** +2.9% and **META** +2.2% pre-market, as megacaps outside the chip trade bounce. Neither move has a dated catalyst.
 
