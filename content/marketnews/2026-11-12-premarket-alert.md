@@ -47,7 +47,7 @@ Asia closed lower: the Hang Seng fell 1.3%, the Nikkei 0.7%, Shanghai 0.7% and t
 
 ## What to Watch at Open
 
-The open hinges on whether Nvidia's board decides on Jensen Huang's future; a removal could deepen the stock's slide and drag the Nasdaq and AI-server names with it. Jobless claims at 8:30 ET and existing home sales at 10:00 ET add rate risk after last week's hot CPI and Fed hike talk.
+The open hinges on whether Nvidia's board decides on Jensen Huang's future; a removal could deepen the stock's slide and drag the Nasdaq and AI-server names with it. Jobless claims at 8:30 ET and existing home sales at 10:00 ET add rate risk after Tuesday's hotter-than-expected October CPI and Fed officials' talk of more hikes.
 
 ---
 
