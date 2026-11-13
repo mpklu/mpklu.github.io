@@ -1,240 +1,243 @@
-last_run_date: '2026-11-12'
-last_summary_file: content/newsdigests/2026-11-12-daily-digest.md
-notes: 'THURSDAY RUN. Window on/after 2026-11-11 minus 11-06..11-11 digest URLs (297). 2 new transcripts (Theo Carbon, Bloomberg Huang Circuit). 52 refs (50 blog, 2 video). Lead: Nvidia board meets on ousting
-  Huang after 2nd affair (Kimberly Powell) + Congress subpoena threat + NDAA chip bills; United bans AI agents; AI Overview disinformation (lyra.horse); MS FORGE 59 kernel reports; Australia workplace AI
-  guide; KPMG consulting; UK facial recognition; Gemini Decisions API; AWS Emulator; AlphaGenome 2. Verifier 47 spans, 0 misses. Refs HTTP 200 except 2x openai.com 403. Edit tool denied - edits applied
-  via python. Scripts in /tmp/dd1112-scripts.'
+last_run_date: '2026-11-13'
+last_summary_file: content/newsdigests/2026-11-13-daily-digest.md
+notes: 'FRIDAY RUN. Window on/after 2026-11-12 (UTC) minus 11-07..11-12 digest URLs (292). 2 new transcripts (Theo Opus-vs-Fable, How I Built This Huang archival). 59 refs (57 blog, 2 video). Lead: Huang
+  resigns, Kress interim, Jones chair; testimony (House by Thanksgiving; Dec 3/Dec 10 letters Huang/Lutnick); Dem inquiry; MIT TR chip tracking; Blackwell fingerprints; Public Citizen frontier freeze suit;
+  Christiano coin flip; MS post-training backdoors; OpenAI fuzzy robustness + Daybreak; Oakland/DeepMind unions; schools vs Google AI; Gemini 4 Hydrogen; self-hosted Managed Agents. Verifier 49 spans, 0
+  misses. Refs 200 except techspot/marktechpost/phoronix x2 403 to curl (fetched fine earlier). Edit denied - python edits. Scripts in /tmp/dd1113-scripts.'
 sources:
   Anthropic:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: 'anthropic.com/news + /engineering: newest roadshow-launch (11-10) and agent memory (11-06), both covered. ipo.anthropic.com (HN 11-12) is roadshow material - not used.'
+    notes: 'anthropic.com/news + /engineering: nothing new (top-bar "November 13" is page date; newest items 11-09/11-10, covered). ipo.anthropic.com: pricing 11-18, trading 11-19 - roadshow covered, not
+      used.'
   OpenAI Alignment (misalignment reports):
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 0
-    notes: newest 11-10 (covered).
-    urls: []
+    posts_found: 1
+    notes: fuzzy-robustness (11-12) used.
+    urls:
+    - https://alignment.openai.com/fuzzy-robustness/
   claude.dev:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     notes: newest 11-09 (covered).
     urls: []
   Jack Clark / Import AI:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
     urls: []
   OpenAI:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 2
-    urls:
-    - https://openai.com/index/children-first-declaration
-    - https://openai.com/index/chatgpt-plus-for-veterans
-    notes: Children safety $2M + veterans used (403 - RSS descriptions). JioStar, Gilbert+Tobin, Holiday Extras customer stories not used.
+    posts_found: 0
+    urls: []
+    notes: 4 customer stories (Gilbert+Tobin, Holiday Extras, Gondola, Amplitude) not used; children-first covered 11-12. Daybreak product pages 403 - cited via Register.
   Google:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 3
     urls:
-    - https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
-    - https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/
-    - https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/
-    notes: Decisions API, CarPlay, Tabletop used; cybersecurity-2027, Googlebook, ads invalid-traffic, veterans not used.
+    - https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
+    - https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/
+    - https://blog.google/innovation-and-ai/technology/safety-security/intelligent-eyewear-privacy-protections/
+    notes: Hydrogen (intro + Search), eyewear privacy used; dev Hydrogen post, Chrome Gemini, Flow tools, kelp, PhD fellows, WV energy, ads IVT, eyewear pre-order not used.
   Google Cloud Blog:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 0
+    notes: 6 items (Org Policy agentic governance, SentinelOne, Lumen, Gartner, Data Cloud, Chrome Enterprise) not used.
+    urls: []
+  PyTorch Foundation:
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 2
-    notes: AlloyDB ai.classify/extract + Agentic Architect cert used; lemonflow not used. TPU 8tx/8i Max via Toms (no primary link found).
+    notes: Spyre/SGLang + Helion heuristics used.
     urls:
-    - https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/
-    - https://cloud.google.com/blog/topics/training-certifications/google-cloud-agentic-architect-certification-dont-just-prompt-ai-design-it/
-  PyTorch Foundation:
-    last_success: '2026-11-12'
-    consecutive_failures: 0
-    posts_found: 1
-    notes: EUROPA 1T MoE on JUPITER used.
-    urls:
-    - https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/
+    - https://pytorch.org/blog/integrating-sglang-into-spyre-in-under-a-week-with-ai/
+    - https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/
   DeepMind:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 1
-    notes: AlphaGenome 2 used.
-    urls:
-    - https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
+    posts_found: 0
+    notes: Hydrogen only (redirects to blog.google).
+    urls: []
   NVIDIA:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 10
+    posts_found: 11
     urls:
-    - https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html
-    - https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/
-    - https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair
-    - https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html
-    - https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html
-    - https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html
-    - https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html
-    - https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/
-    - https://www.theguardian.com/commentisfree/2026/nov/12/billions-lost-markets-roiled-one-man-indiscretion-tech-bro-jensen-huang-affair-nvidia
-    - https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/
-    notes: DSX AICR k8s-aibom used (visible byline Mark Chmarny; JSON-LD lists editor Shara Tibken). Recycling blog not used. nvidianews newest 11-10.
+    - https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+    - https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html
+    - https://www.theregister.com/ai-and-ml/2026/11/12/jensen-huangs-self-sabotage-sends-nvidia-into-a-midlife-crisis/5309480
+    - https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html
+    - https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/
+    - https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/
+    - https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/
+    - https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/
+    - https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html
+    - https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html
+    - https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/
+    notes: 'nvidianews CEO transition used. blogs: care-teams, GeForce NOW not used. developer blog newest 11-11.'
   Cursor:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: newest 11-10 (covered).
   BAIR:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: newest 11-09.
   One Useful Thing:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
-    notes: nothing in window (newest 11-09).
+    notes: nothing in window.
     urls: []
   Addy Osmani:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: nothing in window.
+    notes: nothing in window (medium feed newest 08-22).
   Stack Overflow:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
-    notes: newest 11-10.
+    notes: recruiter Q&A + EXA agentic search podcast (body not extractable) not used.
     urls: []
   Rundown:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: Huang-ouster + ChatGPT shops newsletters - secondary, primaries used.
+    notes: two Huang newsletters - secondary, primaries used.
   Hacker News:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 5
     urls:
-    - https://lyra.horse/blog/2026/11/disinformation-machine/
-    - https://pietromiotti.com/latest/maya-site
-    - https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html
-    - https://github.com/huawei-csl/MACaQ
-    - https://nathan.rs/posts/weight-space-lp/
-    notes: Own Algolia sweep (epoch 1794355200 = 2026-11-11T00:00Z; agent brief had 1794873600 = 11-17, corrected mid-run). Used lyra.horse, Maya site, weight-space LP, AWS emulator/Vogels, MACaQ, United.
-      Synthetic DNA rule (science.org 403, primary not found), Apple MIPS (undated), Humble Bundle (forum 403), Atuin (dated 10-27), cabird talk (10-30 video) not used.
+    - https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/
+    - https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/
+    - https://brave.com/blog/search-api-agentic-payments/
+    - https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer
+    - https://unemploymentlabs.com/checkpoint-forensics
+    notes: hnrss 502. Own Algolia sweep (epoch 1794441600 = 2026-11-12T00:00Z). Used checkpoint-forensics, Jane Street, Edge0, Brave x402. smolmaxxing, AgentRun, libreagi, Humble Bundle (forum 403), synthanatomy
+      (agent said 24-48 hours; page says days), Apple FM framework (undated), ipo.anthropic not used.
   Lobsters:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: SIGGRAPH paper post - not used.
+    notes: libreagi, e-means (covered 11-10) not used.
   GitHub Trending:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: openai/codex-security trending but created 2026-07-13 - dropped as not new. astryx, OpenBot, qwen-code, agent-skills not used.
+    notes: open-code-review (created 05-18), codex-security (07-13), others old - not used.
   TechCrunch:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 5
+    posts_found: 8
     urls:
-    - https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/
-    - https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/
-    - https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/
-    - https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/
-    - https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/
-    notes: Plurai, CoreWeave prepayments, Meta infra exit, data-center podcast/video, successor list not used.
+    - https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/
+    - https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/
+    - https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/
+    - https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/
+    - https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/
+    - https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/
+    - https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/
+    - https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/
+    notes: Kress profile, Cook successor, five-ways op-ed, timeline, Nebius, Norwest, Nectar, Phota, Israel VCs, United (covered) not used.
   CNBC:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 6
-    notes: Megaspeed footprint, analysts dark-day, Musk-hire-Huang, Nebius, Cramer pieces not used.
+    notes: Kress profile, analysts, Cramer x2, Alice Huang-Huawei, Singapore, US-China, founder transitions, Jensenmania, Nscale, MS outage not used.
     urls:
-    - https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html
-    - https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html
-    - https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html
-    - https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html
-    - https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html
-    - https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html
+    - https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html
+    - https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html
+    - https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html
+    - https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html
+    - https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html
+    - https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html
   The Register:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 3
-    notes: Australia unsafe-AI crime (same review covered 11-10) and OpenAI kill switch (covered 11-10) skipped.
+    posts_found: 4
+    notes: Qwen3.8/Arete (covered 11-08), facial recog watchdog (covered 11-12 via Guardian), Karp, Palantir NHS/police, IBM quantum not used.
     urls:
-    - https://www.theregister.com/os-platforms/2026/11/12/the-latest-freebsd-report-is-here-and-the-ai-debate-is-ongoing/5309206
-    - https://www.theregister.com/systems/2026/11/11/us-bit-barn-boom-sees-energy-needs-grow-10x-as-fast-as-grid-capacity/5309191
-    - https://www.theregister.com/off-prem/2026/11/12/aws-distills-its-cloud-into-a-local-emulator-that-runs-on-your-pc/5309251
+    - https://www.theregister.com/ai-and-ml/2026/11/12/jensen-huangs-self-sabotage-sends-nvidia-into-a-midlife-crisis/5309480
+    - https://www.theregister.com/legal/2026/11/13/singapore-says-us-authorities-and-supermicro-hardly-helped-investigation-of-jensen-huangs-chinese-friend/5309579
+    - https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500
+    - https://www.theregister.com/ai-and-ml/2026/11/12/a-third-of-us-ai-chatters-are-hot-at-bots-hurling-insults-at-llms/5309506
   The Guardian:
-    last_success: '2026-11-12'
-    consecutive_failures: 0
-    posts_found: 6
-    notes: Spy podcast, Thursday briefing, UK economy/AI not used.
-    urls:
-    - https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair
-    - https://www.theguardian.com/commentisfree/2026/nov/12/billions-lost-markets-roiled-one-man-indiscretion-tech-bro-jensen-huang-affair-nvidia
-    - https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai
-    - https://www.theguardian.com/technology/2026/nov/12/facial-recognition-errors-put-ethnic-minorities-at-risk-of-wrongful-arrest-police-watchdog-warns
-    - https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools
-    - https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story
-  The Verge:
-    last_success: '2026-11-12'
-    consecutive_failures: 0
-    posts_found: 1
-    notes: AlphaGenome 2, Tabletop, Adobe sneaks, Huang rumor (WSJ) not used separately.
-    urls:
-    - https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents
-  MIT Technology Review:
-    last_success: '2026-11-12'
-    consecutive_failures: 0
-    posts_found: 0
-    notes: Download newsletter only (Z.ai report reference is older).
-    urls: []
-  Phoronix:
-    last_success: '2026-11-12'
-    consecutive_failures: 0
-    posts_found: 0
-    notes: FreeBSD AI survey - Register version used.
-    urls: []
-  Ars Technica:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 2
-    notes: Signal/AlphaProof (covered 11-10) skipped.
+    notes: Huang profiles/Pratley/Lutnick, UK economy AI, Pino cartoon not used.
     urls:
-    - https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/
-    - https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/
+    - https://www.theguardian.com/technology/2026/nov/12/us-workers-governments-unions-ai
+    - https://www.theguardian.com/commentisfree/2026/nov/13/datacenter-industry-propaganda
+  The Verge:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 3
+    notes: Huang pieces, Palantir progressive, Hydrogen Search (Google primary used) not used.
+    urls:
+    - https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs
+    - https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations
+    - https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery
+  MIT Technology Review:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 1
+    notes: chip tracking used; Download, brain implants, midterms not used.
+    urls:
+    - https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/
+  Phoronix:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 2
+    notes: Codex R600 fix + NvRoot/ForgePtr used (page bodies not extractable; RSS descriptions).
+    urls:
+    - https://www.phoronix.com/news/Codex-R600-UVD-FIx-Linux-7.5
+    - https://www.phoronix.com/news/NVIDIA-NvRoot-ForgePtr
+  Ars Technica:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 2
+    notes: schools moratorium + FAA SMART used; Hydrogen (primary used), eyewear, drone DC not used.
+    urls:
+    - https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/
+    - https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/
   Nieman Lab:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
-    notes: nothing in window.
+    notes: nothing AI in window.
     urls: []
   BBC News:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 1
-    notes: Huang explainer/successor pieces not used.
-    urls:
-    - https://www.bbc.co.uk/news/articles/c54gne3plvrxo
+    posts_found: 0
+    notes: Huang + MS outage + housefishing not used.
+    urls: []
   Microsoft Security Blog:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 1
-    notes: FORGE 59 kernel reports used; GSocket C2 not used.
+    notes: trained-to-betray used.
     urls:
-    - https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/
+    - https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/
   Microsoft AI:
     last_success: '2026-10-29'
     consecutive_failures: 0
@@ -274,7 +277,7 @@ sources:
     urls: []
   VentureBeat:
     last_success: '2026-10-28'
-    consecutive_failures: 14
+    consecutive_failures: 15
     posts_found: 0
     notes: category/ai/feed/ 200, 7 items, none in window.
     urls: []
@@ -286,21 +289,19 @@ sources:
     notes: Not swept today. Not swept 10-29.
     urls: []
   Tom's Hardware:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 2
-    urls:
-    - https://www.tomshardware.com/tech-industry/data-centers/georgia-politicians-openai-slapped-with-racketeering-lawsuit-over-3-2-gigawatt-ai-data-centers-plaintiffs-allege-multiple-violations-were-part-of-a-coordinated-scheme-to-get-project-camellia-approved
-    - https://www.tomshardware.com/tech-industry/artificial-intelligence/google-adds-two-new-specialized-chips-for-ai-agents-and-security-to-8th-gen-tpu-lineup-tpu-8i-max-puts-two-chips-on-one-package-for-long-context-work-tpu-8tx-swaps-arm-hosts-for-amd-epyc
-    notes: Huang second-affair/cover-up, SoftBank turbines, Cognichip, Musk Starbase DC, A100 glitch not used.
+    posts_found: 0
+    urls: []
+    notes: Huang/Alice smuggling pieces, Jeep Cherokee Claude ECU, "broken and shattered" report not used.
   Wired:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 2
     urls:
-    - https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/
-    - https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/
-    notes: Spirit/Google data, Karp, microduck, AO3 not used.
+    - https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/
+    - https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/
+    notes: petition + DeepMind union used; Karp, Kress, $1T, SV defending, podcasts, microdramas not used.
   UK AISI:
     last_success: '2026-10-31'
     consecutive_failures: 0
@@ -326,20 +327,19 @@ sources:
     urls: []
     notes: NEW. CARLIY0S report (10-21, JSON-LD) — the open primary behind The Information's Claude/Grok banks story. Not swept 10-29.
   Hugging Face blog:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 1
     urls:
-    - https://huggingface.co/blog/token-pooling
-    notes: token pooling used.
+    - https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite
+    notes: LLMON used; 3D LoRA guide not used.
   Simon Willison:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 2
+    posts_found: 1
     urls:
-    - https://simonwillison.net/2026/Nov/11/gemini-decisions-api/
-    - https://simonwillison.net/2026/Nov/11/llm/
-    notes: Decisions API + llm 0.37.2 used; roadshow transcript post (roadshow covered 11-10/11), tools tags, aws-emulator note not used.
+    - https://simonwillison.net/2026/Nov/12/llm-gemini/
+    notes: llm-gemini 0.37 (Hydrogen pricing) used.
   Ny Teknik:
     last_success: '2026-10-24'
     consecutive_failures: 2
@@ -355,21 +355,21 @@ sources:
     notes: NEW. AI Biosecurity Lab announcement (Cabinet Office, 10-24T00:01+01:00). Found via gov.uk/search/news-and-communications?keywords=. Not swept 10-29.
   FT / Bloomberg / The Information:
     last_success: null
-    consecutive_failures: 16
+    consecutive_failures: 17
     posts_found: 0
     urls: []
-    notes: 'Paywalled/403: discovery only (Nvidia outside search firm for CEO candidates, default risk near record, Commerce AI remote-access rule finalizing, Anthropic+others warn of AI acceleration, Maga
-      blames data centres for midterms). Nothing cited.'
+    notes: 'Paywalled/403: discovery only (Bloomberg Alice Huang chips - via Engadget; Information: free Chinese AI can hack companies, inference providers, DeepSeek investments; FT Huang pieces). Nothing
+      cited directly.'
     error: paywalled; discovery only (Information carried the Astra distillation scoop, cited via Reuters)
   LessWrong:
     consecutive_failures: 0
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     posts_found: 0
     urls: []
-    notes: nothing in window.
+    notes: 'dynomight math post: curated-RSS date 11-13 but GraphQL postedAt 2026-10-27 - out of window.'
   Redwood Research:
     consecutive_failures: 0
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     posts_found: 0
     urls: []
     notes: nothing in window.
@@ -394,47 +394,50 @@ sources:
     urls: []
     notes: 6 in window, religion - not AI.
   One Useful Thinking:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: nothing in window.
   Overflow:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: newest 11-10.
+    notes: same as Stack Overflow.
   Reuters via Indian Express:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: Claude Meetings (covered 11-11), Adobe (covered), Signal (covered), smuggling explainer not used.
+    notes: Chinese AI stocks/chip curbs, Megaspeed explainer not used.
   Bing News RSS (discovery):
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: Anthropic IPO finance pieces, OpenAI India residency (moneycontrol) not used.
+    notes: Led to Public Citizen lawsuit primary. Goldman/Claude Code (Oct news via Yahoo), Claude outage, Howard Marks memo, Inc 3 rules (403), Trump self-regulation (msn empty) not used.
   Engadget:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: ByteDance agent, United, CarPlay, Grok Build (covered 11-11) - not cited.
+    posts_found: 1
+    urls:
+    - https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/
+    notes: Bloomberg Alice Huang chips summary used (Bloomberg paywalled).
   GitHub Blog:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: nothing in window.
+    posts_found: 1
+    urls:
+    - https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/
+    notes: agent skills guide used; availability report not used.
   404 Media:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: podcast-hosts, banana, space object - not used.
+    posts_found: 1
+    urls:
+    - https://www.404media.co/muse-sexts-roleplaying-real-people/
+    notes: Muse roleplay used.
   Fortune:
     last_success: '2026-10-31'
     consecutive_failures: 0
@@ -479,12 +482,12 @@ sources:
     - https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent
     notes: NEW (via Bing).
   Yahoo Finance:
-    last_success: '2026-11-04'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 1
     urls:
-    - https://finance.yahoo.com/technology/ai/articles/exclusive-openai-targets-microsofts-github-112906674.html
-    notes: Axios exclusive OpenAI-Pierre Computer.
+    - https://finance.yahoo.com/markets/stocks/articles/openai-reportedly-raises-15b-1-192622324.html
+    notes: OpenAI $15B (Stocktwits provider; body obfuscated, desc used).
   nullprogram:
     last_success: '2026-11-01'
     consecutive_failures: 0
@@ -506,14 +509,14 @@ sources:
     urls: []
     notes: not swept today.
   YouTube transcripts:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
     posts_found: 2
     urls:
-    - https://www.youtube.com/watch?v=JW5s9Md4U2U
-    - https://www.youtube.com/watch?v=OBNVzWYMKbE
-    notes: '2 new: Theo "Progress?" (Gemini 4 Carbon, 11-11) and Bloomberg Originals Circuit Jensen Huang (11-12, recorded pre-scandal; Bloomberg cold open). yt-fetch log mtime 08:08, done before digest;
-      running yt-dlp is cliamp.'
+    - https://www.youtube.com/watch?v=XtykeVoSmP8
+    - https://www.youtube.com/watch?v=Y334D183ofE
+    notes: '2 new: Theo "I think I figured it out" (Opus 5.5 vs Fable 5.2) and How I Built This Jensen Huang (uploaded 11-12, recorded April 2026, labelled archival). yt-fetch log mtime 08:08, done before
+      digest.'
   Thinking Machines:
     last_success: '2026-11-06'
     consecutive_failures: 0
@@ -522,13 +525,12 @@ sources:
     - https://thinkingmachines.ai/news/inkling-2-small
     notes: Inkling 2 Small, listing date Nov 5. Not in source.md; found via HN.
   MarkTechPost:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 2
+    posts_found: 1
     urls:
-    - https://www.marktechpost.com/2026/11/10/fish-audio-live-3-full-duplex-voice-model/
-    - https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/
-    notes: Fish Audio Live 3 + PAN 2 used; Decisions API mirror, IBM Nighthawk, GPU leaderboard not used.
+    - https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/
+    notes: LiquidCodec used; TPU Sync (covered 11-09), Hydrogen, OpenBot, AWS Emulator (covered), IBM Nighthawk not used.
   The Hill:
     last_success: '2026-11-09'
     consecutive_failures: 0
@@ -536,11 +538,12 @@ sources:
     urls:
     - https://thehill.com/policy/technology/6205332-new-house-senate-members-focus-ai-safety/
   Business Insider:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: not checked this run.
+    posts_found: 1
+    urls:
+    - https://www.businessinsider.com/anthropic-hires-gas-supply-lead-ai-plans-accelerate-ipo-2026-11
+    notes: Anthropic gas lead used.
   Asahi Linux:
     last_success: '2026-11-09'
     consecutive_failures: 0
@@ -569,11 +572,14 @@ sources:
     - https://research.meta.ai/blog/muse-ember
     notes: Muse Ember used.
   claude.com:
-    last_success: '2026-11-12'
+    last_success: '2026-11-13'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: newest 11-10 (covered). "Nov 19" string is product availability, not a post date.
+    posts_found: 3
+    urls:
+    - https://claude.com/resources/articles/self-hosted-claude-managed-agents
+    - https://claude.com/resources/articles/claude-for-manufacturing
+    - https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work
+    notes: '6 resources articles dated 11-12: self-hosted Managed Agents, Manufacturing, Opus 5.5 default used; Claude Meetings (covered 11-11), J.Crew, Claude Tag startups guide not used.'
   Wired / CBS / independent blogs:
     last_success: '2026-11-12'
     consecutive_failures: 0
@@ -583,3 +589,38 @@ sources:
     - https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/
     - https://pietromiotti.com/latest/maya-site
     notes: CBS United primary-ish report; independent HN blogs.
+  Google Antigravity:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/
+    notes: Hydrogen + Orchestrator used (Terminal-Bench 4.1 here vs 4.0 in Google blog - version omitted in digest).
+  Gizmodo:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://gizmodo.com/openai-board-member-tells-audience-an-ai-accident-is-the-most-likely-thing-to-kill-them-2000838491
+    notes: Christiano Hinton Lectures used (og:title changed from RSS title).
+  Public Citizen:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/
+    notes: NEW. frontier-AI freeze lawsuit press release (11-12).
+  Unemployment Labs:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://unemploymentlabs.com/checkpoint-forensics
+    notes: NEW (via HN). checkpoint-forensics.
+  TechSpot:
+    last_success: '2026-11-13'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html
+    notes: NEW. CPS statement on suppressing AI Overviews.
