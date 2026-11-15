@@ -1,215 +1,201 @@
-last_run_date: '2026-11-14'
-last_summary_file: content/newsdigests/2026-11-14-daily-digest.md
-notes: 'SATURDAY RUN. Window on/after 2026-11-13 (UTC) minus 11-08..11-13 digest URLs (299). 4 new transcripts (All-In, Dwarkesh RSI, Theo Gemini Carbon, POLITICO Karp). 42 refs (38 blog, 4 video). Lead:
-  Dwarkesh RSI + All-In anti-Anthropic RSI take; Cursor Fireworks-key post-mortem; Fed survey 87% AI risk + Guardian graduates; OpenAI backs export bills / Washington / VC hole; ChatGPT Wallet + Gemini
-  Wallet; Anthropic safety evals guide; Godel notebooks via Claude. Verifier 51 spans, 0 misses. Refs 200 except marktechpost x2, phoronix x2 403 to curl. dynomight dropped (postedAt 10-27). Scripts in
-  /tmp/dd1114-scripts.'
+last_run_date: '2026-11-15'
+last_summary_file: content/newsdigests/2026-11-15-daily-digest.md
+notes: 'SUNDAY RUN. Window on/after 2026-11-14 (UTC) minus 11-09..11-14 digest URLs (311), plus two 11-13 items missed yesterday (Project Zero, Antigravity teamwork). 0 new transcripts. 22 refs (22 blog,
+  0 video). Lead: Project Zero Full 90->60->30; Christiano + Toner; Nvidia export-control turn (Blackwell fingerprint, Bessent, Malaysia) + reinstatement push; Anthropic IPO Thursday; Antigravity Weil formalization.
+  Verifier 40 spans, 0 misses. Refs 200 except techspot + marktechpost x2 403 to curl. Scripts in /tmp/dd1115-scripts.'
 sources:
   Anthropic:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 1
-    urls:
-    - https://www.anthropic.com/engineering/building-strong-safety-evaluations
-    notes: 'engineering: building-strong-safety-evaluations (11-13) used. /news newest 11-10 (covered).'
+    posts_found: 0
+    urls: []
+    notes: engineering newest 11-13, /news newest 11-10 (S-1 item _updatedAt 11-12) - nothing new.
   OpenAI Alignment (misalignment reports):
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing new.
     urls: []
   claude.dev:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing new.
     urls: []
   Jack Clark / Import AI:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
     urls: []
   OpenAI:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: ChatGPT Wallet page 403 - cited via CNBC/TechCrunch; Shield customer story not used.
+    notes: RSS newest 11-13 15:00 GMT - nothing in window.
   Google:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 2
-    urls:
-    - https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/
-    - https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/
-    notes: Gemini Google Wallet + AI Studio credits used.
+    posts_found: 0
+    urls: []
+    notes: Keyword/Developers newest 11-13, Innovation 11-12 - nothing in window.
   Google Cloud Blog:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 1
-    notes: BigQuery/Looker agent observability used; SC26 HPC, Copel, whats-new not used.
-    urls:
-    - https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/
+    posts_found: 0
+    notes: nothing in window.
+    urls: []
   PyTorch Foundation:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     notes: nothing in window.
     urls: []
   DeepMind:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
-    notes: nothing in window.
+    notes: newest 11-12.
     urls: []
   NVIDIA:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 1
-    urls:
-    - https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/
-    notes: dev blog GLM-5.3 two DGX Stations used; cuBLAS FP64, cuPhoton, cuDLA, SOMA, care-teams not used. nvidianews nothing new.
+    posts_found: 0
+    urls: []
+    notes: blog newest 11-13, dev newest 11-13 (cuBLAS FP64), newsroom newest 11-12 (CEO transition).
   Cursor:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 1
-    urls:
-    - https://cursor.com/blog/security-incident-update
-    notes: security-incident-update (11-13) used.
+    posts_found: 0
+    urls: []
+    notes: newest 11-13 (covered).
   BAIR:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: newest 11-09.
   One Useful Thing:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     notes: newest 11-09.
     urls: []
   Addy Osmani:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: newest 08-22.
   Stack Overflow:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 1
-    notes: coding-agent homework used; EXA agentic search podcast not used.
-    urls:
-    - https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/
+    posts_found: 0
+    notes: newest 11-13 (covered).
+    urls: []
   Rundown:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: Nvidia life without Jensen - secondary, not used.
+    notes: newest 11-13.
   Hacker News:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 3
+    posts_found: 1
     urls:
-    - https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html
-    - https://github.com/ggml-org/ggml/releases/tag/v1.0.0
-    - https://github.com/basetenlabs/deepseek-ultrafast
-    notes: hnrss 502. Own Algolia sweep epoch 1794528000 = 2026-11-13T00:00Z. Used geohot, ggml v1.0.0, deepseek-ultrafast. TechPowerUp scarcity (403), Atlantic (403), slopmanifesto (SSL), JEPA (11-11),
-      MotherDuck (11-11), Perplexity Decider (11-12), Eli Lilly/Marcus (11-12), alphaxiv (11-08), Jonathan Blow video not used.
+    - https://www.netmeister.org/blog/claude-delusion.html
+    notes: 'hnrss 502/timeout. Own Algolia sweep epoch 1794614400 = 2026-11-14T00:00Z. Used Project Zero, Antigravity teamwork, Claude Delusion (11-13), TechSpot. Dropped: Lovable data exposure (crissyfield,
+      published 2026-11-02), rogue-Claude syllabus (Toms 11-06), Unsloth Qwen3.8 (11-11 update), agweb (repo 11-11), deepseek-v3-jax (repo 11-13), EFF privacy (11-13), lexifina Lean tax (11-10), forethought
+      space DCs (undated), Nvidia director sale (11-13).'
   Lobsters:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: alexwang transformers (10-15), arXiv primer (05-28) out of window.
   GitHub Trending:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: plannotator, chrome-devtools-mcp, qwen-code etc. - undated, not used.
+    notes: modern-web-guidance-src, open-code-review, LoopForge, SkillEvaluator etc. - repos created Jan-Jul 2026, covered before; not used.
   TechCrunch:
-    last_success: '2026-11-14'
-    consecutive_failures: 0
-    posts_found: 4
-    urls:
-    - https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/
-    - https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/
-    - https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
-    - https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/
-    notes: VC funding hole, Wallet, LangChain, ElevenLabs used; Blackwell export (covered 11-13 via checkpoint-forensics), timeline, Israel VCs not used.
-  CNBC:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 3
-    notes: Fed AI risk survey, Wallet, Washington fallout used; co-founders profile, CEO search, Trump-China, Lutnick not used.
     urls:
-    - https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html
-    - https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html
-    - https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html
+    - https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/
+    - https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/
+    - https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/
+    notes: Nvidia security team, petition, Asian governments used; AI graveyard (running list republished, covered 10-25) not used.
+  CNBC:
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 3
+    notes: Anthropic IPO preview, investors letter, Megaspeed probe used; co-founders profile, ETF Edge, rockstar-CEO, Foundation payroll not used.
+    urls:
+    - https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html
+    - https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html
+    - https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html
   The Register:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 0
+    notes: online safety, MS school email, LEO - not AI.
+    urls: []
+  The Guardian:
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 3
+    notes: Huang long read, Korea AI cheating, Australia copyright used; Italy Meta fine (gallery suggestions, not AI) not used.
+    urls:
+    - https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare
+    - https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam
+    - https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan
+  The Verge:
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 1
-    notes: Linux kernel AI patch overload used; LogicLens, Blackwell (covered), online safety (non-AI) not used.
+    notes: Toner Decoder interview used; Huang showman + messy-days columns not used.
     urls:
-    - https://www.theregister.com/ai-and-ml/2026/11/13/another-linux-kernel-developer-steps-back-from-some-duties-due-to-overload/5309628
-  The Guardian:
-    last_success: '2026-11-14'
-    consecutive_failures: 0
-    posts_found: 3
-    notes: young people careers, literary AI, Godel notebooks used.
-    urls:
-    - https://www.theguardian.com/business/2026/nov/14/young-people-shut-out-of-work-ai
-    - https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world
-    - https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths
-  The Verge:
-    last_success: '2026-11-14'
-    consecutive_failures: 0
-    posts_found: 2
-    notes: Duet hands-on, Amazon World Product Graph used; Wallet (CNBC used), Huang pieces not used.
-    urls:
-    - https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on
-    - https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search
+    - https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview
   MIT Technology Review:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
-    notes: brain implants, midterms, Download not used.
+    notes: nothing in window.
     urls: []
   Phoronix:
-    last_success: '2026-11-14'
-    consecutive_failures: 0
-    posts_found: 2
-    notes: Kitesurf + AMD HRX Loom used (bodies not extractable; RSS descriptions). curl 403 on ref check, urllib 200.
-    urls:
-    - https://www.phoronix.com/news/Cloudflare-Kitesurf-Open-Source
-    - https://www.phoronix.com/news/AMD-HRX-Loom-Experiment
-  Ars Technica:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
-    notes: Christiano (covered 11-13), FAA SMART (covered 11-13) not used.
+    notes: nothing AI.
+    urls: []
+  Ars Technica:
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 0
+    notes: nothing in window.
     urls: []
   Nieman Lab:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
-    notes: quiz only.
+    notes: nothing in window.
     urls: []
   BBC News:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
-    notes: Huang + MS outage not used.
+    notes: nothing AI.
     urls: []
   Microsoft Security Blog:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
-    notes: SCKit ScreenConnect (non-AI) not used.
+    notes: nothing in window.
     urls: []
   Microsoft AI:
     last_success: '2026-10-29'
@@ -250,7 +236,7 @@ sources:
     urls: []
   VentureBeat:
     last_success: '2026-10-28'
-    consecutive_failures: 16
+    consecutive_failures: 17
     posts_found: 0
     notes: category/ai/feed/ 200, 7 items, none in window.
     urls: []
@@ -262,19 +248,22 @@ sources:
     notes: Not swept today. Not swept 10-29.
     urls: []
   Tom's Hardware:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 0
-    urls: []
-    notes: lawyer V100 DeepSeek, Huang pieces not used.
-  Wired:
-    last_success: '2026-11-14'
-    consecutive_failures: 0
-    posts_found: 2
+    posts_found: 3
     urls:
-    - https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/
-    - https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/
-    notes: AI ransomware + aviation AI/FAA ground stop used.
+    - https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that
+    - https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity
+    - https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware
+    notes: Bessent, Malaysia GPU law, UnemploymentLabs Blackwell fingerprint used (feed URLs truncated - resolved from sweep.json). Treasury piece calls her "Alice Wong" - name not used. Lawyer V100, Denny
+      plaque, Musk petition not used.
+  Wired:
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/
+    notes: OATs used; AI DJs not used.
   UK AISI:
     last_success: '2026-10-31'
     consecutive_failures: 0
@@ -300,19 +289,18 @@ sources:
     urls: []
     notes: NEW. CARLIY0S report (10-21, JSON-LD) — the open primary behind The Information's Claude/Grok banks story. Not swept 10-29.
   Hugging Face blog:
-    last_success: '2026-11-14'
-    consecutive_failures: 0
-    posts_found: 2
-    urls:
-    - https://huggingface.co/blog/ggml-org/llama-cpp-v1
-    - https://huggingface.co/blog/allenai/xybench
-    notes: llama.cpp v1.0.0 + XYBench used; SimReady not used.
-  Simon Willison:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: datasette plugins only.
+    notes: nothing in window.
+  Simon Willison:
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://simonwillison.net/2026/Nov/14/datasette-llm/
+    notes: datasette-llm 0.1a11 used.
   Ny Teknik:
     last_success: '2026-10-24'
     consecutive_failures: 2
@@ -328,21 +316,21 @@ sources:
     notes: NEW. AI Biosecurity Lab announcement (Cabinet Office, 10-24T00:01+01:00). Found via gov.uk/search/news-and-communications?keywords=. Not swept 10-29.
   FT / Bloomberg / The Information:
     last_success: null
-    consecutive_failures: 18
+    consecutive_failures: 19
     posts_found: 0
     urls: []
-    notes: 'Paywalled/403: discovery only (Bloomberg Amodei compute dilemma, White House AI disclosure liability; FT Amodei not fussed; Information Grok video team, Anthropic roadshow). Nothing cited directly
-      except Bloomberg via LA Times.'
+    notes: 'Paywalled/403: discovery only (FT Congress tighter chip export rules, Anthropic IPO test, DC construction stocks -$4.2tn; Bloomberg Huang memes, Korea exam; Information Huang fall, staff petition).
+      Nothing cited.'
     error: paywalled; discovery only (Information carried the Astra distillation scoop, cited via Reuters)
   LessWrong:
     consecutive_failures: 0
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     posts_found: 0
     urls: []
-    notes: dynomight math post curated-RSS 11-13 but GraphQL postedAt 2026-10-27 - DROPPED after draft (same trap as 11-13).
+    notes: nothing in window.
   Redwood Research:
     consecutive_failures: 0
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     posts_found: 0
     urls: []
     notes: nothing in window.
@@ -367,45 +355,43 @@ sources:
     urls: []
     notes: 6 in window, religion - not AI.
   One Useful Thinking:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
     notes: newest 11-09.
   Overflow:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 1
-    urls:
-    - https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/
-    notes: same as Stack Overflow.
+    posts_found: 0
+    urls: []
+    notes: newest 11-13 (covered).
   Reuters via Indian Express:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 1
-    urls:
-    - https://indianexpress.com/article/technology/artificial-intelligence/jensen-huangs-exit-nvidias-open-source-ai-ambitions-10963100/
-    notes: Nvidia open-source ambitions used.
+    posts_found: 0
+    urls: []
+    notes: ChatGPT Wallet how-to (covered).
   Bing News RSS (discovery):
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: NYT Anthropic pieces (blocked), Howard Marks, Fool, msn lawsuit (covered) not used.
+    notes: BI Christiano found here; coincentral/Fool/msn/note.com not used.
   Engadget:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: Wallet/Gemini bank summaries - primaries used.
+    notes: how-to listicles only.
   GitHub Blog:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
-    notes: availability report not used.
+    notes: nothing in window.
   404 Media:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 0
     urls: []
@@ -481,15 +467,11 @@ sources:
     urls: []
     notes: not swept today.
   YouTube transcripts:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 4
-    urls:
-    - https://www.youtube.com/watch?v=Uv2w4VTU-iQ
-    - https://www.youtube.com/watch?v=1NHPDzpfR6Y
-    - https://www.youtube.com/watch?v=qNS8iaRu7P0
-    - https://www.youtube.com/watch?v=5BrgFY5jIn4
-    notes: '4 new: All-In Jensen OUT (11-14), Dwarkesh RSI (11-13), Theo Gemini 4 Carbon (11-13), POLITICO Karp+Tester (11-12, missed by yesterday yt-fetch). yt-fetch log mtime 08:06, done before digest.'
+    posts_found: 0
+    urls: []
+    notes: '0 new: yt-fetch 08:09 posted only Shorts (All-In x2, Dwarkesh x1); Theo nothing since 11-13. Theo handle moved to @theo.'
   Thinking Machines:
     last_success: '2026-11-06'
     consecutive_failures: 0
@@ -498,13 +480,13 @@ sources:
     - https://thinkingmachines.ai/news/inkling-2-small
     notes: Inkling 2 Small, listing date Nov 5. Not in source.md; found via HN.
   MarkTechPost:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 2
     urls:
-    - https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/
-    - https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/
-    notes: Vercel UI SDK + Memorilla used; Hydrogen/TPU Sync (covered), Decider (primary 11-12), video models not used. curl 403 on ref check, urllib 200.
+    - https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/
+    - https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/
+    notes: dspy-wsp + Tofu-1 used. curl 403 on ref check, urllib 200.
   The Hill:
     last_success: '2026-11-09'
     consecutive_failures: 0
@@ -512,12 +494,12 @@ sources:
     urls:
     - https://thehill.com/policy/technology/6205332-new-house-senate-members-focus-ai-safety/
   Business Insider:
-    last_success: '2026-11-13'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 1
     urls:
-    - https://www.businessinsider.com/anthropic-hires-gas-supply-lead-ai-plans-accelerate-ipo-2026-11
-    notes: Anthropic gas lead used.
+    - https://www.businessinsider.com/ex-openai-researcher-says-ai-accident-could-be-your-killer-2026-11
+    notes: NEW (via Bing). Christiano Hinton Lectures used.
   Asahi Linux:
     last_success: '2026-11-09'
     consecutive_failures: 0
@@ -546,14 +528,11 @@ sources:
     - https://research.meta.ai/blog/muse-ember
     notes: Muse Ember used.
   claude.com:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 3
-    urls:
-    - https://status.claude.com/incidents/nn11wk485zfn
-    - https://status.claude.com/incidents/34wq7gxnxvvm
-    - https://claude.com/resources/articles/building-always-on-agents
-    notes: building-always-on-agents (11-13) used; Claude Tag startups guide (covered 11-12, not used); projects-redesigned is dated 09-17 (HN resurfaced).
+    posts_found: 0
+    urls: []
+    notes: newest 11-13 (covered).
   Wired / CBS / independent blogs:
     last_success: '2026-11-12'
     consecutive_failures: 0
@@ -592,20 +571,18 @@ sources:
     - https://unemploymentlabs.com/checkpoint-forensics
     notes: NEW (via HN). checkpoint-forensics.
   TechSpot:
-    last_success: '2026-11-13'
+    last_success: '2026-11-15'
     consecutive_failures: 0
     posts_found: 1
     urls:
-    - https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html
-    notes: NEW. CPS statement on suppressing AI Overviews.
+    - https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html
+    notes: NEW (via HN). Circular financing (WSJ Kress profile) used. curl 403 on ref check, urllib 200.
   Anthropic Status:
-    last_success: '2026-11-14'
+    last_success: '2026-11-15'
     consecutive_failures: 0
-    posts_found: 2
-    urls:
-    - https://status.claude.com/incidents/nn11wk485zfn
-    - https://status.claude.com/incidents/34wq7gxnxvvm
-    notes: two 11-13 incidents used; 11-14 purchasing/Apple sign-in incidents not used.
+    posts_found: 0
+    urls: []
+    notes: not used.
   Dwarkesh Patel:
     last_success: '2026-11-14'
     consecutive_failures: 0
@@ -634,3 +611,24 @@ sources:
     urls:
     - https://github.com/basetenlabs/deepseek-ultrafast
     notes: NEW (via HN). deepseek-ultrafast.
+  Google Research:
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/
+    notes: NEW (via HN). Antigravity /teamwork (dated 11-13, missed yesterday) used.
+  Google Project Zero:
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://projectzero.google/2026/11/disclosure-policy.html
+    notes: NEW (via HN). Disclosure policy 2026 (dated 2026-Nov-13, missed yesterday) used.
+  netmeister:
+    last_success: '2026-11-15'
+    consecutive_failures: 0
+    posts_found: 1
+    urls:
+    - https://www.netmeister.org/blog/claude-delusion.html
+    notes: NEW (via HN). Claude Delusion (11-13).
