@@ -13,7 +13,7 @@ Monday was the best session for the S&P 500 (**+4.7%**) and Nasdaq Composite (**
 Affected sectors: Semiconductors, AI infrastructure, mega-cap tech
 
 ### [U.S. adds Megaspeed to trade blacklist over export control concerns](https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html) — CNBC
-Commerce added Singapore-based Megaspeed and six other Southeast Asian entities to the Entity List, with license applications reviewed under a "presumption of denial." The list includes Megaspeed affiliates in Indonesia, Malaysia and Thailand. Reuters reports that an Alibaba subsidiary in Singapore was also added. The move ties directly to the Nvidia story: former Megaspeed CEO Alice Huang is under U.S. investigation. It keeps the question of export-control diversion in the headlines.
+Commerce added Singapore-based Megaspeed and six other Southeast Asian entities to the Entity List, with license applications reviewed under a "presumption of denial." The list also includes the affiliates PT Megaspeed International, MSFusion (Malaysia) and Megaspeed (Thailand). Reuters reports that an Alibaba subsidiary in Singapore was also added. The move ties directly to the Nvidia story: former Megaspeed CEO Alice Huang is under U.S. investigation. It keeps the question of export-control diversion in the headlines.
 Affected sectors: Semiconductors, AI infrastructure
 
 ### [Iran says three tankers hit mines in Hormuz despite U.S. escort](https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html) — CNBC
